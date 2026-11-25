@@ -1,7 +1,5 @@
 # Rarefaction-induced inflation and similarity breakdown of hypersonic bow shocks over a circular cylinder
 
-**Release transfer in progress.** Readers can browse the code, the figure and table source index, and the displayed results on this branch. GitHub is receiving the v1.0.0 numerical archives and films.
-
 **Ehsan Roohi and Ahmad Shoja-Sani** · JFM-2026-1283 · manuscript and supplementary material revised 25 November 2026
 
 [Numbered figures](results/paper/figures.csv) · [Tables and values](results/paper/table_cells.csv) · [Movie streaming links](results/paper/movies.csv) · [Movie downloads](results/movie_downloads.csv) · [Data and code for every result](coverage.csv) · [Numerical source index](results/result_source_index.csv) · [Versioned data downloads](https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/tag/v1.0.0)
