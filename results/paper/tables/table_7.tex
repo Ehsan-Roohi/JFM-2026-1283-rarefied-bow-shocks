@@ -1,19 +1,18 @@
 \begin{table}
 \centering\small
-\begin{tabular}{llrrr}\toprule
-& & \multicolumn{3}{c}{Leading scalar variance fraction $E_1$ (\%)}\\
-Gas & Scalar & Full physical & Restricted physical & Aligned\\\midrule
-Ar&$\rho$&81.62&97.39&92.42\\
-Ar&$T_{\rm tr}$&86.61&95.50&94.78\\
-Ar&$u_x$&89.43&96.99&96.92\\
-Ar&$p$&92.93&96.00&96.48\\
-Ar&$M_{\rm tr}$&95.02&95.78&98.16\\
-N$_2$&$\rho$&82.67&95.56&74.26\\
-N$_2$&$T_{\rm tr}$&87.88&90.58&94.09\\
-N$_2$&$u_x$&92.16&90.80&98.17\\
-N$_2$&$p$&93.81&93.75&84.79\\
-N$_2$&$M_{\rm tr}$&93.51&90.95&91.51\\
-N$_2$&$T_{\rm rot}$&91.81&94.33&98.04\\
+\caption{Variance fractions of the density-aligned Knudsen-number sets: leading fraction $E_1$, two-mode cumulative fraction $C_2$ and number of modes $N_{95}$ needed to reach 95\%. Values are percentages of each scalar's fluctuation variance in the Jacobian-weighted norm. Argon uses 1913 points and nitrogen 578.}\label{tab:pod_compactness}
+\begin{tabular}{llrrrr}\toprule
+Gas & Scalar & $N_s$ & $E_1$ (\%) & $C_2$ (\%) & $N_{95}$\\\midrule
+Ar & $\rho$ & 3 & 92.42 & 100.00 & 2\\
+Ar & $u_x$ & 3 & 96.92 & 100.00 & 1\\
+Ar & $p$ & 3 & 96.48 & 100.00 & 1\\
+Ar & $M_{\rm tr}$ & 3 & 98.16 & 100.00 & 1\\
+Ar & $T_{\rm tr}$ & 3 & 94.78 & 100.00 & 2\\
+N$_2$ & $\rho$ & 4 & 74.26 & 99.58 & 2\\
+N$_2$ & $u_x$ & 4 & 98.17 & 99.78 & 1\\
+N$_2$ & $p$ & 4 & 84.79 & 99.80 & 2\\
+N$_2$ & $M_{\rm tr}$ & 4 & 91.51 & 99.93 & 2\\
+N$_2$ & $T_{\rm tr}$ & 4 & 94.09 & 99.79 & 2\\
+N$_2$ & $T_{\rm rot}$ & 4 & 98.04 & 99.31 & 1\\
 \bottomrule\end{tabular}
-\caption{Case-selection control. The full and restricted physical columns use identical spatial points and weights (136719 for argon and 136670 for nitrogen); only the ensemble changes, from nine to three argon cases and from eight to four nitrogen cases. The aligned column uses the restricted cases but a different spatial support and Jacobian norm, so it is not a controlled measure of the alignment gain.}\label{tab:casecontrol}\label{tab:n2_registration_gain}
 \end{table}

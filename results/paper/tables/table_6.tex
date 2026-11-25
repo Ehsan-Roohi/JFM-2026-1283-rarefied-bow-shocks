@@ -1,18 +1,19 @@
 \begin{table}
 \centering\small
-\caption{Variance fractions of the density-aligned Knudsen-number sets: leading fraction $E_1$, two-mode cumulative fraction $C_2$ and number of modes $N_{95}$ needed to reach 95\%. Values are percentages of each scalar's fluctuation variance in the Jacobian-weighted norm. Argon uses 1913 points and nitrogen 578.}\label{tab:pod_compactness}
-\begin{tabular}{llrrrr}\toprule
-Gas & Scalar & $N_s$ & $E_1$ (\%) & $C_2$ (\%) & $N_{95}$\\\midrule
-Ar & $\rho$ & 3 & 92.42 & 100.00 & 2\\
-Ar & $u_x$ & 3 & 96.92 & 100.00 & 1\\
-Ar & $p$ & 3 & 96.48 & 100.00 & 1\\
-Ar & $M_{\rm tr}$ & 3 & 98.16 & 100.00 & 1\\
-Ar & $T_{\rm tr}$ & 3 & 94.78 & 100.00 & 2\\
-N$_2$ & $\rho$ & 4 & 74.26 & 99.58 & 2\\
-N$_2$ & $u_x$ & 4 & 98.17 & 99.78 & 1\\
-N$_2$ & $p$ & 4 & 84.79 & 99.80 & 2\\
-N$_2$ & $M_{\rm tr}$ & 4 & 91.51 & 99.93 & 2\\
-N$_2$ & $T_{\rm tr}$ & 4 & 94.09 & 99.79 & 2\\
-N$_2$ & $T_{\rm rot}$ & 4 & 98.04 & 99.31 & 1\\
-\bottomrule\end{tabular}
+\begin{tabular}{lcrrrrrr}
+\toprule
+ & & \multicolumn{3}{c}{Cylinder} & \multicolumn{3}{c}{Normal flat plate}\\
+\cmidrule(lr){3-5}\cmidrule(lr){6-8}
+Gas & \(Kn_\infty\) & \(C_{D,p}\) & \(C_{D,\tau}\) & \(C_D\) & \(C_{D,p}\) & \(C_{D,\tau}\) & \(C_D\)\\
+\midrule
+Ar & 0.01 & 1.242 & 0.117 & 1.359 & 1.660 & 0.006 & 1.665\\
+Ar & 0.1 & 1.366 & 0.290 & 1.655 & 1.798 & 0.016 & 1.815\\
+\(\mathrm{N}_2\) & 0.01 & 1.264 & 0.100 & 1.363 & 1.717 & 0.005 & 1.722\\
+\(\mathrm{N}_2\) & 0.1 & 1.340 & 0.250 & 1.590 & 1.789 & 0.013 & 1.802\\
+\bottomrule
+\end{tabular}
+\caption{Mach-10 drag coefficients for bodies of equal frontal height.
+The streamwise contributions of wall pressure, \(C_{D,p}\), and tangential
+stress, \(C_{D,\tau}\), are averaged over ten successive 0.30~ms blocks
+from 6.3 to 9.3~ms.}\label{tab:matched_drag}
 \end{table}

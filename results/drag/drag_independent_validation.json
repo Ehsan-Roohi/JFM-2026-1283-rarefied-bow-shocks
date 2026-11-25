@@ -1,0 +1,137 @@
+{
+  "status": "Verified",
+  "case_count": 8,
+  "subwindows": 400,
+  "committed_blocks": 80,
+  "shape_pairs": 4,
+  "cases": {
+    "Ar_cylinder_Kn0p01": {
+      "simulated_impacts_half": 50640841,
+      "committed_blocks": 10,
+      "matched_native_frames": 50,
+      "independently_projected_mean": {
+        "Cd": 1.359150613160797,
+        "Cd_pressure": 1.2417724680093192,
+        "Cd_shear": 0.1173781451514779
+      },
+      "max_absolute_subwindow_coefficient_difference": {
+        "Cd": 2.220446049250313e-16,
+        "Cd_pressure": 4.440892098500626e-16,
+        "Cd_shear": 3.469446951953614e-16
+      }
+    },
+    "Ar_plate_Kn0p01": {
+      "simulated_impacts_half": 54939552,
+      "committed_blocks": 10,
+      "matched_native_frames": 50,
+      "independently_projected_mean": {
+        "Cd": 1.6651839394827828,
+        "Cd_pressure": 1.659554220955592,
+        "Cd_shear": 0.005629718527191141
+      },
+      "max_absolute_subwindow_coefficient_difference": {
+        "Cd": 2.220446049250313e-16,
+        "Cd_pressure": 8.881784197001252e-16,
+        "Cd_shear": 3.469446951953614e-18
+      }
+    },
+    "Ar_cylinder_Kn0p1": {
+      "simulated_impacts_half": 1759101,
+      "committed_blocks": 10,
+      "matched_native_frames": 50,
+      "independently_projected_mean": {
+        "Cd": 1.6554444065615574,
+        "Cd_pressure": 1.3658023402558903,
+        "Cd_shear": 0.289642066305667
+      },
+      "max_absolute_subwindow_coefficient_difference": {
+        "Cd": 0.0,
+        "Cd_pressure": 2.4424906541753444e-15,
+        "Cd_shear": 2.3314683517128287e-15
+      }
+    },
+    "Ar_plate_Kn0p1": {
+      "simulated_impacts_half": 1947432,
+      "committed_blocks": 10,
+      "matched_native_frames": 50,
+      "independently_projected_mean": {
+        "Cd": 1.8147792336512367,
+        "Cd_pressure": 1.7984061804233544,
+        "Cd_shear": 0.016373053227882316
+      },
+      "max_absolute_subwindow_coefficient_difference": {
+        "Cd": 0.0,
+        "Cd_pressure": 4.440892098500626e-16,
+        "Cd_shear": 6.938893903907228e-18
+      }
+    },
+    "N2_cylinder_Kn0p01": {
+      "simulated_impacts_half": 56696453,
+      "committed_blocks": 10,
+      "matched_native_frames": 50,
+      "independently_projected_mean": {
+        "Cd": 1.3634578857063675,
+        "Cd_pressure": 1.2639467126172754,
+        "Cd_shear": 0.0995111730890921
+      },
+      "max_absolute_subwindow_coefficient_difference": {
+        "Cd": 0.0,
+        "Cd_pressure": 4.440892098500626e-16,
+        "Cd_shear": 2.7755575615628914e-16
+      }
+    },
+    "N2_plate_Kn0p01": {
+      "simulated_impacts_half": 61688554,
+      "committed_blocks": 10,
+      "matched_native_frames": 50,
+      "independently_projected_mean": {
+        "Cd": 1.7218152912933022,
+        "Cd_pressure": 1.7169709418127308,
+        "Cd_shear": 0.004844349480571242
+      },
+      "max_absolute_subwindow_coefficient_difference": {
+        "Cd": 0.0,
+        "Cd_pressure": 8.881784197001252e-16,
+        "Cd_shear": 1.734723475976807e-18
+      }
+    },
+    "N2_cylinder_Kn0p1": {
+      "simulated_impacts_half": 1972522,
+      "committed_blocks": 10,
+      "matched_native_frames": 50,
+      "independently_projected_mean": {
+        "Cd": 1.590128180661244,
+        "Cd_pressure": 1.3403227469230923,
+        "Cd_shear": 0.24980543373815167
+      },
+      "max_absolute_subwindow_coefficient_difference": {
+        "Cd": 0.0,
+        "Cd_pressure": 1.7763568394002505e-15,
+        "Cd_shear": 1.6653345369377348e-15
+      }
+    },
+    "N2_plate_Kn0p1": {
+      "simulated_impacts_half": 2225079,
+      "committed_blocks": 10,
+      "matched_native_frames": 50,
+      "independently_projected_mean": {
+        "Cd": 1.8021940963049545,
+        "Cd_pressure": 1.7891781068679875,
+        "Cd_shear": 0.013015989436966708
+      },
+      "max_absolute_subwindow_coefficient_difference": {
+        "Cd": 0.0,
+        "Cd_pressure": 4.440892098500626e-16,
+        "Cd_shear": 3.469446951953614e-18
+      }
+    }
+  },
+  "validator_sha256": "1b0459040c4dfb4fb67b44c269f5ac4621d248167e685b4c2b87d553fcd8d9ce",
+  "result_sha256": {
+    "drag_subwindows.csv": "f3d6e6d5dfabce3d19231fe619354113e84bb1a561e5b80aede4621efcce5f2e",
+    "drag_blocks.csv": "6164a61dbe897550f9f1ab3f281d0ea7df5912e3af10eb469baf64d92d73f393",
+    "drag_summary.csv": "15c4eda50a56c3d3826a61ab025d1161819901239b744b15426ac9ae084cf715",
+    "drag_shape_comparison.csv": "d4ffdc6184a9422e5c871a9b2fb21a7c3ada805c97c8517efd314b8b4b4b9b09"
+  },
+  "method": "Force-only projections on each native line and a scalar-pressure line integral independently verify the signed normal and shear forces. A separate reduction checks every reported temporal coefficient and every plate-cylinder difference."
+}

@@ -1,0 +1,23 @@
+{
+  "scope": "all eight admitted drag cases",
+  "case_count": 8,
+  "committed_blocks": 80,
+  "native_wall_dumps": 400,
+  "analyzer_sha256": "339051dae5f8fdb340723e6da158450a31b7e46ef4c41b8ec79761fe6b8476f4",
+  "four_public_csvs_identical_to_native": {
+    "drag_subwindows.csv": "f3d6e6d5dfabce3d19231fe619354113e84bb1a561e5b80aede4621efcce5f2e",
+    "drag_blocks.csv": "6164a61dbe897550f9f1ab3f281d0ea7df5912e3af10eb469baf64d92d73f393",
+    "drag_summary.csv": "15c4eda50a56c3d3826a61ab025d1161819901239b744b15426ac9ae084cf715",
+    "drag_shape_comparison.csv": "d4ffdc6184a9422e5c871a9b2fb21a7c3ada805c97c8517efd314b8b4b4b9b09"
+  },
+  "independent_max_absolute_disagreement": {
+    "Cd_mean": 2.220446049250313e-16,
+    "Cd_pressure_mean": 2.220446049250313e-16,
+    "Cd_shear_mean": 1.6653345369377348e-16,
+    "Cd_block_sd": 5.898059818321144e-17,
+    "Cd_first5_mean": 2.220446049250313e-16,
+    "Cd_last5_mean": 2.220446049250313e-16,
+    "Fx_full_N_per_m_mean": 0.0
+  },
+  "production_reducer": "8 cases, 80 committed blocks, 400 native wall dumps"
+}

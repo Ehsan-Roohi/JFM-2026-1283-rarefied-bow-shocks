@@ -353,5 +353,12 @@
     "bytes": 85275127,
     "sha256": "55e23dd91a64772e6e6c6d2744354ba0f4f4d903bd8d170931bc0c1ee8b630c2",
     "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/molecular_samples_N2_planar.tar.gz"
+  },
+  {
+    "group": "drag",
+    "name": "matched_body_drag.zip",
+    "bytes": 41067862,
+    "sha256": "37f540cd0d68b0834d08142c2d0d064e957fbdbebf15150f27019d808c039c27",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.1.0/matched_body_drag.zip"
   }
 ]

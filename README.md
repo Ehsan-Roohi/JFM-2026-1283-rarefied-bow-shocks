@@ -2,9 +2,15 @@
 
 **Ehsan Roohi and Ahmad Shoja-Sani** · JFM-2026-1283 · manuscript and supplementary material revised 25 November 2026
 
-[Numbered figures](results/paper/figures.csv) · [Tables and values](results/paper/table_cells.csv) · [Movie streaming links](results/paper/movies.csv) · [Movie downloads](results/movie_downloads.csv) · [Data and code for every result](coverage.csv) · [Numerical source index](results/result_source_index.csv) · [Versioned data downloads](https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/tag/v1.0.0)
+[Numbered figures](results/paper/figures.csv) · [Tables and values](results/paper/table_cells.csv) · [Movie streaming links](results/paper/movies.csv) · [Movie downloads](results/movie_downloads.csv) · [Data and code for every result](coverage.csv) · [Numerical source index](results/result_source_index.csv) · [Drag data](https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/tag/v1.1.0) · [Original fields and movies](https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/tag/v1.0.0)
 
-The study compares rarefied argon and nitrogen bow shocks over a circular cylinder with planar shock profiles and matched flat-plate calculations. The archive contains the 27 main and 11 supplementary figures, all 13 tables, all 12 supplementary films, the numerical fields and distributions used for the comparisons, and analysis and rendering code. Figure numbering follows the 25 November revision. Each figure component has its own filename and checksum.
+The study compares rarefied argon and nitrogen bow shocks over a circular cylinder with planar shock profiles and matched flat-plate calculations. The archive contains the 27 main and 11 supplementary figures, all 14 tables, all 12 supplementary films, the numerical fields and distributions used for the comparisons, and analysis and rendering code. Figure numbering follows the 25 November revision. Each figure component has its own filename and checksum.
+
+## Matched-body surface drag
+
+Table 6 reports the added Mach-10 drag results for cylinders and plates in argon and nitrogen at Kn = 0.01 and 0.1. The continuation sampled ten committed time blocks per case, with five native wall-force windows in each block. The case and shape-comparison CSVs are directly browsable. [Case statistics](results/drag/drag_summary.csv) · [Shape comparisons](results/drag/drag_shape_comparison.csv) · [Reproduction commands](code/drag/README.md)
+
+Run `python tools/restore.py drag` for this dataset. The existing field, molecular and movie download commands continue to use the [v1.0.0 assets](https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/tag/v1.0.0). The [v1.1.0 release](https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/tag/v1.1.0) supplies the additional drag asset.
 
 ## Find or reproduce a result
 
@@ -26,7 +32,7 @@ Download only the groups required for the result. For example, the following com
 python tools/restore.py formation film_Ar_cylinder_Kn0p1_mol film_Ar_plate_Kn0p1_mol
 ```
 
-Each encoded asset and extracted data file is checked against SHA-256. For particle files, the utility also verifies each decompressed byte range and the complete reassembled NPZ. The `--cache` and `--dest` options select the download and extraction locations. The complete numerical and film asset set is approximately 14.14 GB compressed. All eight reconstructed particle files occupy 16,949,323,216 bytes. [Release manifest](release_assets.json) · [Particle array manifest](particle_arrays.json)
+Each encoded asset and extracted data file is checked against SHA-256. For particle files, the utility also verifies each decompressed byte range and the complete reassembled NPZ. The `--cache` and `--dest` options select the download and extraction locations. The v1.0.0 numerical and film assets occupy approximately 14.14 GB. The v1.1.0 drag archive adds 41.07 MB. All eight reconstructed particle files occupy 16,949,323,216 bytes. [Release manifest](release_assets.json) · [Particle array manifest](particle_arrays.json)
 
 ## Experimental and numerical coverage
 
@@ -38,6 +44,7 @@ Each encoded asset and extracted data file is checked against SHA-256. For parti
 | Cylinder/plate comparison | All 20 Mach-10 case input decks, case parameters, physical surfaces, averaged fields, and 220 archived window dumps used by the profile reductions. The dumps in this group have the centreline bands or full coverage retained by the authors' figure preparation. |
 | SPARTA controls | The two rays for each of seven mesh/time-step cases, their block diagnostics, planar configurations, matched statistical windows, and separate transport, internal-energy and chemical-species sensitivity results. The Mach-15 vibrational temperature maps are the no-chemistry calculation. |
 | Molecular station data | Four independent gas/geometry runs, 2,000 native sampler files and ten compact analysis blocks per run, signed velocity distributions and fixed-station metadata. The cylinder uses the inward-radial velocity at 170°. The planar and flat-plate distributions use the streamwise velocity. The plate histograms come from their own steady run. |
+| Matched-body surface drag | Eight Mach-10 gas, body and Kn combinations. The 400 native wall-force records, original physical inputs, committed sampling evidence, and case and shape reductions are available under the drag group. |
 | Movies and field diagnostics | Eight original particle-trajectory files, each with 900 frames. Sixteen standard and sixteen high-particle field arrays, 100 production windows per case, plus sixteen late-time velocity fields. The twelve final MP4 encodes have individual release downloads. The movie index links to their public streams. |
 
 Full unbinned cell and particle dump series from every SPARTA timestep and replay checkpoints are outside this deposit. The published arrays preserve the sampling windows, cuts, coordinates and masks used in the reported comparisons. The case input decks specify the initial and physical models. Historical continuation decks need their matching initial state for a solver restart. The unmodified DS2V application and SPARTA runtime must be obtained independently. [SPARTA](https://sparta.github.io/)
