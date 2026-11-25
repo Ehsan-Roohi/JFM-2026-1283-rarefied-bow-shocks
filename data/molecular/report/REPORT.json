@@ -1,0 +1,635 @@
+{
+  "format": 1,
+  "data": "Measured physical particle distributions, four target-verified continuations",
+  "source_case_status_sha256": {
+    "Ar_planar": "2d7f00d32f8b1f846f117a6ff7c734138f97373dbfee24b2885b976aeed3e1eb",
+    "Ar_cylinder": "3c9dc6ba0d89d891a80c5efc1b5123aae5cb62a773a060d64350f846c7b84efd",
+    "N2_planar": "8503ea7ef738e1d9752801b99b904372af83db076d4df344263ec4ad1d46b670",
+    "N2_cylinder": "d92c695776b217dac532cb987eab7914c5c8e95db9c273e327bb6615b8fa32ed"
+  },
+  "science_and_final_receipts": {
+    "Ar_planar": {
+      "chain_sha256": "bc34a875d38371d2e50c36881cc15d317929ffe08dfc10a748052a0eb6e9ed70",
+      "target_receipt_sha256": "6920c37bbcb16600d1547d64298d744f7a60d121d5b521ed85b1448a7db0abd9",
+      "science": {
+        "case": "Ar_planar",
+        "binary_sha256": "6041d434677c557ffed8edcb4e92e2bd38286e18fe0fee078f3197102125c678",
+        "stations_sha256": "75bbb6bfa9448b9c9fa67a5b4c160c371445e39e7f6b9a4d8ead499913337713",
+        "sampling_plan_sha256": "3198ed56c879a0209e62b896aa8bf34381440ec71355487c68b8af01eb17d0e3",
+        "record_protocol": 2,
+        "reader_sha256": "d541fc0c152cc742bd80886ce75f3136bf6fbc7006eb99d658b0f20e9b97c0e0",
+        "parent_sha256": "c67a69ef40c38cf4b896ae92bcae5205135c0a99a13464c757027da91f4754c4",
+        "original_input_sha256": "7bab415093de31639de2927669e7c34d6ea01a56d61c9480c2565a0954c37e95",
+        "step0": 200000,
+        "dt_s": 2e-08,
+        "ranks": 8,
+        "every_steps": 50,
+        "samples_per_block": 200,
+        "checkpoint_blocks": [
+          3,
+          6,
+          10
+        ],
+        "end_step": 300000,
+        "rng_policy": "fresh seed per actual science attempt",
+        "source_solver_rng_restored": false
+      }
+    },
+    "Ar_cylinder": {
+      "chain_sha256": "40b0f678fee85055f4087c8993ed0482d81523079e049e3916834404f11f9abe",
+      "target_receipt_sha256": "464f2002a9a09c8e04a66b5f39985a9c654da7113062aa353d3fc34503642795",
+      "science": {
+        "case": "Ar_cylinder",
+        "binary_sha256": "74807aa188ec4adfefbbbde1476f62705eaacacc260fc246ddcdce6e5407f01e",
+        "stations_sha256": "7396db03fca01dbffac4982b026ab5530e0f75e3f4bbca6b6d12e61e9bde5f1d",
+        "sampling_plan_sha256": "3198ed56c879a0209e62b896aa8bf34381440ec71355487c68b8af01eb17d0e3",
+        "record_protocol": 2,
+        "reader_sha256": "d541fc0c152cc742bd80886ce75f3136bf6fbc7006eb99d658b0f20e9b97c0e0",
+        "parent_sha256": "3967194037370c0716b2b1bb4b4d96e2cc85e33e4b4e717c4b91dd10e0f652aa",
+        "original_input_sha256": "45f83bc5f144b6d621140b1808881d31bfbc7b70cfd51754feff2c13a5203862",
+        "step0": 800000,
+        "dt_s": 5e-09,
+        "ranks": 128,
+        "every_steps": 200,
+        "samples_per_block": 200,
+        "checkpoint_blocks": [
+          3,
+          6,
+          10
+        ],
+        "end_step": 1200000,
+        "rng_policy": "fresh seed per actual science attempt",
+        "source_solver_rng_restored": false
+      }
+    },
+    "N2_planar": {
+      "chain_sha256": "7203a06d9bac727d013d91d3f49bef6609a7221a699299e4d149f96c0b5ec71f",
+      "target_receipt_sha256": "a8882854d5f3e047a19a829b408d23dfa7aa16d50ea9eca73279b2a725b9f2ca",
+      "science": {
+        "case": "N2_planar",
+        "binary_sha256": "6041d434677c557ffed8edcb4e92e2bd38286e18fe0fee078f3197102125c678",
+        "stations_sha256": "51a3031bb5c287ff1adca1ec421fe778edaea6895d1433e7351e458ed9d40b79",
+        "sampling_plan_sha256": "3198ed56c879a0209e62b896aa8bf34381440ec71355487c68b8af01eb17d0e3",
+        "record_protocol": 2,
+        "reader_sha256": "d541fc0c152cc742bd80886ce75f3136bf6fbc7006eb99d658b0f20e9b97c0e0",
+        "parent_sha256": "dd7bbf300b457792e012dd6d6a46a354b15490da9e42029d1d3046c42122437d",
+        "original_input_sha256": "a4a363425fa042f44de43bb3441ab685dfb3b5f8f2f75212e81826432dfd5e09",
+        "step0": 200000,
+        "dt_s": 2e-08,
+        "ranks": 8,
+        "every_steps": 50,
+        "samples_per_block": 200,
+        "checkpoint_blocks": [
+          3,
+          6,
+          10
+        ],
+        "end_step": 300000,
+        "rng_policy": "fresh seed per actual science attempt",
+        "source_solver_rng_restored": false
+      }
+    },
+    "N2_cylinder": {
+      "chain_sha256": "ac326abaf7e59c8851974efdda4029bed736ebc53538f08f8eef35ac4fcef34e",
+      "target_receipt_sha256": "4325714f5e20c570573a58d87419b36ca982fff7f5788e74755fccf957382eba",
+      "science": {
+        "case": "N2_cylinder",
+        "binary_sha256": "74807aa188ec4adfefbbbde1476f62705eaacacc260fc246ddcdce6e5407f01e",
+        "stations_sha256": "2773e75a67021f0aaef8900271cba9a87e56de0f791f454f9b23681a76496df2",
+        "sampling_plan_sha256": "3198ed56c879a0209e62b896aa8bf34381440ec71355487c68b8af01eb17d0e3",
+        "record_protocol": 2,
+        "reader_sha256": "d541fc0c152cc742bd80886ce75f3136bf6fbc7006eb99d658b0f20e9b97c0e0",
+        "parent_sha256": "566c5532bf4e00e3c0e07134199c91eae38b144e57f0edb90022254e37aaa381",
+        "original_input_sha256": "8352313394a275b8f7040e56a5d50f262595fa58b1da9bea79562977da6b45db",
+        "step0": 800000,
+        "dt_s": 5e-09,
+        "ranks": 128,
+        "every_steps": 200,
+        "samples_per_block": 200,
+        "checkpoint_blocks": [
+          3,
+          6,
+          10
+        ],
+        "end_step": 1200000,
+        "rng_policy": "fresh seed per actual science attempt",
+        "source_solver_rng_restored": false
+      }
+    }
+  },
+  "metadata": {
+    "Ar_planar": {
+      "case": "Ar_planar",
+      "dimension": 3,
+      "format": 1,
+      "geometry_sha256": "a68d909730e0716bfdc9e4500f1b7b7523d9af8a015e6c02296d89802bcc46cf",
+      "joint_normal_axis": [
+        96,
+        -2.0,
+        2.0
+      ],
+      "joint_tangent_axis": [
+        96,
+        -1.5,
+        1.5
+      ],
+      "manifest_sha256": "75bbb6bfa9448b9c9fa67a5b4c160c371445e39e7f6b9a4d8ead499913337713",
+      "marginals": [
+        [
+          "incident",
+          5,
+          256,
+          -2.0,
+          2.0
+        ],
+        [
+          "normal",
+          263,
+          256,
+          -2.0,
+          2.0
+        ],
+        [
+          "tangent",
+          521,
+          192,
+          -1.5,
+          1.5
+        ]
+      ],
+      "mass_kg": 6.63e-26,
+      "normal_xyz": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "rotation": false,
+      "speed_scale_m_s": 2634.1,
+      "station_centers_m": [
+        [
+          -0.14,
+          0.0005,
+          0.0005
+        ],
+        [
+          -0.011463142291741281,
+          0.0005,
+          0.0005
+        ],
+        [
+          0.003592232955392094,
+          0.0005,
+          0.0005
+        ],
+        [
+          0.01577422780358946,
+          0.0005,
+          0.0005
+        ],
+        [
+          0.14,
+          0.0005,
+          0.0005
+        ]
+      ],
+      "station_names": [
+        "upstream_reference",
+        "s10",
+        "s50",
+        "s90",
+        "downstream_reference"
+      ],
+      "volume_m3": [
+        8e-10,
+        8e-10,
+        8e-10,
+        8e-10,
+        8e-10
+      ]
+    },
+    "Ar_cylinder": {
+      "case": "Ar_cylinder",
+      "dimension": 2,
+      "format": 1,
+      "geometry_sha256": "a68d909730e0716bfdc9e4500f1b7b7523d9af8a015e6c02296d89802bcc46cf",
+      "joint_normal_axis": [
+        96,
+        -2.0,
+        2.0
+      ],
+      "joint_tangent_axis": [
+        96,
+        -1.5,
+        1.5
+      ],
+      "manifest_sha256": "7396db03fca01dbffac4982b026ab5530e0f75e3f4bbca6b6d12e61e9bde5f1d",
+      "marginals": [
+        [
+          "incident",
+          5,
+          256,
+          -2.0,
+          2.0
+        ],
+        [
+          "normal",
+          263,
+          256,
+          -2.0,
+          2.0
+        ],
+        [
+          "tangent",
+          521,
+          192,
+          -1.5,
+          1.5
+        ]
+      ],
+      "mass_kg": 6.63e-26,
+      "normal_xyz": [
+        [
+          0.984807753012208,
+          -0.17364817766693028,
+          0.0
+        ],
+        [
+          0.984807753012208,
+          -0.17364817766693028,
+          0.0
+        ],
+        [
+          0.984807753012208,
+          -0.17364817766693028,
+          0.0
+        ],
+        [
+          0.984807753012208,
+          -0.17364817766693028,
+          0.0
+        ],
+        [
+          0.984807753012208,
+          -0.17364817766693028,
+          0.0
+        ]
+      ],
+      "rotation": false,
+      "speed_scale_m_s": 2634.1,
+      "station_centers_m": [
+        [
+          -0.1897222133964411,
+          0.060325376921491584,
+          0.0
+        ],
+        [
+          -0.10531960902342527,
+          0.04544292052846662,
+          0.0
+        ],
+        [
+          -0.09103340216306854,
+          0.04292387680700337,
+          0.0
+        ],
+        [
+          -0.07974776021221552,
+          0.040933913636452664,
+          0.0
+        ],
+        [
+          -0.03215297291448779,
+          0.03254166849478274,
+          0.0
+        ]
+      ],
+      "station_names": [
+        "upstream_reference",
+        "s10",
+        "s50",
+        "s90",
+        "downstream_reference"
+      ],
+      "volume_m3": [
+        3.2000000000000003e-06,
+        3.2000000000000003e-06,
+        3.2000000000000003e-06,
+        3.2000000000000003e-06,
+        3.2000000000000003e-06
+      ]
+    },
+    "N2_planar": {
+      "case": "N2_planar",
+      "dimension": 3,
+      "format": 1,
+      "geometry_sha256": "a68d909730e0716bfdc9e4500f1b7b7523d9af8a015e6c02296d89802bcc46cf",
+      "joint_normal_axis": [
+        96,
+        -2.0,
+        2.0
+      ],
+      "joint_tangent_axis": [
+        96,
+        -1.5,
+        1.5
+      ],
+      "manifest_sha256": "51a3031bb5c287ff1adca1ec421fe778edaea6895d1433e7351e458ed9d40b79",
+      "marginals": [
+        [
+          "incident",
+          5,
+          256,
+          -2.0,
+          2.0
+        ],
+        [
+          "normal",
+          263,
+          256,
+          -2.0,
+          2.0
+        ],
+        [
+          "tangent",
+          521,
+          192,
+          -1.5,
+          1.5
+        ]
+      ],
+      "mass_kg": 4.65e-26,
+      "normal_xyz": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "rotation": true,
+      "speed_scale_m_s": 2883.3,
+      "station_centers_m": [
+        [
+          -0.14,
+          0.0005,
+          0.0005
+        ],
+        [
+          -0.0074093880428651995,
+          0.0005,
+          0.0005
+        ],
+        [
+          0.0008879378020465451,
+          0.0005,
+          0.0005
+        ],
+        [
+          0.007739348288173022,
+          0.0005,
+          0.0005
+        ],
+        [
+          0.14,
+          0.0005,
+          0.0005
+        ]
+      ],
+      "station_names": [
+        "upstream_reference",
+        "s10",
+        "s50",
+        "s90",
+        "downstream_reference"
+      ],
+      "volume_m3": [
+        8e-10,
+        8e-10,
+        8e-10,
+        8e-10,
+        8e-10
+      ]
+    },
+    "N2_cylinder": {
+      "case": "N2_cylinder",
+      "dimension": 2,
+      "format": 1,
+      "geometry_sha256": "a68d909730e0716bfdc9e4500f1b7b7523d9af8a015e6c02296d89802bcc46cf",
+      "joint_normal_axis": [
+        96,
+        -2.0,
+        2.0
+      ],
+      "joint_tangent_axis": [
+        96,
+        -1.5,
+        1.5
+      ],
+      "manifest_sha256": "2773e75a67021f0aaef8900271cba9a87e56de0f791f454f9b23681a76496df2",
+      "marginals": [
+        [
+          "incident",
+          5,
+          256,
+          -2.0,
+          2.0
+        ],
+        [
+          "normal",
+          263,
+          256,
+          -2.0,
+          2.0
+        ],
+        [
+          "tangent",
+          521,
+          192,
+          -1.5,
+          1.5
+        ]
+      ],
+      "mass_kg": 4.65e-26,
+      "normal_xyz": [
+        [
+          0.984807753012208,
+          -0.17364817766693028,
+          0.0
+        ],
+        [
+          0.984807753012208,
+          -0.17364817766693028,
+          0.0
+        ],
+        [
+          0.984807753012208,
+          -0.17364817766693028,
+          0.0
+        ],
+        [
+          0.984807753012208,
+          -0.17364817766693028,
+          0.0
+        ],
+        [
+          0.984807753012208,
+          -0.17364817766693028,
+          0.0
+        ]
+      ],
+      "rotation": true,
+      "speed_scale_m_s": 2883.3,
+      "station_centers_m": [
+        [
+          -0.1897222133964411,
+          0.060325376921491584,
+          0.0
+        ],
+        [
+          -0.06467185222740598,
+          0.03827562430005256,
+          0.0
+        ],
+        [
+          -0.05679059194779662,
+          0.036885945470771495,
+          0.0
+        ],
+        [
+          -0.050255916119531785,
+          0.03573370581206496,
+          0.0
+        ],
+        [
+          -0.03215297291448779,
+          0.03254166849478274,
+          0.0
+        ]
+      ],
+      "station_names": [
+        "upstream_reference",
+        "s10",
+        "s50",
+        "s90",
+        "downstream_reference"
+      ],
+      "volume_m3": [
+        3.2000000000000003e-06,
+        3.2000000000000003e-06,
+        3.2000000000000003e-06,
+        3.2000000000000003e-06,
+        3.2000000000000003e-06
+      ]
+    }
+  },
+  "station_registry_sha256": "a68d909730e0716bfdc9e4500f1b7b7523d9af8a015e6c02296d89802bcc46cf",
+  "analysis_sha256": {
+    "vdf_analysis.py": "43d7463a496774e95c3ad9508645dafd7229e9d0235e3f35dcafb2d5f5da8a24",
+    "vdf_statistics.py": "6de9b49ca0cd40d31047f0f5da7a63d7f47d2f1fdc8f7fe73b4b1253fc260358",
+    "vdf_report.py": "a5bb45df183f407af7a9d62f0ddba7d98a9bfed7cdc37cb8b28a9947b88dbad9",
+    "vdf_reduce.py": "ca0e40b1a70ba5541b45452383a2c88382fcaeca466fd276a842fbd4f23dd07d"
+  },
+  "outputs": {
+    "station_statistics.csv": {
+      "bytes": 844942,
+      "sha256": "f6c7946bfeeff53ce01b957f02697bb7f3d50c2f461a6d15942df51fbe79119d"
+    },
+    "measured_station_density.csv": {
+      "bytes": 45699,
+      "sha256": "a4e9cea033b511ff8e16c92f0a37132cc0f22d2a338e0be5c03d96256baac53e"
+    },
+    "finite_block_variation.csv": {
+      "bytes": 105111,
+      "sha256": "db3ae98524bbd8eefa941c5a1f4c66e006907383945236dcf8e4e8cfaef97d34"
+    },
+    "rare_event_support.csv": {
+      "bytes": 948448,
+      "sha256": "41aad39c3285f911cd6b56b412e8b2b3b8f4bfb8d030390fece8dda19ef63fb8"
+    },
+    "correlation_at_lag.csv": {
+      "bytes": 519616,
+      "sha256": "d906a1bdf73e257c9a71555242cc689a63cf92230142b209bc099e73eba6039e"
+    },
+    "marginal_distributions.csv.gz": {
+      "bytes": 1381798,
+      "sha256": "515264d8a0e402195087dc136f870f2f9b4b7b7bcd6596e1ff5a0f2d1589ebf7"
+    },
+    "matched_geometry.csv": {
+      "bytes": 34533,
+      "sha256": "07a903a7d96b7fbcd8c67fc9d46fe4ab536f258ef3a5adac354f05c935597e6a"
+    },
+    "held_out.csv": {
+      "bytes": 23177,
+      "sha256": "01ec763a761b013dcb9827be34126fcbcd24ed8d3571236079b5957355cec36b"
+    },
+    "thinning_sensitivity.csv": {
+      "bytes": 20395,
+      "sha256": "784c17248773e55986b3cfa14f62b42aa233f18e57745dafc206228ca3c410c5"
+    },
+    "joint_velocity.npz": {
+      "bytes": 976023,
+      "sha256": "bb40ddc4ba8d94cc467eaced922d63f010ceb4264065dca7d5a7e635092b00ad"
+    },
+    "Ar_shock_signed_vx.pdf": {
+      "bytes": 19412,
+      "sha256": "154501f5668a4d81a13e29ebb22b2752b867de379124549d52992b41986cc1e5"
+    },
+    "Ar_references_signed_vx.pdf": {
+      "bytes": 15083,
+      "sha256": "a2147972c2c2b33fba70863ea986661b749d6307d47bbeff353e3c3041aac472"
+    },
+    "N2_shock_signed_vx.pdf": {
+      "bytes": 19392,
+      "sha256": "b9768bfddb23d38f005b69bf2958336b7c64fccb7a3ee88b4d64b6288f4ed02f"
+    },
+    "N2_shock_rot_energy.pdf": {
+      "bytes": 21359,
+      "sha256": "684671c577c300e71826e1dd02a89a32baff69879601cb2d65a09349fe7dab2e"
+    },
+    "N2_references_signed_vx.pdf": {
+      "bytes": 15120,
+      "sha256": "511c21cb9ec61d3926b520580825e12a39d6441981992214c042362571c98726"
+    }
+  }
+}

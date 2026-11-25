@@ -1,0 +1,14 @@
+{
+  "name": "N2_grid776",
+  "nx": 776,
+  "ny": 400,
+  "ppc": 20,
+  "dt": 2e-08,
+  "ranks": 32,
+  "root": "../N2_grid776",
+  "fnum": 21584085051546.39,
+  "hx": 0.001095360824742268,
+  "hy": 0.001,
+  "pilot_steps": 200,
+  "production_prepared_not_submitted": true
+}

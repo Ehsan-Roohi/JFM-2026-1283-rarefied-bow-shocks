@@ -1,0 +1,18 @@
+{
+  "label": "C4_N2_L4",
+  "cases": [
+    {
+      "key": "C4_N2_L4",
+      "name": "N2_wall_L4_ppc40",
+      "campaign": "campaign/wall_mesh_bigbig_v4_ppc40_shockrefined",
+      "production_job": "66121010",
+      "warmup": 400000,
+      "target": 800000,
+      "block": 40000,
+      "dt": 5e-09,
+      "completed": false
+    }
+  ],
+  "comparisons": [],
+  "reuse_case_results": false
+}

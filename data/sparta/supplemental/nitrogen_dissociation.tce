@@ -1,0 +1,5 @@
+# Exact nitrogen subset of installed official air.tce; used with react qk
+N2 + N2 --> N + N + N2
+D A 1.0 1.561e-18 1.162e-8 -1.6 -1.561e-18
+N2 + N --> N + N + N
+D A 1.0 1.561e-18 4.980e-8 -1.6 -1.561e-18

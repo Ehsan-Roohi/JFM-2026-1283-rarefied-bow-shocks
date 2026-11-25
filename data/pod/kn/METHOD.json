@@ -1,0 +1,16 @@
+{
+  "status": "Parameter-snapshot POD reanalysis, not DSMC convergence or experimental validation",
+  "common_support": "Strict all-case finite geometry mask; no70percent imputation; solid-intersecting triangles masked; no interpolation over ray gaps",
+  "centering": "Training-only mean in each leave-one-out fold; weighted scalar-variable SVD",
+  "normalization": "Nominal DS2VD incoming state, never heated finite-domain bulk temperature. Fixed-gamma translational Mach proxy recomputed consistently.",
+  "energy": "Fraction of scalar fluctuation variance, not kinetic energy",
+  "prediction": "Physical-basis interior logKn coefficient interpolation uses no heldout response amplitudes; projection is conditional reconstruction; endpoints not extrapolated. Attached results use oracle density registration and are not full predictive models.",
+  "missing": "Original N2Kn.075 numeric field empty; all-nine hybrid explicitly labelled and historical-eight separately reported; independent solver recovery2\u20134ms. Wide-domain refined 40ppc recovery included; comparison with v13 also changes mesh/particle count and is not domain-only sensitivity.",
+  "attached": "Outermost resolved compression peak; no forced peak where upstream plateau or separated peak is unsupported. Same cases/support across smoothing factors; exclusions explicit.",
+  "tests": {
+    "wall_peak_rejection": true,
+    "weighted_orthogonality": true,
+    "full_rank_reconstruction": true
+  },
+  "no_global_convergence_claim": true
+}

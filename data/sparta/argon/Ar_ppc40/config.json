@@ -1,0 +1,14 @@
+{
+  "name": "Ar_ppc40",
+  "nx": 776,
+  "ny": 400,
+  "ppc": 40,
+  "dt": 2e-08,
+  "ranks": 32,
+  "root": "../Ar_ppc40",
+  "fnum": 10559278350515.465,
+  "hx": 0.001095360824742268,
+  "hy": 0.001,
+  "pilot_steps": 200,
+  "production_prepared_not_submitted": true
+}

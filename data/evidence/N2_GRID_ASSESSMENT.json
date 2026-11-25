@@ -1,0 +1,283 @@
+{
+  "utc": "2026-11-02T10:37:25.572525+00:00",
+  "comparisons": [
+    {
+      "first": "L0",
+      "reference": "L4",
+      "ray": 170,
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "normalization": "L2 norm of second profile on common finite samples; no translation",
+      "rho_over_rhoinf_L2_percent": 1.8027135514130372,
+      "Ttr_K_L2_percent": 2.4325680376388967,
+      "ux_ms_L2_percent": 1.2670523354638765,
+      "Trot_K_L2_percent": 1.9280582268693518,
+      "marker_change_mm": -0.800000000000002,
+      "local_anchor_gradient_width_change_percent": 0.58842287595815
+    },
+    {
+      "first": "L0",
+      "reference": "L4",
+      "ray": 180,
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "normalization": "L2 norm of second profile on common finite samples; no translation",
+      "rho_over_rhoinf_L2_percent": 1.8508399208247326,
+      "Ttr_K_L2_percent": 2.5169121455234515,
+      "ux_ms_L2_percent": 1.2865708217102767,
+      "Trot_K_L2_percent": 1.9308386191299185,
+      "marker_change_mm": -0.5000000000000004,
+      "local_anchor_gradient_width_change_percent": 0.7889108860237748
+    },
+    {
+      "first": "L4",
+      "reference": "L5",
+      "ray": 170,
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "normalization": "L2 norm of second profile on common finite samples; no translation",
+      "rho_over_rhoinf_L2_percent": 0.2816341916028107,
+      "Ttr_K_L2_percent": 0.39500176731163955,
+      "ux_ms_L2_percent": 0.17765509398088652,
+      "Trot_K_L2_percent": 0.2595981882960684,
+      "marker_change_mm": 0.10000000000000286,
+      "local_anchor_gradient_width_change_percent": 0.006603066101495969
+    },
+    {
+      "first": "L4",
+      "reference": "L5",
+      "ray": 180,
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "normalization": "L2 norm of second profile on common finite samples; no translation",
+      "rho_over_rhoinf_L2_percent": 0.31445959392345024,
+      "Ttr_K_L2_percent": 0.448812097314611,
+      "ux_ms_L2_percent": 0.2385528514033069,
+      "Trot_K_L2_percent": 0.312706197095131,
+      "marker_change_mm": 0.09999999999999593,
+      "local_anchor_gradient_width_change_percent": 1.1227138208675713
+    }
+  ],
+  "summary": {
+    "L0": {
+      "170": {
+        "mean_profile_marker_mm": 60.199999999999996,
+        "local_anchor_gradient_width_mm": 13.418511043256785,
+        "block_marker_SD_mm": 0.08755950357709066,
+        "half_drift_percent": 0.09965122072746138,
+        "lag1": -0.16666666666666669,
+        "nearwall_max_edge_over_lambda_max": 8.189423788625303,
+        "nearshock_max_edge_over_lambda_max": 0.8912212187779703,
+        "smoothing_marker_mm": {
+          "0.00075": 60.49999999999999,
+          "0.0015": 60.199999999999996,
+          "0.003": 60.199999999999996
+        }
+      },
+      "180": {
+        "mean_profile_marker_mm": 58.8,
+        "local_anchor_gradient_width_mm": 13.326503250385935,
+        "block_marker_SD_mm": 0.1779513042005226,
+        "half_drift_percent": -0.1699235344095088,
+        "lag1": 0.23936540474035634,
+        "nearwall_max_edge_over_lambda_max": 8.645311760063143,
+        "nearshock_max_edge_over_lambda_max": 0.9236023273463196,
+        "smoothing_marker_mm": {
+          "0.00075": 58.3,
+          "0.0015": 58.8,
+          "0.003": 59.0
+        }
+      }
+    },
+    "L4": {
+      "170": {
+        "mean_profile_marker_mm": 59.39999999999999,
+        "local_anchor_gradient_width_mm": 13.497468631848276,
+        "block_marker_SD_mm": 0.08164965809277305,
+        "half_drift_percent": 0.06734006734007629,
+        "lag1": 0.16666666666667437,
+        "nearwall_max_edge_over_lambda_max": 0.5986515910700682,
+        "nearshock_max_edge_over_lambda_max": 0.22753714722600613,
+        "smoothing_marker_mm": {
+          "0.00075": 59.39999999999999,
+          "0.0015": 59.39999999999999,
+          "0.003": 59.5
+        }
+      },
+      "180": {
+        "mean_profile_marker_mm": 58.3,
+        "local_anchor_gradient_width_mm": 13.43163748525454,
+        "block_marker_SD_mm": 0.1247219128924652,
+        "half_drift_percent": 0.06861063464836771,
+        "lag1": 0.008620689655166863,
+        "nearwall_max_edge_over_lambda_max": 0.6068224928646138,
+        "nearshock_max_edge_over_lambda_max": 0.22990822144410378,
+        "smoothing_marker_mm": {
+          "0.00075": 58.199999999999996,
+          "0.0015": 58.3,
+          "0.003": 58.39999999999999
+        }
+      }
+    },
+    "L5": {
+      "170": {
+        "mean_profile_marker_mm": 59.5,
+        "local_anchor_gradient_width_mm": 13.498359878624065,
+        "block_marker_SD_mm": 0.14491376746189508,
+        "half_drift_percent": -0.437048243402258,
+        "lag1": 0.6322762730574105,
+        "nearwall_max_edge_over_lambda_max": 0.3043640631668811,
+        "nearshock_max_edge_over_lambda_max": 0.22763173209623855,
+        "smoothing_marker_mm": {
+          "0.00075": 59.699999999999996,
+          "0.0015": 59.5,
+          "0.003": 59.599999999999994
+        }
+      },
+      "180": {
+        "mean_profile_marker_mm": 58.39999999999999,
+        "local_anchor_gradient_width_mm": 13.582436335670323,
+        "block_marker_SD_mm": 0.13498971154211079,
+        "half_drift_percent": -0.0684228532329889,
+        "lag1": 0.12954081178458776,
+        "nearwall_max_edge_over_lambda_max": 0.309079006772009,
+        "nearshock_max_edge_over_lambda_max": 0.22943621371589265,
+        "smoothing_marker_mm": {
+          "0.00075": 58.3,
+          "0.0015": 58.39999999999999,
+          "0.003": 58.5
+        }
+      }
+    }
+  },
+  "provenance": [
+    {
+      "level": "L0",
+      "source": "campaign/convergence_controls_v20/result_C4_N2_L0_20261025T221914Z",
+      "report_sha256": "fa3cb80e59215a5d7d7169e30f3f06276f98d7e0005c095ec9e740ddc6829e86",
+      "archive": {
+        "verified": true,
+        "archive": "campaign/convergence_controls_v20/result_C4_N2_L0_20261025T221914Z/analysis.tar",
+        "sha256": "19e8d22f8dda8afeff017c6d7b3db49cf656c642554c91840ea5e82b5357389b"
+      },
+      "member_hash_verified": true
+    },
+    {
+      "level": "L4",
+      "source": "campaign/convergence_controls_v20/result_C4_N2_L4_20261030T071906Z",
+      "report_sha256": "8c265686ab23199bd5bd0f34d48901b57b196a478bc8327ce820bab537b27a83",
+      "archive": {
+        "verified": true,
+        "archive": "campaign/convergence_controls_v20/result_C4_N2_L4_20261030T071906Z/analysis.tar",
+        "sha256": "f8ad10fb96587e61d1f54bb7ff29dd0881aa4662dcca72a981d6080fb7ba28b1"
+      },
+      "member_hash_verified": true
+    },
+    {
+      "level": "L5",
+      "source": "campaign/convergence_controls_v20/result_C4_N2_L5_40_20261102T085346Z",
+      "report_sha256": "8d00ee1055dcc88d7378ce9c842ad68ab7f24486b3b83ee33e4768ced6b2de0c",
+      "archive": {
+        "verified": true,
+        "archive": "campaign/convergence_controls_v20/result_C4_N2_L5_40_20261102T085346Z/analysis.tar",
+        "sha256": "680cb9f41d4830c5711829d856f9ed84c4b1ee5db3769d9054c7d7c55f1c1972"
+      },
+      "member_hash_verified": true
+    }
+  ],
+  "scientific_convergence": false,
+  "limitations": [
+    "Completed N2 ppc40 grid subset only; ppc80 and N2 half-dt mature controls remain incomplete. Ar grid and half-dt subsets are completed separately.",
+    "Grid L5 refines primarily nearer the wall; outer-front mesh is almost unchanged from L4. Small front differences do not establish uniform refinement convergence.",
+    "Block SD and lag1 are diagnostics, not a CI or proof of statistically insignificant differences.",
+    "Widths use existing local anchors and smoothing, not verified equilibrium jump widths.",
+    "180 degree ray is first gas row; ux is Cartesian velocity, not ray-normal velocity.",
+    "No GCI, curve translation, model tuning or criteria changes.",
+    "Near-zero local ux normalization is supplemented by absolute RMSE and Uinf normalization; ray locations are not independent cells or realizations."
+  ],
+  "same_physical_keys_verified": [
+    "gas",
+    "nrho",
+    "U",
+    "upstream_target_ppc",
+    "dt",
+    "weight",
+    "fnum",
+    "ppc",
+    "solver"
+  ],
+  "supplementary_nearwall": [
+    {
+      "ray": 170,
+      "window_m": [
+        0,
+        0.004
+      ],
+      "excluded_s_zero": true,
+      "reference": "L5",
+      "fields": {
+        "rho_over_rhoinf": {
+          "L2_percent": 0.9060293495268291,
+          "absolute_RMSE": 0.1739208089998627,
+          "sample_locations": 40
+        },
+        "Ttr_K": {
+          "L2_percent": 0.5395806791170807,
+          "absolute_RMSE": 8.505960667702382,
+          "sample_locations": 40
+        },
+        "ux_ms": {
+          "L2_percent": 2.181823725362729,
+          "absolute_RMSE": 0.6065766087736985,
+          "sample_locations": 40,
+          "RMSE_percent_Uinf": 0.021037582241657072
+        },
+        "Trot_K": {
+          "L2_percent": 0.6650351874938082,
+          "absolute_RMSE": 10.512038752485116,
+          "sample_locations": 40
+        }
+      }
+    },
+    {
+      "ray": 180,
+      "window_m": [
+        0,
+        0.004
+      ],
+      "excluded_s_zero": true,
+      "reference": "L5",
+      "fields": {
+        "rho_over_rhoinf": {
+          "L2_percent": 0.9450214288249977,
+          "absolute_RMSE": 0.18500153506419137,
+          "sample_locations": 40
+        },
+        "Ttr_K": {
+          "L2_percent": 0.4840671158126252,
+          "absolute_RMSE": 7.738461771485932,
+          "sample_locations": 40
+        },
+        "ux_ms": {
+          "L2_percent": 6.425694752961666,
+          "absolute_RMSE": 0.6665643530267283,
+          "sample_locations": 40,
+          "RMSE_percent_Uinf": 0.02311810609463907
+        },
+        "Trot_K": {
+          "L2_percent": 0.5681729992121065,
+          "absolute_RMSE": 9.09487165822046,
+          "sample_locations": 40
+        }
+      }
+    }
+  ]
+}

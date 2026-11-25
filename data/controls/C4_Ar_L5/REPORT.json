@@ -1,0 +1,281 @@
+{
+  "cases": {
+    "C4_Ar_L5": {
+      "gas": "Ar",
+      "config": {
+        "name": "Ar_wall_L5",
+        "gas": "Ar",
+        "extra_levels": 5,
+        "nrho": 3.856e+20,
+        "U": 2634.1,
+        "upstream_target_ppc": 20,
+        "dt": 5e-09,
+        "weight": "bounding_cell_area",
+        "fnum": 1.928e+19,
+        "scope": "Only numerical admission; 200 steps cannot establish steady state, weighting accuracy or scientific convergence. Refined sector x<.04,y<.105; not whole cylinder.",
+        "root": "campaign/wall_mesh_bigbig_v4_ppc40_shockrefined/Ar_wall_L5",
+        "solver": "campaign/sparta_bigbig_v1/src/spa_bigbig",
+        "mpirun": "mpirun",
+        "grading_bounds_xy": [
+          [
+            0.3,
+            0.38
+          ],
+          [
+            0.26,
+            0.35
+          ],
+          [
+            0.1,
+            0.2
+          ],
+          [
+            0.07,
+            0.14
+          ],
+          [
+            0.04,
+            0.105
+          ]
+        ],
+        "ppc": 20,
+        "radial_bands_m": [
+          0.15,
+          0.12,
+          0.032,
+          0.012,
+          0.004
+        ]
+      },
+      "profiles": {
+        "170": {
+          "mean_profile_marker": {
+            "standoff_m": 0.0933,
+            "delta_m": 0.021708069255046914,
+            "half_jump_m": 0.09405313381960563,
+            "onset_m": 0.1127,
+            "max_gradient_rhoinf_per_m": 121.48632662081438,
+            "rho_up": 1.230931950835124,
+            "rho_down": 3.868165542661012,
+            "upstream_boundary_median": 0.9996074758594331,
+            "upstream_boundary_deviation": 0.00039252414056689666,
+            "downstream_window_rel_spread": 0.018018274110266075,
+            "unrestricted_absolute_marker_m": 0.0023,
+            "cells_across_delta": 19.80663253197536
+          },
+          "block_markers_m": [
+            0.09309999999999999,
+            0.09499999999999999,
+            0.0934,
+            0.0949,
+            0.0928,
+            0.0934,
+            0.0953,
+            0.0929,
+            0.0928,
+            0.09319999999999999
+          ],
+          "supported_markers": 10,
+          "block_marker_SD_m": 0.0009852241707685957,
+          "lag1": -0.3495269525358373,
+          "half_drift_percent": -0.3415883859948771,
+          "whole_ray_h_lambda_p5_p50_p95_max": [
+            0.04949381234466303,
+            0.12324173474669622,
+            0.35835145253314127,
+            0.36776548910125156
+          ],
+          "nearwall_h_lambda_p5_p50_p95_max": [
+            0.05163724623700065,
+            0.07322293223145175,
+            0.1291066117277791,
+            0.2535442869205822
+          ],
+          "nearshock_h_lambda_p5_p50_p95_max": [
+            0.06281394227002825,
+            0.08100208274164261,
+            0.0998177178271931,
+            0.10173155349542319
+          ],
+          "whole_ray_dt_tau_p5_p50_p95_max": [
+            0.0005347782328146342,
+            0.0016417425525458759,
+            0.006191925166787586,
+            0.027687945775926995
+          ],
+          "particle_count_ray_p5_p50_p95_max": [
+            19.82545,
+            33.048500000000004,
+            128.70569999999995,
+            700.726
+          ],
+          "marker_sigma_sensitivity": {
+            "0.00075": {
+              "standoff_m": 0.09259999999999999,
+              "delta_m": 0.021235787986935407,
+              "half_jump_m": 0.09391034637277369,
+              "onset_m": 0.11259999999999999,
+              "max_gradient_rhoinf_per_m": 123.9762365328856,
+              "rho_up": 1.2489848824696712,
+              "rho_down": 3.881717956900186,
+              "upstream_boundary_median": 0.9995629556799901,
+              "upstream_boundary_deviation": 0.000437044320009905,
+              "downstream_window_rel_spread": 0.01603462664470334,
+              "unrestricted_absolute_marker_m": 0.0023,
+              "cells_across_delta": 19.375718966180226
+            },
+            "0.0015": {
+              "standoff_m": 0.0933,
+              "delta_m": 0.021708069255046914,
+              "half_jump_m": 0.09405313381960563,
+              "onset_m": 0.1127,
+              "max_gradient_rhoinf_per_m": 121.48632662081438,
+              "rho_up": 1.230931950835124,
+              "rho_down": 3.868165542661012,
+              "upstream_boundary_median": 0.9996074758594331,
+              "upstream_boundary_deviation": 0.00039252414056689666,
+              "downstream_window_rel_spread": 0.018018274110266075,
+              "unrestricted_absolute_marker_m": 0.0023,
+              "cells_across_delta": 19.80663253197536
+            },
+            "0.003": {
+              "standoff_m": 0.09369999999999999,
+              "delta_m": 0.022539478840384607,
+              "half_jump_m": 0.0941407629263722,
+              "onset_m": 0.11299999999999999,
+              "max_gradient_rhoinf_per_m": 116.31204853473687,
+              "rho_up": 1.2307042380964806,
+              "rho_down": 3.85231719492697,
+              "upstream_boundary_median": 0.9997085270100454,
+              "upstream_boundary_deviation": 0.0002914729899545776,
+              "downstream_window_rel_spread": 0.0204258652794179,
+              "unrestricted_absolute_marker_m": 0.0036,
+              "cells_across_delta": 20.56521792005713
+            }
+          }
+        },
+        "180": {
+          "mean_profile_marker": {
+            "standoff_m": 0.09309999999999999,
+            "delta_m": 0.02167519725877416,
+            "half_jump_m": 0.09282647366827383,
+            "onset_m": 0.11139999999999999,
+            "max_gradient_rhoinf_per_m": 122.89137096586967,
+            "rho_up": 1.1992297369828444,
+            "rho_down": 3.862924444069261,
+            "upstream_boundary_median": 0.9975588491376064,
+            "upstream_boundary_deviation": 0.002441150862393604,
+            "downstream_window_rel_spread": 0.021967473854203,
+            "unrestricted_absolute_marker_m": 0.0023,
+            "cells_across_delta": 19.776639834646208
+          },
+          "block_markers_m": [
+            0.09359999999999999,
+            0.0934,
+            0.09319999999999999,
+            0.09269999999999999,
+            0.09079999999999999,
+            0.09349999999999999,
+            0.0934,
+            0.092,
+            0.09349999999999999,
+            0.0923
+          ],
+          "supported_markers": 10,
+          "block_marker_SD_m": 0.0009057838839615342,
+          "lag1": -0.21016680418992278,
+          "half_drift_percent": 0.21542438604049102,
+          "whole_ray_h_lambda_p5_p50_p95_max": [
+            0.04905722084554691,
+            0.1232313601324109,
+            0.35612859621646303,
+            0.36436842805803693
+          ],
+          "nearwall_h_lambda_p5_p50_p95_max": [
+            0.0518668867282374,
+            0.07382959159660896,
+            0.13111237735684397,
+            0.25511831563256937
+          ],
+          "nearshock_h_lambda_p5_p50_p95_max": [
+            0.05954478037153607,
+            0.07672200354552479,
+            0.09583994139575579,
+            0.09832227297538158
+          ],
+          "whole_ray_dt_tau_p5_p50_p95_max": [
+            0.000533480716272549,
+            0.001758606620802206,
+            0.006343441279685744,
+            0.028138735220129326
+          ],
+          "particle_count_ray_p5_p50_p95_max": [
+            19.772,
+            34.973,
+            131.71365,
+            708.891
+          ],
+          "marker_sigma_sensitivity": {
+            "0.00075": {
+              "standoff_m": 0.0933,
+              "delta_m": 0.020727593704630447,
+              "half_jump_m": 0.09288113309662746,
+              "onset_m": 0.1113,
+              "max_gradient_rhoinf_per_m": 128.77651937777125,
+              "rho_up": 1.1919118256604948,
+              "rho_down": 3.8611391980194067,
+              "upstream_boundary_median": 0.9976229644722077,
+              "upstream_boundary_deviation": 0.002377035527792337,
+              "downstream_window_rel_spread": 0.022084411801188666,
+              "unrestricted_absolute_marker_m": 0.0023,
+              "cells_across_delta": 18.912038051668443
+            },
+            "0.0015": {
+              "standoff_m": 0.09309999999999999,
+              "delta_m": 0.02167519725877416,
+              "half_jump_m": 0.09282647366827383,
+              "onset_m": 0.11139999999999999,
+              "max_gradient_rhoinf_per_m": 122.89137096586967,
+              "rho_up": 1.1992297369828444,
+              "rho_down": 3.862924444069261,
+              "upstream_boundary_median": 0.9975588491376064,
+              "upstream_boundary_deviation": 0.002441150862393604,
+              "downstream_window_rel_spread": 0.021967473854203,
+              "unrestricted_absolute_marker_m": 0.0023,
+              "cells_across_delta": 19.776639834646208
+            },
+            "0.003": {
+              "standoff_m": 0.09249999999999999,
+              "delta_m": 0.0225518877446698,
+              "half_jump_m": 0.09271232167332703,
+              "onset_m": 0.1118,
+              "max_gradient_rhoinf_per_m": 117.15561909779072,
+              "rho_up": 1.2242718980704699,
+              "rho_down": 3.8663522686211396,
+              "upstream_boundary_median": 0.9975613545780021,
+              "upstream_boundary_deviation": 0.002438645421997898,
+              "downstream_window_rel_spread": 0.02182503347471649,
+              "unrestricted_absolute_marker_m": 0.0036,
+              "cells_across_delta": 20.576539913018074
+            }
+          }
+        }
+      }
+    }
+  },
+  "comparisons": [],
+  "window_ms": [
+    2,
+    4
+  ],
+  "blocks_each": 10,
+  "scientific_convergence": false,
+  "decision": "Review all profiles, marker sensitivity, h/lambda, dt/tau, ppc and correlated block statistics jointly; no automatic acceptance or GCI",
+  "definitions": {
+    "nearwall": "0<s<.015m on sampled rays",
+    "nearshock": "Mean density outer marker +/-2 nominal lambda; None if unsupported",
+    "percentiles": "Uniform spatial ray samples across ten blocks, not volume-weighted whole-domain cells",
+    "uncertainty": "Block SD is not a confidence interval; seeds/recovery trajectories are independent, not paired noise cancellation",
+    "axis": "First cell row / symmetry approximation, not particle-plane measurement"
+  }
+}

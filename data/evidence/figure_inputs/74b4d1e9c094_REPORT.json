@@ -1,0 +1,1411 @@
+{
+  "cases": {
+    "N2_M153_base": {
+      "config": {
+        "name": "N2_M153_base",
+        "root": "campaign/nitrogen_validation_v21_20261031/N2_M153_base",
+        "geometry": "planar",
+        "gas": "N2",
+        "model": "baseline",
+        "M": 1.53,
+        "T1": 300.0,
+        "nrho": 3.941e+20,
+        "U": 540.2952698505846,
+        "nx": 1600,
+        "ny": 1,
+        "xlo": -0.16,
+        "xhi": 0.16,
+        "ly": 0.001,
+        "lz": 0.001,
+        "ppc": 200,
+        "dt": 2e-08,
+        "ranks": 8,
+        "seed": 791837,
+        "fnum": 394100000.0,
+        "warmup": 200000,
+        "block": 20000,
+        "target": 400000,
+        "rankine_hugoniot": {
+          "gamma": 1.4,
+          "compression": 1.9133076325791116,
+          "pressure_ratio": 2.5643833333333332,
+          "T2": 402.0864114585558,
+          "U2": 282.38808054211034,
+          "n2": 7.540345379994278e+20
+        },
+        "transport": {
+          "mu_ref": 1.6579897514000144e-05,
+          "T_ref": 273.0,
+          "omega": 0.74,
+          "diameter": 4.17e-10,
+          "mu1": 1.7778340156386275e-05,
+          "lambda_viscosity_m": 0.0041496947467633055
+        },
+        "reference_scope": "Alsmeyer 1976 M=1.53 density data reproduced in Xu & Tang 2004 Fig2 upper; upstream 300 K per primary literature. n1 is a scale choice, not a verified experimental density. Compare using the published viscosity mean-free-path convention. No amplitude/width fit; density-midpoint origin only.",
+        "model_scope": "Unchanged VHS omega=.74, diameter4.17e-10 at273K, alpha1, constant rotational Z5, no vib/chem. Z is not fitted to experiment. This does not validate high-enthalpy cylinder chemistry."
+      },
+      "blocks": 10,
+      "physical_window_s": [
+        0.004,
+        0.008
+      ],
+      "plateau_windows_m": [
+        [
+          -0.1439,
+          -0.1121
+        ],
+        [
+          0.1121,
+          0.1439
+        ]
+      ],
+      "plateaus": {
+        "rho": {
+          "up": 1.8323655749999996e-05,
+          "down": 3.504656575e-05,
+          "up_error_vs_reservoir_pct": -0.010882287940694457,
+          "down_error_vs_RH_pct": -0.045747503667104006,
+          "up_block_SD": 3.353699130044848e-08,
+          "down_block_SD": 8.20168069204774e-08,
+          "up_spatial_range_over_jump_pct": 0.6012443355765773,
+          "down_spatial_range_over_jump_pct": 1.1284608731030146
+        },
+        "u": {
+          "up": 540.3266268750001,
+          "down": 282.50268187499995,
+          "up_error_vs_reservoir_pct": 0.005803682942495669,
+          "down_error_vs_RH_pct": 0.04058292144257791,
+          "up_block_SD": 0.9321417995700566,
+          "down_block_SD": 0.5699520820612253,
+          "up_spatial_range_over_jump_pct": 1.0139694077593737,
+          "down_spatial_range_over_jump_pct": 0.5838534412466653
+        },
+        "Ttr": {
+          "up": 300.138913125,
+          "down": 402.063526875,
+          "up_error_vs_reservoir_pct": 0.046304374999994735,
+          "down_error_vs_RH_pct": -0.005691459075374272,
+          "up_block_SD": 0.4490157563861891,
+          "down_block_SD": 0.6775752161124965,
+          "up_spatial_range_over_jump_pct": 1.4435809614076685,
+          "down_spatial_range_over_jump_pct": 1.5175379150524027
+        },
+        "Trot": {
+          "up": 299.8731456249999,
+          "down": 402.1791131250001,
+          "up_error_vs_reservoir_pct": -0.042284791666702404,
+          "down_error_vs_RH_pct": 0.023055160234841665,
+          "up_block_SD": 0.6532919343020155,
+          "down_block_SD": 0.8151186693941953,
+          "up_spatial_range_over_jump_pct": 1.474828998775349,
+          "down_spatial_range_over_jump_pct": 2.174530349615837
+        }
+      },
+      "center_m": -0.0017240584693861704,
+      "block_centers_m": [
+        -0.0018753521774899414,
+        -0.0017049040775359145,
+        -0.0018565565499823649,
+        -0.002350112634435225,
+        -0.0017343414769217856,
+        -0.0016520437259939097,
+        -0.001627589397458123,
+        -0.0015538090578893166,
+        -0.0016158750320938245,
+        -0.0016217790153037937
+      ],
+      "center_SD_m": 0.00023240988174519036,
+      "center_drift_m_per_s": 0.1010449500014301,
+      "drift_displacement_over_density_width": 0.015907523372504246,
+      "scales": {
+        "rho": [
+          {
+            "sigma_m": 0.0001,
+            "signed_jump": 1.6736956016973397e-05,
+            "peak_abs_gradient": 0.0007167987290374184,
+            "peak_x_m": -0.0015,
+            "gradient_width_m": 0.023349589416054466,
+            "width_10_90_m": 0.03294758605421612,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.003821806291447607,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0002,
+            "signed_jump": 1.6736956016973397e-05,
+            "peak_abs_gradient": 0.0006587254460040104,
+            "peak_x_m": -0.0015,
+            "gradient_width_m": 0.02540809091026294,
+            "width_10_90_m": 0.03294625866580028,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0004,
+            "signed_jump": 1.6736956016973397e-05,
+            "peak_abs_gradient": 0.0006122412292040441,
+            "peak_x_m": -0.0017,
+            "gradient_width_m": 0.02733719197371369,
+            "width_10_90_m": 0.03294782994030065,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          }
+        ],
+        "u": [
+          {
+            "sigma_m": 0.0001,
+            "signed_jump": -257.9071893084743,
+            "peak_abs_gradient": 11864.687531656702,
+            "peak_x_m": -0.0073,
+            "gradient_width_m": 0.021737377290412464,
+            "width_10_90_m": 0.03240918888709466,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0030577881182127925,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0002,
+            "signed_jump": -257.9071893084743,
+            "peak_abs_gradient": 11378.713468566537,
+            "peak_x_m": -0.0073,
+            "gradient_width_m": 0.02266576006337954,
+            "width_10_90_m": 0.03237124227679705,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0004,
+            "signed_jump": -257.9071893084743,
+            "peak_abs_gradient": 10545.619109429885,
+            "peak_x_m": -0.0073,
+            "gradient_width_m": 0.024456334581423853,
+            "width_10_90_m": 0.03235759091647746,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          }
+        ],
+        "Ttr": [
+          {
+            "sigma_m": 0.0001,
+            "signed_jump": 102.0864114585558,
+            "peak_abs_gradient": 5451.009725624812,
+            "peak_x_m": -0.0125,
+            "gradient_width_m": 0.01872798189639156,
+            "width_10_90_m": 0.026077154002581825,
+            "normalized_overshoot": 0.010326988498408962,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.04821569758266041,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0002,
+            "signed_jump": 102.0864114585558,
+            "peak_abs_gradient": 4834.696307287319,
+            "peak_x_m": -0.0117,
+            "gradient_width_m": 0.0211153720875252,
+            "width_10_90_m": 0.026072723136954745,
+            "normalized_overshoot": 0.009797661147519898,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.017155243546495464,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0004,
+            "signed_jump": 102.0864114585558,
+            "peak_abs_gradient": 4531.221764560905,
+            "peak_x_m": -0.0115,
+            "gradient_width_m": 0.022529555330304697,
+            "width_10_90_m": 0.026097250859258382,
+            "normalized_overshoot": 0.00912190567237503,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.006370313473450629,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          }
+        ],
+        "Trot": [
+          {
+            "sigma_m": 0.0001,
+            "signed_jump": 102.0864114585558,
+            "peak_abs_gradient": 5248.354475469212,
+            "peak_x_m": 0.0001,
+            "gradient_width_m": 0.019451127383965258,
+            "width_10_90_m": 0.03522133510983087,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.03322892967768735,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0002,
+            "signed_jump": 102.0864114585558,
+            "peak_abs_gradient": 4536.157460579299,
+            "peak_x_m": -0.0001,
+            "gradient_width_m": 0.02250504140249105,
+            "width_10_90_m": 0.03519639301055507,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.004760742150367009,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0004,
+            "signed_jump": 102.0864114585558,
+            "peak_abs_gradient": 3806.1084546768107,
+            "peak_x_m": -0.0001,
+            "gradient_width_m": 0.02682172951039155,
+            "width_10_90_m": 0.035259490943231594,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          }
+        ]
+      },
+      "scales_normalization": "prescribed upstream and RH downstream states; observed-window audit recorded separately",
+      "local_anchor_scales": {
+        "rho": [
+          {
+            "sigma_m": 0.0001,
+            "signed_jump": 1.6722910000000003e-05,
+            "peak_abs_gradient": 0.0007167987290374184,
+            "peak_x_m": -0.0015,
+            "gradient_width_m": 0.02332999393352305,
+            "width_10_90_m": 0.03290705842113951,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0038218062914477254,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0002,
+            "signed_jump": 1.6722910000000003e-05,
+            "peak_abs_gradient": 0.0006587254460040104,
+            "peak_x_m": -0.0015,
+            "gradient_width_m": 0.025386767888572186,
+            "width_10_90_m": 0.03287739215457199,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0004,
+            "signed_jump": 1.6722910000000003e-05,
+            "peak_abs_gradient": 0.0006122412292040441,
+            "peak_x_m": -0.0017,
+            "gradient_width_m": 0.02731425000851534,
+            "width_10_90_m": 0.032879311457504695,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          }
+        ],
+        "u": [
+          {
+            "sigma_m": 0.0001,
+            "signed_jump": -257.82394500000015,
+            "peak_abs_gradient": 11864.687531656702,
+            "peak_x_m": -0.0073,
+            "gradient_width_m": 0.021730361150438103,
+            "width_10_90_m": 0.0324000217709346,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0030577881182126815,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0002,
+            "signed_jump": -257.82394500000015,
+            "peak_abs_gradient": 11378.713468566537,
+            "peak_x_m": -0.0073,
+            "gradient_width_m": 0.022658444270719492,
+            "width_10_90_m": 0.0323393267835673,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0004,
+            "signed_jump": -257.82394500000015,
+            "peak_abs_gradient": 10545.619109429885,
+            "peak_x_m": -0.0073,
+            "gradient_width_m": 0.024448440847769114,
+            "width_10_90_m": 0.032323939138859385,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          }
+        ],
+        "Ttr": [
+          {
+            "sigma_m": 0.0001,
+            "signed_jump": 101.92461374999999,
+            "peak_abs_gradient": 5451.009725624812,
+            "peak_x_m": -0.0125,
+            "gradient_width_m": 0.018698299742680623,
+            "width_10_90_m": 0.02603487451037094,
+            "normalized_overshoot": 0.010567906425175577,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.04821569758265982,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0002,
+            "signed_jump": 101.92461374999999,
+            "peak_abs_gradient": 4834.696307287319,
+            "peak_x_m": -0.0117,
+            "gradient_width_m": 0.02108190613676591,
+            "width_10_90_m": 0.02602230094155503,
+            "normalized_overshoot": 0.01003773880666814,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.017155243546495055,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0004,
+            "signed_jump": 101.92461374999999,
+            "peak_abs_gradient": 4531.221764560905,
+            "peak_x_m": -0.0115,
+            "gradient_width_m": 0.022493848027294008,
+            "width_10_90_m": 0.026033211920105426,
+            "normalized_overshoot": 0.009360910620198837,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.006370313473450599,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          }
+        ],
+        "Trot": [
+          {
+            "sigma_m": 0.0001,
+            "signed_jump": 102.30596750000018,
+            "peak_abs_gradient": 5248.354475469212,
+            "peak_x_m": 0.0001,
+            "gradient_width_m": 0.019492960694285775,
+            "width_10_90_m": 0.03533934708131266,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.03322892967768734,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0002,
+            "signed_jump": 102.30596750000018,
+            "peak_abs_gradient": 4536.157460579299,
+            "peak_x_m": -0.0001,
+            "gradient_width_m": 0.02255344272968315,
+            "width_10_90_m": 0.03536784505844402,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.004760742150367072,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0004,
+            "signed_jump": 102.30596750000018,
+            "peak_abs_gradient": 3806.1084546768107,
+            "peak_x_m": -0.0001,
+            "gradient_width_m": 0.026879414687800144,
+            "width_10_90_m": 0.03542662280646587,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          }
+        ]
+      },
+      "density_width_block_mean_m": 0.020047784955322882,
+      "density_width_block_SD_m": 0.0017049384145350695,
+      "half_mean_profile_L2_pct": {
+        "rho": 0.2596054286759919,
+        "u": 0.26957048618510177,
+        "Ttr": 0.2205394735259177,
+        "Trot": 0.25316254424862467
+      },
+      "flux": {
+        "mass": {
+          "up": 0.009900670299184063,
+          "down": 0.009900616067149313,
+          "down_minus_up_pct": -0.0005477612435411672,
+          "difference_block_SD_pct": 0.20130214897449705
+        },
+        "normal_momentum": {
+          "up": 6.982131509131811,
+          "down": 6.980822843805124,
+          "down_minus_up_pct": -0.01874306327480646,
+          "difference_block_SD_pct": 0.16203129309727604
+        },
+        "equilibrium_energy_proxy": {
+          "up": 4532.556104107985,
+          "down": 4532.127135352419,
+          "down_minus_up_pct": -0.009464168687900454,
+          "difference_block_SD_pct": 0.1422237955120899
+        }
+      },
+      "h_over_lambda_max": 0.1039992387255728,
+      "dt_over_tau_max": 0.005737901276539588,
+      "upstream_mfp_measured_m": 0.0033603611812500003,
+      "scientific_convergence": false
+    },
+    "N2_M153_fine": {
+      "config": {
+        "name": "N2_M153_fine",
+        "root": "campaign/nitrogen_validation_v21_20261031/N2_M153_fine",
+        "geometry": "planar",
+        "gas": "N2",
+        "model": "baseline",
+        "M": 1.53,
+        "T1": 300.0,
+        "nrho": 3.941e+20,
+        "U": 540.2952698505846,
+        "nx": 3200,
+        "ny": 1,
+        "xlo": -0.16,
+        "xhi": 0.16,
+        "ly": 0.001,
+        "lz": 0.001,
+        "ppc": 200,
+        "dt": 1e-08,
+        "ranks": 8,
+        "seed": 791837,
+        "fnum": 197050000.0,
+        "warmup": 400000,
+        "block": 40000,
+        "target": 800000,
+        "rankine_hugoniot": {
+          "gamma": 1.4,
+          "compression": 1.9133076325791116,
+          "pressure_ratio": 2.5643833333333332,
+          "T2": 402.0864114585558,
+          "U2": 282.38808054211034,
+          "n2": 7.540345379994278e+20
+        },
+        "transport": {
+          "mu_ref": 1.6579897514000144e-05,
+          "T_ref": 273.0,
+          "omega": 0.74,
+          "diameter": 4.17e-10,
+          "mu1": 1.7778340156386275e-05,
+          "lambda_viscosity_m": 0.0041496947467633055
+        },
+        "reference_scope": "Alsmeyer 1976 M=1.53 density data reproduced in Xu & Tang 2004 Fig2 upper; upstream 300 K per primary literature. n1 is a scale choice, not a verified experimental density. Compare using the published viscosity mean-free-path convention. No amplitude/width fit; density-midpoint origin only.",
+        "model_scope": "Unchanged VHS omega=.74, diameter4.17e-10 at273K, alpha1, constant rotational Z5, no vib/chem. Z is not fitted to experiment. This does not validate high-enthalpy cylinder chemistry."
+      },
+      "blocks": 10,
+      "physical_window_s": [
+        0.004,
+        0.008
+      ],
+      "plateau_windows_m": [
+        [
+          -0.14395,
+          -0.11205
+        ],
+        [
+          0.11205,
+          0.14395
+        ]
+      ],
+      "plateaus": {
+        "rho": {
+          "up": 1.832705325e-05,
+          "down": 3.50612621875e-05,
+          "up_error_vs_reservoir_pct": 0.007657300013907964,
+          "down_error_vs_RH_pct": -0.003832657141200624,
+          "up_block_SD": 3.148131327999643e-08,
+          "down_block_SD": 4.570672395468363e-08,
+          "up_spatial_range_over_jump_pct": 0.4331731524326893,
+          "down_spatial_range_over_jump_pct": 0.8355760740373931
+        },
+        "u": {
+          "up": 540.2771593750001,
+          "down": 282.4514234375,
+          "up_error_vs_reservoir_pct": -0.0033519589371144853,
+          "down_error_vs_RH_pct": 0.022431150517432386,
+          "up_block_SD": 0.8800744780064,
+          "down_block_SD": 0.3884808059608256,
+          "up_spatial_range_over_jump_pct": 0.853485320010676,
+          "down_spatial_range_over_jump_pct": 0.4741628192990649
+        },
+        "Ttr": {
+          "up": 299.9764003125,
+          "down": 401.91841156250007,
+          "up_error_vs_reservoir_pct": -0.00786656250000295,
+          "down_error_vs_RH_pct": -0.04178203770833777,
+          "up_block_SD": 0.32216785992466723,
+          "down_block_SD": 0.3430262683673612,
+          "up_spatial_range_over_jump_pct": 1.3416085259849366,
+          "down_spatial_range_over_jump_pct": 1.3519918863640443
+        },
+        "Trot": {
+          "up": 299.89632343750003,
+          "down": 402.2336178125,
+          "up_error_vs_reservoir_pct": -0.03455885416665527,
+          "down_error_vs_RH_pct": 0.036610626409916414,
+          "up_block_SD": 0.4239500825806189,
+          "down_block_SD": 0.34411202288303816,
+          "up_spatial_range_over_jump_pct": 1.3089891013971409,
+          "down_spatial_range_over_jump_pct": 1.4876612649045033
+        }
+      },
+      "center_m": 5.0961937848695157e-05,
+      "block_centers_m": [
+        -0.0003846357805720866,
+        -0.0003504074758006317,
+        -8.218181002786746e-05,
+        7.98976456237988e-05,
+        -1.4220100913483478e-05,
+        0.00017130614299394384,
+        3.198093528429575e-05,
+        0.00041551279218435,
+        0.0002497248935459153,
+        0.000635913546709976
+      ],
+      "center_SD_m": 0.00031572726281859915,
+      "center_drift_m_per_s": 0.24115332810476364,
+      "drift_displacement_over_density_width": 0.03584690192871676,
+      "scales": {
+        "rho": [
+          {
+            "sigma_m": 0.0001,
+            "signed_jump": 1.6736956016973397e-05,
+            "peak_abs_gradient": 0.0006819674585242796,
+            "peak_x_m": -0.00235,
+            "gradient_width_m": 0.024542162250953684,
+            "width_10_90_m": 0.032983877797891734,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0006127208202454594,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0002,
+            "signed_jump": 1.6736956016973397e-05,
+            "peak_abs_gradient": 0.0006219777533663651,
+            "peak_x_m": -0.00235,
+            "gradient_width_m": 0.026909251860515963,
+            "width_10_90_m": 0.032996280427791166,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0004,
+            "signed_jump": 1.6736956016973397e-05,
+            "peak_abs_gradient": 0.0005802213342726015,
+            "peak_x_m": -0.00255,
+            "gradient_width_m": 0.02884581284477552,
+            "width_10_90_m": 0.03301328437212592,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          }
+        ],
+        "u": [
+          {
+            "sigma_m": 0.0001,
+            "signed_jump": -257.9071893084743,
+            "peak_abs_gradient": 10922.710657000076,
+            "peak_x_m": -0.00635,
+            "gradient_width_m": 0.02361201330030549,
+            "width_10_90_m": 0.032064790180923994,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.00024914193484217874,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0002,
+            "signed_jump": -257.9071893084743,
+            "peak_abs_gradient": 10169.721933922265,
+            "peak_x_m": -0.00635,
+            "gradient_width_m": 0.025360299031205125,
+            "width_10_90_m": 0.03204504700120024,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0004,
+            "signed_jump": -257.9071893084743,
+            "peak_abs_gradient": 9509.59215133544,
+            "peak_x_m": -0.00635,
+            "gradient_width_m": 0.027120741373987966,
+            "width_10_90_m": 0.032019954042266825,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          }
+        ],
+        "Ttr": [
+          {
+            "sigma_m": 0.0001,
+            "signed_jump": 102.0864114585558,
+            "peak_abs_gradient": 5158.272158868145,
+            "peak_x_m": -0.00765,
+            "gradient_width_m": 0.019790815279695544,
+            "width_10_90_m": 0.02596276954928258,
+            "normalized_overshoot": 0.004880247906842383,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.029130733785084077,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0002,
+            "signed_jump": 102.0864114585558,
+            "peak_abs_gradient": 4506.2705425811,
+            "peak_x_m": -0.01155,
+            "gradient_width_m": 0.022654301488095472,
+            "width_10_90_m": 0.025945555918564633,
+            "normalized_overshoot": 0.004713735024100885,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.010864986914142746,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0004,
+            "signed_jump": 102.0864114585558,
+            "peak_abs_gradient": 4239.803036717698,
+            "peak_x_m": -0.00815,
+            "gradient_width_m": 0.02407810234920427,
+            "width_10_90_m": 0.025995721338990984,
+            "normalized_overshoot": 0.004457133940828584,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.00561880166770641,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          }
+        ],
+        "Trot": [
+          {
+            "sigma_m": 0.0001,
+            "signed_jump": 102.0864114585558,
+            "peak_abs_gradient": 4907.482394236373,
+            "peak_x_m": 0.00185,
+            "gradient_width_m": 0.020802196168538862,
+            "width_10_90_m": null,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.010420731314532914,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0002,
+            "signed_jump": 102.0864114585558,
+            "peak_abs_gradient": 4179.189326914959,
+            "peak_x_m": 0.00185,
+            "gradient_width_m": 0.02442732393124556,
+            "width_10_90_m": 0.03552596222102419,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0014631195810099686,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0004,
+            "signed_jump": 102.0864114585558,
+            "peak_abs_gradient": 3461.8991825112607,
+            "peak_x_m": 0.00175,
+            "gradient_width_m": 0.029488557025078455,
+            "width_10_90_m": 0.03557996088103879,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          }
+        ]
+      },
+      "scales_normalization": "prescribed upstream and RH downstream states; observed-window audit recorded separately",
+      "local_anchor_scales": {
+        "rho": [
+          {
+            "sigma_m": 0.0001,
+            "signed_jump": 1.6734208937499998e-05,
+            "peak_abs_gradient": 0.0006819674585242796,
+            "peak_x_m": -0.00235,
+            "gradient_width_m": 0.024538134082983113,
+            "width_10_90_m": 0.032975417525867086,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0006127208202454761,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0002,
+            "signed_jump": 1.6734208937499998e-05,
+            "peak_abs_gradient": 0.0006219777533663651,
+            "peak_x_m": -0.00235,
+            "gradient_width_m": 0.02690483517606297,
+            "width_10_90_m": 0.03298640387986472,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0004,
+            "signed_jump": 1.6734208937499998e-05,
+            "peak_abs_gradient": 0.0005802213342726015,
+            "peak_x_m": -0.00255,
+            "gradient_width_m": 0.02884107830760645,
+            "width_10_90_m": 0.0330010448619068,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          }
+        ],
+        "u": [
+          {
+            "sigma_m": 0.0001,
+            "signed_jump": -257.8257359375001,
+            "peak_abs_gradient": 10922.710657000076,
+            "peak_x_m": -0.00635,
+            "gradient_width_m": 0.023604556051502325,
+            "width_10_90_m": 0.032047110612624864,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.00024914193484201655,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0002,
+            "signed_jump": -257.8257359375001,
+            "peak_abs_gradient": 10169.721933922265,
+            "peak_x_m": -0.00635,
+            "gradient_width_m": 0.025352289631193653,
+            "width_10_90_m": 0.0320231698227945,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0004,
+            "signed_jump": -257.8257359375001,
+            "peak_abs_gradient": 9509.59215133544,
+            "peak_x_m": -0.00635,
+            "gradient_width_m": 0.027112175983414116,
+            "width_10_90_m": 0.031997860886414486,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          }
+        ],
+        "Ttr": [
+          {
+            "sigma_m": 0.0001,
+            "signed_jump": 101.94201125000006,
+            "peak_abs_gradient": 5158.272158868145,
+            "peak_x_m": -0.00765,
+            "gradient_width_m": 0.01976282136931075,
+            "width_10_90_m": 0.025920139186443154,
+            "normalized_overshoot": 0.006535155464606479,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.02913073378508306,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0002,
+            "signed_jump": 101.94201125000006,
+            "peak_abs_gradient": 4506.2705425811,
+            "peak_x_m": -0.01155,
+            "gradient_width_m": 0.022622257205092207,
+            "width_10_90_m": 0.025904448428333,
+            "normalized_overshoot": 0.006368406717428776,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.010864986914142819,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0004,
+            "signed_jump": 101.94201125000006,
+            "peak_abs_gradient": 4239.803036717698,
+            "peak_x_m": -0.00815,
+            "gradient_width_m": 0.024044044114115235,
+            "width_10_90_m": 0.02594196375162479,
+            "normalized_overshoot": 0.006111442160358971,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.005618801667706373,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          }
+        ],
+        "Trot": [
+          {
+            "sigma_m": 0.0001,
+            "signed_jump": 102.33729437499994,
+            "peak_abs_gradient": 4907.482394236373,
+            "peak_x_m": 0.00185,
+            "gradient_width_m": 0.020853318698644888,
+            "width_10_90_m": null,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.01042073131453303,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0002,
+            "signed_jump": 102.33729437499994,
+            "peak_abs_gradient": 4179.189326914959,
+            "peak_x_m": 0.00185,
+            "gradient_width_m": 0.02448735541027629,
+            "width_10_90_m": 0.03589603369758477,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0014631195810099406,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0004,
+            "signed_jump": 102.33729437499994,
+            "peak_abs_gradient": 3461.8991825112607,
+            "peak_x_m": 0.00175,
+            "gradient_width_m": 0.029561026760104695,
+            "width_10_90_m": 0.035789348689302364,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          }
+        ]
+      },
+      "density_width_block_mean_m": 0.022103405317245684,
+      "density_width_block_SD_m": 0.0016848893829372643,
+      "half_mean_profile_L2_pct": {
+        "rho": 0.258589563294463,
+        "u": 0.25267909607932143,
+        "Ttr": 0.18188373665506408,
+        "Trot": 0.18481682533178412
+      },
+      "flux": {
+        "mass": {
+          "up": 0.009901636317181748,
+          "down": 0.009903036184683533,
+          "down_minus_up_pct": 0.01413773902556592,
+          "difference_block_SD_pct": 0.1358018046268122
+        },
+        "normal_momentum": {
+          "up": 6.981841132311378,
+          "down": 6.980750979760811,
+          "down_minus_up_pct": -0.015614112809325675,
+          "difference_block_SD_pct": 0.12514832870519738
+        },
+        "equilibrium_energy_proxy": {
+          "up": 4531.6051486025335,
+          "down": 4532.188842123168,
+          "down_minus_up_pct": 0.012880502636347657,
+          "difference_block_SD_pct": 0.17149936861950946
+        }
+      },
+      "h_over_lambda_max": 0.051984941002291944,
+      "dt_over_tau_max": 0.0028672371704039188,
+      "upstream_mfp_measured_m": 0.0033592959562499997,
+      "scientific_convergence": false
+    },
+    "N2_M153_long": {
+      "config": {
+        "name": "N2_M153_long",
+        "root": "campaign/nitrogen_validation_v21_20261031/N2_M153_long",
+        "geometry": "planar",
+        "gas": "N2",
+        "model": "baseline",
+        "M": 1.53,
+        "T1": 300.0,
+        "nrho": 3.941e+20,
+        "U": 540.2952698505846,
+        "nx": 3200,
+        "ny": 1,
+        "xlo": -0.32,
+        "xhi": 0.32,
+        "ly": 0.001,
+        "lz": 0.001,
+        "ppc": 200,
+        "dt": 2e-08,
+        "ranks": 8,
+        "seed": 791837,
+        "fnum": 394100000.0,
+        "warmup": 200000,
+        "block": 20000,
+        "target": 400000,
+        "rankine_hugoniot": {
+          "gamma": 1.4,
+          "compression": 1.9133076325791116,
+          "pressure_ratio": 2.5643833333333332,
+          "T2": 402.0864114585558,
+          "U2": 282.38808054211034,
+          "n2": 7.540345379994278e+20
+        },
+        "transport": {
+          "mu_ref": 1.6579897514000144e-05,
+          "T_ref": 273.0,
+          "omega": 0.74,
+          "diameter": 4.17e-10,
+          "mu1": 1.7778340156386275e-05,
+          "lambda_viscosity_m": 0.0041496947467633055
+        },
+        "reference_scope": "Alsmeyer 1976 M=1.53 density data reproduced in Xu & Tang 2004 Fig2 upper; upstream 300 K per primary literature. n1 is a scale choice, not a verified experimental density. Compare using the published viscosity mean-free-path convention. No amplitude/width fit; density-midpoint origin only.",
+        "model_scope": "Unchanged VHS omega=.74, diameter4.17e-10 at273K, alpha1, constant rotational Z5, no vib/chem. Z is not fitted to experiment. This does not validate high-enthalpy cylinder chemistry."
+      },
+      "blocks": 10,
+      "physical_window_s": [
+        0.004,
+        0.008
+      ],
+      "plateau_windows_m": [
+        [
+          -0.2879,
+          -0.2241
+        ],
+        [
+          0.2241,
+          0.2879
+        ]
+      ],
+      "plateaus": {
+        "rho": {
+          "up": 1.8335928531250003e-05,
+          "down": 3.5040034312499995e-05,
+          "up_error_vs_reservoir_pct": 0.056088221973049635,
+          "down_error_vs_RH_pct": -0.06437543308239757,
+          "up_block_SD": 2.6838957674758876e-08,
+          "down_block_SD": 7.90943132386515e-08,
+          "up_spatial_range_over_jump_pct": 0.5005689201491349,
+          "down_spatial_range_over_jump_pct": 1.144831830863891
+        },
+        "u": {
+          "up": 540.087176875,
+          "down": 282.63600749999995,
+          "up_error_vs_reservoir_pct": -0.03851467654755192,
+          "down_error_vs_RH_pct": 0.08779653780486285,
+          "up_block_SD": 0.5898704441039446,
+          "down_block_SD": 0.46602719821650807,
+          "up_spatial_range_over_jump_pct": 0.8135484728540537,
+          "down_spatial_range_over_jump_pct": 0.7646549153157538
+        },
+        "Ttr": {
+          "up": 300.13182750000004,
+          "down": 402.06055374999994,
+          "up_error_vs_reservoir_pct": 0.04394250000001598,
+          "down_error_vs_RH_pct": -0.006430883466579385,
+          "up_block_SD": 0.3682483739770016,
+          "down_block_SD": 0.4936916865547268,
+          "up_spatial_range_over_jump_pct": 1.5355618613711663,
+          "down_spatial_range_over_jump_pct": 1.422226503269253
+        },
+        "Trot": {
+          "up": 300.1853259375,
+          "down": 401.8922962500001,
+          "up_error_vs_reservoir_pct": 0.0617753125000009,
+          "down_error_vs_RH_pct": -0.048276987986628495,
+          "up_block_SD": 0.5200177559486283,
+          "down_block_SD": 0.40915682319288993,
+          "up_spatial_range_over_jump_pct": 1.5378148546608865,
+          "down_spatial_range_over_jump_pct": 2.0718722205830478
+        }
+      },
+      "center_m": -0.00035595516606727254,
+      "block_centers_m": [
+        -0.00041217271246870094,
+        -0.00036373187934848466,
+        -0.00061225481066117,
+        -0.0005265140728482474,
+        -0.0006386432798950952,
+        -0.00023897434087156297,
+        -0.0002445839625747908,
+        9.660812570446902e-05,
+        -0.0002044482732643821,
+        -0.0003872456623422489
+      ],
+      "center_SD_m": 0.00021925941206880195,
+      "center_drift_m_per_s": 0.0928651915969528,
+      "drift_displacement_over_density_width": 0.014230193609811764,
+      "scales": {
+        "rho": [
+          {
+            "sigma_m": 0.0001,
+            "signed_jump": 1.6736956016973397e-05,
+            "peak_abs_gradient": 0.0006544296339340699,
+            "peak_x_m": -0.0005,
+            "gradient_width_m": 0.02557487489733625,
+            "width_10_90_m": 0.0332770683757545,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.002293431693171738,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0002,
+            "signed_jump": 1.6736956016973397e-05,
+            "peak_abs_gradient": 0.000641171682480679,
+            "peak_x_m": -0.0005,
+            "gradient_width_m": 0.026103704318659996,
+            "width_10_90_m": 0.033254732628732325,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0004,
+            "signed_jump": 1.6736956016973397e-05,
+            "peak_abs_gradient": 0.0006149110817335462,
+            "peak_x_m": -0.0005,
+            "gradient_width_m": 0.027218497948986172,
+            "width_10_90_m": 0.033233017528160644,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          }
+        ],
+        "u": [
+          {
+            "sigma_m": 0.0001,
+            "signed_jump": -257.9071893084743,
+            "peak_abs_gradient": 10519.507415938657,
+            "peak_x_m": -0.0089,
+            "gradient_width_m": 0.024517040495423352,
+            "width_10_90_m": 0.032274646142191145,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0013561415974546569,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0002,
+            "signed_jump": -257.9071893084743,
+            "peak_abs_gradient": 9429.347119948361,
+            "peak_x_m": -0.0071,
+            "gradient_width_m": 0.027351542585897157,
+            "width_10_90_m": 0.03226488906012543,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0004,
+            "signed_jump": -257.9071893084743,
+            "peak_abs_gradient": 9181.89436441171,
+            "peak_x_m": -0.0069,
+            "gradient_width_m": 0.028088668750982586,
+            "width_10_90_m": 0.032243429107768666,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          }
+        ],
+        "Ttr": [
+          {
+            "sigma_m": 0.0001,
+            "signed_jump": 102.0864114585558,
+            "peak_abs_gradient": 5131.043488598545,
+            "peak_x_m": -0.0071,
+            "gradient_width_m": 0.019895838280341475,
+            "width_10_90_m": 0.026545909813463928,
+            "normalized_overshoot": 0.008222348422666004,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.05499626827449835,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0002,
+            "signed_jump": 102.0864114585558,
+            "peak_abs_gradient": 4828.501023052726,
+            "peak_x_m": -0.0071,
+            "gradient_width_m": 0.02114246449802213,
+            "width_10_90_m": 0.02654647575432979,
+            "normalized_overshoot": 0.007264080140114704,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.02581768561499802,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0004,
+            "signed_jump": 102.0864114585558,
+            "peak_abs_gradient": 4526.881639523315,
+            "peak_x_m": -0.0107,
+            "gradient_width_m": 0.022551155428332692,
+            "width_10_90_m": 0.02658150681860548,
+            "normalized_overshoot": 0.006257654837657167,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.009781520172076848,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          }
+        ],
+        "Trot": [
+          {
+            "sigma_m": 0.0001,
+            "signed_jump": 102.0864114585558,
+            "peak_abs_gradient": 4885.78079080407,
+            "peak_x_m": 0.0037,
+            "gradient_width_m": 0.020894595117877786,
+            "width_10_90_m": 0.03506635930092807,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.021525861379462583,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0002,
+            "signed_jump": 102.0864114585558,
+            "peak_abs_gradient": 4147.852063282859,
+            "peak_x_m": 0.0037,
+            "gradient_width_m": 0.024611873784562727,
+            "width_10_90_m": 0.03506598153594369,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0006934463849140476,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0004,
+            "signed_jump": 102.0864114585558,
+            "peak_abs_gradient": 3426.3935374787543,
+            "peak_x_m": -0.0009,
+            "gradient_width_m": 0.029794129116200156,
+            "width_10_90_m": 0.035146751939990895,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          }
+        ]
+      },
+      "scales_normalization": "prescribed upstream and RH downstream states; observed-window audit recorded separately",
+      "local_anchor_scales": {
+        "rho": [
+          {
+            "sigma_m": 0.0001,
+            "signed_jump": 1.6704105781249992e-05,
+            "peak_abs_gradient": 0.0006544296339340699,
+            "peak_x_m": -0.0005,
+            "gradient_width_m": 0.025524678154982258,
+            "width_10_90_m": 0.03317308835637043,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.002293431693171768,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0002,
+            "signed_jump": 1.6704105781249992e-05,
+            "peak_abs_gradient": 0.000641171682480679,
+            "peak_x_m": -0.0005,
+            "gradient_width_m": 0.026052469623459005,
+            "width_10_90_m": 0.03314453640177567,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0004,
+            "signed_jump": 1.6704105781249992e-05,
+            "peak_abs_gradient": 0.0006149110817335462,
+            "peak_x_m": -0.0005,
+            "gradient_width_m": 0.027165075207553714,
+            "width_10_90_m": 0.03309024611016287,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          }
+        ],
+        "u": [
+          {
+            "sigma_m": 0.0001,
+            "signed_jump": -257.451169375,
+            "peak_abs_gradient": 10519.507415938657,
+            "peak_x_m": -0.0089,
+            "gradient_width_m": 0.02447369056320282,
+            "width_10_90_m": 0.032139841940331065,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0013561415974549385,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0002,
+            "signed_jump": -257.451169375,
+            "peak_abs_gradient": 9429.347119948361,
+            "peak_x_m": -0.0071,
+            "gradient_width_m": 0.02730318081411451,
+            "width_10_90_m": 0.03215522602073794,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0004,
+            "signed_jump": -257.451169375,
+            "peak_abs_gradient": 9181.89436441171,
+            "peak_x_m": -0.0069,
+            "gradient_width_m": 0.02803900362575072,
+            "width_10_90_m": 0.03213180871804854,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          }
+        ],
+        "Ttr": [
+          {
+            "sigma_m": 0.0001,
+            "signed_jump": 101.9287262499999,
+            "peak_abs_gradient": 5131.043488598545,
+            "peak_x_m": -0.0071,
+            "gradient_width_m": 0.01986510667401105,
+            "width_10_90_m": 0.026480097309568372,
+            "normalized_overshoot": 0.00848875272575822,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.054996268274498335,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0002,
+            "signed_jump": 101.9287262499999,
+            "peak_abs_gradient": 4828.501023052726,
+            "peak_x_m": -0.0071,
+            "gradient_width_m": 0.02110980732185026,
+            "width_10_90_m": 0.026484237236647713,
+            "normalized_overshoot": 0.007529001988362927,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.02581768561499831,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0004,
+            "signed_jump": 101.9287262499999,
+            "peak_abs_gradient": 4526.881639523315,
+            "peak_x_m": -0.0107,
+            "gradient_width_m": 0.02251632235313603,
+            "width_10_90_m": 0.0265116761171723,
+            "normalized_overshoot": 0.006521019731457134,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.009781520172076832,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          }
+        ],
+        "Trot": [
+          {
+            "sigma_m": 0.0001,
+            "signed_jump": 101.70697031250006,
+            "peak_abs_gradient": 4885.78079080407,
+            "peak_x_m": 0.0037,
+            "gradient_width_m": 0.020816932782561817,
+            "width_10_90_m": 0.0349412295030021,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.021525861379462646,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0002,
+            "signed_jump": 101.70697031250006,
+            "peak_abs_gradient": 4147.852063282859,
+            "peak_x_m": 0.0037,
+            "gradient_width_m": 0.024520394835876348,
+            "width_10_90_m": 0.034906637318296546,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0006934463849139855,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          },
+          {
+            "sigma_m": 0.0004,
+            "signed_jump": 101.70697031250006,
+            "peak_abs_gradient": 3426.3935374787543,
+            "peak_x_m": -0.0009,
+            "gradient_width_m": 0.02968338843743535,
+            "width_10_90_m": 0.034925204557603465,
+            "normalized_overshoot": 0.0,
+            "normalized_undershoot": 0.0,
+            "negative_variation_fraction": 0.0,
+            "interpretation": "gradient width; thermal overshoot is reported separately, not a relaxation length"
+          }
+        ]
+      },
+      "density_width_block_mean_m": 0.02185482994811806,
+      "density_width_block_SD_m": 0.0010626093784466056,
+      "half_mean_profile_L2_pct": {
+        "rho": 0.2854549749516356,
+        "u": 0.24115516618332622,
+        "Ttr": 0.21296027615462385,
+        "Trot": 0.22542942806864627
+      },
+      "flux": {
+        "mass": {
+          "up": 0.009902924113894906,
+          "down": 0.009903418902511873,
+          "down_minus_up_pct": 0.004996389059197526,
+          "difference_block_SD_pct": 0.1679639782770103
+        },
+        "normal_momentum": {
+          "up": 6.981915626802751,
+          "down": 6.982047910584437,
+          "down_minus_up_pct": 0.001894663137691488,
+          "difference_block_SD_pct": 0.17997761220080996
+        },
+        "equilibrium_energy_proxy": {
+          "up": 4533.170046184785,
+          "down": 4532.923377408996,
+          "down_minus_up_pct": -0.005441418991025682,
+          "difference_block_SD_pct": 0.2205797895891713
+        }
+      },
+      "h_over_lambda_max": 0.10384097377911868,
+      "dt_over_tau_max": 0.0057275277584632805,
+      "upstream_mfp_measured_m": 0.0033580920031249994,
+      "scientific_convergence": false
+    }
+  },
+  "comparisons": {
+    "N2_M153_base_vs_fine_centered_L2_pct": {
+      "rho": 0.14235900369972812,
+      "u": 0.12154946909604075,
+      "Ttr": 0.10023485229110288,
+      "Trot": 0.13530940214676104
+    },
+    "N2_M153_fine_vs_fine_centered_L2_pct": {
+      "rho": 0.0,
+      "u": 0.0,
+      "Ttr": 0.0,
+      "Trot": 0.0
+    },
+    "N2_M153_long_vs_fine_centered_L2_pct": {
+      "rho": 0.14810283528908927,
+      "u": 0.15812883155889218,
+      "Ttr": 0.1397027812566265,
+      "Trot": 0.12280627158313734
+    }
+  },
+  "scientific_convergence": false,
+  "limitations": [
+    "Fine changes h and dt together, so their separate independence is not established.",
+    "Planar-versus-cylinder differences also include wall deceleration and geometry; not a pure curvature experiment.",
+    "This file alone does not compare to independent experimental data; see the validation overlay when present.",
+    "Prescribed-state widths and observed-window local-anchor widths are reported separately; an upstream thermal precursor is not relabelled as a freestream plateau.",
+    "Equilibrium energy proxy omits third-order heat flux and stress work, and is interpreted only on plateau windows.",
+    "No CI derived from ten correlated blocks; SD, half-window differences and drift are reported.",
+    "No acceptance thresholds were introduced or changed."
+  ]
+}

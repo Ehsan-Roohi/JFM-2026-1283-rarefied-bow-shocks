@@ -1,0 +1,14 @@
+{
+  "name": "N2_dt_half",
+  "nx": 776,
+  "ny": 400,
+  "ppc": 20,
+  "dt": 1e-08,
+  "ranks": 32,
+  "root": "../N2_dt_half",
+  "fnum": 21584085051546.39,
+  "hx": 0.001095360824742268,
+  "hy": 0.001,
+  "pilot_steps": 200,
+  "production_prepared_not_submitted": true
+}

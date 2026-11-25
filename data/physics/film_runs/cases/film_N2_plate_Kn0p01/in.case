@@ -1,0 +1,30 @@
+# shock formation movie: plate, N2, Mach 10, Kn=0.01; grid 935x443, dt 20 ns, frame 1200 steps
+seed 717402
+dimension 2
+global gridcut 0.0 comm/sort yes
+boundary o ro p
+create_box -0.3 0.65 0 0.45 -.5 .5
+create_grid 935 443 1
+balance_grid rcb cell
+read_surf ../../plate.surf clip 1e-12
+global nrho 3.941000e+20 fnum 2.033748e+13
+species ../../baseline.species N2
+mixture gas N2 nrho 3.941000e+20 vstream 2883.3 0 0 temp 200 trot 200
+collide vss gas ../../baseline.vss relax constant
+collide_modify nearcp yes 10 rotate smooth vibrate no
+surf_collide wall diffuse 500.0 1.0
+surf_modify all collide wall
+fix inflow emit/face gas xlo xhi yhi twopass
+timestep 2.000000e-08
+create_particles gas n 0 twopass
+balance_grid rcb cell
+fix lb balance 2000 1.1 rcb part
+stats 1200
+stats_style step cpu np
+# molecule film: steady state, then every molecule of the stagnation strip every 11 steps
+run 120000
+region strip block -0.3 0.0 0 0.01 INF INF
+dump p particle all 11 mol.*.dat id x y vx vy erot
+dump_modify p region strip
+run 9900
+print "FILM_RUN_COMPLETE"

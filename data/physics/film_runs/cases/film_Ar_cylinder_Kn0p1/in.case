@@ -1,0 +1,30 @@
+# shock formation movie: cylinder, Ar, Mach 10, Kn=0.1; grid 345x148, dt 150 ns, frame 160 steps
+seed 717351
+dimension 2
+global gridcut 0.0 comm/sort yes
+boundary o ro p
+create_box -0.8 0.95 0 0.75 -.5 .5
+create_grid 345 148 1
+balance_grid rcb cell
+read_surf ../../cylinder.surf clip 1e-12
+global nrho 3.856000e+19 fnum 4.955934e+13
+species ../../argon.species Ar
+mixture gas Ar nrho 3.856000e+19 vstream 2634.1 0 0 temp 200 trot 200
+collide vss gas ../../argon.vss relax constant
+collide_modify nearcp yes 10 rotate smooth vibrate no
+surf_collide wall diffuse 500.0 1.0
+surf_modify all collide wall
+fix inflow emit/face gas xlo xhi yhi twopass
+timestep 1.500000e-07
+create_particles gas n 0 twopass
+balance_grid rcb cell
+fix lb balance 2000 1.1 rcb part
+stats 160
+stats_style step cpu np
+# molecule film: steady state, then every molecule of the stagnation strip every 17 steps
+run 16000
+region strip block -0.8 0.0 0 0.0316228 INF INF
+dump p particle all 17 mol.*.dat id x y vx vy
+dump_modify p region strip
+run 15300
+print "FILM_RUN_COMPLETE"

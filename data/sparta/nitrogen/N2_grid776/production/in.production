@@ -1,0 +1,22 @@
+seed 718391
+read_restart ../../N2_grid776/checkpoint.final
+collide vss gas ../../N2.vss relax constant
+collide_modify nearcp yes 10 rotate smooth vibrate no
+surf_collide wall diffuse 500.0 1.0
+surf_modify all collide wall
+fix inflow emit/face gas xlo xhi yhi twopass
+timestep 2e-08
+stats 1000
+stats_style step cpu np nattempt ncoll nscoll
+restart 1000 checkpoint.A checkpoint.B
+run 100000 upto
+write_restart checkpoint.warmup
+compute fields grid all gas n nrho massrho u v w trot erot
+compute thermal thermal/grid all gas temp press
+fix avg ave/grid all 10 1000 10000 c_fields[*] c_thermal[*]
+compute mfp lambda/grid f_avg[2] f_avg[9] lambda tau knx kny
+compute geom property/grid all vol
+dump gridout grid all 10000 fields.*.grid id xc yc xlo xhi ylo yhi c_geom f_avg[*] c_mfp[*]
+run 200000 upto
+write_restart checkpoint.final
+print "PRODUCTION_TARGET_COMPLETE 200000"

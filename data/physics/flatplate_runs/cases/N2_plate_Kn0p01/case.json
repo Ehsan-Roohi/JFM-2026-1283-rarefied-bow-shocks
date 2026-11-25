@@ -1,0 +1,30 @@
+{
+ "gas": "N2",
+ "Kn": 0.01,
+ "body": "plate",
+ "lambda_m": 0.0030488,
+ "nrho": 3.941e+20,
+ "U": 2883.3,
+ "nx": 935,
+ "ny": 443,
+ "dx": 0.001016042780748663,
+ "dy": 0.0010158013544018058,
+ "domain": [
+  -0.3,
+  0.65,
+  0,
+  0.45
+ ],
+ "dt": 2e-08,
+ "fnum": 20337483854613.05,
+ "ppc_upstream": 20,
+ "warm_steps": 150000,
+ "block_steps": 15000,
+ "nblocks": 10,
+ "total_steps": 300000,
+ "cells": 414205,
+ "est_particles_upstream": 8284100,
+ "wall": "diffuse 500 K, accommodation 1",
+ "body_geometry": "rectangle x in [0,0.02], y in [-R,R], R=0.1524",
+ "ntasks": 64
+}

@@ -1,0 +1,544 @@
+{
+  "utc": "2026-11-06T19:30:15.921964+00:00",
+  "control": [
+    {
+      "gas": "Ar",
+      "variable": "rho",
+      "full_kn": [
+        0.01,
+        0.025,
+        0.05,
+        0.075,
+        0.1,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "retained_kn": [
+        0.01,
+        0.025,
+        0.05
+      ],
+      "physical_points": 136719,
+      "physical_full_E1": 0.8161688132462359,
+      "physical_retained_E1": 0.9739088913947004,
+      "physical_retained_C2": 1.0,
+      "attached_E1": 0.9242003969006096,
+      "attached_points": 1913,
+      "same_physical_features_and_weights": true,
+      "attached_support_and_norm_differ": true
+    },
+    {
+      "gas": "Ar",
+      "variable": "ttr",
+      "full_kn": [
+        0.01,
+        0.025,
+        0.05,
+        0.075,
+        0.1,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "retained_kn": [
+        0.01,
+        0.025,
+        0.05
+      ],
+      "physical_points": 136719,
+      "physical_full_E1": 0.8661274184270438,
+      "physical_retained_E1": 0.9549663942743791,
+      "physical_retained_C2": 1.0,
+      "attached_E1": 0.9478040650494391,
+      "attached_points": 1913,
+      "same_physical_features_and_weights": true,
+      "attached_support_and_norm_differ": true
+    },
+    {
+      "gas": "Ar",
+      "variable": "u",
+      "full_kn": [
+        0.01,
+        0.025,
+        0.05,
+        0.075,
+        0.1,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "retained_kn": [
+        0.01,
+        0.025,
+        0.05
+      ],
+      "physical_points": 136719,
+      "physical_full_E1": 0.8942912495153986,
+      "physical_retained_E1": 0.9698938148107642,
+      "physical_retained_C2": 1.0,
+      "attached_E1": 0.969190261265344,
+      "attached_points": 1913,
+      "same_physical_features_and_weights": true,
+      "attached_support_and_norm_differ": true
+    },
+    {
+      "gas": "Ar",
+      "variable": "p",
+      "full_kn": [
+        0.01,
+        0.025,
+        0.05,
+        0.075,
+        0.1,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "retained_kn": [
+        0.01,
+        0.025,
+        0.05
+      ],
+      "physical_points": 136719,
+      "physical_full_E1": 0.9292905025958259,
+      "physical_retained_E1": 0.9599728912964428,
+      "physical_retained_C2": 1.0,
+      "attached_E1": 0.9648396670807752,
+      "attached_points": 1913,
+      "same_physical_features_and_weights": true,
+      "attached_support_and_norm_differ": true
+    },
+    {
+      "gas": "Ar",
+      "variable": "mach_proxy",
+      "full_kn": [
+        0.01,
+        0.025,
+        0.05,
+        0.075,
+        0.1,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "retained_kn": [
+        0.01,
+        0.025,
+        0.05
+      ],
+      "physical_points": 136719,
+      "physical_full_E1": 0.9501793357315742,
+      "physical_retained_E1": 0.9578400391036088,
+      "physical_retained_C2": 1.0,
+      "attached_E1": 0.9815581120538611,
+      "attached_points": 1913,
+      "same_physical_features_and_weights": true,
+      "attached_support_and_norm_differ": true
+    },
+    {
+      "gas": "N2",
+      "variable": "rho",
+      "full_kn": [
+        0.01,
+        0.025,
+        0.05,
+        0.1,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "retained_kn": [
+        0.01,
+        0.025,
+        0.05,
+        0.1
+      ],
+      "physical_points": 136670,
+      "physical_full_E1": 0.8266917425135475,
+      "physical_retained_E1": 0.9556232355318323,
+      "physical_retained_C2": 0.9933369488197986,
+      "attached_E1": 0.7426377501681377,
+      "attached_points": 578,
+      "same_physical_features_and_weights": true,
+      "attached_support_and_norm_differ": true
+    },
+    {
+      "gas": "N2",
+      "variable": "ttr",
+      "full_kn": [
+        0.01,
+        0.025,
+        0.05,
+        0.1,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "retained_kn": [
+        0.01,
+        0.025,
+        0.05,
+        0.1
+      ],
+      "physical_points": 136670,
+      "physical_full_E1": 0.8788382375987893,
+      "physical_retained_E1": 0.9057583644921412,
+      "physical_retained_C2": 0.9929103910027778,
+      "attached_E1": 0.9409244963493355,
+      "attached_points": 578,
+      "same_physical_features_and_weights": true,
+      "attached_support_and_norm_differ": true
+    },
+    {
+      "gas": "N2",
+      "variable": "u",
+      "full_kn": [
+        0.01,
+        0.025,
+        0.05,
+        0.1,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "retained_kn": [
+        0.01,
+        0.025,
+        0.05,
+        0.1
+      ],
+      "physical_points": 136670,
+      "physical_full_E1": 0.9216311165015652,
+      "physical_retained_E1": 0.9080371923984614,
+      "physical_retained_C2": 0.9965610724850794,
+      "attached_E1": 0.9816615751812006,
+      "attached_points": 578,
+      "same_physical_features_and_weights": true,
+      "attached_support_and_norm_differ": true
+    },
+    {
+      "gas": "N2",
+      "variable": "p",
+      "full_kn": [
+        0.01,
+        0.025,
+        0.05,
+        0.1,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "retained_kn": [
+        0.01,
+        0.025,
+        0.05,
+        0.1
+      ],
+      "physical_points": 136670,
+      "physical_full_E1": 0.9380710761344068,
+      "physical_retained_E1": 0.9374532824633002,
+      "physical_retained_C2": 0.996493428110529,
+      "attached_E1": 0.8479495596770296,
+      "attached_points": 578,
+      "same_physical_features_and_weights": true,
+      "attached_support_and_norm_differ": true
+    },
+    {
+      "gas": "N2",
+      "variable": "mach_proxy",
+      "full_kn": [
+        0.01,
+        0.025,
+        0.05,
+        0.1,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "retained_kn": [
+        0.01,
+        0.025,
+        0.05,
+        0.1
+      ],
+      "physical_points": 136670,
+      "physical_full_E1": 0.9350567583668722,
+      "physical_retained_E1": 0.9094603464715397,
+      "physical_retained_C2": 0.9914213376480318,
+      "attached_E1": 0.9150929406084602,
+      "attached_points": 578,
+      "same_physical_features_and_weights": true,
+      "attached_support_and_norm_differ": true
+    },
+    {
+      "gas": "N2",
+      "variable": "trot",
+      "full_kn": [
+        0.01,
+        0.025,
+        0.05,
+        0.1,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "retained_kn": [
+        0.01,
+        0.025,
+        0.05,
+        0.1
+      ],
+      "physical_points": 136670,
+      "physical_full_E1": 0.9181287346592446,
+      "physical_retained_E1": 0.9433207670187526,
+      "physical_retained_C2": 0.9959393754568739,
+      "attached_E1": 0.9804196692382724,
+      "attached_points": 578,
+      "same_physical_features_and_weights": true,
+      "attached_support_and_norm_differ": true
+    }
+  ],
+  "heldout": [
+    {
+      "gas": "Ar",
+      "variable": "rho",
+      "heldout_kn": 0.1,
+      "rank": 2,
+      "training_kn": [
+        0.01,
+        0.025,
+        0.05,
+        0.075,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "weighted_full_field_error_percent": 2.530148617066023,
+      "previous_cached_error_percent": 2.5301486170660534,
+      "cache_equivalence_passed": true,
+      "ray170_finite_points": 1451,
+      "physical_domain_bounds": [
+        -0.19883,
+        0.64671,
+        0.0032292,
+        0.398
+      ],
+      "normalization": "Nominal upstream values; weighted full-heldout-field denominator, not a percentage of fluctuation."
+    },
+    {
+      "gas": "Ar",
+      "variable": "ttr",
+      "heldout_kn": 0.1,
+      "rank": 2,
+      "training_kn": [
+        0.01,
+        0.025,
+        0.05,
+        0.075,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "weighted_full_field_error_percent": 3.4198990776492013,
+      "previous_cached_error_percent": 3.4198990776491676,
+      "cache_equivalence_passed": true,
+      "ray170_finite_points": 1451,
+      "physical_domain_bounds": [
+        -0.19883,
+        0.64671,
+        0.0032292,
+        0.398
+      ],
+      "normalization": "Nominal upstream values; weighted full-heldout-field denominator, not a percentage of fluctuation."
+    },
+    {
+      "gas": "Ar",
+      "variable": "u",
+      "heldout_kn": 0.1,
+      "rank": 2,
+      "training_kn": [
+        0.01,
+        0.025,
+        0.05,
+        0.075,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "weighted_full_field_error_percent": 1.4280180993251503,
+      "previous_cached_error_percent": 1.4280180993251936,
+      "cache_equivalence_passed": true,
+      "ray170_finite_points": 1451,
+      "physical_domain_bounds": [
+        -0.19883,
+        0.64671,
+        0.0032292,
+        0.398
+      ],
+      "normalization": "Nominal upstream values; weighted full-heldout-field denominator, not a percentage of fluctuation."
+    },
+    {
+      "gas": "N2",
+      "variable": "rho",
+      "heldout_kn": 0.1,
+      "rank": 2,
+      "training_kn": [
+        0.01,
+        0.025,
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "weighted_full_field_error_percent": 4.7392550496134875,
+      "previous_cached_error_percent": 4.7392550496134485,
+      "cache_equivalence_passed": true,
+      "ray170_finite_points": 1451,
+      "physical_domain_bounds": [
+        -0.19883,
+        0.64671,
+        0.0032292,
+        0.398
+      ],
+      "normalization": "Nominal upstream values; weighted full-heldout-field denominator, not a percentage of fluctuation."
+    },
+    {
+      "gas": "N2",
+      "variable": "ttr",
+      "heldout_kn": 0.1,
+      "rank": 2,
+      "training_kn": [
+        0.01,
+        0.025,
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "weighted_full_field_error_percent": 9.616890010401477,
+      "previous_cached_error_percent": 9.616890010401576,
+      "cache_equivalence_passed": true,
+      "ray170_finite_points": 1451,
+      "physical_domain_bounds": [
+        -0.19883,
+        0.64671,
+        0.0032292,
+        0.398
+      ],
+      "normalization": "Nominal upstream values; weighted full-heldout-field denominator, not a percentage of fluctuation."
+    },
+    {
+      "gas": "N2",
+      "variable": "u",
+      "heldout_kn": 0.1,
+      "rank": 2,
+      "training_kn": [
+        0.01,
+        0.025,
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "weighted_full_field_error_percent": 3.2693085689775883,
+      "previous_cached_error_percent": 3.269308568977554,
+      "cache_equivalence_passed": true,
+      "ray170_finite_points": 1451,
+      "physical_domain_bounds": [
+        -0.19883,
+        0.64671,
+        0.0032292,
+        0.398
+      ],
+      "normalization": "Nominal upstream values; weighted full-heldout-field denominator, not a percentage of fluctuation."
+    },
+    {
+      "gas": "N2",
+      "variable": "trot",
+      "heldout_kn": 0.1,
+      "rank": 2,
+      "training_kn": [
+        0.01,
+        0.025,
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "weighted_full_field_error_percent": 5.662053485120951,
+      "previous_cached_error_percent": 5.662053485120949,
+      "cache_equivalence_passed": true,
+      "ray170_finite_points": 1451,
+      "physical_domain_bounds": [
+        -0.19883,
+        0.64671,
+        0.0032292,
+        0.398
+      ],
+      "normalization": "Nominal upstream values; weighted full-heldout-field denominator, not a percentage of fluctuation."
+    }
+  ],
+  "inputs_sha256": {
+    "campaign/pod_all_kn_v12/inputs/Ar_Kn0.01.dat": "f80e237607be20427c6f603dc3b25e174cf486bae137282bae1e08b136e1d2d5",
+    "campaign/pod_all_kn_v12/inputs/Ar_Kn0.025.dat": "ab6c53b6dfb870aead84b6ec1d87a20ec8a73e161cc65e36cfce1edeaad5e07e",
+    "campaign/pod_all_kn_v12/inputs/Ar_Kn0.05.dat": "4517a192ce47de8f66012a32ca01910678f2d1da2c9e40e5c0fe7ca5ce1c74dd",
+    "campaign/pod_all_kn_v12/inputs/Ar_Kn0.075.dat": "5ca8d316feaadb6aae02cb6c270748baa4cff0d417d5dd30eb8b95da5db0e243",
+    "campaign/pod_all_kn_v12/inputs/Ar_Kn0.1.dat": "8a422a18f4f70c28d8aa2ef9f20fb8c567705667d02f2b2fbbe9bc89167689f0",
+    "campaign/pod_all_kn_v12/inputs/Ar_Kn0.25.dat": "4ca215c652ae3411e0097e643118ab134dc335ddc8816782a01e9181996b0ed0",
+    "campaign/pod_all_kn_v12/inputs/Ar_Kn0.5.dat": "a85c45bda76c273dc6ac601ba1c637964baf28b9e62f4523a602b40409c079ff",
+    "campaign/pod_all_kn_v12/inputs/Ar_Kn0.75.dat": "2493a0d0afa7e92657e28c791c403b33699a0b91a36cc0aa229b4a4bced460c7",
+    "campaign/pod_all_kn_v12/inputs/Ar_Kn1.dat": "f69589cfcdec4798f6630993eed127da68bc395cfa419ccf09c7e1d334892e74",
+    "campaign/pod_all_kn_v12/result_v14_20261025T025404Z/Ar_rho_physical_480_all_Kn_historical.npz": "8a7226e8eaa53f32c544474cf38d7792426d9754662235d6c2c502ff3a025952",
+    "campaign/pod_all_kn_v12/result_v14_20261025T025404Z/Ar_rho_attached_sigma1.0.npz": "854d490ec0706964b5601a4e4e6e8fd82a889ccee02b0e5ce04009058fabb646",
+    "campaign/pod_all_kn_v12/result_v14_20261025T025404Z/Ar_ttr_physical_480_all_Kn_historical.npz": "7ff18e21652cac410cd54eabe11bf870f779d22fa7267d78e0ca32dabd4c84c7",
+    "campaign/pod_all_kn_v12/result_v14_20261025T025404Z/Ar_ttr_attached_sigma1.0.npz": "94013093f9fa5766e7029c85e13e658b86fb3af3a3f162ef5907e69ff10cb99d",
+    "campaign/pod_all_kn_v12/result_v14_20261025T025404Z/Ar_u_physical_480_all_Kn_historical.npz": "1124ceefaf14e306226c443191329b9bbe242a8fbab7c50bf2e70ae8d99728aa",
+    "campaign/pod_all_kn_v12/result_v14_20261025T025404Z/Ar_u_attached_sigma1.0.npz": "cea66fd4e6dff0726ba0f554c981d13c5b58a745f916a781b27404e771c59e5b",
+    "campaign/pod_all_kn_v12/result_v14_20261025T025404Z/Ar_p_physical_480_all_Kn_historical.npz": "987aa0fd34ab284f76754a4c37bdd9a0a79944ddc5c62244bc04b1a5f21b8835",
+    "campaign/pod_all_kn_v12/result_v14_20261025T025404Z/Ar_p_attached_sigma1.0.npz": "8e5619b5f9a8d23ee07ade88c6220909d20fc13c017c3adec7015d5858dc8a3c",
+    "campaign/pod_all_kn_v12/result_v14_20261025T025404Z/Ar_mach_proxy_physical_480_all_Kn_historical.npz": "397025abd707879176ba6bea681087d2723819d0d23095d423950d5157359db3",
+    "campaign/pod_all_kn_v12/result_v14_20261025T025404Z/Ar_mach_proxy_attached_sigma1.0.npz": "44b54ebb31384048f16452623dee093f861b1db04a8a1dee7cedefa1fa077925",
+    "campaign/pod_all_kn_v12/inputs/N2_Kn0.01.dat": "bda5714afaba6dd3377693a07b6bb54b2eb786d0bdc2ac0792612e88c84801f0",
+    "campaign/pod_all_kn_v12/inputs/N2_Kn0.025.dat": "c379c2e41970d01c56c234bf078a9fc9d75b208dc2ffe78fb425501d3eab906f",
+    "campaign/pod_all_kn_v12/inputs/N2_Kn0.05.dat": "628971fae51f3b75b03fde047f6ddac42bbaf9062a79a0264bc00ddfbeff5d7d",
+    "campaign/pod_all_kn_v12/inputs/N2_Kn0.1.dat": "33027b03db02b2b1634e40dd8b55838558ec29f975fa2f1d1e420d99d4c3de00",
+    "campaign/pod_all_kn_v12/inputs/N2_Kn0.25.dat": "4daa7e355a75c3e34c3b699aa10f22d29ee4fe16fbb65641b02a72e03a0f5f95",
+    "campaign/pod_all_kn_v12/inputs/N2_Kn0.5.dat": "99862344abe0545aef7523b180a41b62c3fa7085409363b591168079df957929",
+    "campaign/pod_all_kn_v12/inputs/N2_Kn0.75.dat": "1b7b10d127d4aba8f141beed559ef4fa369316f0a310f8466ba212ced9519663",
+    "campaign/pod_all_kn_v12/inputs/N2_Kn1.dat": "348afec215d9a861bf931dfb74e85a03ad149bd2d9705af28f8a7615e7eb6794",
+    "campaign/pod_all_kn_v12/result_v14_20261025T025404Z/N2_rho_physical_480_historical_only.npz": "77a479b1add4e5e0150c4aaa4802b31f5f324d488e07b4681cfd2638ef77950e",
+    "campaign/pod_all_kn_v12/result_v14_20261025T025404Z/N2_rho_attached_sigma1.0.npz": "093194691eb94c137ffb77673bda4ae3e7fc19d942471af131d2f677225ed919",
+    "campaign/pod_all_kn_v12/result_v14_20261025T025404Z/N2_ttr_physical_480_historical_only.npz": "43fe2bcb2c8475dab0e2a924e4706e7bbb727712f5272af697c7ec1cbc757ee2",
+    "campaign/pod_all_kn_v12/result_v14_20261025T025404Z/N2_ttr_attached_sigma1.0.npz": "7f4e9280838bb9b66788356a17e2a3365ef4338178bbbbefa65aa7dbef05b929",
+    "campaign/pod_all_kn_v12/result_v14_20261025T025404Z/N2_u_physical_480_historical_only.npz": "e95cb0bd19fa1e32ca9690401ce76e0375d87bc0b84b85599fa2c02b07eeefb8",
+    "campaign/pod_all_kn_v12/result_v14_20261025T025404Z/N2_u_attached_sigma1.0.npz": "297b4301c5058cc3672a44fa9ac24148e138dae9682334e9323e4af0efb9dae8",
+    "campaign/pod_all_kn_v12/result_v14_20261025T025404Z/N2_p_physical_480_historical_only.npz": "4215b3885c16747cf564fbf3aaff5ee7583a181b3f70d825480ab88a76fb7658",
+    "campaign/pod_all_kn_v12/result_v14_20261025T025404Z/N2_p_attached_sigma1.0.npz": "6fafdc5e35f3ce667e483f3e41de5f14c6cd404495e92a4f175a272ba0fd443f",
+    "campaign/pod_all_kn_v12/result_v14_20261025T025404Z/N2_mach_proxy_physical_480_historical_only.npz": "dd28d81ee60daedf6b0d489263c34e36468bb93b4e9b12118046f04a242936ce",
+    "campaign/pod_all_kn_v12/result_v14_20261025T025404Z/N2_mach_proxy_attached_sigma1.0.npz": "6464c55308995ce2acf4704f815f3bbde0209152447e64f06b00e7743b6ceef1",
+    "campaign/pod_all_kn_v12/result_v14_20261025T025404Z/N2_trot_physical_480_historical_only.npz": "4333e6364776aa58ab5607f1cf5ce66c20451a06f9a55cc9eb073c6e99429d46",
+    "campaign/pod_all_kn_v12/result_v14_20261025T025404Z/N2_trot_attached_sigma1.0.npz": "fa75228b65e7a97b70606d7f22629c31aa0686f50d872fbd689aed39a1d06116"
+  },
+  "method": "Recover exact full-rank cached normalized physical fields; hold original full-ensemble physical features/weights fixed while restricting case list. The attached comparison changes support/norm and is not a registration-gain measurement. Heldout Kn.1 profiles reuse exact training-only rank2 logKn coefficient interpolation and match cached errors.",
+  "no_new_solver_job": true,
+  "no_new_acceptance_threshold": true
+}

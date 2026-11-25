@@ -1,0 +1,19 @@
+{
+  "source": {
+    "case": "Ar_planar",
+    "block": 4,
+    "first_step": 230050,
+    "last_step": 240000,
+    "native_npz_sha256": "e736efd9e13f8c7ee169798dadd7e3267b79790bdd7d39f78357bae15e09f961",
+    "qualified_attempt": "job2049895_r0_132617e4cdf5",
+    "committed_anchor": 260000,
+    "science_sha256": "39a2fa833f40f68da41ec787c5c033058d4ee5f922f46384b137c64573b404a0",
+    "generation": {
+      "reducer_sha256": "ca0e40b1a70ba5541b45452383a2c88382fcaeca466fd276a842fbd4f23dd07d",
+      "statistics_sha256": "6de9b49ca0cd40d31047f0f5da7a63d7f47d2f1fdc8f7fe73b4b1253fc260358"
+    }
+  },
+  "sha256": "06d45682b45d0d274c0981a0811b8ee90128b2cbf6af2f3bd200dcafb4a61ad6",
+  "file": "block_04.npz",
+  "bytes": 153407
+}

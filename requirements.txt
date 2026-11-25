@@ -1,0 +1,7 @@
+numpy
+scipy
+matplotlib
+pandas
+Pillow
+opencv-python
+zstandard; python_version < "3.14"

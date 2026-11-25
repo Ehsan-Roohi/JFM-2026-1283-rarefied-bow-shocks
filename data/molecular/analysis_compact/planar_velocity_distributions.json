@@ -1,0 +1,25 @@
+{
+  "csv_sha256": "5f633b677a06a1ec4d97e941145c8001d0b713ff8cdc2e882f587881b87a132a",
+  "rows": 7740,
+  "source": {
+    "Ar_planar": {
+      "compact_status_sha256": "2d7f00d32f8b1f846f117a6ff7c734138f97373dbfee24b2885b976aeed3e1eb",
+      "native_target_sha256": "6920c37bbcb16600d1547d64298d744f7a60d121d5b521ed85b1448a7db0abd9",
+      "chain_sha256": "bc34a875d38371d2e50c36881cc15d317929ffe08dfc10a748052a0eb6e9ed70"
+    },
+    "N2_planar": {
+      "compact_status_sha256": "8503ea7ef738e1d9752801b99b904372af83db076d4df344263ec4ad1d46b670",
+      "native_target_sha256": "a8882854d5f3e047a19a829b408d23dfa7aa16d50ea9eca73279b2a725b9f2ca",
+      "chain_sha256": "7203a06d9bac727d013d91d3f49bef6609a7221a699299e4d149f96c0b5ec71f"
+    }
+  },
+  "case_scope": "Planar baselines only at Mach 10, nominal Kn=0.01, laboratory +x along inflow.",
+  "time_scope": "Original native snapshots every 1 microsecond from 4.001 through 6.000 ms. Here every tenth snapshot is retained on the registered phase.",
+  "fields": "Bin edges in vx/Uinf. Interval density per unit vx/Uinf; probability includes separately retained underflow and overflow. Conditional rotational energy (J) is reported only for nitrogen where a bin has support.",
+  "analysis_scripts_sha256": {
+    "vdf_statistics.py": "6de9b49ca0cd40d31047f0f5da7a63d7f47d2f1fdc8f7fe73b4b1253fc260358",
+    "vdf_reduce.py": "ca0e40b1a70ba5541b45452383a2c88382fcaeca466fd276a842fbd4f23dd07d",
+    "vdf_report.py": "a5bb45df183f407af7a9d62f0ddba7d98a9bfed7cdc37cb8b28a9947b88dbad9"
+  },
+  "exporter_sha256": "7d012481df22f263e9c8012f123a06ba1616b530895ba285f6465748d077552c"
+}

@@ -1,0 +1,122 @@
+{
+  "blocks": [
+    {
+      "step": 110000,
+      "time_ms": 2.2,
+      "free_atomic_fraction_integrated": 0.0,
+      "max_local_free_atomic_fraction_occupied": 0.0,
+      "cells_with_nonzero_atomic_density": 0
+    },
+    {
+      "step": 120000,
+      "time_ms": 2.4000000000000004,
+      "free_atomic_fraction_integrated": 0.0,
+      "max_local_free_atomic_fraction_occupied": 0.0,
+      "cells_with_nonzero_atomic_density": 0
+    },
+    {
+      "step": 130000,
+      "time_ms": 2.6,
+      "free_atomic_fraction_integrated": 0.0,
+      "max_local_free_atomic_fraction_occupied": 0.0,
+      "cells_with_nonzero_atomic_density": 0
+    },
+    {
+      "step": 140000,
+      "time_ms": 2.8,
+      "free_atomic_fraction_integrated": 0.0,
+      "max_local_free_atomic_fraction_occupied": 0.0,
+      "cells_with_nonzero_atomic_density": 0
+    },
+    {
+      "step": 150000,
+      "time_ms": 3.0,
+      "free_atomic_fraction_integrated": 0.0,
+      "max_local_free_atomic_fraction_occupied": 0.0,
+      "cells_with_nonzero_atomic_density": 0
+    },
+    {
+      "step": 160000,
+      "time_ms": 3.2,
+      "free_atomic_fraction_integrated": 0.0,
+      "max_local_free_atomic_fraction_occupied": 0.0,
+      "cells_with_nonzero_atomic_density": 0
+    },
+    {
+      "step": 170000,
+      "time_ms": 3.4000000000000004,
+      "free_atomic_fraction_integrated": 0.0,
+      "max_local_free_atomic_fraction_occupied": 0.0,
+      "cells_with_nonzero_atomic_density": 0
+    },
+    {
+      "step": 180000,
+      "time_ms": 3.6,
+      "free_atomic_fraction_integrated": 0.0,
+      "max_local_free_atomic_fraction_occupied": 0.0,
+      "cells_with_nonzero_atomic_density": 0
+    },
+    {
+      "step": 190000,
+      "time_ms": 3.8,
+      "free_atomic_fraction_integrated": 0.0,
+      "max_local_free_atomic_fraction_occupied": 0.0,
+      "cells_with_nonzero_atomic_density": 0
+    },
+    {
+      "step": 200000,
+      "time_ms": 4.0,
+      "free_atomic_fraction_integrated": 0.0,
+      "max_local_free_atomic_fraction_occupied": 0.0,
+      "cells_with_nonzero_atomic_density": 0
+    }
+  ],
+  "input_provenance": [
+    {
+      "file": "campaign/sparta_supplemental_20261022_v1/N2_M10_chemistry/production/fields.110000.grid",
+      "sha256": "92ad503c19a43ffa618f7de5112f36b65cca8498b6ccea031cb017127e9a12ac"
+    },
+    {
+      "file": "campaign/sparta_supplemental_20261022_v1/N2_M10_chemistry/production/fields.120000.grid",
+      "sha256": "24af3dcb6672d0ae3bb053f633e9ecd664fab4dc6cfedc9b8b63712a2cc71963"
+    },
+    {
+      "file": "campaign/sparta_supplemental_20261022_v1/N2_M10_chemistry/production/fields.130000.grid",
+      "sha256": "e05b17daf1ecded630c68166460ffe72254702de56c9400e523abe27edb5c7d5"
+    },
+    {
+      "file": "campaign/sparta_supplemental_20261022_v1/N2_M10_chemistry/production/fields.140000.grid",
+      "sha256": "cd6860290a5f3d03e69e1dd06771ebc812a1e5ad6b8845654f6ae2b9a5040ba7"
+    },
+    {
+      "file": "campaign/sparta_supplemental_20261022_v1/N2_M10_chemistry/production/fields.150000.grid",
+      "sha256": "44ecf68bcc730e6580878e6497386636e9645f44672bbb415a5a547c7b3d444c"
+    },
+    {
+      "file": "campaign/sparta_supplemental_20261022_v1/N2_M10_chemistry/production/fields.160000.grid",
+      "sha256": "686142b7746828f39b02ed64140596bccb91d7220e205b95f19960ddfefdb453"
+    },
+    {
+      "file": "campaign/sparta_supplemental_20261022_v1/N2_M10_chemistry/production/fields.170000.grid",
+      "sha256": "67a739e028784a28c7d739781b33dda060035dc037a9db739bc7b3c65717503f"
+    },
+    {
+      "file": "campaign/sparta_supplemental_20261022_v1/N2_M10_chemistry/production/fields.180000.grid",
+      "sha256": "41e21bf2899644ddae617083172af95ba4026e37171b0e803e09037dd4ba4c86"
+    },
+    {
+      "file": "campaign/sparta_supplemental_20261022_v1/N2_M10_chemistry/production/fields.190000.grid",
+      "sha256": "6ba09e8b4445156a875a72abf2e166dc0da1673f5c5b46acbf2ffd8fe078db49"
+    },
+    {
+      "file": "campaign/sparta_supplemental_20261022_v1/N2_M10_chemistry/production/fields.200000.grid",
+      "sha256": "dac42ca0a73b919da659635e57b4bd6ff1d9fbd33919de4cf605cd4f16030f8d"
+    }
+  ],
+  "logged_reactions_per_particle_per_step": [
+    0.0,
+    0.0
+  ],
+  "atomic_density_zero_all_sampled_cells": true,
+  "limitations": "N2,N order verified from species command and builtin species mixture. Fraction counts free N atoms divided by total nitrogen atoms. Sampled2-4ms fields and solver logged reaction counters, not a general chemical-equilibrium or experimental validation. QK dissociation-only; no recombination/ionization/catalysis."
+}

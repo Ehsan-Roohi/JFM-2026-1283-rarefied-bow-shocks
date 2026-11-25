@@ -1,0 +1,19 @@
+{
+  "label": "DT_Ar_L5",
+  "cases": [
+    {
+      "key": "DT_Ar_L5",
+      "name": "Ar_wall_L5",
+      "campaign": "campaign/wall_dt_half_v12",
+      "production_job": "66473260",
+      "warmup": 800000,
+      "target": 1600000,
+      "block": 80000,
+      "dt": 2.5e-09,
+      "completed": false,
+      "prior_production": "66121024"
+    }
+  ],
+  "comparisons": [],
+  "reuse_case_results": false
+}

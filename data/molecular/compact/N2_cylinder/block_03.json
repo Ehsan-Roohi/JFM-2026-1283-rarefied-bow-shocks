@@ -1,0 +1,19 @@
+{
+  "source": {
+    "case": "N2_cylinder",
+    "block": 3,
+    "first_step": 880200,
+    "last_step": 920000,
+    "native_npz_sha256": "b1b5482a1028048a3caaf53082b8cb37b023da8b0f1d2b0fdaccd7bcb9fff649",
+    "qualified_attempt": "job2050246_r0_fed4b7649e8d",
+    "committed_anchor": 920000,
+    "science_sha256": "b78107178cf393318c08b50a20262fd6417114ea939a834a2720ddf1a7ecf240",
+    "generation": {
+      "reducer_sha256": "ca0e40b1a70ba5541b45452383a2c88382fcaeca466fd276a842fbd4f23dd07d",
+      "statistics_sha256": "6de9b49ca0cd40d31047f0f5da7a63d7f47d2f1fdc8f7fe73b4b1253fc260358"
+    }
+  },
+  "sha256": "cd9e3283133845f8c835d794ddab0d4c9db059b9cf2e326ce168a72944f943b1",
+  "file": "block_03.npz",
+  "bytes": 260349
+}

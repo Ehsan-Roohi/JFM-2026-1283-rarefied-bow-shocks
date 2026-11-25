@@ -1,0 +1,2153 @@
+[
+  {
+    "gas": "Ar",
+    "sweep": "Kn",
+    "parameter": 0.01,
+    "marker": {
+      "s": 0.09364784045727097,
+      "delta": 0.025220666689294634,
+      "downstream_s": 0.06729981119012167,
+      "upstream_spread": 0.009221379090361205,
+      "onset": 0.11315355204651716,
+      "sigma": 0.0021989282278422548
+    },
+    "rho_upstream_source": "imposed input",
+    "rhoinf": 2.556528e-05,
+    "variables": {
+      "rho": {
+        "up": 2.5677173796204802e-05,
+        "down": 0.00010142788532007062,
+        "signed_jump": 7.575071152386581e-05,
+        "peak_abs_gradient": 0.003005704192927894,
+        "delta_m": 0.025202317547448373,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 206.9718390336845,
+        "down": 6495.308155934467,
+        "signed_jump": 6288.336316900783,
+        "peak_abs_gradient": 231048.5331846848,
+        "delta_m": 0.02721651693791237,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 2630.2431791184636,
+        "down": 548.409280027942,
+        "signed_jump": -2081.8338990905213,
+        "peak_abs_gradient": 70727.62546594907,
+        "delta_m": 0.029434522725392417,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 1.1081804861292364,
+        "down": 137.1907996017271,
+        "signed_jump": 136.08261911559785,
+        "peak_abs_gradient": 4701.696198757272,
+        "delta_m": 0.028943303302235157,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 9.815505221888753,
+        "down": 0.36525457399967587,
+        "signed_jump": -9.450250647889076,
+        "peak_abs_gradient": 178.227238745254,
+        "delta_m": 0.053023604665707845,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "Ar",
+    "sweep": "Kn",
+    "parameter": 0.025,
+    "marker": {
+      "s": 0.08711279921717299,
+      "delta": 0.05318148229306911,
+      "downstream_s": 0.05807519947811533,
+      "upstream_spread": 0.008078991751318777,
+      "onset": 0.1341842766889086,
+      "sigma": 0.0024284862692896267
+    },
+    "rho_upstream_source": "imposed input",
+    "rhoinf": 1.0226775e-05,
+    "variables": {
+      "rho": {
+        "up": 1.038037550608603e-05,
+        "down": 4.011473831277137e-05,
+        "signed_jump": 2.973436280668534e-05,
+        "peak_abs_gradient": 0.0005617066621990408,
+        "delta_m": 0.05293574886628097,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 216.5858422040999,
+        "down": 6340.858503668239,
+        "signed_jump": 6124.272661464139,
+        "peak_abs_gradient": 103864.22155189328,
+        "delta_m": 0.05896421857265153,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 2631.440124178615,
+        "down": 516.064164552233,
+        "signed_jump": -2115.3759596263817,
+        "peak_abs_gradient": 32123.160928924568,
+        "delta_m": 0.06585204875407014,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 0.46762320140709185,
+        "down": 52.963714701741715,
+        "signed_jump": 52.49609150033462,
+        "peak_abs_gradient": 845.625843067246,
+        "delta_m": 0.06207957328967301,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 9.597745030309973,
+        "down": 0.3478727575403256,
+        "signed_jump": -9.249872272769647,
+        "peak_abs_gradient": 74.28708417113376,
+        "delta_m": 0.12451521520835157,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "Ar",
+    "sweep": "Kn",
+    "parameter": 0.05,
+    "marker": null,
+    "rho_upstream_source": "imposed input",
+    "rhoinf": 5.113056e-06,
+    "variables": {}
+  },
+  {
+    "gas": "Ar",
+    "sweep": "Kn",
+    "parameter": 0.075,
+    "marker": null,
+    "rho_upstream_source": "imposed input",
+    "rhoinf": 3.408483e-06,
+    "variables": {}
+  },
+  {
+    "gas": "Ar",
+    "sweep": "Kn",
+    "parameter": 0.1,
+    "marker": null,
+    "rho_upstream_source": "imposed input",
+    "rhoinf": 2.556528e-06,
+    "variables": {}
+  },
+  {
+    "gas": "Ar",
+    "sweep": "Kn",
+    "parameter": 0.25,
+    "marker": null,
+    "rho_upstream_source": "imposed input",
+    "rhoinf": 1.022346e-06,
+    "variables": {}
+  },
+  {
+    "gas": "Ar",
+    "sweep": "Kn",
+    "parameter": 0.5,
+    "marker": null,
+    "rho_upstream_source": "imposed input",
+    "rhoinf": 5.113056e-07,
+    "variables": {}
+  },
+  {
+    "gas": "Ar",
+    "sweep": "Kn",
+    "parameter": 0.75,
+    "marker": null,
+    "rho_upstream_source": "imposed input",
+    "rhoinf": 3.4084829999999996e-07,
+    "variables": {}
+  },
+  {
+    "gas": "Ar",
+    "sweep": "Kn",
+    "parameter": 1.0,
+    "marker": null,
+    "rho_upstream_source": "imposed input",
+    "rhoinf": 2.556528e-07,
+    "variables": {}
+  },
+  {
+    "gas": "N2",
+    "sweep": "Kn",
+    "parameter": 0.01,
+    "marker": {
+      "s": 0.059844748645540666,
+      "delta": 0.016053110562809426,
+      "downstream_s": 0.03747956101179765,
+      "upstream_spread": 0.00936198579799448,
+      "onset": 0.07342725985690057,
+      "sigma": 0.0021989282278422548
+    },
+    "rho_upstream_source": "imposed input",
+    "rhoinf": 1.832565e-05,
+    "variables": {
+      "rho": {
+        "up": 1.832160153821666e-05,
+        "down": 0.00010706517169615083,
+        "signed_jump": 8.874357015793417e-05,
+        "peak_abs_gradient": 0.005528259013710901,
+        "delta_m": 0.016052715680983286,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 207.01449757673157,
+        "down": 4103.756894719238,
+        "signed_jump": 3896.742397142506,
+        "peak_abs_gradient": 277590.8648276534,
+        "delta_m": 0.014037718422621217,
+        "normalization_supported": true
+      },
+      "trot": {
+        "up": 200.9915701469938,
+        "down": 4079.1931804188553,
+        "signed_jump": 3878.2016102718617,
+        "peak_abs_gradient": 189532.43319492042,
+        "delta_m": 0.020461941763198974,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 2882.200837111836,
+        "down": 359.62430202376305,
+        "signed_jump": -2522.576535088073,
+        "peak_abs_gradient": 133057.49692125525,
+        "delta_m": 0.01895854494077067,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 1.1247611207249149,
+        "down": 130.45364889825444,
+        "signed_jump": 129.32888777752953,
+        "peak_abs_gradient": 7005.645018092357,
+        "delta_m": 0.018460668138841254,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 9.823980034382796,
+        "down": 0.275346167871204,
+        "signed_jump": -9.548633866511592,
+        "peak_abs_gradient": 307.19451547573044,
+        "delta_m": 0.031083347473584603,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "N2",
+    "sweep": "Kn",
+    "parameter": 0.025,
+    "marker": {
+      "s": 0.05624124581038537,
+      "delta": 0.032955495021185624,
+      "downstream_s": 0.03392814285300422,
+      "upstream_spread": 0.007815494199570392,
+      "onset": 0.08879392341259212,
+      "sigma": 0.0024284862692896267
+    },
+    "rho_upstream_source": "imposed input",
+    "rhoinf": 7.3284e-06,
+    "variables": {
+      "rho": {
+        "up": 7.334918458814911e-06,
+        "down": 4.3313815129405045e-05,
+        "signed_jump": 3.5978896670590134e-05,
+        "peak_abs_gradient": 0.0010917117119473158,
+        "delta_m": 0.03295640806712021,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 218.22843474258264,
+        "down": 3967.193568351295,
+        "signed_jump": 3748.9651336087127,
+        "peak_abs_gradient": 127864.99431317486,
+        "delta_m": 0.029319714545378347,
+        "normalization_supported": true
+      },
+      "trot": {
+        "up": 203.2539309141309,
+        "down": 3773.2334071829505,
+        "signed_jump": 3569.97947626882,
+        "peak_abs_gradient": 83245.72640460823,
+        "delta_m": 0.04288483782239177,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 2879.8233866965443,
+        "down": 338.34602888515195,
+        "signed_jump": -2541.4773578113923,
+        "peak_abs_gradient": 63937.497800678015,
+        "delta_m": 0.039749402857996136,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 0.4752504113315549,
+        "down": 51.0109892102481,
+        "signed_jump": 50.53573879891654,
+        "peak_abs_gradient": 1283.838621907984,
+        "delta_m": 0.03936299931825744,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 9.561609585228364,
+        "down": 0.26347548053728637,
+        "signed_jump": -9.298134104691078,
+        "peak_abs_gradient": 132.51371739587012,
+        "delta_m": 0.07016733276687068,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "N2",
+    "sweep": "Kn",
+    "parameter": 0.05,
+    "marker": null,
+    "rho_upstream_source": "imposed input",
+    "rhoinf": 3.66513e-06,
+    "variables": {}
+  },
+  {
+    "gas": "N2",
+    "sweep": "Kn",
+    "parameter": 0.1,
+    "marker": null,
+    "rho_upstream_source": "imposed input",
+    "rhoinf": 1.832565e-06,
+    "variables": {}
+  },
+  {
+    "gas": "N2",
+    "sweep": "Kn",
+    "parameter": 0.25,
+    "marker": null,
+    "rho_upstream_source": "imposed input",
+    "rhoinf": 7.3284e-07,
+    "variables": {}
+  },
+  {
+    "gas": "N2",
+    "sweep": "Kn",
+    "parameter": 0.5,
+    "marker": null,
+    "rho_upstream_source": "imposed input",
+    "rhoinf": 3.66513e-07,
+    "variables": {}
+  },
+  {
+    "gas": "N2",
+    "sweep": "Kn",
+    "parameter": 0.75,
+    "marker": null,
+    "rho_upstream_source": "imposed input",
+    "rhoinf": 2.443575e-07,
+    "variables": {}
+  },
+  {
+    "gas": "N2",
+    "sweep": "Kn",
+    "parameter": 1.0,
+    "marker": null,
+    "rho_upstream_source": "imposed input",
+    "rhoinf": 1.832565e-07,
+    "variables": {}
+  },
+  {
+    "gas": "Ar",
+    "sweep": "Mach",
+    "parameter": 5.0,
+    "marker": {
+      "s": 0.11580877611734125,
+      "delta": 0.015869062921293656,
+      "downstream_s": 0.0926265960656336,
+      "upstream_spread": 0.005056405052676412,
+      "onset": 0.12632756266062709,
+      "sigma": 0.0021989281967050825
+    },
+    "rho_upstream_source": "measured farthest 5\u201335mm window; diagnostic only",
+    "rhoinf": 2.8193524020724754e-05,
+    "variables": {
+      "rho": {
+        "up": 2.8166999055739817e-05,
+        "down": 0.0001028440396383721,
+        "signed_jump": 7.467704058263228e-05,
+        "peak_abs_gradient": 0.004704198892800382,
+        "delta_m": 0.015874550010400917,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 200.68050430167227,
+        "down": 1760.0001424570733,
+        "signed_jump": 1559.319638155401,
+        "peak_abs_gradient": 99925.77260383964,
+        "delta_m": 0.015604779402981411,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 1316.383741527515,
+        "down": 320.97795992592205,
+        "signed_jump": -995.4057816015929,
+        "peak_abs_gradient": 56984.8973088311,
+        "delta_m": 0.017467887609009206,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 1.1770362919651578,
+        "down": 37.69074037668823,
+        "signed_jump": 36.513704084723074,
+        "peak_abs_gradient": 2103.5425290426356,
+        "delta_m": 0.01735819627157298,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 4.987933628451138,
+        "down": 0.41068572642176354,
+        "signed_jump": -4.577247902029375,
+        "peak_abs_gradient": 201.2797280050945,
+        "delta_m": 0.02274072976645478,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "Ar",
+    "sweep": "Mach",
+    "parameter": 5.5,
+    "marker": {
+      "s": 0.11090681733988765,
+      "delta": 0.016243999988486628,
+      "downstream_s": 0.08455878891107456,
+      "upstream_spread": 0.00601721871480525,
+      "onset": 0.12193622458915825,
+      "sigma": 0.0021989281967050825
+    },
+    "rho_upstream_source": "measured farthest 5\u201335mm window; diagnostic only",
+    "rhoinf": 2.8148799502861127e-05,
+    "variables": {
+      "rho": {
+        "up": 2.807362958973975e-05,
+        "down": 0.00010544528281148346,
+        "signed_jump": 7.737165322174372e-05,
+        "peak_abs_gradient": 0.0047573010692067985,
+        "delta_m": 0.01626377059096749,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 200.86431711170545,
+        "down": 2096.5548595731734,
+        "signed_jump": 1895.6905424614679,
+        "peak_abs_gradient": 119064.317778687,
+        "delta_m": 0.015921567248931102,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 1447.8811712133024,
+        "down": 333.8454504743512,
+        "signed_jump": -1114.035720738951,
+        "peak_abs_gradient": 61913.30460156035,
+        "delta_m": 0.017993478589267146,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 1.1735768113851826,
+        "down": 46.03327436768325,
+        "signed_jump": 44.859697556298066,
+        "peak_abs_gradient": 2499.827391147701,
+        "delta_m": 0.01794511801700934,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 5.483123056225879,
+        "down": 0.3913660011544249,
+        "signed_jump": -5.091757055071454,
+        "peak_abs_gradient": 208.07757176952327,
+        "delta_m": 0.024470475177936667,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "Ar",
+    "sweep": "Mach",
+    "parameter": 6.0,
+    "marker": {
+      "s": 0.10763884482158526,
+      "delta": 0.01659787894396905,
+      "downstream_s": 0.08129081639277216,
+      "upstream_spread": 0.006871992049187949,
+      "onset": 0.11866825207085585,
+      "sigma": 0.0021989281967050825
+    },
+    "rho_upstream_source": "measured farthest 5\u201335mm window; diagnostic only",
+    "rhoinf": 2.8142012279331133e-05,
+    "variables": {
+      "rho": {
+        "up": 2.8109622478587116e-05,
+        "down": 0.00010691501691881305,
+        "signed_jump": 7.880539444022593e-05,
+        "peak_abs_gradient": 0.004746155093953541,
+        "delta_m": 0.01660404956859114,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 201.57432529864076,
+        "down": 2461.6083744921584,
+        "signed_jump": 2260.0340491935176,
+        "peak_abs_gradient": 137934.9793104371,
+        "delta_m": 0.016384778251984033,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 1579.9090786840186,
+        "down": 356.98482688305836,
+        "signed_jump": -1222.9242518009603,
+        "peak_abs_gradient": 65986.05168647971,
+        "delta_m": 0.01853307207425373,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 1.1799306798868932,
+        "down": 54.805042650932464,
+        "signed_jump": 53.62511197104557,
+        "peak_abs_gradient": 2947.253855623654,
+        "delta_m": 0.018194941663651914,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 5.973548791299345,
+        "down": 0.3862166790240412,
+        "signed_jump": -5.587332112275304,
+        "peak_abs_gradient": 215.77506894843282,
+        "delta_m": 0.025894243201982695,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "Ar",
+    "sweep": "Mach",
+    "parameter": 6.5,
+    "marker": {
+      "s": 0.1048814930092676,
+      "delta": 0.016681008437847134,
+      "downstream_s": 0.07853346458045452,
+      "upstream_spread": 0.007607796663785484,
+      "onset": 0.116319396823326,
+      "sigma": 0.0021989281967050825
+    },
+    "rho_upstream_source": "measured farthest 5\u201335mm window; diagnostic only",
+    "rhoinf": 2.814674986260709e-05,
+    "variables": {
+      "rho": {
+        "up": 2.818561200900408e-05,
+        "down": 0.00010814811968601095,
+        "signed_jump": 7.996250767700687e-05,
+        "peak_abs_gradient": 0.004795360556551054,
+        "delta_m": 0.016674972973151774,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 201.8961057552178,
+        "down": 2858.32677138474,
+        "signed_jump": 2656.430665629522,
+        "peak_abs_gradient": 158905.22907682508,
+        "delta_m": 0.0167170752093075,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 1711.8570312772151,
+        "down": 380.7133793681732,
+        "signed_jump": -1331.1436519090419,
+        "peak_abs_gradient": 70632.98370088171,
+        "delta_m": 0.018845921298556514,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 1.1851429138832168,
+        "down": 64.36905374575275,
+        "signed_jump": 63.18391083186953,
+        "peak_abs_gradient": 3397.996778582281,
+        "delta_m": 0.01859445872053806,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 6.4671234913349585,
+        "down": 0.3822371981794302,
+        "signed_jump": -6.084886293155528,
+        "peak_abs_gradient": 222.6154086917777,
+        "delta_m": 0.027333625865855322,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "Ar",
+    "sweep": "Mach",
+    "parameter": 7.0,
+    "marker": {
+      "s": 0.10232838947934385,
+      "delta": 0.017163483952580685,
+      "downstream_s": 0.07598036105053077,
+      "upstream_spread": 0.008170084307692106,
+      "onset": 0.1144811622817809,
+      "sigma": 0.0021989281967050825
+    },
+    "rho_upstream_source": "measured farthest 5\u201335mm window; diagnostic only",
+    "rhoinf": 2.8121003082016878e-05,
+    "variables": {
+      "rho": {
+        "up": 2.8219955367586537e-05,
+        "down": 0.00010918501903398442,
+        "signed_jump": 8.096506366639789e-05,
+        "peak_abs_gradient": 0.004722800402904848,
+        "delta_m": 0.017143443880583815,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 202.44877468212425,
+        "down": 3286.3696946121054,
+        "signed_jump": 3083.920919929981,
+        "peak_abs_gradient": 180650.38813402504,
+        "delta_m": 0.01707121114869685,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 1843.4528188394083,
+        "down": 402.9933628374876,
+        "signed_jump": -1440.4594560019207,
+        "peak_abs_gradient": 74419.80176147353,
+        "delta_m": 0.019355862578333737,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 1.1896705696056535,
+        "down": 74.72065635131536,
+        "signed_jump": 73.5309857817097,
+        "peak_abs_gradient": 3854.853872981301,
+        "delta_m": 0.019074908726654707,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 6.954488584276985,
+        "down": 0.3773379042570989,
+        "signed_jump": -6.577150680019885,
+        "peak_abs_gradient": 231.56517865484784,
+        "delta_m": 0.028403021206496896,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "Ar",
+    "sweep": "Mach",
+    "parameter": 7.5,
+    "marker": {
+      "s": 0.1007965273613896,
+      "delta": 0.017278710963864987,
+      "downstream_s": 0.07444849893257652,
+      "upstream_spread": 0.008509781119281985,
+      "onset": 0.11294930016382665,
+      "sigma": 0.0021989281967050825
+    },
+    "rho_upstream_source": "measured farthest 5\u201335mm window; diagnostic only",
+    "rhoinf": 2.8113019351742688e-05,
+    "variables": {
+      "rho": {
+        "up": 2.824992248974373e-05,
+        "down": 0.00011000736051051567,
+        "signed_jump": 8.175743802077194e-05,
+        "peak_abs_gradient": 0.004738859966176123,
+        "delta_m": 0.017252554117302518,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 202.522844491994,
+        "down": 3743.859681923253,
+        "signed_jump": 3541.336837431259,
+        "peak_abs_gradient": 205049.95171302557,
+        "delta_m": 0.017270605566332836,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 1975.3583404229216,
+        "down": 428.0286364067222,
+        "signed_jump": -1547.3297040161995,
+        "peak_abs_gradient": 78342.58384656534,
+        "delta_m": 0.0197508127514234,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 1.1918782232252165,
+        "down": 85.76315691544517,
+        "signed_jump": 84.57127869221995,
+        "peak_abs_gradient": 4361.863463098038,
+        "delta_m": 0.01938879550167137,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 7.450120833567184,
+        "down": 0.3754946832258343,
+        "signed_jump": -7.07462615034135,
+        "peak_abs_gradient": 235.25417027588628,
+        "delta_m": 0.030072266697949816,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "Ar",
+    "sweep": "Mach",
+    "parameter": 8.0,
+    "marker": {
+      "s": 0.09926466524343536,
+      "delta": 0.017803118332753016,
+      "downstream_s": 0.07291663681462227,
+      "upstream_spread": 0.008832600923780293,
+      "onset": 0.11151956218706935,
+      "sigma": 0.0021989281967050825
+    },
+    "rho_upstream_source": "measured farthest 5\u201335mm window; diagnostic only",
+    "rhoinf": 2.8128921932707496e-05,
+    "variables": {
+      "rho": {
+        "up": 2.8243060754166767e-05,
+        "down": 0.00011071315549027193,
+        "signed_jump": 8.247009473610515e-05,
+        "peak_abs_gradient": 0.004637809829129924,
+        "delta_m": 0.017782120823090528,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 203.19128825026633,
+        "down": 4235.501996031576,
+        "signed_jump": 4032.3107077813092,
+        "peak_abs_gradient": 224724.0565720573,
+        "delta_m": 0.017943386966621247,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 2107.0474910170105,
+        "down": 451.8947280801442,
+        "signed_jump": -1655.1527629368663,
+        "peak_abs_gradient": 82637.98050017375,
+        "delta_m": 0.020028959479877248,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 1.1949880645336066,
+        "down": 97.64662809826919,
+        "signed_jump": 96.45164003373559,
+        "peak_abs_gradient": 4878.872531326895,
+        "delta_m": 0.019769247795351576,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 7.93421145521588,
+        "down": 0.37271388953822965,
+        "signed_jump": -7.56149756567765,
+        "peak_abs_gradient": 241.31583970831707,
+        "delta_m": 0.03133444358570649,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "Ar",
+    "sweep": "Mach",
+    "parameter": 8.25,
+    "marker": {
+      "s": 0.09844767211385975,
+      "delta": 0.01793187838503866,
+      "downstream_s": 0.07209964368504666,
+      "upstream_spread": 0.008963642213420152,
+      "onset": 0.11111106562228154,
+      "sigma": 0.0021989281967050825
+    },
+    "rho_upstream_source": "measured farthest 5\u201335mm window; diagnostic only",
+    "rhoinf": 2.8137835589744226e-05,
+    "variables": {
+      "rho": {
+        "up": 2.824266100649744e-05,
+        "down": 0.00011102885685965951,
+        "signed_jump": 8.278619585316207e-05,
+        "peak_abs_gradient": 0.004619684772868782,
+        "delta_m": 0.01792031273202059,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 203.3405950065833,
+        "down": 4493.556942708841,
+        "signed_jump": 4290.216347702258,
+        "peak_abs_gradient": 237410.6843261849,
+        "delta_m": 0.01807086467013344,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 2172.4949763049776,
+        "down": 461.64623464890497,
+        "signed_jump": -1710.8487416560727,
+        "peak_abs_gradient": 84489.79100927804,
+        "delta_m": 0.020249177104346254,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 1.1959829671115874,
+        "down": 103.89483840760761,
+        "signed_jump": 102.69885544049602,
+        "peak_abs_gradient": 5148.341368779424,
+        "delta_m": 0.019947949851049605,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 8.176717219421219,
+        "down": 0.3696620954173721,
+        "signed_jump": -7.807055124003847,
+        "peak_abs_gradient": 246.4127261711037,
+        "delta_m": 0.03168284059559,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "Ar",
+    "sweep": "Mach",
+    "parameter": 8.5,
+    "marker": {
+      "s": 0.09763067898428415,
+      "delta": 0.017963281509643925,
+      "downstream_s": 0.07128265055547106,
+      "upstream_spread": 0.00904905436830243,
+      "onset": 0.1106004449162968,
+      "sigma": 0.0021989281967050825
+    },
+    "rho_upstream_source": "measured farthest 5\u201335mm window; diagnostic only",
+    "rhoinf": 2.8154650678113097e-05,
+    "variables": {
+      "rho": {
+        "up": 2.8232773393070086e-05,
+        "down": 0.00011128304507931016,
+        "signed_jump": 8.305027168624007e-05,
+        "peak_abs_gradient": 0.0046275959685261325,
+        "delta_m": 0.017946742163986108,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 203.70565047673577,
+        "down": 4760.026230678136,
+        "signed_jump": 4556.3205802014,
+        "peak_abs_gradient": 252249.6368480958,
+        "delta_m": 0.018062743864107944,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 2238.474088010116,
+        "down": 475.0717204383416,
+        "signed_jump": -1763.4023675717742,
+        "peak_abs_gradient": 86001.48370342422,
+        "delta_m": 0.020504324944588866,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 1.2001907378995658,
+        "down": 110.3066387565306,
+        "signed_jump": 109.10644801863104,
+        "peak_abs_gradient": 5399.148271749436,
+        "delta_m": 0.02020808515104518,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 8.419803222262246,
+        "down": 0.36961131171010136,
+        "signed_jump": -8.050191910552144,
+        "peak_abs_gradient": 249.86256803151628,
+        "delta_m": 0.03221847903819166,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "Ar",
+    "sweep": "Mach",
+    "parameter": 8.75,
+    "marker": {
+      "s": 0.0971200582782994,
+      "delta": 0.01800438189359595,
+      "downstream_s": 0.07240601610863752,
+      "upstream_spread": 0.009202365498269117,
+      "onset": 0.110191948351509,
+      "sigma": 0.0021989281967050825
+    },
+    "rho_upstream_source": "measured farthest 5\u201335mm window; diagnostic only",
+    "rhoinf": 2.816202074217556e-05,
+    "variables": {
+      "rho": {
+        "up": 2.823669645139749e-05,
+        "down": 0.00011108353654128533,
+        "signed_jump": 8.284684008988783e-05,
+        "peak_abs_gradient": 0.004606389907374109,
+        "delta_m": 0.017985199202799357,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 204.0800540314694,
+        "down": 5030.481892437726,
+        "signed_jump": 4826.4018384062565,
+        "peak_abs_gradient": 265951.18917403,
+        "delta_m": 0.01814769790424969,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 2305.030930428216,
+        "down": 493.9286777499346,
+        "signed_jump": -1811.1022526782813,
+        "peak_abs_gradient": 87637.65016076434,
+        "delta_m": 0.020665801163723095,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 1.203586616015349,
+        "down": 116.36314025869902,
+        "signed_jump": 115.15955364268368,
+        "peak_abs_gradient": 5660.267741510819,
+        "delta_m": 0.020345248476169378,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 8.66063760530153,
+        "down": 0.37380938029381233,
+        "signed_jump": -8.286828225007717,
+        "peak_abs_gradient": 252.44025210970358,
+        "delta_m": 0.03282688935600686,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "Ar",
+    "sweep": "Mach",
+    "parameter": 9.0,
+    "marker": {
+      "s": 0.0967115617135116,
+      "delta": 0.018228104694020822,
+      "downstream_s": 0.07036353328469852,
+      "upstream_spread": 0.00922493151745898,
+      "onset": 0.10978345178672119,
+      "sigma": 0.0021989281967050825
+    },
+    "rho_upstream_source": "measured farthest 5\u201335mm window; diagnostic only",
+    "rhoinf": 2.817613317322997e-05,
+    "variables": {
+      "rho": {
+        "up": 2.8254041169169847e-05,
+        "down": 0.00011166034658873025,
+        "signed_jump": 8.34063054195604e-05,
+        "peak_abs_gradient": 0.004579439218984405,
+        "delta_m": 0.018213213765081407,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 204.7145352409796,
+        "down": 5315.508465233093,
+        "signed_jump": 5110.793929992114,
+        "peak_abs_gradient": 277638.2080488559,
+        "delta_m": 0.018408107320346805,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 2370.0057804854596,
+        "down": 499.9200071454519,
+        "signed_jump": -1870.0857733400076,
+        "peak_abs_gradient": 88890.40838732664,
+        "delta_m": 0.021038105317183257,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 1.2064480632398011,
+        "down": 123.59684977330961,
+        "signed_jump": 122.39040171006981,
+        "peak_abs_gradient": 5922.902750955487,
+        "delta_m": 0.020663922211170138,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 8.892587047441495,
+        "down": 0.36806020091877795,
+        "signed_jump": -8.524526846522717,
+        "peak_abs_gradient": 253.2303785964832,
+        "delta_m": 0.033663128783242686,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "Ar",
+    "sweep": "Mach",
+    "parameter": 9.25,
+    "marker": {
+      "s": 0.0963030651487238,
+      "delta": 0.01833213698281014,
+      "downstream_s": 0.06995503671991071,
+      "upstream_spread": 0.009208875912407488,
+      "onset": 0.10947707936313035,
+      "sigma": 0.0021989281967050825
+    },
+    "rho_upstream_source": "measured farthest 5\u201335mm window; diagnostic only",
+    "rhoinf": 2.8175911469094706e-05,
+    "variables": {
+      "rho": {
+        "up": 2.8232530018062374e-05,
+        "down": 0.00011176608379463452,
+        "signed_jump": 8.353355377657215e-05,
+        "peak_abs_gradient": 0.004559484923705004,
+        "delta_m": 0.018320831228605842,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 205.39817990681007,
+        "down": 5606.021130568501,
+        "signed_jump": 5400.622950661691,
+        "peak_abs_gradient": 289716.0503442865,
+        "delta_m": 0.018641089937004925,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 2435.9438658629088,
+        "down": 512.9911208316516,
+        "signed_jump": -1922.952745031257,
+        "peak_abs_gradient": 90531.61675599217,
+        "delta_m": 0.02124067606363585,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 1.2095819896882474,
+        "down": 130.46639672378038,
+        "signed_jump": 129.25681473409213,
+        "peak_abs_gradient": 6227.436333078716,
+        "delta_m": 0.020756023477511848,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 9.124498906839822,
+        "down": 0.36776740130914704,
+        "signed_jump": -8.756731505530675,
+        "peak_abs_gradient": 255.85173035075059,
+        "delta_m": 0.03422580528779678,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "Ar",
+    "sweep": "Mach",
+    "parameter": 9.5,
+    "marker": {
+      "s": 0.09589456858393601,
+      "delta": 0.018601934836334176,
+      "downstream_s": 0.06954654015512292,
+      "upstream_spread": 0.00925421755524044,
+      "onset": 0.10906858279834254,
+      "sigma": 0.0021989281967050825
+    },
+    "rho_upstream_source": "measured farthest 5\u201335mm window; diagnostic only",
+    "rhoinf": 2.8183789167792662e-05,
+    "variables": {
+      "rho": {
+        "up": 2.8245810926010808e-05,
+        "down": 0.00011208252341780586,
+        "signed_jump": 8.383671249179506e-05,
+        "peak_abs_gradient": 0.004509780543509256,
+        "delta_m": 0.018589976093727627,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 205.90896076168423,
+        "down": 5899.009537322536,
+        "signed_jump": 5693.100576560852,
+        "peak_abs_gradient": 301702.0950439982,
+        "delta_m": 0.018869940481290353,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 2501.6106740516843,
+        "down": 525.7912003039627,
+        "signed_jump": -1975.8194737477215,
+        "peak_abs_gradient": 92039.22071583569,
+        "delta_m": 0.021467146922592037,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 1.2111302597741445,
+        "down": 137.67708288902645,
+        "signed_jump": 136.4659526292523,
+        "peak_abs_gradient": 6512.228314364969,
+        "delta_m": 0.020955339100785137,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 9.35778033592318,
+        "down": 0.3674637581155624,
+        "signed_jump": -8.990316577807619,
+        "peak_abs_gradient": 261.8676210085832,
+        "delta_m": 0.03433153187546216,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "Ar",
+    "sweep": "Mach",
+    "parameter": 9.75,
+    "marker": {
+      "s": 0.09558819616034515,
+      "delta": 0.01888144053333695,
+      "downstream_s": 0.06924016773153206,
+      "upstream_spread": 0.009324574127972333,
+      "onset": 0.1087622103747517,
+      "sigma": 0.0021989281967050825
+    },
+    "rho_upstream_source": "measured farthest 5\u201335mm window; diagnostic only",
+    "rhoinf": 2.816082250338833e-05,
+    "variables": {
+      "rho": {
+        "up": 2.8158284281279876e-05,
+        "down": 0.00011227634062515199,
+        "signed_jump": 8.411805634387211e-05,
+        "peak_abs_gradient": 0.004453750165152759,
+        "delta_m": 0.018887017283105045,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 205.9051641914981,
+        "down": 6203.698542503899,
+        "signed_jump": 5997.793378312401,
+        "peak_abs_gradient": 314864.643195685,
+        "delta_m": 0.019048799247316048,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 2567.241896718891,
+        "down": 537.8096704884916,
+        "signed_jump": -2029.4322262303995,
+        "peak_abs_gradient": 93585.9538066946,
+        "delta_m": 0.02168522244718764,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 1.207348183353734,
+        "down": 145.0470815636744,
+        "signed_jump": 143.83973338032067,
+        "peak_abs_gradient": 6794.922050667461,
+        "delta_m": 0.021168709855353143,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 9.60337571616219,
+        "down": 0.3665169063911127,
+        "signed_jump": -9.236858809771078,
+        "peak_abs_gradient": 262.51333379077914,
+        "delta_m": 0.03518624626180998,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "Ar",
+    "sweep": "Mach",
+    "parameter": 10.0,
+    "marker": {
+      "s": 0.09507757545436041,
+      "delta": 0.018975424198115265,
+      "downstream_s": 0.06872954702554732,
+      "upstream_spread": 0.009206428453805504,
+      "onset": 0.10825158966876695,
+      "sigma": 0.0021989281967050825
+    },
+    "rho_upstream_source": "measured farthest 5\u201335mm window; diagnostic only",
+    "rhoinf": 2.8210148288722782e-05,
+    "variables": {
+      "rho": {
+        "up": 2.8210707972456155e-05,
+        "down": 0.00011255321215682647,
+        "signed_jump": 8.43425041843703e-05,
+        "peak_abs_gradient": 0.004443939262097907,
+        "delta_m": 0.01897922073411815,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 207.96590759429802,
+        "down": 6522.751838677481,
+        "signed_jump": 6314.785931083183,
+        "peak_abs_gradient": 329774.5902303383,
+        "delta_m": 0.019148794716635026,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 2632.633652861212,
+        "down": 550.6673990761669,
+        "signed_jump": -2081.966253785045,
+        "peak_abs_gradient": 96321.79025243968,
+        "delta_m": 0.021614696408036416,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 1.2217202683008828,
+        "down": 152.87385633996,
+        "signed_jump": 151.65213607165913,
+        "peak_abs_gradient": 7149.500132624933,
+        "delta_m": 0.021211571894324894,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 9.799075498024298,
+        "down": 0.36598617973870545,
+        "signed_jump": -9.433089318285592,
+        "peak_abs_gradient": 263.0246576468562,
+        "delta_m": 0.03586389733448757,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "Ar",
+    "sweep": "Mach",
+    "parameter": 11.0,
+    "marker": {
+      "s": 0.09354571333640616,
+      "delta": 0.01952850454658272,
+      "downstream_s": 0.06719768490759306,
+      "upstream_spread": 0.009031561130244385,
+      "onset": 0.1077409689627822,
+      "sigma": 0.0021989281967050825
+    },
+    "rho_upstream_source": "measured farthest 5\u201335mm window; diagnostic only",
+    "rhoinf": 2.821942885299049e-05,
+    "variables": {
+      "rho": {
+        "up": 2.813889398586211e-05,
+        "down": 0.00011304596162935828,
+        "signed_jump": 8.490706764349617e-05,
+        "peak_abs_gradient": 0.0043419309509215576,
+        "delta_m": 0.019555140006423867,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 208.53325286070265,
+        "down": 7848.703670865735,
+        "signed_jump": 7640.170418005033,
+        "peak_abs_gradient": 385152.31690292805,
+        "delta_m": 0.01983675050806101,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 2895.9288184266984,
+        "down": 599.3935680993113,
+        "signed_jump": -2296.535250327387,
+        "peak_abs_gradient": 102231.8297195863,
+        "delta_m": 0.02246399440004741,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 1.221952934048729,
+        "down": 184.76056152619293,
+        "signed_jump": 183.53860859214421,
+        "peak_abs_gradient": 8343.078094852855,
+        "delta_m": 0.0219989081374386,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 10.764428376412909,
+        "down": 0.36316489411944036,
+        "signed_jump": -10.401263482293468,
+        "peak_abs_gradient": 279.20597046659896,
+        "delta_m": 0.037253012408406776,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "Ar",
+    "sweep": "Mach",
+    "parameter": 12.0,
+    "marker": {
+      "s": 0.09242234778323971,
+      "delta": 0.02008295733671457,
+      "downstream_s": 0.06607431935442662,
+      "upstream_spread": 0.008676168283788444,
+      "onset": 0.10723034825679745,
+      "sigma": 0.0021989281967050825
+    },
+    "rho_upstream_source": "measured farthest 5\u201335mm window; diagnostic only",
+    "rhoinf": 2.822932478220512e-05,
+    "variables": {
+      "rho": {
+        "up": 2.804594325115264e-05,
+        "down": 0.00011348941237935138,
+        "signed_jump": 8.544346912819873e-05,
+        "peak_abs_gradient": 0.004244246276536523,
+        "delta_m": 0.020131600185539673,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 213.34743243989007,
+        "down": 9299.863514496588,
+        "signed_jump": 9086.516082056698,
+        "peak_abs_gradient": 446161.51907363534,
+        "delta_m": 0.020365978896886985,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 3158.510546012802,
+        "down": 649.4422965380957,
+        "signed_jump": -2509.068249474706,
+        "peak_abs_gradient": 107284.9013507124,
+        "delta_m": 0.02338696515432873,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 1.2460120357391524,
+        "down": 219.78357701971885,
+        "signed_jump": 218.5375649839797,
+        "peak_abs_gradient": 9584.403353623231,
+        "delta_m": 0.022801373953169977,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 11.60580170507118,
+        "down": 0.36148728863694324,
+        "signed_jump": -11.244314416434236,
+        "peak_abs_gradient": 287.9906232354806,
+        "delta_m": 0.039044029594116764,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "Ar",
+    "sweep": "Mach",
+    "parameter": 13.0,
+    "marker": {
+      "s": 0.09160535465366411,
+      "delta": 0.020845080458948027,
+      "downstream_s": 0.06525732622485102,
+      "upstream_spread": 0.008205977679842711,
+      "onset": 0.1067197275508127,
+      "sigma": 0.0021989281967050825
+    },
+    "rho_upstream_source": "measured farthest 5\u201335mm window; diagnostic only",
+    "rhoinf": 2.8246397447236913e-05,
+    "variables": {
+      "rho": {
+        "up": 2.798345808326884e-05,
+        "down": 0.00011366329510107521,
+        "signed_jump": 8.567983701780637e-05,
+        "peak_abs_gradient": 0.00409712139232804,
+        "delta_m": 0.02091220367017779,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 216.21576496987777,
+        "down": 10879.387772445125,
+        "signed_jump": 10663.172007475247,
+        "peak_abs_gradient": 505810.6919603273,
+        "delta_m": 0.021081349558169482,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 3421.5510200655895,
+        "down": 700.6662960029736,
+        "signed_jump": -2720.884724062616,
+        "peak_abs_gradient": 111267.85018606111,
+        "delta_m": 0.024453467192120427,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 1.2598404198598432,
+        "down": 257.517402237463,
+        "signed_jump": 256.2575618176031,
+        "peak_abs_gradient": 10824.364581713337,
+        "delta_m": 0.02367414363061313,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 12.48891474340356,
+        "down": 0.36057843297813913,
+        "signed_jump": -12.128336310425421,
+        "peak_abs_gradient": 289.20668293217386,
+        "delta_m": 0.041936570024800626,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "Ar",
+    "sweep": "Mach",
+    "parameter": 14.0,
+    "marker": {
+      "s": 0.09089048566528546,
+      "delta": 0.0213274062342965,
+      "downstream_s": 0.06464458137766932,
+      "upstream_spread": 0.007690130693202397,
+      "onset": 0.1065154792684188,
+      "sigma": 0.0021989281967050825
+    },
+    "rho_upstream_source": "measured farthest 5\u201335mm window; diagnostic only",
+    "rhoinf": 2.8270920013079275e-05,
+    "variables": {
+      "rho": {
+        "up": 2.7984938816532986e-05,
+        "down": 0.00011376171868117933,
+        "signed_jump": 8.577677986464634e-05,
+        "peak_abs_gradient": 0.00400901253547703,
+        "delta_m": 0.021395986943313416,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 215.88678235628862,
+        "down": 12583.617611694746,
+        "signed_jump": 12367.730829338458,
+        "peak_abs_gradient": 561619.3874940723,
+        "delta_m": 0.022021552504664903,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 3685.5358533909866,
+        "down": 752.5745703149516,
+        "signed_jump": -2932.961283076035,
+        "peak_abs_gradient": 118137.89603385516,
+        "delta_m": 0.02482659147946504,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 1.2567810907955328,
+        "down": 298.09410842254,
+        "signed_jump": 296.83732733174446,
+        "peak_abs_gradient": 12312.167255207314,
+        "delta_m": 0.02410926696972866,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 13.464132030752955,
+        "down": 0.36011194816760417,
+        "signed_jump": -13.10402008258535,
+        "peak_abs_gradient": 302.9970388707952,
+        "delta_m": 0.04324801368165582,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "Ar",
+    "sweep": "Mach",
+    "parameter": 15.0,
+    "marker": {
+      "s": 0.09037986495930071,
+      "delta": 0.021820467276263206,
+      "downstream_s": 0.06403183653048762,
+      "upstream_spread": 0.007259173917643153,
+      "onset": 0.10641335512722185,
+      "sigma": 0.0021989281967050825
+    },
+    "rho_upstream_source": "measured farthest 5\u201335mm window; diagnostic only",
+    "rhoinf": 2.8264610417254428e-05,
+    "variables": {
+      "rho": {
+        "up": 2.7962864279094745e-05,
+        "down": 0.00011402559175989726,
+        "signed_jump": 8.606272748080252e-05,
+        "peak_abs_gradient": 0.0039295011930226,
+        "delta_m": 0.02190169267122743,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 220.64483532078378,
+        "down": 14423.744780319474,
+        "signed_jump": 14203.09994499869,
+        "peak_abs_gradient": 624459.5699473247,
+        "delta_m": 0.02274462691987693,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 3948.882436429565,
+        "down": 803.3893364983592,
+        "signed_jump": -3145.493099931206,
+        "peak_abs_gradient": 125038.58966086619,
+        "delta_m": 0.025156178652226618,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 1.2834173479309867,
+        "down": 342.47845091455235,
+        "signed_jump": 341.19503356662136,
+        "peak_abs_gradient": 13796.339427119121,
+        "delta_m": 0.024730837869641187,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 14.269806387423824,
+        "down": 0.35906890429005606,
+        "signed_jump": -13.910737483133767,
+        "peak_abs_gradient": 305.28989077109145,
+        "delta_m": 0.0455656669403578,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "N2",
+    "sweep": "Mach",
+    "parameter": 5.0,
+    "marker": {
+      "s": 0.0777164739236458,
+      "delta": 0.013715910098510762,
+      "downstream_s": 0.05136844465649651,
+      "upstream_spread": 0.004024746568173704,
+      "onset": 0.08752039179049206,
+      "sigma": 0.0021989282278422548
+    },
+    "rho_upstream_source": "measured farthest 5\u201335mm window; diagnostic only",
+    "rhoinf": 1.976314429097298e-05,
+    "variables": {
+      "rho": {
+        "up": 1.9752373601735665e-05,
+        "down": 0.00010183702962907967,
+        "signed_jump": 8.2084656027344e-05,
+        "peak_abs_gradient": 0.005983481462627116,
+        "delta_m": 0.013718544385914048,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 200.42393128658,
+        "down": 1171.5089753628968,
+        "signed_jump": 971.0850440763168,
+        "peak_abs_gradient": 83402.72747155,
+        "delta_m": 0.01164332478704092,
+        "normalization_supported": true
+      },
+      "trot": {
+        "up": 199.71652360126703,
+        "down": 1170.7594405042012,
+        "signed_jump": 971.0429169029342,
+        "peak_abs_gradient": 59839.69813302439,
+        "delta_m": 0.01622740333255515,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 1439.7835468252133,
+        "down": 211.96112334876204,
+        "signed_jump": -1227.8224234764511,
+        "peak_abs_gradient": 81029.23093723785,
+        "delta_m": 0.015152833234064328,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 1.1754068288187076,
+        "down": 35.420593387245496,
+        "signed_jump": 34.24518655842679,
+        "peak_abs_gradient": 2278.54945639598,
+        "delta_m": 0.01502938040791661,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 4.988192848145221,
+        "down": 0.30374156037526306,
+        "signed_jump": -4.684451287769958,
+        "peak_abs_gradient": 242.42195495207307,
+        "delta_m": 0.019323543895585184,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "N2",
+    "sweep": "Mach",
+    "parameter": 6.0,
+    "marker": {
+      "s": 0.07015928723461849,
+      "delta": 0.013851792395804788,
+      "downstream_s": 0.04381125796746919,
+      "upstream_spread": 0.0060639059938183745,
+      "onset": 0.08108657069037421,
+      "sigma": 0.0021989282278422548
+    },
+    "rho_upstream_source": "measured farthest 5\u201335mm window; diagnostic only",
+    "rhoinf": 1.9731984406740257e-05,
+    "variables": {
+      "rho": {
+        "up": 1.973398611922259e-05,
+        "down": 0.00010740479628850817,
+        "signed_jump": 8.767081016928559e-05,
+        "peak_abs_gradient": 0.006328857851881309,
+        "delta_m": 0.013852548472584934,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 201.15417777539454,
+        "down": 1602.6684266702446,
+        "signed_jump": 1401.51424889485,
+        "peak_abs_gradient": 120205.54897472449,
+        "delta_m": 0.011659314073675127,
+        "normalization_supported": true
+      },
+      "trot": {
+        "up": 200.05013508372303,
+        "down": 1602.0835925673598,
+        "signed_jump": 1402.0334574836368,
+        "peak_abs_gradient": 83720.0274071563,
+        "delta_m": 0.01674669133426242,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 1727.3740675113497,
+        "down": 230.55978418529037,
+        "signed_jump": -1496.8142833260595,
+        "peak_abs_gradient": 96288.41909097508,
+        "delta_m": 0.01554511225188817,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 1.1780477191788066,
+        "down": 51.10858146836067,
+        "signed_jump": 49.93053374918186,
+        "peak_abs_gradient": 3164.2855013889784,
+        "delta_m": 0.015779402246499128,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 5.973375400359507,
+        "down": 0.28247663666330275,
+        "signed_jump": -5.690898763696205,
+        "peak_abs_gradient": 263.0102461010865,
+        "delta_m": 0.021637555373066872,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "N2",
+    "sweep": "Mach",
+    "parameter": 7.0,
+    "marker": {
+      "s": 0.06587007316787326,
+      "delta": 0.014051965772771688,
+      "downstream_s": 0.042483644089667094,
+      "upstream_spread": 0.007467078332832482,
+      "onset": 0.07741010149030686,
+      "sigma": 0.0021989282278422548
+    },
+    "rho_upstream_source": "measured farthest 5\u201335mm window; diagnostic only",
+    "rhoinf": 1.975093526139742e-05,
+    "variables": {
+      "rho": {
+        "up": 1.97701540722185e-05,
+        "down": 0.000110441751700262,
+        "signed_jump": 9.06715976280435e-05,
+        "peak_abs_gradient": 0.006454258023914139,
+        "delta_m": 0.014048337902217357,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 202.1321526626307,
+        "down": 2110.0799385848222,
+        "signed_jump": 1907.9477859221915,
+        "peak_abs_gradient": 161448.4829039378,
+        "delta_m": 0.011817687918798373,
+        "normalization_supported": true
+      },
+      "trot": {
+        "up": 200.1300429275581,
+        "down": 2106.5190188109777,
+        "signed_jump": 1906.3889758834196,
+        "peak_abs_gradient": 109836.80580555368,
+        "delta_m": 0.01735655877737685,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 2015.5434237382178,
+        "down": 267.1426253725032,
+        "signed_jump": -1748.4007983657148,
+        "peak_abs_gradient": 107237.89871945232,
+        "delta_m": 0.016303944960165143,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 1.186476532764332,
+        "down": 69.19033419232875,
+        "signed_jump": 68.00385765956442,
+        "peak_abs_gradient": 4226.134346192906,
+        "delta_m": 0.016091267358981472,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 6.953368981645062,
+        "down": 0.28524270925611334,
+        "signed_jump": -6.668126272388949,
+        "peak_abs_gradient": 282.42910884121375,
+        "delta_m": 0.023609911526994473,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "N2",
+    "sweep": "Mach",
+    "parameter": 8.0,
+    "marker": {
+      "s": 0.06331696955671538,
+      "delta": 0.014531847601500312,
+      "downstream_s": 0.039522043900723954,
+      "upstream_spread": 0.00850780782183504,
+      "onset": 0.07516337031248793,
+      "sigma": 0.0021989282278422548
+    },
+    "rho_upstream_source": "measured farthest 5\u201335mm window; diagnostic only",
+    "rhoinf": 1.9713270372957563e-05,
+    "variables": {
+      "rho": {
+        "up": 1.9793208447216314e-05,
+        "down": 0.00011290641448771855,
+        "signed_jump": 9.311320604050223e-05,
+        "peak_abs_gradient": 0.006412436946600708,
+        "delta_m": 0.014520720720671164,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 203.44901051043718,
+        "down": 2696.599505787699,
+        "signed_jump": 2493.1504952772616,
+        "peak_abs_gradient": 196923.25209936686,
+        "delta_m": 0.012660518596449066,
+        "normalization_supported": true
+      },
+      "trot": {
+        "up": 200.31671282164007,
+        "down": 2693.5572499159057,
+        "signed_jump": 2493.2405370942656,
+        "peak_abs_gradient": 138868.73061475344,
+        "delta_m": 0.017953937693943198,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 2303.561906638083,
+        "down": 292.796785242839,
+        "signed_jump": -2010.7651213952443,
+        "peak_abs_gradient": 119439.15835884959,
+        "delta_m": 0.016835057689823893,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 1.1960071754681085,
+        "down": 90.3964793163074,
+        "signed_jump": 89.2004721408393,
+        "peak_abs_gradient": 5467.961309509585,
+        "delta_m": 0.016313296143062796,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 7.921852925143909,
+        "down": 0.2765533324487747,
+        "signed_jump": -7.645299592695134,
+        "peak_abs_gradient": 301.1291901493387,
+        "delta_m": 0.025388769480977944,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "N2",
+    "sweep": "Mach",
+    "parameter": 9.0,
+    "marker": {
+      "s": 0.06117236252334276,
+      "delta": 0.014723546725599166,
+      "downstream_s": 0.03839867831181449,
+      "upstream_spread": 0.009007497470190529,
+      "onset": 0.07363150814579321,
+      "sigma": 0.0021989282278422548
+    },
+    "rho_upstream_source": "measured farthest 5\u201335mm window; diagnostic only",
+    "rhoinf": 1.9744361431325237e-05,
+    "variables": {
+      "rho": {
+        "up": 1.9810343758157327e-05,
+        "down": 0.0001145415323768355,
+        "signed_jump": 9.473118861867817e-05,
+        "peak_abs_gradient": 0.006438471466936879,
+        "delta_m": 0.014713304097897447,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 205.45504628120983,
+        "down": 3356.7060222967925,
+        "signed_jump": 3151.2509760155826,
+        "peak_abs_gradient": 246757.69396910816,
+        "delta_m": 0.012770629054468676,
+        "normalization_supported": true
+      },
+      "trot": {
+        "up": 201.1007866041091,
+        "down": 3350.975072810046,
+        "signed_jump": 3149.874286205937,
+        "peak_abs_gradient": 169100.3894373998,
+        "delta_m": 0.018627244423774707,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 2591.3724725251022,
+        "down": 325.72096000652056,
+        "signed_jump": -2265.6515125185815,
+        "peak_abs_gradient": 130048.04397553205,
+        "delta_m": 0.017421650055304588,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 1.2117643061391474,
+        "down": 114.15365677009287,
+        "signed_jump": 112.94189246395372,
+        "peak_abs_gradient": 6636.450869469496,
+        "delta_m": 0.01701841762794246,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 8.869350392393958,
+        "down": 0.27574641161835756,
+        "signed_jump": -8.593603980775601,
+        "peak_abs_gradient": 313.2710067987391,
+        "delta_m": 0.027431852275740794,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "N2",
+    "sweep": "Mach",
+    "parameter": 10.0,
+    "marker": {
+      "s": 0.05994687278998698,
+      "delta": 0.015194014993996207,
+      "downstream_s": 0.037581685156243966,
+      "upstream_spread": 0.009161004868625835,
+      "onset": 0.07250814255688375,
+      "sigma": 0.0021989282278422548
+    },
+    "rho_upstream_source": "measured farthest 5\u201335mm window; diagnostic only",
+    "rhoinf": 1.975937797595093e-05,
+    "variables": {
+      "rho": {
+        "up": 1.9798267428821153e-05,
+        "down": 0.00011571630452536668,
+        "signed_jump": 9.591803709654552e-05,
+        "peak_abs_gradient": 0.006315911073976221,
+        "delta_m": 0.015186730144406501,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 207.28348474254747,
+        "down": 4096.337505191755,
+        "signed_jump": 3889.054020449207,
+        "peak_abs_gradient": 294553.5780597292,
+        "delta_m": 0.013203214322049722,
+        "normalization_supported": true
+      },
+      "trot": {
+        "up": 201.6786718690289,
+        "down": 4086.3542790205865,
+        "signed_jump": 3884.6756071515574,
+        "peak_abs_gradient": 202384.26832942478,
+        "delta_m": 0.019194553209187167,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 2879.1392616382986,
+        "down": 359.64255234825686,
+        "signed_jump": -2519.496709290042,
+        "peak_abs_gradient": 141684.98664847296,
+        "delta_m": 0.01778238308015676,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 1.2206055197527421,
+        "down": 140.7382113796354,
+        "signed_jump": 139.51760585988265,
+        "peak_abs_gradient": 8044.688378842315,
+        "delta_m": 0.017342822902477694,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 9.809734475261052,
+        "down": 0.2756093980161424,
+        "signed_jump": -9.53412507724491,
+        "peak_abs_gradient": 326.57903088994135,
+        "delta_m": 0.029193929111933567,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "N2",
+    "sweep": "Mach",
+    "parameter": 11.0,
+    "marker": {
+      "s": 0.058517134767738566,
+      "delta": 0.015569946974952325,
+      "downstream_s": 0.03707106443401239,
+      "upstream_spread": 0.009221296778286888,
+      "onset": 0.07199752183465216,
+      "sigma": 0.0021989282278422548
+    },
+    "rho_upstream_source": "measured farthest 5\u201335mm window; diagnostic only",
+    "rhoinf": 1.977261330221413e-05,
+    "variables": {
+      "rho": {
+        "up": 1.9802925358030254e-05,
+        "down": 0.00011654785506581712,
+        "signed_jump": 9.674492970778687e-05,
+        "peak_abs_gradient": 0.0062156575349807675,
+        "delta_m": 0.015564713654721361,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 209.7871744462342,
+        "down": 4911.979639301498,
+        "signed_jump": 4702.192464855263,
+        "peak_abs_gradient": 344076.41695670225,
+        "delta_m": 0.013666128316626175,
+        "normalization_supported": true
+      },
+      "trot": {
+        "up": 201.4786031601995,
+        "down": 4897.08297205012,
+        "signed_jump": 4695.60436888992,
+        "peak_abs_gradient": 238257.23434161767,
+        "delta_m": 0.019708129248899427,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 3166.797305855168,
+        "down": 392.9816133414798,
+        "signed_jump": -2773.815692513688,
+        "peak_abs_gradient": 151939.43613254838,
+        "delta_m": 0.01825606151449632,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 1.2355480892276964,
+        "down": 169.9663954961307,
+        "signed_jump": 168.730847406903,
+        "peak_abs_gradient": 9472.229241634894,
+        "delta_m": 0.017813214091699947,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 10.724898321988796,
+        "down": 0.27501974284816283,
+        "signed_jump": -10.449878579140634,
+        "peak_abs_gradient": 337.70563057041,
+        "delta_m": 0.03094374992057435,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "N2",
+    "sweep": "Mach",
+    "parameter": 12.0,
+    "marker": {
+      "s": 0.0573937691788291,
+      "delta": 0.015696240904945757,
+      "downstream_s": 0.03747956101179765,
+      "upstream_spread": 0.009023393036137051,
+      "onset": 0.0715890252568669,
+      "sigma": 0.0021989282278422548
+    },
+    "rho_upstream_source": "measured farthest 5\u201335mm window; diagnostic only",
+    "rhoinf": 1.9794311297198238e-05,
+    "variables": {
+      "rho": {
+        "up": 1.9837644626366318e-05,
+        "down": 0.00011699592753839655,
+        "signed_jump": 9.715828291203024e-05,
+        "peak_abs_gradient": 0.006193714340382961,
+        "delta_m": 0.01568659411341578,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 215.13778058702852,
+        "down": 5804.679300291803,
+        "signed_jump": 5589.541519704774,
+        "peak_abs_gradient": 397701.4211873971,
+        "delta_m": 0.014054617916668143,
+        "normalization_supported": true
+      },
+      "trot": {
+        "up": 202.80600848922694,
+        "down": 5782.722524080559,
+        "signed_jump": 5579.916515591332,
+        "peak_abs_gradient": 273660.63385858946,
+        "delta_m": 0.02038991299886662,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 3453.9437984119577,
+        "down": 439.17453841896,
+        "signed_jump": -3014.769259992998,
+        "peak_abs_gradient": 159754.99956221879,
+        "delta_m": 0.018871204458417307,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 1.2712215210197937,
+        "down": 201.63838846974494,
+        "signed_jump": 200.36716694872516,
+        "peak_abs_gradient": 10901.670056034112,
+        "delta_m": 0.018379492859245106,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 11.551212507149511,
+        "down": 0.2827280224249365,
+        "signed_jump": -11.268484484724574,
+        "peak_abs_gradient": 347.85921479345416,
+        "delta_m": 0.03239380762535033,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "N2",
+    "sweep": "Mach",
+    "parameter": 13.0,
+    "marker": {
+      "s": 0.056678900167704896,
+      "delta": 0.015922311528391426,
+      "downstream_s": 0.036356195422888184,
+      "upstream_spread": 0.008832778706370625,
+      "onset": 0.07128265282352796,
+      "sigma": 0.0021989282278422548
+    },
+    "rho_upstream_source": "measured farthest 5\u201335mm window; diagnostic only",
+    "rhoinf": 1.9791685933457994e-05,
+    "variables": {
+      "rho": {
+        "up": 1.984160683904805e-05,
+        "down": 0.00011771523986791367,
+        "signed_jump": 9.787363302886562e-05,
+        "peak_abs_gradient": 0.006150646210574151,
+        "delta_m": 0.015912739845221777,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 220.74758801072608,
+        "down": 6770.395212007646,
+        "signed_jump": 6549.64762399692,
+        "peak_abs_gradient": 453532.5674812831,
+        "delta_m": 0.014441405300551472,
+        "normalization_supported": true
+      },
+      "trot": {
+        "up": 204.05535265943269,
+        "down": 6740.3209399995585,
+        "signed_jump": 6536.265587340125,
+        "peak_abs_gradient": 311878.09243217483,
+        "delta_m": 0.020957758002068033,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 3741.8336768561558,
+        "down": 466.587144600664,
+        "signed_jump": -3275.2465322554917,
+        "peak_abs_gradient": 166350.69605558552,
+        "delta_m": 0.019688805697338826,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 1.3042648625828894,
+        "down": 236.6333825624876,
+        "signed_jump": 235.3291176999047,
+        "peak_abs_gradient": 12419.118369644857,
+        "delta_m": 0.018948939103044744,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 12.353632416569202,
+        "down": 0.27812405960736086,
+        "signed_jump": -12.07550835696184,
+        "peak_abs_gradient": 362.2109237976765,
+        "delta_m": 0.033338332898283786,
+        "normalization_supported": true
+      }
+    }
+  },
+  {
+    "gas": "N2",
+    "sweep": "Mach",
+    "parameter": 14.0,
+    "marker": {
+      "s": 0.05637252773436595,
+      "delta": 0.01641174856072411,
+      "downstream_s": 0.03523282983397872,
+      "upstream_spread": 0.008209024434622784,
+      "onset": 0.07097628039018901,
+      "sigma": 0.0021989282278422548
+    },
+    "rho_upstream_source": "measured farthest 5\u201335mm window; diagnostic only",
+    "rhoinf": 1.9814255889177296e-05,
+    "variables": {
+      "rho": {
+        "up": 1.9801215810297996e-05,
+        "down": 0.000118392299980174,
+        "signed_jump": 9.8591084169876e-05,
+        "peak_abs_gradient": 0.006006263764608222,
+        "delta_m": 0.016414711047293962,
+        "normalization_supported": true
+      },
+      "ttr": {
+        "up": 222.33283036691398,
+        "down": 7814.711476467416,
+        "signed_jump": 7592.378646100502,
+        "peak_abs_gradient": 514820.466662094,
+        "delta_m": 0.01474762395389345,
+        "normalization_supported": true
+      },
+      "trot": {
+        "up": 204.54489026639726,
+        "down": 7786.236177964917,
+        "signed_jump": 7581.69128769852,
+        "peak_abs_gradient": 353579.54756951705,
+        "delta_m": 0.02144267489399366,
+        "normalization_supported": true
+      },
+      "u": {
+        "up": 4029.0902658015593,
+        "down": 489.8869907130004,
+        "signed_jump": -3539.203275088559,
+        "peak_abs_gradient": 175180.15941660665,
+        "delta_m": 0.02020321985591852,
+        "normalization_supported": true
+      },
+      "p": {
+        "up": 1.3071501661674314,
+        "down": 274.6975459083998,
+        "signed_jump": 273.39039574223233,
+        "peak_abs_gradient": 14133.927533318056,
+        "delta_m": 0.019342846855395734,
+        "normalization_supported": true
+      },
+      "mach_proxy": {
+        "up": 13.253505625343895,
+        "down": 0.2718067575337463,
+        "signed_jump": -12.981698867810149,
+        "peak_abs_gradient": 373.50207813995075,
+        "delta_m": 0.03475669782738377,
+        "normalization_supported": true
+      }
+    }
+  }
+]

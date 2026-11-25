@@ -1,0 +1,162 @@
+[
+ {
+  "case": "Ar_cylinder_Kn0p01",
+  "cells": 414205,
+  "dt": 2e-08,
+  "total_steps": 300000,
+  "ntasks": 64,
+  "est_particles_upstream": 8284100
+ },
+ {
+  "case": "Ar_plate_Kn0p01",
+  "cells": 414205,
+  "dt": 2e-08,
+  "total_steps": 300000,
+  "ntasks": 64,
+  "est_particles_upstream": 8284100
+ },
+ {
+  "case": "Ar_cylinder_Kn0p025",
+  "cells": 323884,
+  "dt": 4e-08,
+  "total_steps": 150000,
+  "ntasks": 64,
+  "est_particles_upstream": 6477680
+ },
+ {
+  "case": "Ar_plate_Kn0p025",
+  "cells": 323884,
+  "dt": 4e-08,
+  "total_steps": 150000,
+  "ntasks": 64,
+  "est_particles_upstream": 6477680
+ },
+ {
+  "case": "Ar_cylinder_Kn0p05",
+  "cells": 115968,
+  "dt": 8e-08,
+  "total_steps": 75000,
+  "ntasks": 32,
+  "est_particles_upstream": 2319360
+ },
+ {
+  "case": "Ar_plate_Kn0p05",
+  "cells": 115968,
+  "dt": 8e-08,
+  "total_steps": 75000,
+  "ntasks": 32,
+  "est_particles_upstream": 2319360
+ },
+ {
+  "case": "Ar_cylinder_Kn0p1",
+  "cells": 51060,
+  "dt": 1.5e-07,
+  "total_steps": 40000,
+  "ntasks": 32,
+  "est_particles_upstream": 1021200
+ },
+ {
+  "case": "Ar_plate_Kn0p1",
+  "cells": 51060,
+  "dt": 1.5e-07,
+  "total_steps": 40000,
+  "ntasks": 32,
+  "est_particles_upstream": 1021200
+ },
+ {
+  "case": "Ar_cylinder_Kn0p2",
+  "cells": 23128,
+  "dt": 3e-07,
+  "total_steps": 20000,
+  "ntasks": 32,
+  "est_particles_upstream": 462560
+ },
+ {
+  "case": "Ar_plate_Kn0p2",
+  "cells": 23128,
+  "dt": 3e-07,
+  "total_steps": 20000,
+  "ntasks": 32,
+  "est_particles_upstream": 462560
+ },
+ {
+  "case": "N2_cylinder_Kn0p01",
+  "cells": 414205,
+  "dt": 2e-08,
+  "total_steps": 300000,
+  "ntasks": 64,
+  "est_particles_upstream": 8284100
+ },
+ {
+  "case": "N2_plate_Kn0p01",
+  "cells": 414205,
+  "dt": 2e-08,
+  "total_steps": 300000,
+  "ntasks": 64,
+  "est_particles_upstream": 8284100
+ },
+ {
+  "case": "N2_cylinder_Kn0p025",
+  "cells": 323884,
+  "dt": 4e-08,
+  "total_steps": 150000,
+  "ntasks": 64,
+  "est_particles_upstream": 6477680
+ },
+ {
+  "case": "N2_plate_Kn0p025",
+  "cells": 323884,
+  "dt": 4e-08,
+  "total_steps": 150000,
+  "ntasks": 64,
+  "est_particles_upstream": 6477680
+ },
+ {
+  "case": "N2_cylinder_Kn0p05",
+  "cells": 115968,
+  "dt": 8e-08,
+  "total_steps": 75000,
+  "ntasks": 32,
+  "est_particles_upstream": 2319360
+ },
+ {
+  "case": "N2_plate_Kn0p05",
+  "cells": 115968,
+  "dt": 8e-08,
+  "total_steps": 75000,
+  "ntasks": 32,
+  "est_particles_upstream": 2319360
+ },
+ {
+  "case": "N2_cylinder_Kn0p1",
+  "cells": 50912,
+  "dt": 1.5e-07,
+  "total_steps": 40000,
+  "ntasks": 32,
+  "est_particles_upstream": 1018240
+ },
+ {
+  "case": "N2_plate_Kn0p1",
+  "cells": 50912,
+  "dt": 1.5e-07,
+  "total_steps": 40000,
+  "ntasks": 32,
+  "est_particles_upstream": 1018240
+ },
+ {
+  "case": "N2_cylinder_Kn0p2",
+  "cells": 23128,
+  "dt": 3e-07,
+  "total_steps": 20000,
+  "ntasks": 32,
+  "est_particles_upstream": 462560
+ },
+ {
+  "case": "N2_plate_Kn0p2",
+  "cells": 23128,
+  "dt": 3e-07,
+  "total_steps": 20000,
+  "ntasks": 32,
+  "est_particles_upstream": 462560
+ }
+]

@@ -1,0 +1,40 @@
+{
+  "name": "N2_wall_L4_ppc40",
+  "gas": "N2",
+  "extra_levels": 4,
+  "nrho": 3.941e+20,
+  "U": 2883.3,
+  "upstream_target_ppc": 40,
+  "dt": 5e-09,
+  "weight": "bounding_cell_area",
+  "fnum": 9.8525e+18,
+  "scope": "Only numerical admission; 200 steps cannot establish steady state, weighting accuracy or scientific convergence. Refined sector x<.04,y<.105; not whole cylinder.",
+  "root": "../N2_wall_L4_ppc40",
+  "solver": "campaign/sparta_bigbig_v1/src/spa_bigbig",
+  "mpirun": "mpirun",
+  "grading_bounds_xy": [
+    [
+      0.3,
+      0.38
+    ],
+    [
+      0.26,
+      0.35
+    ],
+    [
+      0.1,
+      0.2
+    ],
+    [
+      0.07,
+      0.14
+    ]
+  ],
+  "ppc": 40,
+  "radial_bands_m": [
+    0.15,
+    0.12,
+    0.032,
+    0.012
+  ]
+}

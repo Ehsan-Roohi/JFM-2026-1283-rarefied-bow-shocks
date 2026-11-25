@@ -1,0 +1,14 @@
+{
+  "name": "Ar_grid1552",
+  "nx": 1552,
+  "ny": 800,
+  "ppc": 20,
+  "dt": 2e-08,
+  "ranks": 64,
+  "root": "../Ar_grid1552",
+  "fnum": 5279639175257.732,
+  "hx": 0.000547680412371134,
+  "hy": 0.0005,
+  "pilot_steps": 200,
+  "production_prepared_not_submitted": true
+}

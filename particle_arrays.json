@@ -1,0 +1,357 @@
+[
+  {
+    "file": "film_Ar_cylinder_Kn0p01_mol.npz",
+    "relative_path": "data/physics/film_runs/mol/film_Ar_cylinder_Kn0p01_mol.npz",
+    "bytes": 2380605894,
+    "gas": "Ar",
+    "body": "cylinder",
+    "Kn": 0.01,
+    "frames": 900,
+    "sampled_rows": 119029384,
+    "fields": [
+      "offsets",
+      "steps",
+      "meta",
+      "id",
+      "x",
+      "y",
+      "vx"
+    ],
+    "parts": [
+      {
+        "name": "film_Ar_cylinder_Kn0p01_mol.npz.part01.zst",
+        "bytes": 407273980,
+        "sha256": "2e8c379c97ca57603750908f401d5ca87af6ea87ea519b62224d070d764cf567",
+        "decoded_bytes": 800000000,
+        "decoded_sha256": "21f9f38389168556684f6f3e39526e4957cf007e5584c81c1c0b3637d0e44eee"
+      },
+      {
+        "name": "film_Ar_cylinder_Kn0p01_mol.npz.part02.zst",
+        "bytes": 646617672,
+        "sha256": "164bf0c4be489721731cf7ca36b0e4c128332636e59ced4213bd68fe763b2b09",
+        "decoded_bytes": 800000000,
+        "decoded_sha256": "192593820cb429562893d7b187466cd8093e7d0b173a4c243124e7c75eea7f2c"
+      },
+      {
+        "name": "film_Ar_cylinder_Kn0p01_mol.npz.part03.zst",
+        "bytes": 509262732,
+        "sha256": "5d6be648f4653a59d045552f9515b06139ff1d02682521d5dbd061eed8722a3c",
+        "decoded_bytes": 780605894,
+        "decoded_sha256": "b4d824dc523433e1d65dd59ed566e97aff06c862a02169abee64e4a6ee7a38ca"
+      }
+    ],
+    "sha256": "54cbdf2c6450f89c7fbb23fcf0a705a0a54a0071cc26291e9e694bf90071bd0c"
+  },
+  {
+    "file": "film_Ar_cylinder_Kn0p1_mol.npz",
+    "relative_path": "data/physics/film_runs/mol/film_Ar_cylinder_Kn0p1_mol.npz",
+    "bytes": 588921974,
+    "gas": "Ar",
+    "body": "cylinder",
+    "Kn": 0.1,
+    "frames": 900,
+    "sampled_rows": 29445184,
+    "fields": [
+      "offsets",
+      "steps",
+      "meta",
+      "id",
+      "x",
+      "y",
+      "vx"
+    ],
+    "parts": [
+      {
+        "name": "film_Ar_cylinder_Kn0p1_mol.npz.part01.zst",
+        "bytes": 272914906,
+        "sha256": "9cd2b5c4229ca33482c7992242d4304558e63c4f531510b660edd589d933127e",
+        "decoded_bytes": 588921974,
+        "decoded_sha256": "c48519cb119fe575469051202979c619dc0ecfe0617e048b82b4f518a2f0d30d"
+      }
+    ],
+    "sha256": "c48519cb119fe575469051202979c619dc0ecfe0617e048b82b4f518a2f0d30d"
+  },
+  {
+    "file": "film_Ar_plate_Kn0p01_mol.npz",
+    "relative_path": "data/physics/film_runs/mol/film_Ar_plate_Kn0p01_mol.npz",
+    "bytes": 3752571726,
+    "gas": "Ar",
+    "body": "plate",
+    "Kn": 0.01,
+    "frames": 900,
+    "sampled_rows": 187627675,
+    "fields": [
+      "offsets",
+      "steps",
+      "meta",
+      "id",
+      "x",
+      "y",
+      "vx"
+    ],
+    "parts": [
+      {
+        "name": "film_Ar_plate_Kn0p01_mol.npz.part01.zst",
+        "bytes": 407315762,
+        "sha256": "5fe9f71583f62c274d0c52b10e09000266da907d4680f1adbbb3ac947d6acba7",
+        "decoded_bytes": 800000000,
+        "decoded_sha256": "8bdd5cfd9cd44902095d50716083199c1c8688493e6926c30f5b31db3770e6cb"
+      },
+      {
+        "name": "film_Ar_plate_Kn0p01_mol.npz.part02.zst",
+        "bytes": 441936535,
+        "sha256": "861d172bb636ef65015ca920fa7be897f094882f0c868f30a212361289263308",
+        "decoded_bytes": 800000000,
+        "decoded_sha256": "216470deede51a51e4dd3ef3e402f14191b822ee0881ff7e54ef199d600e6666"
+      },
+      {
+        "name": "film_Ar_plate_Kn0p01_mol.npz.part03.zst",
+        "bytes": 693533939,
+        "sha256": "2d955065bb9db7e5a9b52ae83da47f97f7ffef2c57dd6751c6c6cb604b96801a",
+        "decoded_bytes": 800000000,
+        "decoded_sha256": "0a5b652984eb9476921c541820a2b550c22921e5146c2d64658e923b3758e281"
+      },
+      {
+        "name": "film_Ar_plate_Kn0p01_mol.npz.part04.zst",
+        "bytes": 683089432,
+        "sha256": "00b61ff6dc23ca5d7a5eab8e92808547319a92e42b0ff389d1e77d951b86ccd7",
+        "decoded_bytes": 800000000,
+        "decoded_sha256": "a73f08d45073c1b1b39ac80a971b529e6a6f877d0387e423eb947200ec01c6bb"
+      },
+      {
+        "name": "film_Ar_plate_Kn0p01_mol.npz.part05.zst",
+        "bytes": 400879636,
+        "sha256": "c52eb12acbf0433fd81b4e73684b8890c258ea4393bfae224518fce042436778",
+        "decoded_bytes": 552571726,
+        "decoded_sha256": "12d3644c02c76fad017515c0d7936962b7459b14b40ac559823e6b9f507db857"
+      }
+    ],
+    "sha256": "22c6812535c459707b1e6473dc63158456d5c59f3ebc88073edb9da57fb3150b"
+  },
+  {
+    "file": "film_Ar_plate_Kn0p1_mol.npz",
+    "relative_path": "data/physics/film_runs/mol/film_Ar_plate_Kn0p1_mol.npz",
+    "bytes": 806037622,
+    "gas": "Ar",
+    "body": "plate",
+    "Kn": 0.1,
+    "frames": 900,
+    "sampled_rows": 40300967,
+    "fields": [
+      "offsets",
+      "steps",
+      "meta",
+      "id",
+      "x",
+      "y",
+      "vx"
+    ],
+    "parts": [
+      {
+        "name": "film_Ar_plate_Kn0p1_mol.npz.part01.zst",
+        "bytes": 397316559,
+        "sha256": "9a6c40bf8995d2799d977d349ea75d04d151061803b300b939b4d19ac9c143db",
+        "decoded_bytes": 800000000,
+        "decoded_sha256": "2fb09e1980c10cd577d3d1d3d3cc29ee34e15f4bdc15051110229ce491d87730"
+      },
+      {
+        "name": "film_Ar_plate_Kn0p1_mol.npz.part02.zst",
+        "bytes": 2457952,
+        "sha256": "cf7077821b00f6a303f2a561ca64ec8c28cd2cd40ae9de3301b65c8f8b2fed97",
+        "decoded_bytes": 6037622,
+        "decoded_sha256": "21e56d1699aaa9f51b55df1deca720534e581474ad8fdf9a16acaf836e17ceaf"
+      }
+    ],
+    "sha256": "d3e35193776e66b7c65a78f10907af44da09afefd48cd0ab3a0870858fa66273"
+  },
+  {
+    "file": "film_N2_cylinder_Kn0p01_mol.npz",
+    "relative_path": "data/physics/film_runs/mol/film_N2_cylinder_Kn0p01_mol.npz",
+    "bytes": 2833594758,
+    "gas": "N2",
+    "body": "cylinder",
+    "Kn": 0.01,
+    "frames": 900,
+    "sampled_rows": 118065678,
+    "fields": [
+      "offsets",
+      "steps",
+      "meta",
+      "id",
+      "x",
+      "y",
+      "vx",
+      "erot"
+    ],
+    "parts": [
+      {
+        "name": "film_N2_cylinder_Kn0p01_mol.npz.part01.zst",
+        "bytes": 407258869,
+        "sha256": "e7bed840b024917693d6efa15a19599dec822fe65c8afc5b2df42262ffdf41da",
+        "decoded_bytes": 800000000,
+        "decoded_sha256": "99b4dee40f567553d91520e01a55d112b7be677d86a01af423a8286e7c4b06da"
+      },
+      {
+        "name": "film_N2_cylinder_Kn0p01_mol.npz.part02.zst",
+        "bytes": 652047940,
+        "sha256": "b27f089b826ea5562caafd0a7dbd461b25fe8acdab2a9aee9f7479bd8a0e88d5",
+        "decoded_bytes": 800000000,
+        "decoded_sha256": "442a03e928d62053e180fb8a6a4af8461508df5450d8b9ae6c6d5fa4cb5e06b8"
+      },
+      {
+        "name": "film_N2_cylinder_Kn0p01_mol.npz.part03.zst",
+        "bytes": 530918504,
+        "sha256": "aedeaf09b190cbad01994201751bb83e522f101bd247780c8f26448583e5be73",
+        "decoded_bytes": 800000000,
+        "decoded_sha256": "3e6be48d3966c59ed465d6411bae1736fd5c83bd3482fc73130a3cc35985cf3a"
+      },
+      {
+        "name": "film_N2_cylinder_Kn0p01_mol.npz.part04.zst",
+        "bytes": 135079373,
+        "sha256": "55fb30fd0153736c1c20188d0f93abc4b801440d58cd5005b66d8e50ace61367",
+        "decoded_bytes": 433594758,
+        "decoded_sha256": "3b555ccaa9547f5fa2c3ad2fe26900b33f98e2a3612b0437e8fbb0574fbdf750"
+      }
+    ],
+    "sha256": "af9cc110c2b47f18d7c19da32414ea4cc95c580b1fa792c718087a8f3fbb4b08"
+  },
+  {
+    "file": "film_N2_cylinder_Kn0p1_mol.npz",
+    "relative_path": "data/physics/film_runs/mol/film_N2_cylinder_Kn0p1_mol.npz",
+    "bytes": 682713038,
+    "gas": "N2",
+    "body": "cylinder",
+    "Kn": 0.1,
+    "frames": 900,
+    "sampled_rows": 28445606,
+    "fields": [
+      "offsets",
+      "steps",
+      "meta",
+      "id",
+      "x",
+      "y",
+      "vx",
+      "erot"
+    ],
+    "parts": [
+      {
+        "name": "film_N2_cylinder_Kn0p1_mol.npz.part01.zst",
+        "bytes": 281560605,
+        "sha256": "a9a3d6a59d4a8696bb65c128812467248711e6690691631d4c3bc34225b0aa86",
+        "decoded_bytes": 682713038,
+        "decoded_sha256": "f4ef7d7e4709abdc94e7db17ec4230fb08d82c617f3469b5ce81c6b58425dd4b"
+      }
+    ],
+    "sha256": "f4ef7d7e4709abdc94e7db17ec4230fb08d82c617f3469b5ce81c6b58425dd4b"
+  },
+  {
+    "file": "film_N2_plate_Kn0p01_mol.npz",
+    "relative_path": "data/physics/film_runs/mol/film_N2_plate_Kn0p01_mol.npz",
+    "bytes": 4919153802,
+    "gas": "N2",
+    "body": "plate",
+    "Kn": 0.01,
+    "frames": 900,
+    "sampled_rows": 204963971,
+    "fields": [
+      "offsets",
+      "steps",
+      "meta",
+      "id",
+      "x",
+      "y",
+      "vx",
+      "erot"
+    ],
+    "parts": [
+      {
+        "name": "film_N2_plate_Kn0p01_mol.npz.part01.zst",
+        "bytes": 407283501,
+        "sha256": "19e6385aa662f0fd9df4bc2c5776ca4154b77c095d2665e931d99157812bbc31",
+        "decoded_bytes": 800000000,
+        "decoded_sha256": "9edf0162743958936ea48f397921e85e48e4461b714ed2a0538b759f51a08804"
+      },
+      {
+        "name": "film_N2_plate_Kn0p01_mol.npz.part02.zst",
+        "bytes": 407261177,
+        "sha256": "1ae80abbdcb51b61f1e143d9d7e16548164e483f3e153ada2be9da246c219e38",
+        "decoded_bytes": 800000000,
+        "decoded_sha256": "50f5be0ad42d5582a9ebacf575f25588e99bd93c8885c3d4916cc222b1caa79a"
+      },
+      {
+        "name": "film_N2_plate_Kn0p01_mol.npz.part03.zst",
+        "bytes": 673683297,
+        "sha256": "dadaed62cf0cedbcd2e37ef78f1f9bf40d999f8f895f02436bed5cf10d547190",
+        "decoded_bytes": 800000000,
+        "decoded_sha256": "ef5f99c2c513bd336f262171a88ede6d322c6d66c586390e9f1577e124d2514f"
+      },
+      {
+        "name": "film_N2_plate_Kn0p01_mol.npz.part04.zst",
+        "bytes": 715188348,
+        "sha256": "4421ae1b49e224f7c790867b69c94bde9ce8caf3c6c84a4a61a7bc92ad4ad0bd",
+        "decoded_bytes": 800000000,
+        "decoded_sha256": "bc0171bf059d7c1b0eab568896388ccf65ba0a7ce92aba6fca013b9d6f1e17bc"
+      },
+      {
+        "name": "film_N2_plate_Kn0p01_mol.npz.part05.zst",
+        "bytes": 618519092,
+        "sha256": "da3599bd37fb613435050c94da57dd350ecaf16c75b7168f7178baa9a27c4a46",
+        "decoded_bytes": 800000000,
+        "decoded_sha256": "b15d89f15a4ae8f6c4b37a49453add0e2555c3ab2090c34263d82487778ab78b"
+      },
+      {
+        "name": "film_N2_plate_Kn0p01_mol.npz.part06.zst",
+        "bytes": 528072923,
+        "sha256": "c6d8845e8f5c52a63e3d367f966c260f5844fba8df1a0ad5be9ac10c7ed51f8a",
+        "decoded_bytes": 800000000,
+        "decoded_sha256": "5762ea3e527c62da79c443ed52feb3d4fed7a60ca889f3f9f54ada23610f06e6"
+      },
+      {
+        "name": "film_N2_plate_Kn0p01_mol.npz.part07.zst",
+        "bytes": 76981185,
+        "sha256": "2c8cd0cb0386f0bdb8c44cff36c5ab38d9cf4a29c9642bb0ff63b9e48fde21bf",
+        "decoded_bytes": 119153802,
+        "decoded_sha256": "1b8b5821fb86885cab758e99674549366ed7564ad3af552968815608bb318b92"
+      }
+    ],
+    "sha256": "db6a1dc2117aa4f5d94ec9ad807259ce063ddb578e3daabfbec3b8291470d0a2"
+  },
+  {
+    "file": "film_N2_plate_Kn0p1_mol.npz",
+    "relative_path": "data/physics/film_runs/mol/film_N2_plate_Kn0p1_mol.npz",
+    "bytes": 985724402,
+    "gas": "N2",
+    "body": "plate",
+    "Kn": 0.1,
+    "frames": 900,
+    "sampled_rows": 41071080,
+    "fields": [
+      "offsets",
+      "steps",
+      "meta",
+      "id",
+      "x",
+      "y",
+      "vx",
+      "erot"
+    ],
+    "parts": [
+      {
+        "name": "film_N2_plate_Kn0p1_mol.npz.part01.zst",
+        "bytes": 396391425,
+        "sha256": "b08018bfe8d4980b2bab69dd24b784a24441bc2183ec0317ce0ad66d03b3c5d9",
+        "decoded_bytes": 800000000,
+        "decoded_sha256": "8f097a0528f1325160070cbfeababac0eee62e23a6aa4c6d98dc89877ce8aeef"
+      },
+      {
+        "name": "film_N2_plate_Kn0p1_mol.npz.part02.zst",
+        "bytes": 41157343,
+        "sha256": "59acb9d95c31b467bbc56fb6cff980da1c9366f71e75d29701b2331776d83118",
+        "decoded_bytes": 185724402,
+        "decoded_sha256": "72dbd5300b91451408fea68f1b024933482aa452c5c3e472818d9504bb0943a7"
+      }
+    ],
+    "sha256": "0ca51db8e31ec16100f873d8e7d6e59103e1087726b7fe7808af86b929cc6b92"
+  }
+]

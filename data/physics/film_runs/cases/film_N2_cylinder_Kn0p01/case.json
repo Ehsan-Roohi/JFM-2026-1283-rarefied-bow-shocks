@@ -1,0 +1,27 @@
+{
+ "gas": "N2",
+ "Kn": 0.01,
+ "body": "cylinder",
+ "nx": 935,
+ "ny": 443,
+ "dx": 0.001016042780748663,
+ "dy": 0.0010158013544018058,
+ "domain": [
+  -0.3,
+  0.65,
+  0,
+  0.45
+ ],
+ "dt": 2e-08,
+ "frame_steps": 11,
+ "frame_s": 2.2e-07,
+ "nframes": 900,
+ "nrho": 3.941e+20,
+ "U": 2883.3,
+ "lambda_m": 0.0030488,
+ "grid_columns": "id xc yc vol nrho massrho u v trot temp momxx momyy (window average of last frame)",
+ "particle_strip": "x<0, 0<y<0.01 m: id x y vx vy",
+ "steady_steps": 120000,
+ "strip_y": 0.01,
+ "particle_columns": "id x y vx vy erot"
+}

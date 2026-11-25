@@ -1,0 +1,24 @@
+{
+ "gas": "Ar",
+ "Kn": 0.01,
+ "body": "cylinder",
+ "nx": 935,
+ "ny": 443,
+ "dx": 0.001016042780748663,
+ "dy": 0.0010158013544018058,
+ "domain": [
+  -0.3,
+  0.65,
+  0,
+  0.45
+ ],
+ "dt": 2e-08,
+ "frame_steps": 1200,
+ "frame_s": 2.4e-05,
+ "nframes": 100,
+ "nrho": 3.856e+20,
+ "U": 2634.1,
+ "lambda_m": 0.0030472,
+ "grid_columns": "id xc yc vol nrho massrho u v trot temp momxx momyy (window average of last frame)",
+ "particle_strip": "x<0, 0<y<0.01 m: id x y vx vy"
+}

@@ -1,0 +1,229 @@
+{
+  "comparison": [
+    {
+      "comparison": "VHS_to_first_CE_viscosity_matched_VSS",
+      "first": "N2_seed2",
+      "second": "N2_M10_vss",
+      "theta": 170,
+      "first_standoff_m": 0.059699999999999996,
+      "second_standoff_m": 0.059199999999999996,
+      "standoff_difference_percent": -0.8375209380234514,
+      "rho_L2_percent": 1.6521788548571552,
+      "Ttr_L2_percent": 1.2170851641873541,
+      "u_L2_percent": 0.8201204793877589,
+      "Trot_L2_percent": 1.2641148013707595
+    },
+    {
+      "comparison": "VHS_to_first_CE_viscosity_matched_VSS",
+      "first": "N2_seed2",
+      "second": "N2_M10_vss",
+      "theta": 180,
+      "first_standoff_m": 0.05859999999999999,
+      "second_standoff_m": 0.0583,
+      "standoff_difference_percent": -0.5119453924914587,
+      "rho_L2_percent": 1.6991827867035973,
+      "Ttr_L2_percent": 1.1158935367290597,
+      "u_L2_percent": 0.7377254793669401,
+      "Trot_L2_percent": 1.3072515274794825
+    }
+  ],
+  "block_statistics": {
+    "N2_seed2": {
+      "170": {
+        "mean_profile_marker": {
+          "standoff_m": 0.059699999999999996,
+          "delta_m": 0.013524957286196664,
+          "half_jump_m": 0.06004478401870474,
+          "onset_m": 0.07279999999999999,
+          "max_gradient_rhoinf_per_m": 348.3364781346543,
+          "rho_up": 1.0768107249879484,
+          "rho_down": 5.788046712983326,
+          "upstream_boundary_median": 0.999266856278021,
+          "upstream_boundary_deviation": 0.0007331437219789683,
+          "downstream_window_rel_spread": 0.008359990246015893,
+          "unrestricted_absolute_marker_m": 0.0023,
+          "cells_across_delta": 24.694980833149675
+        },
+        "block_markers_m": [
+          0.059399999999999994,
+          0.059699999999999996,
+          0.059699999999999996,
+          0.05959999999999999,
+          0.05979999999999999,
+          0.059699999999999996,
+          0.0595,
+          0.05979999999999999,
+          0.059899999999999995,
+          0.06
+        ],
+        "block_marker_sd_m": 0.0001791957340762082,
+        "half_drift_percent": 0.23446658851115085,
+        "lag1": 0.3119590661930612,
+        "whole_ray_max_h_lambda": 4.774916772961348,
+        "whole_ray_max_dt_tau": 0.12679048019909045
+      },
+      "180": {
+        "mean_profile_marker": {
+          "standoff_m": 0.05859999999999999,
+          "delta_m": 0.013536858936924665,
+          "half_jump_m": 0.05891137730339286,
+          "onset_m": 0.0715,
+          "max_gradient_rhoinf_per_m": 353.0064103642539,
+          "rho_up": 1.0727863667594222,
+          "rho_down": 5.851384347690468,
+          "upstream_boundary_median": 1.0006872699429332,
+          "upstream_boundary_deviation": 0.0006872699429332219,
+          "downstream_window_rel_spread": 0.01015122662730554,
+          "unrestricted_absolute_marker_m": 0.0023,
+          "cells_across_delta": 24.7167118471848
+        },
+        "block_markers_m": [
+          0.0588,
+          0.058399999999999994,
+          0.059,
+          0.05859999999999999,
+          0.058499999999999996,
+          0.058199999999999995,
+          0.058499999999999996,
+          0.05859999999999999,
+          0.05859999999999999,
+          0.058499999999999996
+        ],
+        "block_marker_sd_m": 0.0002162817093001118,
+        "half_drift_percent": -0.3073245688919354,
+        "lag1": -0.13173865663669634,
+        "whole_ray_max_h_lambda": 4.920994575665546,
+        "whole_ray_max_dt_tau": 0.13072976043771425
+      }
+    },
+    "N2_M10_vss": {
+      "170": {
+        "mean_profile_marker": {
+          "standoff_m": 0.059199999999999996,
+          "delta_m": 0.013913952477720329,
+          "half_jump_m": 0.05944689159559017,
+          "onset_m": 0.0725,
+          "max_gradient_rhoinf_per_m": 339.4754018243096,
+          "rho_up": 1.0803642661494992,
+          "rho_down": 5.803808874487956,
+          "upstream_boundary_median": 0.9998244320018846,
+          "upstream_boundary_deviation": 0.00017556799811535573,
+          "downstream_window_rel_spread": 0.009748141780068364,
+          "unrestricted_absolute_marker_m": 0.0023,
+          "cells_across_delta": 25.405240288731704
+        },
+        "block_markers_m": [
+          0.059199999999999996,
+          0.05909999999999999,
+          0.059,
+          0.058899999999999994,
+          0.059399999999999994,
+          0.05909999999999999,
+          0.059399999999999994,
+          0.059699999999999996,
+          0.05909999999999999,
+          0.059399999999999994
+        ],
+        "block_marker_sd_m": 0.00024060109910158166,
+        "half_drift_percent": 0.37143339523889585,
+        "lag1": 0.013222147133693808,
+        "whole_ray_max_h_lambda": 4.651499801570717,
+        "whole_ray_max_dt_tau": 0.12353285046825821
+      },
+      "180": {
+        "mean_profile_marker": {
+          "standoff_m": 0.0583,
+          "delta_m": 0.014170023054020365,
+          "half_jump_m": 0.05833339733121855,
+          "onset_m": 0.07139999999999999,
+          "max_gradient_rhoinf_per_m": 337.61943971801105,
+          "rho_up": 1.076650303775909,
+          "rho_down": 5.860725548065565,
+          "upstream_boundary_median": 0.9996362268103823,
+          "upstream_boundary_deviation": 0.0003637731896176666,
+          "downstream_window_rel_spread": 0.01152520742629505,
+          "unrestricted_absolute_marker_m": 0.0023,
+          "cells_across_delta": 25.87279503510542
+        },
+        "block_markers_m": [
+          0.058399999999999994,
+          0.0583,
+          0.05859999999999999,
+          0.0583,
+          0.0583,
+          0.057999999999999996,
+          0.058499999999999996,
+          0.058499999999999996,
+          0.05809999999999999,
+          0.0583
+        ],
+        "block_marker_sd_m": 0.00018287822299126923,
+        "half_drift_percent": -0.1714383679067424,
+        "lag1": -0.22388683141982416,
+        "whole_ray_max_h_lambda": 4.780183730811083,
+        "whole_ray_max_dt_tau": 0.1269494440641149
+      }
+    }
+  },
+  "scientific_convergence": false,
+  "window_ms": [
+    2,
+    4
+  ],
+  "blocks_each": 10,
+  "limitations": "VHSalpha1 versus VSSalpha1.6,diameter adjusted to match firstChapmanEnskogviscosity at identical omega,Tref; constantZ5,no vibration/chemistry. Independent seeds918173vs438719; no paired noise cancellation or significance claim. Same uniform1552x800grid,dt20ns,ppc20,n,U and window2\u20134ms, not C4mesh or a finest-grid transport test. Not experimentalvalidation or globalconvergence. Axis isfirstgasrow;whole-raymaxima are not nearwallp95.",
+  "configs": {
+    "N2_seed2": {
+      "name": "N2_seed2",
+      "model": "baseline",
+      "gas": "N2",
+      "geometry": "cylinder",
+      "nx": 1552,
+      "ny": 800,
+      "dt": 2e-08,
+      "ppc": 20,
+      "M": 10,
+      "nominal_Kn": 0.01,
+      "nrho": 3.941e+20,
+      "U": 2883.3,
+      "seed": 918173,
+      "ranks": 64,
+      "xlo": -0.2,
+      "xhi": 0.65,
+      "ly": 0.4,
+      "lz": 1.0,
+      "fnum": 5396021262886.6,
+      "warmup": 100000,
+      "block": 10000,
+      "target": 200000,
+      "root": "campaign/sparta_supplemental_20261022_v1/N2_seed2",
+      "supplemental": true
+    },
+    "N2_M10_vss": {
+      "name": "N2_M10_vss",
+      "model": "vss",
+      "gas": "N2",
+      "geometry": "cylinder",
+      "nx": 1552,
+      "ny": 800,
+      "dt": 2e-08,
+      "ppc": 20,
+      "M": 10,
+      "nominal_Kn": 0.01,
+      "nrho": 3.941e+20,
+      "U": 2883.3,
+      "seed": 438719,
+      "ranks": 64,
+      "xlo": -0.2,
+      "xhi": 0.65,
+      "ly": 0.4,
+      "lz": 1.0,
+      "fnum": 5396021262886.6,
+      "warmup": 100000,
+      "block": 10000,
+      "target": 200000,
+      "root": "campaign/sparta_supplemental_20261022_v1/N2_M10_vss",
+      "supplemental": true
+    }
+  }
+}

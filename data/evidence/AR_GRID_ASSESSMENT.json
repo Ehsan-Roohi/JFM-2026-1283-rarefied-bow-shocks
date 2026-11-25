@@ -1,0 +1,201 @@
+{
+  "utc": "2026-11-01T20:44:35.551280+00:00",
+  "comparisons": [
+    {
+      "first": "L0",
+      "reference": "L4",
+      "ray": 170,
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "normalization": "L2 norm of second profile on common finite samples; no translation",
+      "rho_over_rhoinf_L2_percent": 0.7154888086898208,
+      "Ttr_K_L2_percent": 1.8284442153908889,
+      "ux_ms_L2_percent": 1.0784189092957206,
+      "marker_change_mm": -2.2999999999999963,
+      "local_anchor_gradient_width_change_percent": 0.22142925406485325
+    },
+    {
+      "first": "L0",
+      "reference": "L4",
+      "ray": 180,
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "normalization": "L2 norm of second profile on common finite samples; no translation",
+      "rho_over_rhoinf_L2_percent": 0.672800956682902,
+      "Ttr_K_L2_percent": 1.9277283824242644,
+      "ux_ms_L2_percent": 1.05875023773635,
+      "marker_change_mm": 0.5000000000000004,
+      "local_anchor_gradient_width_change_percent": 1.3517448239050323
+    },
+    {
+      "first": "L4",
+      "reference": "L5",
+      "ray": 170,
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "normalization": "L2 norm of second profile on common finite samples; no translation",
+      "rho_over_rhoinf_L2_percent": 0.2931918286712938,
+      "Ttr_K_L2_percent": 0.32369674874893795,
+      "ux_ms_L2_percent": 0.2439746179815669,
+      "marker_change_mm": 0.20000000000000573,
+      "local_anchor_gradient_width_change_percent": -0.1300910131133759
+    },
+    {
+      "first": "L4",
+      "reference": "L5",
+      "ray": 180,
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "normalization": "L2 norm of second profile on common finite samples; no translation",
+      "rho_over_rhoinf_L2_percent": 0.31356922693254224,
+      "Ttr_K_L2_percent": 0.304906856527543,
+      "ux_ms_L2_percent": 0.21446263575827157,
+      "marker_change_mm": 1.0999999999999899,
+      "local_anchor_gradient_width_change_percent": 0.28273781529690734
+    }
+  ],
+  "summary": {
+    "L0": {
+      "170": {
+        "mean_profile_marker_mm": 95.39999999999999,
+        "local_anchor_gradient_width_mm": 21.688321998526476,
+        "block_marker_SD_mm": 2.0900824013527415,
+        "half_drift_percent": -0.08539709649871556,
+        "lag1": -0.5872739102760912,
+        "nearwall_max_edge_over_lambda_max": 6.489022641911827,
+        "nearshock_max_edge_over_lambda_max": 0.3914995210796474,
+        "smoothing_marker_mm": {
+          "0.00075": 96.19999999999999,
+          "0.0015": 95.39999999999999,
+          "0.003": 93.89999999999999
+        }
+      },
+      "180": {
+        "mean_profile_marker_mm": 91.5,
+        "local_anchor_gradient_width_mm": 21.32581545743883,
+        "block_marker_SD_mm": 1.735543462754855,
+        "half_drift_percent": 2.854341431528471,
+        "lag1": 0.1779589721783373,
+        "nearwall_max_edge_over_lambda_max": 6.926965155252008,
+        "nearshock_max_edge_over_lambda_max": 0.4132618028989483,
+        "smoothing_marker_mm": {
+          "0.00075": 90.69999999999999,
+          "0.0015": 91.5,
+          "0.003": 92.19999999999999
+        }
+      }
+    },
+    "L4": {
+      "170": {
+        "mean_profile_marker_mm": 93.1,
+        "local_anchor_gradient_width_mm": 21.736346288146997,
+        "block_marker_SD_mm": 0.9079892314584149,
+        "half_drift_percent": -0.042735042735041,
+        "lag1": 0.06869099076253196,
+        "nearwall_max_edge_over_lambda_max": 0.4951039240927419,
+        "nearshock_max_edge_over_lambda_max": 0.10183511488994174,
+        "smoothing_marker_mm": {
+          "0.00075": 92.1,
+          "0.0015": 93.1,
+          "0.003": 93.6
+        }
+      },
+      "180": {
+        "mean_profile_marker_mm": 92.0,
+        "local_anchor_gradient_width_mm": 21.614086064040297,
+        "block_marker_SD_mm": 1.0071411685227305,
+        "half_drift_percent": 0.8479182519839146,
+        "lag1": -0.04641764948908341,
+        "nearwall_max_edge_over_lambda_max": 0.4964899303062608,
+        "nearshock_max_edge_over_lambda_max": 0.10106153352298788,
+        "smoothing_marker_mm": {
+          "0.00075": 91.5,
+          "0.0015": 92.0,
+          "0.003": 92.19999999999999
+        }
+      }
+    },
+    "L5": {
+      "170": {
+        "mean_profile_marker_mm": 93.3,
+        "local_anchor_gradient_width_mm": 21.708069255046915,
+        "block_marker_SD_mm": 0.9852241707685957,
+        "half_drift_percent": -0.3415883859948771,
+        "lag1": -0.3495269525358373,
+        "nearwall_max_edge_over_lambda_max": 0.2535442869205822,
+        "nearshock_max_edge_over_lambda_max": 0.10173155349542319,
+        "smoothing_marker_mm": {
+          "0.00075": 92.6,
+          "0.0015": 93.3,
+          "0.003": 93.69999999999999
+        }
+      },
+      "180": {
+        "mean_profile_marker_mm": 93.1,
+        "local_anchor_gradient_width_mm": 21.67519725877416,
+        "block_marker_SD_mm": 0.9057838839615342,
+        "half_drift_percent": 0.21542438604049102,
+        "lag1": -0.21016680418992278,
+        "nearwall_max_edge_over_lambda_max": 0.25511831563256937,
+        "nearshock_max_edge_over_lambda_max": 0.09832227297538158,
+        "smoothing_marker_mm": {
+          "0.00075": 93.3,
+          "0.0015": 93.1,
+          "0.003": 92.49999999999999
+        }
+      }
+    }
+  },
+  "provenance": [
+    {
+      "level": "L0",
+      "source": "campaign/convergence_controls_v20/result_C4_Ar_L0_20261025T221914Z",
+      "report_sha256": "c29ecc025bcbfd628a4621a0913d7fe4675b735f44b82df3b23d98e66af4c4dd",
+      "archive": {
+        "verified": true,
+        "archive": "campaign/convergence_controls_v20/result_C4_Ar_L0_20261025T221914Z/analysis.tar",
+        "sha256": "ee82843f18e42614c301d0a2a2e16a90e1aa6fd65bdaf43abcf93e4425b18be8"
+      },
+      "member_hash_verified": true
+    },
+    {
+      "level": "L4",
+      "source": "campaign/convergence_controls_v20/result_C4_Ar_L4_20261027T224552Z",
+      "report_sha256": "e0005262aae2c7b02991e19194e0553fade770ff47661bf379feb7ed207977c7",
+      "archive": {
+        "verified": true,
+        "archive": "campaign/convergence_controls_v20/result_C4_Ar_L4_20261027T224552Z/analysis.tar",
+        "sha256": "c55e52b78fbab9e527dd88de25cabc46c53aab8cbe5131f224350acbb565a47b"
+      },
+      "member_hash_verified": true
+    },
+    {
+      "level": "L5",
+      "source": "campaign/convergence_controls_v20/result_C4_Ar_L5_20261101T193348Z",
+      "report_sha256": "5c425fd76c8e8e73bea658a9c3089af1ad78e06a454ca6f25c58022e9b231e28",
+      "archive": {
+        "verified": true,
+        "archive": "campaign/convergence_controls_v20/result_C4_Ar_L5_20261101T193348Z/analysis.tar",
+        "sha256": "c0d06f9ffb8601ffb116e851cb3ff891c97369ba9c203c3b40f1f36e17f26fb4"
+      },
+      "member_hash_verified": true
+    }
+  ],
+  "scientific_convergence": false,
+  "limitations": [
+    "Completed Ar grid subset only; N2 grid/ppc and both final half-dt controls remain incomplete.",
+    "Grid L5 refines primarily nearer the wall; outer-front mesh is almost unchanged from L4. Small front differences do not establish uniform refinement convergence.",
+    "Block SD and lag1 are diagnostics, not a CI or proof of statistically insignificant differences.",
+    "Widths use existing local anchors and smoothing, not verified equilibrium jump widths.",
+    "180 degree ray is first gas row; ux is Cartesian velocity, not ray-normal velocity.",
+    "No GCI, curve translation, model tuning or criteria changes."
+  ]
+}

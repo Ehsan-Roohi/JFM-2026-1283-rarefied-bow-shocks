@@ -1,0 +1,108 @@
+{
+  "case_arrays": 16,
+  "frames_per_array": 100,
+  "displayed_stress_extrema": [
+    -2.954402446746826,
+    2.4969489574432373
+  ],
+  "finite_stored_ratios": 113785572,
+  "finite_stored_ratios_excluded": 9605,
+  "data_by_case": {
+    "hi_Ar_cylinder_Kn0p01.npz": {
+      "failed_realizability": 440,
+      "finite_ratio_at_unresolved_pressure": 1245,
+      "union_removed": 1329,
+      "finite_archive_ratios": 9441465
+    },
+    "hi_Ar_plate_Kn0p01.npz": {
+      "failed_realizability": 532,
+      "finite_ratio_at_unresolved_pressure": 1148,
+      "union_removed": 1265,
+      "finite_archive_ratios": 10247055
+    },
+    "hi_Ar_cylinder_Kn0p05.npz": {
+      "failed_realizability": 346,
+      "finite_ratio_at_unresolved_pressure": 1214,
+      "union_removed": 1214,
+      "finite_archive_ratios": 11028327
+    },
+    "hi_Ar_plate_Kn0p05.npz": {
+      "failed_realizability": 503,
+      "finite_ratio_at_unresolved_pressure": 1536,
+      "union_removed": 1536,
+      "finite_archive_ratios": 11543615
+    },
+    "hi_Ar_cylinder_Kn0p1.npz": {
+      "failed_realizability": 104,
+      "finite_ratio_at_unresolved_pressure": 533,
+      "union_removed": 533,
+      "finite_archive_ratios": 4964483
+    },
+    "hi_Ar_plate_Kn0p1.npz": {
+      "failed_realizability": 208,
+      "finite_ratio_at_unresolved_pressure": 775,
+      "union_removed": 775,
+      "finite_archive_ratios": 5091875
+    },
+    "hi_Ar_cylinder_Kn0p2.npz": {
+      "failed_realizability": 76,
+      "finite_ratio_at_unresolved_pressure": 197,
+      "union_removed": 197,
+      "finite_archive_ratios": 2278756
+    },
+    "hi_Ar_plate_Kn0p2.npz": {
+      "failed_realizability": 80,
+      "finite_ratio_at_unresolved_pressure": 303,
+      "union_removed": 303,
+      "finite_archive_ratios": 2308812
+    },
+    "hi_N2_cylinder_Kn0p01.npz": {
+      "failed_realizability": 263,
+      "finite_ratio_at_unresolved_pressure": 549,
+      "union_removed": 608,
+      "finite_archive_ratios": 9442443
+    },
+    "hi_N2_plate_Kn0p01.npz": {
+      "failed_realizability": 168,
+      "finite_ratio_at_unresolved_pressure": 347,
+      "union_removed": 396,
+      "finite_archive_ratios": 10246964
+    },
+    "hi_N2_cylinder_Kn0p05.npz": {
+      "failed_realizability": 170,
+      "finite_ratio_at_unresolved_pressure": 477,
+      "union_removed": 477,
+      "finite_archive_ratios": 11029974
+    },
+    "hi_N2_plate_Kn0p05.npz": {
+      "failed_realizability": 74,
+      "finite_ratio_at_unresolved_pressure": 326,
+      "union_removed": 326,
+      "finite_archive_ratios": 11544414
+    },
+    "hi_N2_cylinder_Kn0p1.npz": {
+      "failed_realizability": 55,
+      "finite_ratio_at_unresolved_pressure": 197,
+      "union_removed": 197,
+      "finite_archive_ratios": 4951111
+    },
+    "hi_N2_plate_Kn0p1.npz": {
+      "failed_realizability": 59,
+      "finite_ratio_at_unresolved_pressure": 221,
+      "union_removed": 221,
+      "finite_archive_ratios": 5078068
+    },
+    "hi_N2_cylinder_Kn0p2.npz": {
+      "failed_realizability": 36,
+      "finite_ratio_at_unresolved_pressure": 124,
+      "union_removed": 124,
+      "finite_archive_ratios": 2279074
+    },
+    "hi_N2_plate_Kn0p2.npz": {
+      "failed_realizability": 21,
+      "finite_ratio_at_unresolved_pressure": 104,
+      "union_removed": 104,
+      "finite_archive_ratios": 2309136
+    }
+  }
+}

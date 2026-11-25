@@ -1,0 +1,14 @@
+{
+  "name": "Ar_grid388",
+  "nx": 388,
+  "ny": 200,
+  "ppc": 20,
+  "dt": 2e-08,
+  "ranks": 32,
+  "root": "../Ar_grid388",
+  "fnum": 84474226804123.72,
+  "hx": 0.002190721649484536,
+  "hy": 0.002,
+  "pilot_steps": 200,
+  "production_prepared_not_submitted": true
+}

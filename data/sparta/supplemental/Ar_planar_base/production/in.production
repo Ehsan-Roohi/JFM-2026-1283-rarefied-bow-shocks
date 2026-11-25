@@ -1,0 +1,23 @@
+seed 438836
+read_restart ../../Ar_planar_base/checkpoint.final
+collide vss gas ../../argon.vss relax constant
+collide_modify nearcp yes 10 rotate smooth vibrate no
+fix inlet emit/face upstream xlo twopass
+fix outlet emit/face downstream xhi twopass
+timestep 2e-08
+stats 1000
+stats_style step cpu np nattempt ncoll nscoll
+restart 5000 checkpoint.A checkpoint.B
+run 100000 upto
+write_restart checkpoint.warmup
+compute fields grid all gas n nrho massrho u v w trot erot tvib evib usq vsq wsq
+compute thermal thermal/grid all gas temp press
+fix avg ave/grid all 10 1000 10000 c_fields[*] c_thermal[*]
+compute density grid all species nrho
+fix densityavg ave/grid all 10 1000 10000 c_density[*]
+compute mfp lambda/grid f_densityavg[*] f_avg[14] lambda tau knx kny
+compute geom property/grid all vol
+dump gridout grid all 10000 fields.*.grid id xc yc xlo xhi ylo yhi c_geom f_avg[*] f_densityavg[*] c_mfp[*]
+run 200000 upto
+write_restart checkpoint.final
+print "PRODUCTION_COMPLETE 200000"

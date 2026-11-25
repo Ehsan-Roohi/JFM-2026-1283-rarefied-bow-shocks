@@ -1,0 +1,232 @@
+{
+  "utc": "2026-11-07T20:58:34.811196+00:00",
+  "case": {
+    "name": "N2_M15_vibration",
+    "model": "vibration",
+    "gas": "N2",
+    "geometry": "cylinder",
+    "nx": 1552,
+    "ny": 800,
+    "dt": 1e-08,
+    "ppc": 20,
+    "M": 15,
+    "nominal_Kn": 0.01,
+    "nrho": 3.941e+20,
+    "U": 4324.95,
+    "seed": 438719,
+    "ranks": 64,
+    "xlo": -0.2,
+    "xhi": 0.65,
+    "ly": 0.4,
+    "lz": 1.0,
+    "fnum": 5396021262886.6,
+    "warmup": 200000,
+    "block": 20000,
+    "target": 400000,
+    "root": "campaign/sparta_supplemental_20261022_v1/N2_M15_vibration"
+  },
+  "columns": {
+    "Ttr": "f_avg[14]",
+    "Trot": "f_avg[7]",
+    "Tvib": "f_avg[9]"
+  },
+  "method": "Equal arithmetic mean of the ten complete 0.2ms cell-temperature blocks from2\u20134ms; cell-reported temperatures, not temperatures reconstructed from mean energies. No smoothing or fill; zero vibrational excitation retained.",
+  "fields": [
+    {
+      "file": "campaign/sparta_supplemental_20261022_v1/N2_M15_vibration/production/fields.220000.grid",
+      "sha256": "a149e8bdc7a658c9fe8bb39eebe73590df4fe56732bf51f99b002f8c2383e6bb",
+      "before": {
+        "size": 299352832,
+        "mtime_ns": 1792784239981464926,
+        "inode": 4738377667
+      },
+      "after": {
+        "size": 299352832,
+        "mtime_ns": 1792784239981464926,
+        "inode": 4738377667
+      },
+      "timestep": 220000,
+      "averaging_window_ms": [
+        2.0,
+        2.2
+      ]
+    },
+    {
+      "file": "campaign/sparta_supplemental_20261022_v1/N2_M15_vibration/production/fields.240000.grid",
+      "sha256": "5bd6adb6fb4ec5bd22fd3e3cca91b7e584cbb8eb58fb9fdda9331d5b17a364b7",
+      "before": {
+        "size": 299089207,
+        "mtime_ns": 1792788608555113187,
+        "inode": 4738985066
+      },
+      "after": {
+        "size": 299089207,
+        "mtime_ns": 1792788608555113187,
+        "inode": 4738985066
+      },
+      "timestep": 240000,
+      "averaging_window_ms": [
+        2.2,
+        2.4000000000000004
+      ]
+    },
+    {
+      "file": "campaign/sparta_supplemental_20261022_v1/N2_M15_vibration/production/fields.260000.grid",
+      "sha256": "f27cbbcb75d85a9993ece1dde05205e4b6673402991ef73d57a3d31a54708144",
+      "before": {
+        "size": 299055671,
+        "mtime_ns": 1792792993184040713,
+        "inode": 4739559757
+      },
+      "after": {
+        "size": 299055671,
+        "mtime_ns": 1792792993184040713,
+        "inode": 4739559757
+      },
+      "timestep": 260000,
+      "averaging_window_ms": [
+        2.4000000000000004,
+        2.6
+      ]
+    },
+    {
+      "file": "campaign/sparta_supplemental_20261022_v1/N2_M15_vibration/production/fields.280000.grid",
+      "sha256": "60c886fc54d486c0bf422eec7df6b63a967207e4b4c611bd51f710b6011295b5",
+      "before": {
+        "size": 299013032,
+        "mtime_ns": 1792797378739243446,
+        "inode": 615466588
+      },
+      "after": {
+        "size": 299013032,
+        "mtime_ns": 1792797378739243446,
+        "inode": 615466588
+      },
+      "timestep": 280000,
+      "averaging_window_ms": [
+        2.6,
+        2.8000000000000003
+      ]
+    },
+    {
+      "file": "campaign/sparta_supplemental_20261022_v1/N2_M15_vibration/production/fields.300000.grid",
+      "sha256": "b9bda23cdd12c505784bfc5a403021a13e7c541b970ae7994caa8acb7e00f12b",
+      "before": {
+        "size": 299003381,
+        "mtime_ns": 1792801763268344682,
+        "inode": 616521512
+      },
+      "after": {
+        "size": 299003381,
+        "mtime_ns": 1792801763268344682,
+        "inode": 616521512
+      },
+      "timestep": 300000,
+      "averaging_window_ms": [
+        2.8000000000000003,
+        3.0000000000000004
+      ]
+    },
+    {
+      "file": "campaign/sparta_supplemental_20261022_v1/N2_M15_vibration/production/fields.320000.grid",
+      "sha256": "9a236191fdd5f995fdbb0bade709df0afbb4b2ef08adcb002cf3002b2564ba3d",
+      "before": {
+        "size": 298998568,
+        "mtime_ns": 1792806147058144461,
+        "inode": 619542590
+      },
+      "after": {
+        "size": 298998568,
+        "mtime_ns": 1792806147058144461,
+        "inode": 619542590
+      },
+      "timestep": 320000,
+      "averaging_window_ms": [
+        3.0000000000000004,
+        3.2
+      ]
+    },
+    {
+      "file": "campaign/sparta_supplemental_20261022_v1/N2_M15_vibration/production/fields.340000.grid",
+      "sha256": "002a34af83f6589fed853cb37cc8512bff3166501e3e85b7e116377c504cf1b7",
+      "before": {
+        "size": 299001711,
+        "mtime_ns": 1792810530547432871,
+        "inode": 1379609555
+      },
+      "after": {
+        "size": 299001711,
+        "mtime_ns": 1792810530547432871,
+        "inode": 1379609555
+      },
+      "timestep": 340000,
+      "averaging_window_ms": [
+        3.2,
+        3.4000000000000004
+      ]
+    },
+    {
+      "file": "campaign/sparta_supplemental_20261022_v1/N2_M15_vibration/production/fields.360000.grid",
+      "sha256": "307cc4aca4d1240a2bacb9cc29621a2737e9969c90d16ef89d522b6da71d5917",
+      "before": {
+        "size": 298990612,
+        "mtime_ns": 1792814728023650040,
+        "inode": 1380359836
+      },
+      "after": {
+        "size": 298990612,
+        "mtime_ns": 1792814728023650040,
+        "inode": 1380359836
+      },
+      "timestep": 360000,
+      "averaging_window_ms": [
+        3.4000000000000004,
+        3.6
+      ]
+    },
+    {
+      "file": "campaign/sparta_supplemental_20261022_v1/N2_M15_vibration/production/fields.380000.grid",
+      "sha256": "eb0b8edd3c924d715d81ad20781f6054b274f8b5a861f6904b5044e3269f61e8",
+      "before": {
+        "size": 298993032,
+        "mtime_ns": 1792818997976326340,
+        "inode": 1380970385
+      },
+      "after": {
+        "size": 298993032,
+        "mtime_ns": 1792818997976326340,
+        "inode": 1380970385
+      },
+      "timestep": 380000,
+      "averaging_window_ms": [
+        3.6,
+        3.8000000000000003
+      ]
+    },
+    {
+      "file": "campaign/sparta_supplemental_20261022_v1/N2_M15_vibration/production/fields.400000.grid",
+      "sha256": "be5dd357d6b8ba73049e8a7c1708b27f7c0a62609f01d1d14ad3ffaaab2a8915",
+      "before": {
+        "size": 298970193,
+        "mtime_ns": 1792823272406342602,
+        "inode": 1381455452
+      },
+      "after": {
+        "size": 298970193,
+        "mtime_ns": 1792823272406342602,
+        "inode": 1381455452
+      },
+      "timestep": 400000,
+      "averaging_window_ms": [
+        3.8000000000000003,
+        4.0
+      ]
+    }
+  ],
+  "config_sha256": "c02d7eb38b40ca11649f7cef53e16eeeb2ee6d730ba69d9fa992bb4d6df88521",
+  "input_sha256": "97b5d776c1aa085b99a5896383ef7004a5f8601e33e4af055ffe190c5634353b",
+  "completion_sha256": "5c124e250ab72d11853291fff5d798d7796a10bb0b01beaee9ca8555037e7f14",
+  "geometry_sorted_id_sha256": "f85422763d94d825c1c700a57dbbd43dbbfce7cad22028f537279db0bb6be392",
+  "cache_sha256": "282fe52096f3b801cbfb286434612807b6f2fb4469bfc612fa878073cb1307c3",
+  "geometry_equal_all_fields": true
+}

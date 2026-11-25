@@ -1,0 +1,43 @@
+{
+  "name": "N2_M153_base",
+  "root": "../N2_M153_base",
+  "geometry": "planar",
+  "gas": "N2",
+  "model": "baseline",
+  "M": 1.53,
+  "T1": 300.0,
+  "nrho": 3.941e+20,
+  "U": 540.2952698505846,
+  "nx": 1600,
+  "ny": 1,
+  "xlo": -0.16,
+  "xhi": 0.16,
+  "ly": 0.001,
+  "lz": 0.001,
+  "ppc": 200,
+  "dt": 2e-08,
+  "ranks": 8,
+  "seed": 791837,
+  "fnum": 394100000.0,
+  "warmup": 200000,
+  "block": 20000,
+  "target": 400000,
+  "rankine_hugoniot": {
+    "gamma": 1.4,
+    "compression": 1.9133076325791116,
+    "pressure_ratio": 2.5643833333333332,
+    "T2": 402.0864114585558,
+    "U2": 282.38808054211034,
+    "n2": 7.540345379994278e+20
+  },
+  "transport": {
+    "mu_ref": 1.6579897514000144e-05,
+    "T_ref": 273.0,
+    "omega": 0.74,
+    "diameter": 4.17e-10,
+    "mu1": 1.7778340156386275e-05,
+    "lambda_viscosity_m": 0.0041496947467633055
+  },
+  "reference_scope": "Alsmeyer 1976 M=1.53 density data reproduced in Xu & Tang 2004 Fig2 upper; upstream 300 K per primary literature. n1 is a scale choice, not a verified experimental density. Compare using the published viscosity mean-free-path convention. No amplitude/width fit; density-midpoint origin only.",
+  "model_scope": "Unchanged VHS omega=.74, diameter4.17e-10 at273K, alpha1, constant rotational Z5, no vib/chem. Z is not fitted to experiment. This does not validate high-enthalpy cylinder chemistry."
+}

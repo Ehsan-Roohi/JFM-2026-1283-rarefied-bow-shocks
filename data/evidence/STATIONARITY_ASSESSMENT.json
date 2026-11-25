@@ -1,0 +1,324 @@
+{
+  "utc": "2026-11-06T14:49:54.180564+00:00",
+  "observations_utc": [
+    "2026-11-06T14:31:59.355470+00:00",
+    "2026-11-06T14:31:59.877182+00:00",
+    "2026-11-06T14:32:00.059018+00:00"
+  ],
+  "scope": "Statistical stationarity of the two remaining JFM N2 controls; not scheduler stability or backup permanence",
+  "verdict": "initial_two_block_profile_agreement_stationarity_not_established",
+  "stationarity_confirmed": false,
+  "unsteadiness_proven": false,
+  "automatic_acceptance_threshold_defined_or_changed": false,
+  "cases": {
+    "DT_halfstep": {
+      "job": "66767295",
+      "scheduler": "RUNNING",
+      "latest_logged_step": 968000,
+      "complete_blocks": 2,
+      "complete_block_end_steps": [
+        880000,
+        960000
+      ],
+      "complete_block_windows_seconds": [
+        [
+          0.002,
+          0.0022
+        ],
+        [
+          0.0022,
+          0.0024
+        ]
+      ],
+      "next_block_step": 1040000,
+      "two_disjoint_complete_blocks_available_for_direct_comparison": true,
+      "first_block_continuation_provenance": "campaign/n280_flock_eio_repair_v79_20261105/FIRST_DT_BLOCK_CONTINUATION_PROVENANCE.json",
+      "independent_seed_ensemble": false
+    },
+    "N280": {
+      "job": "66773032",
+      "scheduler": "RUNNING",
+      "diagnostic_native_step": 450000,
+      "diagnostic_native_physical_time_s": 0.0022500000000000003,
+      "committed_checkpoint_step": 440000,
+      "complete_blocks": 1,
+      "first_block_end_step": 440000,
+      "native_rolling_header_is_sampling_recovery_or_stationarity_proof": false,
+      "partial_accumulator_persistence_installed": false,
+      "complete_block_end_steps": [
+        440000
+      ],
+      "complete_block_windows_seconds": [
+        [
+          0.002,
+          0.0022
+        ]
+      ],
+      "next_block_step": 480000
+    }
+  },
+  "completed_N2_ppc40_L5_context": {
+    "source": "campaign/completed_controls_review_v65_20261102/ASSESSMENT.json",
+    "full_blocks": 10,
+    "spatial_window_m": [
+      0.015,
+      0.16
+    ],
+    "rays": [
+      170,
+      180
+    ],
+    "first5_vs_last5_L2_percent_range": [
+      0.21337871668606248,
+      0.5651013621475904
+    ],
+    "metrics": [
+      {
+        "case": "N2_grid_L5",
+        "ray": 170,
+        "field": "rho_over_rhoinf",
+        "window_m": [
+          0.015,
+          0.16
+        ],
+        "finite_locations": 1451,
+        "between_block_RMS_percent": 0.34320163154219085,
+        "first5_vs_last5_L2_percent": 0.3901987613652239,
+        "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+        "is_CI": false,
+        "is_independent_replicate_estimate": false
+      },
+      {
+        "case": "N2_grid_L5",
+        "ray": 170,
+        "field": "Ttr_K",
+        "window_m": [
+          0.015,
+          0.16
+        ],
+        "finite_locations": 1451,
+        "between_block_RMS_percent": 0.42510118498028093,
+        "first5_vs_last5_L2_percent": 0.4295454896004903,
+        "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+        "is_CI": false,
+        "is_independent_replicate_estimate": false
+      },
+      {
+        "case": "N2_grid_L5",
+        "ray": 170,
+        "field": "ux_ms",
+        "window_m": [
+          0.015,
+          0.16
+        ],
+        "finite_locations": 1451,
+        "between_block_RMS_percent": 0.1802908373465953,
+        "first5_vs_last5_L2_percent": 0.2230344168505845,
+        "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+        "is_CI": false,
+        "is_independent_replicate_estimate": false
+      },
+      {
+        "case": "N2_grid_L5",
+        "ray": 170,
+        "field": "Trot_K",
+        "window_m": [
+          0.015,
+          0.16
+        ],
+        "finite_locations": 1451,
+        "between_block_RMS_percent": 0.35480965074715387,
+        "first5_vs_last5_L2_percent": 0.36084343336443647,
+        "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+        "is_CI": false,
+        "is_independent_replicate_estimate": false
+      },
+      {
+        "case": "N2_grid_L5",
+        "ray": 180,
+        "field": "rho_over_rhoinf",
+        "window_m": [
+          0.015,
+          0.16
+        ],
+        "finite_locations": 1451,
+        "between_block_RMS_percent": 0.36588949741716437,
+        "first5_vs_last5_L2_percent": 0.36208838705999685,
+        "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+        "is_CI": false,
+        "is_independent_replicate_estimate": false
+      },
+      {
+        "case": "N2_grid_L5",
+        "ray": 180,
+        "field": "Ttr_K",
+        "window_m": [
+          0.015,
+          0.16
+        ],
+        "finite_locations": 1451,
+        "between_block_RMS_percent": 0.4647948541197911,
+        "first5_vs_last5_L2_percent": 0.5651013621475904,
+        "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+        "is_CI": false,
+        "is_independent_replicate_estimate": false
+      },
+      {
+        "case": "N2_grid_L5",
+        "ray": 180,
+        "field": "ux_ms",
+        "window_m": [
+          0.015,
+          0.16
+        ],
+        "finite_locations": 1451,
+        "between_block_RMS_percent": 0.1889188188577201,
+        "first5_vs_last5_L2_percent": 0.21337871668606248,
+        "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+        "is_CI": false,
+        "is_independent_replicate_estimate": false
+      },
+      {
+        "case": "N2_grid_L5",
+        "ray": 180,
+        "field": "Trot_K",
+        "window_m": [
+          0.015,
+          0.16
+        ],
+        "finite_locations": 1451,
+        "between_block_RMS_percent": 0.39669722200802965,
+        "first5_vs_last5_L2_percent": 0.36339147509718384,
+        "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+        "is_CI": false,
+        "is_independent_replicate_estimate": false
+      }
+    ],
+    "comparison_definition": {
+      "between_block_RMS": "100*sqrt(mean_b(sum_x((q_b-qmean)^2)))/norm(qmean)",
+      "half_drift": "100*norm(mean(first5)-mean(last5))/norm(all10mean)",
+      "caution": "Finite-window descriptive diagnostics only; spatial locations and chronological blocks are not independent replicates. No p-values, CIs, effective sample counts or automatic steady-state acceptance inferred.",
+      "continuation_caveat": "Temporal half-window comparison can span seed/recovery/CPU-layout continuations; it does not isolate pure physical drift or a pure hardware effect."
+    },
+    "continuation_caution": "First5/last5 boundary at3ms coincides with seed+layout continuation; this does not isolate pure physical drift. It cannot establish stationarity of the remaining ppc80 or halfdt controls."
+  },
+  "next_evidence": "Add genuinely new chronological complete blocks; compare physical profiles with the same parser and common finite support. Two close blocks are preliminary agreement, not stationarity acceptance. The planned ten-block bank remains incomplete.",
+  "no_new_job_or_live_run_change": true,
+  "physics_criteria_and_native_source_unchanged": true,
+  "full_checkpoint_or_field_rehash_this_check": false,
+  "DT_initial_temporal_comparison": {
+    "path": "campaign/n280_flock_eio_repair_v79_20261105/CURRENT_DT_TEMPORAL_COMPARISON.json",
+    "L2_percent_range": [
+      0.21788309424221813,
+      0.6440850029273208
+    ],
+    "definition": "Difference between first and second chronological block normalized by their two-block mean norm on common finite15–160mm support; no threshold, shift or CI.",
+    "field_statistics": [
+      {
+        "ray": 170,
+        "field": "rho_over_rhoinf",
+        "window_m": [
+          0.015,
+          0.16
+        ],
+        "finite_locations": 1451,
+        "pair_difference_L2_percent": 0.4420535475812788,
+        "absolute_RMSE": 0.014762647570054143,
+        "normalization": "L2 norm of two-block mean on identical physical support; no shift",
+        "not_a_CI": true
+      },
+      {
+        "ray": 170,
+        "field": "Ttr_K",
+        "window_m": [
+          0.015,
+          0.16
+        ],
+        "finite_locations": 1451,
+        "pair_difference_L2_percent": 0.5540454574032964,
+        "absolute_RMSE": 14.369134141864846,
+        "normalization": "L2 norm of two-block mean on identical physical support; no shift",
+        "not_a_CI": true
+      },
+      {
+        "ray": 170,
+        "field": "ux_ms",
+        "window_m": [
+          0.015,
+          0.16
+        ],
+        "finite_locations": 1451,
+        "pair_difference_L2_percent": 0.21788309424221813,
+        "absolute_RMSE": 4.954403328190719,
+        "normalization": "L2 norm of two-block mean on identical physical support; no shift",
+        "not_a_CI": true
+      },
+      {
+        "ray": 170,
+        "field": "Trot_K",
+        "window_m": [
+          0.015,
+          0.16
+        ],
+        "finite_locations": 1451,
+        "pair_difference_L2_percent": 0.4950791593460646,
+        "absolute_RMSE": 11.08988382886394,
+        "normalization": "L2 norm of two-block mean on identical physical support; no shift",
+        "not_a_CI": true
+      },
+      {
+        "ray": 180,
+        "field": "rho_over_rhoinf",
+        "window_m": [
+          0.015,
+          0.16
+        ],
+        "finite_locations": 1451,
+        "pair_difference_L2_percent": 0.5403029420872558,
+        "absolute_RMSE": 0.01802598819851162,
+        "normalization": "L2 norm of two-block mean on identical physical support; no shift",
+        "not_a_CI": true
+      },
+      {
+        "ray": 180,
+        "field": "Ttr_K",
+        "window_m": [
+          0.015,
+          0.16
+        ],
+        "finite_locations": 1451,
+        "pair_difference_L2_percent": 0.6440850029273208,
+        "absolute_RMSE": 16.69126568463474,
+        "normalization": "L2 norm of two-block mean on identical physical support; no shift",
+        "not_a_CI": true
+      },
+      {
+        "ray": 180,
+        "field": "ux_ms",
+        "window_m": [
+          0.015,
+          0.16
+        ],
+        "finite_locations": 1451,
+        "pair_difference_L2_percent": 0.2211903162185776,
+        "absolute_RMSE": 5.055825736788391,
+        "normalization": "L2 norm of two-block mean on identical physical support; no shift",
+        "not_a_CI": true
+      },
+      {
+        "ray": 180,
+        "field": "Trot_K",
+        "window_m": [
+          0.015,
+          0.16
+        ],
+        "finite_locations": 1451,
+        "pair_difference_L2_percent": 0.5771218272297551,
+        "absolute_RMSE": 12.871694488294848,
+        "normalization": "L2 norm of two-block mean on identical physical support; no shift",
+        "not_a_CI": true
+      }
+    ],
+    "two_blocks_are_not_a_temporal_trend_or_independent_seed_ensemble": true
+  }
+}

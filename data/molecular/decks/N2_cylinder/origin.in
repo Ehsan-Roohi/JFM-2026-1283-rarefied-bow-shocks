@@ -1,0 +1,14 @@
+seed 495805520
+read_restart ../../../sparta/mesh/N2_wall_L4_ppc40/production/attempts/attempt_0004/checkpoint.commit.800000/state.% balance rcb part
+global mem/limit 256
+collide vss gas ../../../sparta/mesh/baseline.vss relax constant
+collide_modify nearcp yes 10 rotate smooth vibrate no
+surf_collide wall diffuse 500.0 1.0
+surf_modify all collide wall
+fix inflow emit/face gas xlo xhi yhi twopass
+timestep 5e-9
+fix dynamic_load balance 100 1.15 rcb time
+stats 2000
+stats_style step time np
+run 0
+print "JFM_VDF_NATIVE_READ_OK"

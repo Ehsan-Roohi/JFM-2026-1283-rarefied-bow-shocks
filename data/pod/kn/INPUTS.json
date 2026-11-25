@@ -1,0 +1,254 @@
+[
+  {
+    "gas": "Ar",
+    "kn": 0.01,
+    "source": "original_DS2V",
+    "nominal_state": {
+      "rho": 2.556528e-05,
+      "ttr": 200.0,
+      "trot": 200.0,
+      "u": 2634.1,
+      "p": 1.0647565088000002,
+      "mach_proxy": 9.997882043070517
+    },
+    "output_spacing_proxy": 0.004380000000000023
+  },
+  {
+    "gas": "Ar",
+    "kn": 0.025,
+    "source": "original_DS2V",
+    "nominal_state": {
+      "rho": 1.0226775e-05,
+      "ttr": 200.0,
+      "trot": 200.0,
+      "u": 2634.1,
+      "p": 0.4259302165,
+      "mach_proxy": 9.997882043070517
+    },
+    "output_spacing_proxy": 0.0048799999999999955
+  },
+  {
+    "gas": "Ar",
+    "kn": 0.05,
+    "source": "original_DS2V",
+    "nominal_state": {
+      "rho": 5.113056e-06,
+      "ttr": 200.0,
+      "trot": 200.0,
+      "u": 2634.1,
+      "p": 0.21295130176,
+      "mach_proxy": 9.997882043070517
+    },
+    "output_spacing_proxy": 0.005580000000000002
+  },
+  {
+    "gas": "Ar",
+    "kn": 0.075,
+    "source": "original_DS2V",
+    "nominal_state": {
+      "rho": 3.408483e-06,
+      "ttr": 200.0,
+      "trot": 200.0,
+      "u": 2634.1,
+      "p": 0.14195833018,
+      "mach_proxy": 9.997882043070517
+    },
+    "output_spacing_proxy": 0.00603999999999999
+  },
+  {
+    "gas": "Ar",
+    "kn": 0.1,
+    "source": "original_DS2V",
+    "nominal_state": {
+      "rho": 2.556528e-06,
+      "ttr": 200.0,
+      "trot": 200.0,
+      "u": 2634.1,
+      "p": 0.10647565088,
+      "mach_proxy": 9.997882043070517
+    },
+    "output_spacing_proxy": 0.006480000000000041
+  },
+  {
+    "gas": "Ar",
+    "kn": 0.25,
+    "source": "original_DS2V",
+    "nominal_state": {
+      "rho": 1.022346e-06,
+      "ttr": 200.0,
+      "trot": 200.0,
+      "u": 2634.1,
+      "p": 0.04257921516,
+      "mach_proxy": 9.997882043070517
+    },
+    "output_spacing_proxy": 0.00542999999999999
+  },
+  {
+    "gas": "Ar",
+    "kn": 0.5,
+    "source": "original_DS2V",
+    "nominal_state": {
+      "rho": 5.113056e-07,
+      "ttr": 200.0,
+      "trot": 200.0,
+      "u": 2634.1,
+      "p": 0.021295130176,
+      "mach_proxy": 9.997882043070517
+    },
+    "output_spacing_proxy": 0.006315499999999998
+  },
+  {
+    "gas": "Ar",
+    "kn": 0.75,
+    "source": "original_DS2V",
+    "nominal_state": {
+      "rho": 3.4084829999999996e-07,
+      "ttr": 200.0,
+      "trot": 200.0,
+      "u": 2634.1,
+      "p": 0.014195833018,
+      "mach_proxy": 9.997882043070517
+    },
+    "output_spacing_proxy": 0.014700000000000157
+  },
+  {
+    "gas": "Ar",
+    "kn": 1.0,
+    "source": "original_DS2V",
+    "nominal_state": {
+      "rho": 2.556528e-07,
+      "ttr": 200.0,
+      "trot": 200.0,
+      "u": 2634.1,
+      "p": 0.010647565088,
+      "mach_proxy": 9.997882043070517
+    },
+    "output_spacing_proxy": 0.007199999999999984
+  },
+  {
+    "gas": "N2",
+    "kn": 0.01,
+    "source": "original_DS2V",
+    "nominal_state": {
+      "rho": 1.832565e-05,
+      "ttr": 200.0,
+      "trot": 200.0,
+      "u": 2883.3,
+      "p": 1.0882275418,
+      "mach_proxy": 9.99989987041086
+    },
+    "output_spacing_proxy": 0.004380000000000023
+  },
+  {
+    "gas": "N2",
+    "kn": 0.025,
+    "source": "original_DS2V",
+    "nominal_state": {
+      "rho": 7.3284e-06,
+      "ttr": 200.0,
+      "trot": 200.0,
+      "u": 2883.3,
+      "p": 0.4351805648,
+      "mach_proxy": 9.99989987041086
+    },
+    "output_spacing_proxy": 0.0048799999999999955
+  },
+  {
+    "gas": "N2",
+    "kn": 0.05,
+    "source": "original_DS2V",
+    "nominal_state": {
+      "rho": 3.66513e-06,
+      "ttr": 200.0,
+      "trot": 200.0,
+      "u": 2883.3,
+      "p": 0.21764550836000002,
+      "mach_proxy": 9.99989987041086
+    },
+    "output_spacing_proxy": 0.005580000000000002
+  },
+  {
+    "gas": "N2",
+    "kn": 0.075,
+    "source": "SPARTA_wide_refined_recovery_mean_2_4ms",
+    "nominal_state": {
+      "rho": 2.443575e-06,
+      "ttr": 200.0,
+      "trot": 200.0,
+      "u": 2883.3,
+      "p": 0.1451062099,
+      "mach_proxy": 9.99989987041086
+    },
+    "output_spacing_proxy": 0.00023357000000000065
+  },
+  {
+    "gas": "N2",
+    "kn": 0.1,
+    "source": "original_DS2V",
+    "nominal_state": {
+      "rho": 1.832565e-06,
+      "ttr": 200.0,
+      "trot": 200.0,
+      "u": 2883.3,
+      "p": 0.10882275418000001,
+      "mach_proxy": 9.99989987041086
+    },
+    "output_spacing_proxy": 0.006480000000000041
+  },
+  {
+    "gas": "N2",
+    "kn": 0.25,
+    "source": "original_DS2V",
+    "nominal_state": {
+      "rho": 7.3284e-07,
+      "ttr": 200.0,
+      "trot": 200.0,
+      "u": 2883.3,
+      "p": 0.043518056480000004,
+      "mach_proxy": 9.99989987041086
+    },
+    "output_spacing_proxy": 0.00542999999999999
+  },
+  {
+    "gas": "N2",
+    "kn": 0.5,
+    "source": "original_DS2V",
+    "nominal_state": {
+      "rho": 3.66513e-07,
+      "ttr": 200.0,
+      "trot": 200.0,
+      "u": 2883.3,
+      "p": 0.021764550836000002,
+      "mach_proxy": 9.99989987041086
+    },
+    "output_spacing_proxy": 0.006315499999999998
+  },
+  {
+    "gas": "N2",
+    "kn": 0.75,
+    "source": "original_DS2V",
+    "nominal_state": {
+      "rho": 2.443575e-07,
+      "ttr": 200.0,
+      "trot": 200.0,
+      "u": 2883.3,
+      "p": 0.01451062099,
+      "mach_proxy": 9.99989987041086
+    },
+    "output_spacing_proxy": 0.014700000000000157
+  },
+  {
+    "gas": "N2",
+    "kn": 1.0,
+    "source": "original_DS2V",
+    "nominal_state": {
+      "rho": 1.832565e-07,
+      "ttr": 200.0,
+      "trot": 200.0,
+      "u": 2883.3,
+      "p": 0.010882275418000001,
+      "mach_proxy": 9.99989987041086
+    },
+    "output_spacing_proxy": 0.007199999999999984
+  }
+]

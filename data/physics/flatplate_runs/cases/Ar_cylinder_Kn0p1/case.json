@@ -1,0 +1,30 @@
+{
+ "gas": "Ar",
+ "Kn": 0.1,
+ "body": "cylinder",
+ "lambda_m": 0.030472000000000003,
+ "nrho": 3.856e+19,
+ "U": 2634.1,
+ "nx": 345,
+ "ny": 148,
+ "dx": 0.005072463768115942,
+ "dy": 0.005067567567567568,
+ "domain": [
+  -0.8,
+  0.95,
+  0,
+  0.75
+ ],
+ "dt": 1.5e-07,
+ "fnum": 49559341950646.3,
+ "ppc_upstream": 20,
+ "warm_steps": 20000,
+ "block_steps": 2000,
+ "nblocks": 10,
+ "total_steps": 40000,
+ "cells": 51060,
+ "est_particles_upstream": 1021200,
+ "wall": "diffuse 500 K, accommodation 1",
+ "body_geometry": "circle centre (0.1524,0), R=0.1524 (cylinder.surf from the L0 campaign)",
+ "ntasks": 32
+}

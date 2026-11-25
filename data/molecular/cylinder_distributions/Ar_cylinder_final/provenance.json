@@ -1,0 +1,701 @@
+{
+  "schema": "JFM_CYLINDER_VELOCITY_EXPORT_1",
+  "mode": "final",
+  "scope": "Mach-10 isolated circular cylinder, nominal freestream Knudsen number 0.01, five finite stations on the 170-degree ray.",
+  "sample_scope": "Ten consecutive target-verified 0.2 ms blocks over 4–6 ms. Rows give each block and the pooled ten. The 10 microsecond stride is a subset of the 1 microsecond observations, not a new realization. Repeated simulator visits may correlate.",
+  "units": "All finite bins include their lower edge and exclude their upper edge. Underflow is strictly below the first edge and overflow includes the uppermost edge. Empty bounds denote infinities. PDF is weighted bin probability divided by finite bin width in m/s; no density is assigned to infinite-width tails. With a positive denominator zero probability means no observed particles. If a station has no particles probabilities are blank.",
+  "weight": "Physical molecule visits sum the native simulator weights (fnum times cell weight where enabled); normalization uses every selected particle including tails.",
+  "velocity_definitions": {
+    "lab_axial_vx": "laboratory streamwise velocity in the +x direction",
+    "inward_station_normal_vn": "v dot n, where n points inward along the 170-degree ray, n=(0.984807753012208,-0.173648177666930,0)"
+  },
+  "stations_geometry_sha256": "a68d909730e0716bfdc9e4500f1b7b7523d9af8a015e6c02296d89802bcc46cf",
+  "stations": {
+    "Ar_cylinder": [
+      {
+        "id": "upstream_reference",
+        "center_m": 0.195,
+        "center_xyz_m": [
+          -0.1897222133964411,
+          0.060325376921491584,
+          0.0
+        ],
+        "role": "freestream-side reference near the inlet",
+        "shape": {
+          "type": "oriented_rectangle_2d",
+          "center_xyz_m": [
+            -0.1897222133964411,
+            0.060325376921491584,
+            0.0
+          ],
+          "normal_unit": [
+            0.984807753012208,
+            -0.17364817766693028,
+            0.0
+          ],
+          "tangent_unit": [
+            0.17364817766693028,
+            0.984807753012208,
+            0.0
+          ],
+          "half_normal_m": 0.0004,
+          "half_tangent_m": 0.002,
+          "aabb_xyz_m": [
+            [
+              -0.19046343285297987,
+              -0.18898099393990234
+            ],
+            [
+              0.05828630214440039,
+              0.062364451698582776
+            ],
+            [
+              -0.5,
+              0.5
+            ]
+          ],
+          "gas_area_m2": 3.2000000000000003e-06,
+          "unit_span_m": 1.0,
+          "volume_m3": 3.2000000000000003e-06,
+          "base_relative_refinement_level_from_deck": 0,
+          "nominal_cell_xy_m": [
+            0.001095360824742268,
+            0.001
+          ]
+        }
+      },
+      {
+        "id": "s10",
+        "center_m": 0.1092953494071756,
+        "center_xyz_m": [
+          -0.10531960902342527,
+          0.04544292052846662,
+          0.0
+        ],
+        "role": "inside the compression layer",
+        "shape": {
+          "type": "oriented_rectangle_2d",
+          "center_xyz_m": [
+            -0.10531960902342527,
+            0.04544292052846662,
+            0.0
+          ],
+          "normal_unit": [
+            0.984807753012208,
+            -0.17364817766693028,
+            0.0
+          ],
+          "tangent_unit": [
+            0.17364817766693028,
+            0.984807753012208,
+            0.0
+          ],
+          "half_normal_m": 0.0004,
+          "half_tangent_m": 0.002,
+          "aabb_xyz_m": [
+            [
+              -0.10606082847996401,
+              -0.10457838956688653
+            ],
+            [
+              0.04340384575137543,
+              0.047481995305557814
+            ],
+            [
+              -0.5,
+              0.5
+            ]
+          ],
+          "gas_area_m2": 3.2000000000000003e-06,
+          "unit_span_m": 1.0,
+          "volume_m3": 3.2000000000000003e-06,
+          "base_relative_refinement_level_from_deck": 2,
+          "nominal_cell_xy_m": [
+            0.000273840206185567,
+            0.00025
+          ]
+        }
+      },
+      {
+        "id": "s50",
+        "center_m": 0.09478875477826468,
+        "center_xyz_m": [
+          -0.09103340216306854,
+          0.04292387680700337,
+          0.0
+        ],
+        "role": "inside the compression layer",
+        "shape": {
+          "type": "oriented_rectangle_2d",
+          "center_xyz_m": [
+            -0.09103340216306854,
+            0.04292387680700337,
+            0.0
+          ],
+          "normal_unit": [
+            0.984807753012208,
+            -0.17364817766693028,
+            0.0
+          ],
+          "tangent_unit": [
+            0.17364817766693028,
+            0.984807753012208,
+            0.0
+          ],
+          "half_normal_m": 0.0004,
+          "half_tangent_m": 0.002,
+          "aabb_xyz_m": [
+            [
+              -0.09177462161960728,
+              -0.0902921827065298
+            ],
+            [
+              0.040884802029912175,
+              0.04496295158409456
+            ],
+            [
+              -0.5,
+              0.5
+            ]
+          ],
+          "gas_area_m2": 3.2000000000000003e-06,
+          "unit_span_m": 1.0,
+          "volume_m3": 3.2000000000000003e-06,
+          "base_relative_refinement_level_from_deck": 2,
+          "nominal_cell_xy_m": [
+            0.000273840206185567,
+            0.00025
+          ]
+        }
+      },
+      {
+        "id": "s90",
+        "center_m": 0.08332901360915439,
+        "center_xyz_m": [
+          -0.07974776021221552,
+          0.040933913636452664,
+          0.0
+        ],
+        "role": "inside the compression layer",
+        "shape": {
+          "type": "oriented_rectangle_2d",
+          "center_xyz_m": [
+            -0.07974776021221552,
+            0.040933913636452664,
+            0.0
+          ],
+          "normal_unit": [
+            0.984807753012208,
+            -0.17364817766693028,
+            0.0
+          ],
+          "tangent_unit": [
+            0.17364817766693028,
+            0.984807753012208,
+            0.0
+          ],
+          "half_normal_m": 0.0004,
+          "half_tangent_m": 0.002,
+          "aabb_xyz_m": [
+            [
+              -0.08048897966875426,
+              -0.07900654075567679
+            ],
+            [
+              0.03889483885936147,
+              0.042972988413543856
+            ],
+            [
+              -0.5,
+              0.5
+            ]
+          ],
+          "gas_area_m2": 3.2000000000000003e-06,
+          "unit_span_m": 1.0,
+          "volume_m3": 3.2000000000000003e-06,
+          "base_relative_refinement_level_from_deck": 2,
+          "nominal_cell_xy_m": [
+            0.000273840206185567,
+            0.00025
+          ]
+        }
+      },
+      {
+        "id": "downstream_reference",
+        "center_m": 0.035,
+        "center_xyz_m": [
+          -0.03215297291448779,
+          0.03254166849478274,
+          0.0
+        ],
+        "role": "post-shock wall-side gas still decelerating",
+        "shape": {
+          "type": "oriented_rectangle_2d",
+          "center_xyz_m": [
+            -0.03215297291448779,
+            0.03254166849478274,
+            0.0
+          ],
+          "normal_unit": [
+            0.984807753012208,
+            -0.17364817766693028,
+            0.0
+          ],
+          "tangent_unit": [
+            0.17364817766693028,
+            0.984807753012208,
+            0.0
+          ],
+          "half_normal_m": 0.0004,
+          "half_tangent_m": 0.002,
+          "aabb_xyz_m": [
+            [
+              -0.03289419237102654,
+              -0.03141175345794905
+            ],
+            [
+              0.030502593717691547,
+              0.03458074327187393
+            ],
+            [
+              -0.5,
+              0.5
+            ]
+          ],
+          "gas_area_m2": 3.2000000000000003e-06,
+          "unit_span_m": 1.0,
+          "volume_m3": 3.2000000000000003e-06,
+          "base_relative_refinement_level_from_deck": 2,
+          "nominal_cell_xy_m": [
+            0.000273840206185567,
+            0.00025
+          ]
+        }
+      }
+    ]
+  },
+  "first_snapshot_lexar_receipt": "data/molecular/first_samples/FIRST_SAMPLES_VERIFIED.json",
+  "first_snapshot_receipt_sha256": "8d821d9079caacf2394ab9a92d39e5efe5663d196de8ceeca7159ff752844e4e",
+  "sources": {
+    "Ar_cylinder": {
+      "case": "Ar_cylinder",
+      "target_receipt_sha256": "464f2002a9a09c8e04a66b5f39985a9c654da7113062aa353d3fc34503642795",
+      "chain_sha256": "40b0f678fee85055f4087c8993ed0482d81523079e049e3916834404f11f9abe",
+      "case_status_sha256": "3c9dc6ba0d89d891a80c5efc1b5123aae5cb62a773a060d64350f846c7b84efd",
+      "transfer_receipt": "data/molecular/analysis_compact/transfer_Ar_cylinder.json",
+      "transfer_sha256": "3b7b0dd409ecc5ca84cc09d283a9a21e434611ea6b7d9beb458515138276658d",
+      "native_compact": {
+        "path": "campaign/molecular_vdf_M10_Kn001_20261120/analysis_compact/Ar_cylinder",
+        "files": {
+          "block_01.npz": {
+            "sha256": "449b051c05ca9dd5760e54e910ec2c558641629bc7205e6e294dc0d4297d29bf",
+            "native_stamp": [
+              47,
+              75429533,
+              203692,
+              1795387724501470246,
+              1795387724503470280
+            ]
+          },
+          "block_01.json": {
+            "sha256": "a1b2bc7e4a5a62a912ef408ec375ebb46b1d490438d88587b2abbbb211fa5d36",
+            "native_stamp": [
+              47,
+              75431301,
+              723,
+              1795387724506470332,
+              1795387724507470349
+            ]
+          },
+          "block_02.npz": {
+            "sha256": "1f8775fba078a93f6322aec9c20f099beec6fa3783b0f0a78012a8307ffa8fb4",
+            "native_stamp": [
+              47,
+              75422911,
+              203467,
+              1795387725522487851,
+              1795387725523487868
+            ]
+          },
+          "block_02.json": {
+            "sha256": "9d25f45e25a67959de7cb35ca1a419e064a68504ccdb72c02a81869fcbe5c1a9",
+            "native_stamp": [
+              47,
+              75425639,
+              723,
+              1795387725525487903,
+              1795387725526487920
+            ]
+          },
+          "block_03.npz": {
+            "sha256": "db61fc9828d65ba0e89bc6669f57d28a10e384d89850579e522a60397d65c601",
+            "native_stamp": [
+              47,
+              75422957,
+              203894,
+              1795387726447503802,
+              1795387726448503819
+            ]
+          },
+          "block_03.json": {
+            "sha256": "453bf945fbe31002c0fe7456b4810e80c1675fb50c56855e1ee807ee02cf279e",
+            "native_stamp": [
+              47,
+              75429538,
+              723,
+              1795387726450503853,
+              1795387726451503871
+            ]
+          },
+          "block_04.npz": {
+            "sha256": "4d14cc1d7969c4e7da026b34ec787a7103ddc9303ea5973ba667e42eb2104b76",
+            "native_stamp": [
+              47,
+              75429548,
+              203484,
+              1795387727450521098,
+              1795387727451521115
+            ]
+          },
+          "block_04.json": {
+            "sha256": "d4c66dd440081088d95b68b1286b135f3aaa3f2a1ae94a08935a1333b11a1444",
+            "native_stamp": [
+              47,
+              75425983,
+              724,
+              1795387727453521149,
+              1795387727454521167
+            ]
+          },
+          "block_05.npz": {
+            "sha256": "b9df704b6d470d9ad95791322dba0230478992ed8425a10a564a4c0ef86319bc",
+            "native_stamp": [
+              47,
+              75430926,
+              203626,
+              1795387728448538308,
+              1795387728449538325
+            ]
+          },
+          "block_05.json": {
+            "sha256": "95bcdbfe2640315916b66d0cbe84da55153efa79d62f48523346e4f83e73938d",
+            "native_stamp": [
+              47,
+              75429420,
+              725,
+              1795387728452538377,
+              1795387728452538377
+            ]
+          },
+          "block_06.npz": {
+            "sha256": "c8e6337a16797536f3a3f9d3f2ee25e13aafdac7c813a7b832948c8f24751157",
+            "native_stamp": [
+              47,
+              75425883,
+              203117,
+              1795387729418555037,
+              1795387729418555037
+            ]
+          },
+          "block_06.json": {
+            "sha256": "9cd522d4ebf991d327b2b929e20ac79997ce235cd36f63303ad82dc523b679bb",
+            "native_stamp": [
+              47,
+              75430343,
+              726,
+              1795387729420555071,
+              1795387729421555089
+            ]
+          },
+          "block_07.npz": {
+            "sha256": "acc34ec4cf15aaf2f4e406db785017a5723fabb81de22558fa7451666727181a",
+            "native_stamp": [
+              47,
+              75431812,
+              204361,
+              1795387730381571645,
+              1795387730382571662
+            ]
+          },
+          "block_07.json": {
+            "sha256": "8d6d8ba0308e15102aedf2acbbd94d6e6fbf7482dd413372af438a47ff4d9ebd",
+            "native_stamp": [
+              47,
+              75428713,
+              726,
+              1795387730385571714,
+              1795387730385571714
+            ]
+          },
+          "block_08.npz": {
+            "sha256": "9e589fdb8e8ba26c4f55e9ba7ae64fe5dbdba912c0995f979b6ff2b47d3618fd",
+            "native_stamp": [
+              47,
+              75423869,
+              203728,
+              1795387731350588357,
+              1795387731351588374
+            ]
+          },
+          "block_08.json": {
+            "sha256": "7f7242c6d050a85047bec849f2e04b3062bfe60c40da179a3d9643f746bc281b",
+            "native_stamp": [
+              47,
+              75430933,
+              726,
+              1795387731354588426,
+              1795387731354588426
+            ]
+          },
+          "block_09.npz": {
+            "sha256": "944435365c9614a03b447cf080f0ff793529904aaef477995409dd6c68ba5c6e",
+            "native_stamp": [
+              47,
+              75427405,
+              204003,
+              1795387732311604932,
+              1795387732311604932
+            ]
+          },
+          "block_09.json": {
+            "sha256": "f8a765b6dffcae14462fa53de643fa3e08450c3712bfb2daea74ddd1469bbe29",
+            "native_stamp": [
+              47,
+              75427406,
+              726,
+              1795387732313604967,
+              1795387732314604984
+            ]
+          },
+          "block_10.npz": {
+            "sha256": "3612df529e388a31c33da36f27dcfdc20da6bd3e7554c1bedb8ac936aa7a51c5",
+            "native_stamp": [
+              47,
+              75423599,
+              203868,
+              1795387733234620852,
+              1795387733235620870
+            ]
+          },
+          "block_10.json": {
+            "sha256": "af9bfbff55aeb84957165617bd96b4d8d58a4bd05eb37fd65e97d6db76587d0b",
+            "native_stamp": [
+              47,
+              75430168,
+              727,
+              1795387733237620904,
+              1795387733238620921
+            ]
+          },
+          "case_status.json": {
+            "sha256": "3c9dc6ba0d89d891a80c5efc1b5123aae5cb62a773a060d64350f846c7b84efd",
+            "native_stamp": [
+              47,
+              75430172,
+              9262,
+              1795387733240620956,
+              1795387733240620956
+            ]
+          }
+        }
+      },
+      "blocks": [
+        {
+          "source": {
+            "case": "Ar_cylinder",
+            "block": 1,
+            "first_step": 800200,
+            "last_step": 840000,
+            "native_npz_sha256": "0c77de8e708e5320a53b5df49b5331f67867ca44e9cd519c290f0327ea6d0631",
+            "qualified_attempt": "job2050245_r0_e5fa2c475f05",
+            "committed_anchor": 920000,
+            "science_sha256": "c5a9de0376632a6896b1b7a24328a2c47771614064398ef9f4a84a9d64421cc5",
+            "generation": {
+              "reducer_sha256": "ca0e40b1a70ba5541b45452383a2c88382fcaeca466fd276a842fbd4f23dd07d",
+              "statistics_sha256": "6de9b49ca0cd40d31047f0f5da7a63d7f47d2f1fdc8f7fe73b4b1253fc260358"
+            }
+          },
+          "sha256": "449b051c05ca9dd5760e54e910ec2c558641629bc7205e6e294dc0d4297d29bf",
+          "file": "block_01.npz",
+          "bytes": 203692
+        },
+        {
+          "source": {
+            "case": "Ar_cylinder",
+            "block": 2,
+            "first_step": 840200,
+            "last_step": 880000,
+            "native_npz_sha256": "d73b3c3f3a0ea5bc68ef90a853f85e75e1c378daf84fd7c0b5e08c5268efc4b6",
+            "qualified_attempt": "job2050245_r0_e5fa2c475f05",
+            "committed_anchor": 920000,
+            "science_sha256": "c5a9de0376632a6896b1b7a24328a2c47771614064398ef9f4a84a9d64421cc5",
+            "generation": {
+              "reducer_sha256": "ca0e40b1a70ba5541b45452383a2c88382fcaeca466fd276a842fbd4f23dd07d",
+              "statistics_sha256": "6de9b49ca0cd40d31047f0f5da7a63d7f47d2f1fdc8f7fe73b4b1253fc260358"
+            }
+          },
+          "sha256": "1f8775fba078a93f6322aec9c20f099beec6fa3783b0f0a78012a8307ffa8fb4",
+          "file": "block_02.npz",
+          "bytes": 203467
+        },
+        {
+          "source": {
+            "case": "Ar_cylinder",
+            "block": 3,
+            "first_step": 880200,
+            "last_step": 920000,
+            "native_npz_sha256": "446b16bb6c1968ac8ccad13fc34bd3766b46b9634dadd5f402a8353cca17129d",
+            "qualified_attempt": "job2050245_r0_e5fa2c475f05",
+            "committed_anchor": 920000,
+            "science_sha256": "c5a9de0376632a6896b1b7a24328a2c47771614064398ef9f4a84a9d64421cc5",
+            "generation": {
+              "reducer_sha256": "ca0e40b1a70ba5541b45452383a2c88382fcaeca466fd276a842fbd4f23dd07d",
+              "statistics_sha256": "6de9b49ca0cd40d31047f0f5da7a63d7f47d2f1fdc8f7fe73b4b1253fc260358"
+            }
+          },
+          "sha256": "db61fc9828d65ba0e89bc6669f57d28a10e384d89850579e522a60397d65c601",
+          "file": "block_03.npz",
+          "bytes": 203894
+        },
+        {
+          "source": {
+            "case": "Ar_cylinder",
+            "block": 4,
+            "first_step": 920200,
+            "last_step": 960000,
+            "native_npz_sha256": "5ac521a7fed099c1d644f59d39050aacf9524ecbc07ad19993c698373f36ca32",
+            "qualified_attempt": "job2050245_r0_e5fa2c475f05",
+            "committed_anchor": 1040000,
+            "science_sha256": "c5a9de0376632a6896b1b7a24328a2c47771614064398ef9f4a84a9d64421cc5",
+            "generation": {
+              "reducer_sha256": "ca0e40b1a70ba5541b45452383a2c88382fcaeca466fd276a842fbd4f23dd07d",
+              "statistics_sha256": "6de9b49ca0cd40d31047f0f5da7a63d7f47d2f1fdc8f7fe73b4b1253fc260358"
+            }
+          },
+          "sha256": "4d14cc1d7969c4e7da026b34ec787a7103ddc9303ea5973ba667e42eb2104b76",
+          "file": "block_04.npz",
+          "bytes": 203484
+        },
+        {
+          "source": {
+            "case": "Ar_cylinder",
+            "block": 5,
+            "first_step": 960200,
+            "last_step": 1000000,
+            "native_npz_sha256": "ca9e9fdabf2864e542281d74fda5cc8b19ba90f5063daef638ee18c2be1747e3",
+            "qualified_attempt": "job2050245_r0_e5fa2c475f05",
+            "committed_anchor": 1040000,
+            "science_sha256": "c5a9de0376632a6896b1b7a24328a2c47771614064398ef9f4a84a9d64421cc5",
+            "generation": {
+              "reducer_sha256": "ca0e40b1a70ba5541b45452383a2c88382fcaeca466fd276a842fbd4f23dd07d",
+              "statistics_sha256": "6de9b49ca0cd40d31047f0f5da7a63d7f47d2f1fdc8f7fe73b4b1253fc260358"
+            }
+          },
+          "sha256": "b9df704b6d470d9ad95791322dba0230478992ed8425a10a564a4c0ef86319bc",
+          "file": "block_05.npz",
+          "bytes": 203626
+        },
+        {
+          "source": {
+            "case": "Ar_cylinder",
+            "block": 6,
+            "first_step": 1000200,
+            "last_step": 1040000,
+            "native_npz_sha256": "6b2a4444716f5b61ac23b5ba8b3bf398409ed6999fbc2c1c0d6ea5a33a3f2fa4",
+            "qualified_attempt": "job2050245_r0_e5fa2c475f05",
+            "committed_anchor": 1040000,
+            "science_sha256": "c5a9de0376632a6896b1b7a24328a2c47771614064398ef9f4a84a9d64421cc5",
+            "generation": {
+              "reducer_sha256": "ca0e40b1a70ba5541b45452383a2c88382fcaeca466fd276a842fbd4f23dd07d",
+              "statistics_sha256": "6de9b49ca0cd40d31047f0f5da7a63d7f47d2f1fdc8f7fe73b4b1253fc260358"
+            }
+          },
+          "sha256": "c8e6337a16797536f3a3f9d3f2ee25e13aafdac7c813a7b832948c8f24751157",
+          "file": "block_06.npz",
+          "bytes": 203117
+        },
+        {
+          "source": {
+            "case": "Ar_cylinder",
+            "block": 7,
+            "first_step": 1040200,
+            "last_step": 1080000,
+            "native_npz_sha256": "97d60a20f9cf5a85cad5d03ba9a30eec4970dee193c69e7ecc9af935ec5e1ca6",
+            "qualified_attempt": "job2050245_r0_e5fa2c475f05",
+            "committed_anchor": 1200000,
+            "science_sha256": "c5a9de0376632a6896b1b7a24328a2c47771614064398ef9f4a84a9d64421cc5",
+            "generation": {
+              "reducer_sha256": "ca0e40b1a70ba5541b45452383a2c88382fcaeca466fd276a842fbd4f23dd07d",
+              "statistics_sha256": "6de9b49ca0cd40d31047f0f5da7a63d7f47d2f1fdc8f7fe73b4b1253fc260358"
+            }
+          },
+          "sha256": "acc34ec4cf15aaf2f4e406db785017a5723fabb81de22558fa7451666727181a",
+          "file": "block_07.npz",
+          "bytes": 204361
+        },
+        {
+          "source": {
+            "case": "Ar_cylinder",
+            "block": 8,
+            "first_step": 1080200,
+            "last_step": 1120000,
+            "native_npz_sha256": "20d07684b2dd3835a92e7540fd20835cf0ceadb3e9fab39dd21cca16625d134f",
+            "qualified_attempt": "job2050245_r0_e5fa2c475f05",
+            "committed_anchor": 1200000,
+            "science_sha256": "c5a9de0376632a6896b1b7a24328a2c47771614064398ef9f4a84a9d64421cc5",
+            "generation": {
+              "reducer_sha256": "ca0e40b1a70ba5541b45452383a2c88382fcaeca466fd276a842fbd4f23dd07d",
+              "statistics_sha256": "6de9b49ca0cd40d31047f0f5da7a63d7f47d2f1fdc8f7fe73b4b1253fc260358"
+            }
+          },
+          "sha256": "9e589fdb8e8ba26c4f55e9ba7ae64fe5dbdba912c0995f979b6ff2b47d3618fd",
+          "file": "block_08.npz",
+          "bytes": 203728
+        },
+        {
+          "source": {
+            "case": "Ar_cylinder",
+            "block": 9,
+            "first_step": 1120200,
+            "last_step": 1160000,
+            "native_npz_sha256": "03c7ad4ac9ce0984de6ebae07fb4100c7d7b74482f723e4f4df46813e72e78eb",
+            "qualified_attempt": "job2050245_r0_e5fa2c475f05",
+            "committed_anchor": 1200000,
+            "science_sha256": "c5a9de0376632a6896b1b7a24328a2c47771614064398ef9f4a84a9d64421cc5",
+            "generation": {
+              "reducer_sha256": "ca0e40b1a70ba5541b45452383a2c88382fcaeca466fd276a842fbd4f23dd07d",
+              "statistics_sha256": "6de9b49ca0cd40d31047f0f5da7a63d7f47d2f1fdc8f7fe73b4b1253fc260358"
+            }
+          },
+          "sha256": "944435365c9614a03b447cf080f0ff793529904aaef477995409dd6c68ba5c6e",
+          "file": "block_09.npz",
+          "bytes": 204003
+        },
+        {
+          "source": {
+            "case": "Ar_cylinder",
+            "block": 10,
+            "first_step": 1160200,
+            "last_step": 1200000,
+            "native_npz_sha256": "4be4a4690e5de64e940e10e07b9a3119ad880a118606720f93672bd1cc53b5a1",
+            "qualified_attempt": "job2050245_r0_e5fa2c475f05",
+            "committed_anchor": 1200000,
+            "science_sha256": "c5a9de0376632a6896b1b7a24328a2c47771614064398ef9f4a84a9d64421cc5",
+            "generation": {
+              "reducer_sha256": "ca0e40b1a70ba5541b45452383a2c88382fcaeca466fd276a842fbd4f23dd07d",
+              "statistics_sha256": "6de9b49ca0cd40d31047f0f5da7a63d7f47d2f1fdc8f7fe73b4b1253fc260358"
+            }
+          },
+          "sha256": "3612df529e388a31c33da36f27dcfdc20da6bd3e7554c1bedb8ac936aa7a51c5",
+          "file": "block_10.npz",
+          "bytes": 203868
+        }
+      ]
+    }
+  },
+  "created_utc": "2026-11-22T22:51:23.445400+00:00",
+  "csv_sha256": "eb78df4d952323234db4337647daadc27ee82e6796125f9572c642ad45f5e982",
+  "csv_name": "velocity_distributions.csv",
+  "rows": 56760,
+  "distributions": 220
+}

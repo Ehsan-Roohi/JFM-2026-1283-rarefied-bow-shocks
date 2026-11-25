@@ -1,0 +1,36 @@
+seed 438719
+dimension 3
+global gridcut 0.0 comm/sort yes
+boundary o p p
+create_box -0.080000000000000002 0.080000000000000002 0 0.001 0 0.001
+create_grid 1600 1 1
+balance_grid rcb cell
+global nrho 3.856e+20 fnum 192800000
+species ../argon.species Ar
+mixture gas Ar nrho 3.856e+20 vstream 2634.0999999999999 0 0 temp 200 trot 200 tvib 200
+mixture gas group bulk
+collide vss gas ../argon.vss relax constant
+collide_modify nearcp yes 10 rotate smooth vibrate no
+mixture upstream Ar nrho 3.856e+20 vstream 2634.0999999999999 0 0 temp 200 trot 200
+mixture downstream Ar nrho 1.4974572624056382e+21 vstream 678.28911415360312 0 0 temp 6421.9798474017671 trot 6421.9798474017671
+region left block -0.08 0 0 0.001 0 0.001
+region right block 0 0.08 0 0.001 0 0.001
+create_particles upstream n 0 region left twopass
+create_particles downstream n 0 region right twopass
+fix inlet emit/face upstream xlo twopass
+fix outlet emit/face downstream xhi twopass
+timestep 1e-08
+stats 100
+stats_style step cpu np nattempt ncoll nscoll
+compute fields grid all gas n nrho massrho u v w trot erot tvib evib usq vsq wsq
+compute thermal thermal/grid all gas temp press
+fix avg ave/grid all 1 100 100 c_fields[*] c_thermal[*]
+compute density grid all species nrho
+fix densityavg ave/grid all 1 100 100 c_density[*]
+compute mfp lambda/grid f_densityavg[*] f_avg[14] lambda tau knx kny
+compute geom property/grid all vol
+dump gridout grid all 100 fields.*.grid id xc yc xlo xhi ylo yhi c_geom f_avg[*] f_densityavg[*] c_mfp[*]
+restart 100 checkpoint.A checkpoint.B
+run 200
+write_restart checkpoint.final
+print "PILOT_COMPLETE 200"

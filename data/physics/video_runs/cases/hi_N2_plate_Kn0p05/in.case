@@ -1,0 +1,34 @@
+# shock formation movie: plate, N2, Mach 10, Kn=0.05; grid 453x256, dt 80 ns, frame 300 steps
+seed 915656
+dimension 2
+global gridcut 0.0 comm/sort yes
+boundary o ro p
+create_box -0.45 0.7 0 0.65 -.5 .5
+create_grid 453 256 1
+balance_grid rcb cell
+read_surf ../../plate.surf clip 1e-12
+global nrho 7.882000e+19 fnum 2.540268e+12
+species ../../baseline.species N2
+mixture gas N2 nrho 7.882000e+19 vstream 2883.3 0 0 temp 200 trot 200
+collide vss gas ../../baseline.vss relax constant
+collide_modify nearcp yes 10 rotate smooth vibrate no
+surf_collide wall diffuse 500.0 1.0
+surf_modify all collide wall
+fix inflow emit/face gas xlo xhi yhi twopass
+timestep 8.000000e-08
+create_particles gas n 0 twopass
+balance_grid rcb cell
+fix lb balance 2000 1.1 rcb part
+stats 300
+stats_style step cpu np
+compute f grid all gas nrho massrho u v trot
+compute t thermal/grid all gas temp
+compute pf pflux/grid all gas momxx momyy
+compute geom property/grid all vol
+fix avg ave/grid all 1 300 300 c_f[*] c_t[*] c_pf[*]
+dump g grid all 300 frame.*.grid id xc yc c_geom f_avg[*]
+region strip block -0.45 0.0 0 0.01 INF INF
+dump p particle all 300 part.*.dat id x y vx vy
+dump_modify p region strip
+run 30000
+print "VIDEO_RUN_COMPLETE 30000"

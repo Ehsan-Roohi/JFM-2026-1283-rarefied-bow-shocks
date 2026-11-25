@@ -1,0 +1,34 @@
+seed 438719
+dimension 2
+global gridcut 0.0 comm/sort yes
+boundary o ro p
+create_box -0.20000000000000001 0.65000000000000002 0 0.4 -0.5 0.5
+create_grid 776 400 1
+balance_grid rcb cell
+global nrho 5.2546666666666664e+19 fnum 2877878006872.8525
+species ../baseline.species N2
+mixture gas N2 nrho 5.2546666666666664e+19 vstream 2883.3000000000002 0 0 temp 200 trot 200 tvib 200
+mixture gas group bulk
+collide vss gas ../baseline.vss relax constant
+collide_modify nearcp yes 10 rotate smooth vibrate no
+read_surf ../cylinder.surf clip 1e-12
+surf_collide wall diffuse 500.0 1.0
+surf_modify all collide wall
+balance_grid rcb cell
+create_particles gas n 0 twopass
+fix inflow emit/face gas xlo xhi yhi twopass
+timestep 2e-08
+stats 100
+stats_style step cpu np nattempt ncoll nscoll
+compute fields grid all gas n nrho massrho u v w trot erot tvib evib usq vsq wsq
+compute thermal thermal/grid all gas temp press
+fix avg ave/grid all 1 100 100 c_fields[*] c_thermal[*]
+compute density grid all species nrho
+fix densityavg ave/grid all 1 100 100 c_density[*]
+compute mfp lambda/grid f_densityavg[*] f_avg[14] lambda tau knx kny
+compute geom property/grid all vol
+dump gridout grid all 100 fields.*.grid id xc yc xlo xhi ylo yhi c_geom f_avg[*] f_densityavg[*] c_mfp[*]
+restart 100 checkpoint.A checkpoint.B
+run 200
+write_restart checkpoint.final
+print "PILOT_COMPLETE 200"

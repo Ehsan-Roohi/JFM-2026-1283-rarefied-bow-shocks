@@ -1,0 +1,19 @@
+{
+  "source": {
+    "case": "Ar_cylinder",
+    "block": 1,
+    "first_step": 800200,
+    "last_step": 840000,
+    "native_npz_sha256": "0c77de8e708e5320a53b5df49b5331f67867ca44e9cd519c290f0327ea6d0631",
+    "qualified_attempt": "job2050245_r0_e5fa2c475f05",
+    "committed_anchor": 920000,
+    "science_sha256": "c5a9de0376632a6896b1b7a24328a2c47771614064398ef9f4a84a9d64421cc5",
+    "generation": {
+      "reducer_sha256": "ca0e40b1a70ba5541b45452383a2c88382fcaeca466fd276a842fbd4f23dd07d",
+      "statistics_sha256": "6de9b49ca0cd40d31047f0f5da7a63d7f47d2f1fdc8f7fe73b4b1253fc260358"
+    }
+  },
+  "sha256": "449b051c05ca9dd5760e54e910ec2c558641629bc7205e6e294dc0d4297d29bf",
+  "file": "block_01.npz",
+  "bytes": 203692
+}

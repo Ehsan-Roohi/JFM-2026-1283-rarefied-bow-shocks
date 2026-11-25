@@ -1,0 +1,1727 @@
+{
+  "utc": "2026-11-02T12:41:46.742035+00:00",
+  "purpose": "User-requested integrated analysis of completed Ar mesh, Ar time-step, and N2 ppc40 mesh controls",
+  "unique_complete_cases": 7,
+  "comparisons": [
+    {
+      "comparison": "Ar_grid_L4_L5",
+      "base": "Ar_grid_L4",
+      "reference": "Ar_grid_L5",
+      "ray": 170,
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "fields": {
+        "rho_over_rhoinf": {
+          "L2_percent": 0.2931918286712938,
+          "RMSE": 0.009214654998546732
+        },
+        "Ttr_K": {
+          "L2_percent": 0.32369674874893795,
+          "RMSE": 16.413414873964953
+        },
+        "ux_ms": {
+          "L2_percent": 0.2439746179815669,
+          "RMSE": 3.9582133054968835
+        }
+      }
+    },
+    {
+      "comparison": "Ar_grid_L4_L5",
+      "base": "Ar_grid_L4",
+      "reference": "Ar_grid_L5",
+      "ray": 180,
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "fields": {
+        "rho_over_rhoinf": {
+          "L2_percent": 0.31356922693254224,
+          "RMSE": 0.009845246908639733
+        },
+        "Ttr_K": {
+          "L2_percent": 0.304906856527543,
+          "RMSE": 15.493198192172493
+        },
+        "ux_ms": {
+          "L2_percent": 0.21446263575827157,
+          "RMSE": 3.512049403026254
+        }
+      }
+    },
+    {
+      "comparison": "Ar_dt_5_2p5ns",
+      "base": "Ar_grid_L5",
+      "reference": "Ar_dt_dt2p5ns",
+      "ray": 170,
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "fields": {
+        "rho_over_rhoinf": {
+          "L2_percent": 0.23207989655971617,
+          "RMSE": 0.007293985580614281
+        },
+        "Ttr_K": {
+          "L2_percent": 0.336300052248528,
+          "RMSE": 17.03952138979072
+        },
+        "ux_ms": {
+          "L2_percent": 0.28602740434334395,
+          "RMSE": 4.646263884396353
+        }
+      }
+    },
+    {
+      "comparison": "Ar_dt_5_2p5ns",
+      "base": "Ar_grid_L5",
+      "reference": "Ar_dt_dt2p5ns",
+      "ray": 180,
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "fields": {
+        "rho_over_rhoinf": {
+          "L2_percent": 0.2881846837535236,
+          "RMSE": 0.009044571974825074
+        },
+        "Ttr_K": {
+          "L2_percent": 0.3487291268441511,
+          "RMSE": 17.701027274569682
+        },
+        "ux_ms": {
+          "L2_percent": 0.2506372266643152,
+          "RMSE": 4.10598071417735
+        }
+      }
+    },
+    {
+      "comparison": "N2_grid_L4_L5",
+      "base": "N2_grid_L4",
+      "reference": "N2_grid_L5",
+      "ray": 170,
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "fields": {
+        "rho_over_rhoinf": {
+          "L2_percent": 0.2816341916028107,
+          "RMSE": 0.009419932217068943
+        },
+        "Ttr_K": {
+          "L2_percent": 0.39500176731163955,
+          "RMSE": 10.184143191108852
+        },
+        "ux_ms": {
+          "L2_percent": 0.17765509398088652,
+          "RMSE": 4.058775006529087
+        },
+        "Trot_K": {
+          "L2_percent": 0.2595981882960684,
+          "RMSE": 5.819923062897179
+        }
+      }
+    },
+    {
+      "comparison": "N2_grid_L4_L5",
+      "base": "N2_grid_L4",
+      "reference": "N2_grid_L5",
+      "ray": 180,
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "fields": {
+        "rho_over_rhoinf": {
+          "L2_percent": 0.31445959392345024,
+          "RMSE": 0.010489950994998009
+        },
+        "Ttr_K": {
+          "L2_percent": 0.448812097314611,
+          "RMSE": 11.592716616628739
+        },
+        "ux_ms": {
+          "L2_percent": 0.2385528514033069,
+          "RMSE": 5.473988554161294
+        },
+        "Trot_K": {
+          "L2_percent": 0.312706197095131,
+          "RMSE": 6.985398564207613
+        }
+      }
+    }
+  ],
+  "block_diagnostics": [
+    {
+      "case": "Ar_grid_L0",
+      "ray": 170,
+      "field": "rho_over_rhoinf",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.7767981161818908,
+      "first5_vs_last5_L2_percent": 0.5615582059432751,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "Ar_grid_L0",
+      "ray": 170,
+      "field": "Ttr_K",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.8546754869103954,
+      "first5_vs_last5_L2_percent": 0.5791001850317794,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "Ar_grid_L0",
+      "ray": 170,
+      "field": "ux_ms",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.5692194995959373,
+      "first5_vs_last5_L2_percent": 0.41882322549515516,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "Ar_grid_L0",
+      "ray": 180,
+      "field": "rho_over_rhoinf",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.8770986480911365,
+      "first5_vs_last5_L2_percent": 0.687784766230743,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "Ar_grid_L0",
+      "ray": 180,
+      "field": "Ttr_K",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 1.0173042283424178,
+      "first5_vs_last5_L2_percent": 0.670194548722227,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "Ar_grid_L0",
+      "ray": 180,
+      "field": "ux_ms",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.695945936282791,
+      "first5_vs_last5_L2_percent": 0.3857857381190806,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "Ar_grid_L4",
+      "ray": 170,
+      "field": "rho_over_rhoinf",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.47287571064931955,
+      "first5_vs_last5_L2_percent": 0.3148082791174413,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "Ar_grid_L4",
+      "ray": 170,
+      "field": "Ttr_K",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.5395452910036552,
+      "first5_vs_last5_L2_percent": 0.3353050251882521,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "Ar_grid_L4",
+      "ray": 170,
+      "field": "ux_ms",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.36071037675686113,
+      "first5_vs_last5_L2_percent": 0.2276794814681582,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "Ar_grid_L4",
+      "ray": 180,
+      "field": "rho_over_rhoinf",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.5302804793632445,
+      "first5_vs_last5_L2_percent": 0.3703245368594261,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "Ar_grid_L4",
+      "ray": 180,
+      "field": "Ttr_K",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.5794825745837051,
+      "first5_vs_last5_L2_percent": 0.3412223308655373,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "Ar_grid_L4",
+      "ray": 180,
+      "field": "ux_ms",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.4091658167397241,
+      "first5_vs_last5_L2_percent": 0.24668132490779396,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "Ar_grid_L5",
+      "ray": 170,
+      "field": "rho_over_rhoinf",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.4754686897300337,
+      "first5_vs_last5_L2_percent": 0.30801903070197584,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "Ar_grid_L5",
+      "ray": 170,
+      "field": "Ttr_K",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.5206324304976861,
+      "first5_vs_last5_L2_percent": 0.3319105954340271,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "Ar_grid_L5",
+      "ray": 170,
+      "field": "ux_ms",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.361382400883065,
+      "first5_vs_last5_L2_percent": 0.21147771852870575,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "Ar_grid_L5",
+      "ray": 180,
+      "field": "rho_over_rhoinf",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.5084147566817493,
+      "first5_vs_last5_L2_percent": 0.3323737535602414,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "Ar_grid_L5",
+      "ray": 180,
+      "field": "Ttr_K",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.5527714585427855,
+      "first5_vs_last5_L2_percent": 0.3405708854629806,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "Ar_grid_L5",
+      "ray": 180,
+      "field": "ux_ms",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.37664471300716523,
+      "first5_vs_last5_L2_percent": 0.24391190847013364,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "N2_grid_L0",
+      "ray": 170,
+      "field": "rho_over_rhoinf",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.4701081638652361,
+      "first5_vs_last5_L2_percent": 0.29148760426248504,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "N2_grid_L0",
+      "ray": 170,
+      "field": "Ttr_K",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.6189018966624175,
+      "first5_vs_last5_L2_percent": 0.35934022517974207,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "N2_grid_L0",
+      "ray": 170,
+      "field": "ux_ms",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.26974636011779046,
+      "first5_vs_last5_L2_percent": 0.16941952146043054,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "N2_grid_L0",
+      "ray": 170,
+      "field": "Trot_K",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.6123865623000601,
+      "first5_vs_last5_L2_percent": 0.3547886335123813,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "N2_grid_L0",
+      "ray": 180,
+      "field": "rho_over_rhoinf",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.5497358084512837,
+      "first5_vs_last5_L2_percent": 0.4126211407768231,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "N2_grid_L0",
+      "ray": 180,
+      "field": "Ttr_K",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.7011749815871977,
+      "first5_vs_last5_L2_percent": 0.6260216360990968,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "N2_grid_L0",
+      "ray": 180,
+      "field": "ux_ms",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.31786853673035365,
+      "first5_vs_last5_L2_percent": 0.2636386881622919,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "N2_grid_L0",
+      "ray": 180,
+      "field": "Trot_K",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.767122634875444,
+      "first5_vs_last5_L2_percent": 0.6451306915013059,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "N2_grid_L4",
+      "ray": 170,
+      "field": "rho_over_rhoinf",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.3018304309236243,
+      "first5_vs_last5_L2_percent": 0.1941154611232054,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "N2_grid_L4",
+      "ray": 170,
+      "field": "Ttr_K",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.3842957923442406,
+      "first5_vs_last5_L2_percent": 0.2707664752197965,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "N2_grid_L4",
+      "ray": 170,
+      "field": "ux_ms",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.15807438990169884,
+      "first5_vs_last5_L2_percent": 0.12115916447631342,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "N2_grid_L4",
+      "ray": 170,
+      "field": "Trot_K",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.3296718635947003,
+      "first5_vs_last5_L2_percent": 0.24356837001920512,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "N2_grid_L4",
+      "ray": 180,
+      "field": "rho_over_rhoinf",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.32879416714859283,
+      "first5_vs_last5_L2_percent": 0.20960004476380964,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "N2_grid_L4",
+      "ray": 180,
+      "field": "Ttr_K",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.3897440925072458,
+      "first5_vs_last5_L2_percent": 0.2620182018137419,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "N2_grid_L4",
+      "ray": 180,
+      "field": "ux_ms",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.15382373092678472,
+      "first5_vs_last5_L2_percent": 0.09660060408112817,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "N2_grid_L4",
+      "ray": 180,
+      "field": "Trot_K",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.35984829435907967,
+      "first5_vs_last5_L2_percent": 0.20135872172407754,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "N2_grid_L5",
+      "ray": 170,
+      "field": "rho_over_rhoinf",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.34320163154219085,
+      "first5_vs_last5_L2_percent": 0.3901987613652239,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "N2_grid_L5",
+      "ray": 170,
+      "field": "Ttr_K",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.42510118498028093,
+      "first5_vs_last5_L2_percent": 0.4295454896004903,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "N2_grid_L5",
+      "ray": 170,
+      "field": "ux_ms",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.1802908373465953,
+      "first5_vs_last5_L2_percent": 0.2230344168505845,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "N2_grid_L5",
+      "ray": 170,
+      "field": "Trot_K",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.35480965074715387,
+      "first5_vs_last5_L2_percent": 0.36084343336443647,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "N2_grid_L5",
+      "ray": 180,
+      "field": "rho_over_rhoinf",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.36588949741716437,
+      "first5_vs_last5_L2_percent": 0.36208838705999685,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "N2_grid_L5",
+      "ray": 180,
+      "field": "Ttr_K",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.4647948541197911,
+      "first5_vs_last5_L2_percent": 0.5651013621475904,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "N2_grid_L5",
+      "ray": 180,
+      "field": "ux_ms",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.1889188188577201,
+      "first5_vs_last5_L2_percent": 0.21337871668606248,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "N2_grid_L5",
+      "ray": 180,
+      "field": "Trot_K",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.39669722200802965,
+      "first5_vs_last5_L2_percent": 0.36339147509718384,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "Ar_dt_dt2p5ns",
+      "ray": 170,
+      "field": "rho_over_rhoinf",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.4849663719278301,
+      "first5_vs_last5_L2_percent": 0.4331609351149917,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "Ar_dt_dt2p5ns",
+      "ray": 170,
+      "field": "Ttr_K",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.536487699895447,
+      "first5_vs_last5_L2_percent": 0.35380070003276826,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "Ar_dt_dt2p5ns",
+      "ray": 170,
+      "field": "ux_ms",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.36054658717885224,
+      "first5_vs_last5_L2_percent": 0.24128820865671446,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "Ar_dt_dt2p5ns",
+      "ray": 180,
+      "field": "rho_over_rhoinf",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.5501092270368614,
+      "first5_vs_last5_L2_percent": 0.5162363534947156,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "Ar_dt_dt2p5ns",
+      "ray": 180,
+      "field": "Ttr_K",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.6503879245032705,
+      "first5_vs_last5_L2_percent": 0.7109400320823701,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    },
+    {
+      "case": "Ar_dt_dt2p5ns",
+      "ray": 180,
+      "field": "ux_ms",
+      "window_m": [
+        0.015,
+        0.16
+      ],
+      "finite_locations": 1451,
+      "between_block_RMS_percent": 0.5167794372770226,
+      "first5_vs_last5_L2_percent": 0.6818021949292894,
+      "normalization": "L2 norm of all-ten-block mean on same common finite physical samples",
+      "is_CI": false,
+      "is_independent_replicate_estimate": false
+    }
+  ],
+  "source_checks": [
+    {
+      "case": "Ar_grid_L0",
+      "blocks": 10,
+      "time_interval_ms": [
+        2,
+        4
+      ],
+      "end_times_ms": [
+        2.2,
+        2.4000000000000004,
+        2.6,
+        2.8,
+        3.0,
+        3.2,
+        3.4000000000000004,
+        3.6,
+        3.8,
+        4.0
+      ],
+      "mean_recomputed_from_blocks": true
+    },
+    {
+      "case": "Ar_grid_L4",
+      "blocks": 10,
+      "time_interval_ms": [
+        2,
+        4
+      ],
+      "end_times_ms": [
+        2.2,
+        2.4000000000000004,
+        2.6,
+        2.8,
+        3.0,
+        3.2,
+        3.4000000000000004,
+        3.6,
+        3.8,
+        4.0
+      ],
+      "mean_recomputed_from_blocks": true
+    },
+    {
+      "case": "Ar_grid_L5",
+      "blocks": 10,
+      "time_interval_ms": [
+        2,
+        4
+      ],
+      "end_times_ms": [
+        2.2,
+        2.4000000000000004,
+        2.6,
+        2.8,
+        3.0,
+        3.2,
+        3.4000000000000004,
+        3.6,
+        3.8,
+        4.0
+      ],
+      "mean_recomputed_from_blocks": true
+    },
+    {
+      "case": "N2_grid_L0",
+      "blocks": 10,
+      "time_interval_ms": [
+        2,
+        4
+      ],
+      "end_times_ms": [
+        2.2,
+        2.4000000000000004,
+        2.6,
+        2.8,
+        3.0,
+        3.2,
+        3.4000000000000004,
+        3.6,
+        3.8,
+        4.0
+      ],
+      "mean_recomputed_from_blocks": true
+    },
+    {
+      "case": "N2_grid_L4",
+      "blocks": 10,
+      "time_interval_ms": [
+        2,
+        4
+      ],
+      "end_times_ms": [
+        2.2,
+        2.4000000000000004,
+        2.6,
+        2.8,
+        3.0,
+        3.2,
+        3.4000000000000004,
+        3.6,
+        3.8,
+        4.0
+      ],
+      "mean_recomputed_from_blocks": true
+    },
+    {
+      "case": "N2_grid_L5",
+      "blocks": 10,
+      "time_interval_ms": [
+        2,
+        4
+      ],
+      "end_times_ms": [
+        2.2,
+        2.4000000000000004,
+        2.6,
+        2.8,
+        3.0,
+        3.2,
+        3.4000000000000004,
+        3.6,
+        3.8,
+        4.0
+      ],
+      "mean_recomputed_from_blocks": true
+    },
+    {
+      "case": "Ar_dt_dt2p5ns",
+      "blocks": 10,
+      "time_interval_ms": [
+        2,
+        4
+      ],
+      "end_times_ms": [
+        2.2,
+        2.4000000000000004,
+        2.6,
+        2.8,
+        3.0,
+        3.2,
+        3.4000000000000004,
+        3.6,
+        3.8,
+        4.0
+      ],
+      "mean_recomputed_from_blocks": true
+    }
+  ],
+  "provenance": {
+    "Ar_grid": {
+      "archive": "campaign/argon_grid_review_v58_20261101/argon_grid_review_v58.tar",
+      "sha256": "a427191adbbbd0dada2042a0e107a26f99379cabb90dc27aea3ba2f6cf70f018",
+      "members": 22,
+      "all_members_verified": true
+    },
+    "Ar_dt": {
+      "archive": "campaign/argon_dt_review_v62_20261102/argon_dt_review_v62.tar",
+      "sha256": "91aa4208b5c05790092bf0beff2bb848d8b489d297c253a600b72cc4228c0e27",
+      "members": 24,
+      "all_members_verified": true
+    },
+    "N2_grid": {
+      "archive": "campaign/nitrogen_grid_review_v64_20261102/nitrogen_grid_review_v64.tar",
+      "sha256": "20ea0242dcdf987c978e5a96c0f3ad6e44b3f4ce31e2aee362e508f75cdb2cc4",
+      "members": 27,
+      "all_members_verified": true
+    }
+  },
+  "scientific_acceptance": false,
+  "remaining_controls": [
+    "N2 ppc80: no mature sample blocks yet",
+    "N2 dt2.5ns: no mature sample blocks yet"
+  ],
+  "diagnostic_definitions": {
+    "between_block_RMS": "100*sqrt(mean_b(sum_x((q_b-qmean)^2)))/norm(qmean)",
+    "half_drift": "100*norm(mean(first5)-mean(last5))/norm(all10mean)",
+    "caution": "Finite-window descriptive diagnostics only; spatial locations and chronological blocks are not independent replicates. No p-values, CIs, effective sample counts or automatic steady-state acceptance inferred.",
+    "continuation_caveat": "Temporal half-window comparison can span seed/recovery/CPU-layout continuations; it does not isolate pure physical drift or a pure hardware effect."
+  },
+  "N2_local_nonequilibrium_diagnostic": [
+    {
+      "ray": 170,
+      "location_definition": "density_outer_marker",
+      "s_mm": 59.5,
+      "rho_over_rhoinf": 3.511057452259538,
+      "Ttr_K": 4538.362999999999,
+      "Trot_K": 2806.658,
+      "ux_ms": 817.0632,
+      "Ttr_minus_Trot_K": 1731.7049999999995,
+      "Ttr_over_Trot": 1.6169989361012278,
+      "actual_nearest_sample": true
+    },
+    {
+      "ray": 170,
+      "location_definition": "fixed_s20mm_from_wall",
+      "s_mm": 19.999999999999996,
+      "rho_over_rhoinf": 6.250954263559548,
+      "Ttr_K": 3928.5620000000004,
+      "Trot_K": 3932.014,
+      "ux_ms": 217.30610000000001,
+      "Ttr_minus_Trot_K": -3.451999999999771,
+      "Ttr_over_Trot": 0.9991220784056212,
+      "actual_nearest_sample": true
+    },
+    {
+      "ray": 180,
+      "location_definition": "density_outer_marker",
+      "s_mm": 58.39999999999999,
+      "rho_over_rhoinf": 3.6107150360287354,
+      "Ttr_K": 4575.614,
+      "Trot_K": 2885.469,
+      "ux_ms": 764.5151,
+      "Ttr_minus_Trot_K": 1690.1449999999995,
+      "Ttr_over_Trot": 1.5857436000871954,
+      "actual_nearest_sample": true
+    },
+    {
+      "ray": 180,
+      "location_definition": "fixed_s20mm_from_wall",
+      "s_mm": 19.999999999999996,
+      "rho_over_rhoinf": 6.330187469475845,
+      "Ttr_K": 3973.5,
+      "Trot_K": 3973.657,
+      "ux_ms": 184.8082,
+      "Ttr_minus_Trot_K": -0.1570000000001528,
+      "Ttr_over_Trot": 0.9999604897956718,
+      "actual_nearest_sample": true
+    }
+  ],
+  "physical_interpretation_limits": [
+    "Local Ttr-Trot at shared actual physical locations is not a fitted relaxation length or an equilibrium-jump definition.",
+    "Ttr overshoot and rotational lag also occur in planar controls; presence alone does not establish a curvature mechanism.",
+    "Observed differences are numerical sensitivities within each gas setup; comparing Ar andN2 does not isolate a single gas-physics change because upstream conditions differ."
+  ],
+  "block_continuation_provenance": [
+    {
+      "case": "C4_Ar_L0",
+      "journal_available": true,
+      "blocks": [
+        {
+          "end_time_ms": 2.2,
+          "step": 440000,
+          "attempt": "attempt_0002",
+          "job": "65993225",
+          "seed": 143053084,
+          "start_step": 400000
+        },
+        {
+          "end_time_ms": 2.4000000000000004,
+          "step": 480000,
+          "attempt": "attempt_0002",
+          "job": "65993225",
+          "seed": 143053084,
+          "start_step": 400000
+        },
+        {
+          "end_time_ms": 2.6,
+          "step": 520000,
+          "attempt": "attempt_0002",
+          "job": "65993225",
+          "seed": 143053084,
+          "start_step": 400000
+        },
+        {
+          "end_time_ms": 2.8,
+          "step": 560000,
+          "attempt": "attempt_0002",
+          "job": "65993225",
+          "seed": 143053084,
+          "start_step": 400000
+        },
+        {
+          "end_time_ms": 3.0,
+          "step": 600000,
+          "attempt": "attempt_0002",
+          "job": "65993225",
+          "seed": 143053084,
+          "start_step": 400000
+        },
+        {
+          "end_time_ms": 3.2,
+          "step": 640000,
+          "attempt": "attempt_0002",
+          "job": "65993225",
+          "seed": 143053084,
+          "start_step": 400000
+        },
+        {
+          "end_time_ms": 3.4000000000000004,
+          "step": 680000,
+          "attempt": "attempt_0002",
+          "job": "65993225",
+          "seed": 143053084,
+          "start_step": 400000
+        },
+        {
+          "end_time_ms": 3.6,
+          "step": 720000,
+          "attempt": "attempt_0002",
+          "job": "65993225",
+          "seed": 143053084,
+          "start_step": 400000
+        },
+        {
+          "end_time_ms": 3.8,
+          "step": 760000,
+          "attempt": "attempt_0002",
+          "job": "65993225",
+          "seed": 143053084,
+          "start_step": 400000
+        },
+        {
+          "end_time_ms": 4.0,
+          "step": 800000,
+          "attempt": "attempt_0002",
+          "job": "65993225",
+          "seed": 143053084,
+          "start_step": 400000
+        }
+      ],
+      "unique_attempts": 1
+    },
+    {
+      "case": "C4_Ar_L4",
+      "journal_available": true,
+      "blocks": [
+        {
+          "end_time_ms": 2.2,
+          "step": 440000,
+          "attempt": "attempt_0005",
+          "job": "66121005",
+          "seed": 240841049,
+          "start_step": 279000
+        },
+        {
+          "end_time_ms": 2.4000000000000004,
+          "step": 480000,
+          "attempt": "attempt_0005",
+          "job": "66121005",
+          "seed": 240841049,
+          "start_step": 279000
+        },
+        {
+          "end_time_ms": 2.6,
+          "step": 520000,
+          "attempt": "attempt_0005",
+          "job": "66121005",
+          "seed": 240841049,
+          "start_step": 279000
+        },
+        {
+          "end_time_ms": 2.8,
+          "step": 560000,
+          "attempt": "attempt_0005",
+          "job": "66121005",
+          "seed": 240841049,
+          "start_step": 279000
+        },
+        {
+          "end_time_ms": 3.0,
+          "step": 600000,
+          "attempt": "attempt_0005",
+          "job": "66121005",
+          "seed": 240841049,
+          "start_step": 279000
+        },
+        {
+          "end_time_ms": 3.2,
+          "step": 640000,
+          "attempt": "attempt_0005",
+          "job": "66121005",
+          "seed": 240841049,
+          "start_step": 279000
+        },
+        {
+          "end_time_ms": 3.4000000000000004,
+          "step": 680000,
+          "attempt": "attempt_0005",
+          "job": "66121005",
+          "seed": 240841049,
+          "start_step": 279000
+        },
+        {
+          "end_time_ms": 3.6,
+          "step": 720000,
+          "attempt": "attempt_0005",
+          "job": "66121005",
+          "seed": 240841049,
+          "start_step": 279000
+        },
+        {
+          "end_time_ms": 3.8,
+          "step": 760000,
+          "attempt": "attempt_0005",
+          "job": "66121005",
+          "seed": 240841049,
+          "start_step": 279000
+        },
+        {
+          "end_time_ms": 4.0,
+          "step": 800000,
+          "attempt": "attempt_0005",
+          "job": "66121005",
+          "seed": 240841049,
+          "start_step": 279000
+        }
+      ],
+      "unique_attempts": 1
+    },
+    {
+      "case": "C4_Ar_L5",
+      "journal_available": true,
+      "blocks": [
+        {
+          "end_time_ms": 2.2,
+          "step": 440000,
+          "attempt": "attempt_0007",
+          "job": "66121002",
+          "seed": 781501523,
+          "start_step": 292000
+        },
+        {
+          "end_time_ms": 2.4000000000000004,
+          "step": 480000,
+          "attempt": "attempt_0007",
+          "job": "66121002",
+          "seed": 781501523,
+          "start_step": 292000
+        },
+        {
+          "end_time_ms": 2.6,
+          "step": 520000,
+          "attempt": "attempt_0007",
+          "job": "66121002",
+          "seed": 781501523,
+          "start_step": 292000
+        },
+        {
+          "end_time_ms": 2.8,
+          "step": 560000,
+          "attempt": "attempt_0007",
+          "job": "66121002",
+          "seed": 781501523,
+          "start_step": 292000
+        },
+        {
+          "end_time_ms": 3.0,
+          "step": 600000,
+          "attempt": "attempt_0007",
+          "job": "66121002",
+          "seed": 781501523,
+          "start_step": 292000
+        },
+        {
+          "end_time_ms": 3.2,
+          "step": 640000,
+          "attempt": "attempt_0007",
+          "job": "66121002",
+          "seed": 781501523,
+          "start_step": 292000
+        },
+        {
+          "end_time_ms": 3.4000000000000004,
+          "step": 680000,
+          "attempt": "attempt_0007",
+          "job": "66121002",
+          "seed": 781501523,
+          "start_step": 292000
+        },
+        {
+          "end_time_ms": 3.6,
+          "step": 720000,
+          "attempt": "attempt_0008",
+          "job": "66473258",
+          "seed": 332218965,
+          "start_step": 680000
+        },
+        {
+          "end_time_ms": 3.8,
+          "step": 760000,
+          "attempt": "attempt_0008",
+          "job": "66473258",
+          "seed": 332218965,
+          "start_step": 680000
+        },
+        {
+          "end_time_ms": 4.0,
+          "step": 800000,
+          "attempt": "attempt_0008",
+          "job": "66473258",
+          "seed": 332218965,
+          "start_step": 680000
+        }
+      ],
+      "unique_attempts": 2
+    },
+    {
+      "case": "C4_N2_L0",
+      "journal_available": true,
+      "blocks": [
+        {
+          "end_time_ms": 2.2,
+          "step": 440000,
+          "attempt": "attempt_0002",
+          "job": "65993231",
+          "seed": 336344383,
+          "start_step": 200000
+        },
+        {
+          "end_time_ms": 2.4000000000000004,
+          "step": 480000,
+          "attempt": "attempt_0002",
+          "job": "65993231",
+          "seed": 336344383,
+          "start_step": 200000
+        },
+        {
+          "end_time_ms": 2.6,
+          "step": 520000,
+          "attempt": "attempt_0002",
+          "job": "65993231",
+          "seed": 336344383,
+          "start_step": 200000
+        },
+        {
+          "end_time_ms": 2.8,
+          "step": 560000,
+          "attempt": "attempt_0002",
+          "job": "65993231",
+          "seed": 336344383,
+          "start_step": 200000
+        },
+        {
+          "end_time_ms": 3.0,
+          "step": 600000,
+          "attempt": "attempt_0002",
+          "job": "65993231",
+          "seed": 336344383,
+          "start_step": 200000
+        },
+        {
+          "end_time_ms": 3.2,
+          "step": 640000,
+          "attempt": "attempt_0002",
+          "job": "65993231",
+          "seed": 336344383,
+          "start_step": 200000
+        },
+        {
+          "end_time_ms": 3.4000000000000004,
+          "step": 680000,
+          "attempt": "attempt_0002",
+          "job": "65993231",
+          "seed": 336344383,
+          "start_step": 200000
+        },
+        {
+          "end_time_ms": 3.6,
+          "step": 720000,
+          "attempt": "attempt_0002",
+          "job": "65993231",
+          "seed": 336344383,
+          "start_step": 200000
+        },
+        {
+          "end_time_ms": 3.8,
+          "step": 760000,
+          "attempt": "attempt_0002",
+          "job": "65993231",
+          "seed": 336344383,
+          "start_step": 200000
+        },
+        {
+          "end_time_ms": 4.0,
+          "step": 800000,
+          "attempt": "attempt_0002",
+          "job": "65993231",
+          "seed": 336344383,
+          "start_step": 200000
+        }
+      ],
+      "unique_attempts": 1
+    },
+    {
+      "case": "C4_N2_L4",
+      "journal_available": true,
+      "blocks": [
+        {
+          "end_time_ms": 2.2,
+          "step": 440000,
+          "attempt": "attempt_0004",
+          "job": "66121010",
+          "seed": 859759683,
+          "start_step": 45000
+        },
+        {
+          "end_time_ms": 2.4000000000000004,
+          "step": 480000,
+          "attempt": "attempt_0004",
+          "job": "66121010",
+          "seed": 859759683,
+          "start_step": 45000
+        },
+        {
+          "end_time_ms": 2.6,
+          "step": 520000,
+          "attempt": "attempt_0004",
+          "job": "66121010",
+          "seed": 859759683,
+          "start_step": 45000
+        },
+        {
+          "end_time_ms": 2.8,
+          "step": 560000,
+          "attempt": "attempt_0004",
+          "job": "66121010",
+          "seed": 859759683,
+          "start_step": 45000
+        },
+        {
+          "end_time_ms": 3.0,
+          "step": 600000,
+          "attempt": "attempt_0004",
+          "job": "66121010",
+          "seed": 859759683,
+          "start_step": 45000
+        },
+        {
+          "end_time_ms": 3.2,
+          "step": 640000,
+          "attempt": "attempt_0004",
+          "job": "66121010",
+          "seed": 859759683,
+          "start_step": 45000
+        },
+        {
+          "end_time_ms": 3.4000000000000004,
+          "step": 680000,
+          "attempt": "attempt_0004",
+          "job": "66121010",
+          "seed": 859759683,
+          "start_step": 45000
+        },
+        {
+          "end_time_ms": 3.6,
+          "step": 720000,
+          "attempt": "attempt_0004",
+          "job": "66121010",
+          "seed": 859759683,
+          "start_step": 45000
+        },
+        {
+          "end_time_ms": 3.8,
+          "step": 760000,
+          "attempt": "attempt_0004",
+          "job": "66121010",
+          "seed": 859759683,
+          "start_step": 45000
+        },
+        {
+          "end_time_ms": 4.0,
+          "step": 800000,
+          "attempt": "attempt_0004",
+          "job": "66121010",
+          "seed": 859759683,
+          "start_step": 45000
+        }
+      ],
+      "unique_attempts": 1
+    },
+    {
+      "case": "C4_N2_L5_40",
+      "journal_available": true,
+      "blocks": [
+        {
+          "end_time_ms": 2.2,
+          "step": 440000,
+          "attempt": "attempt_0003",
+          "job": "66121013",
+          "seed": 421461971,
+          "start_step": 155000
+        },
+        {
+          "end_time_ms": 2.4000000000000004,
+          "step": 480000,
+          "attempt": "attempt_0003",
+          "job": "66121013",
+          "seed": 421461971,
+          "start_step": 155000
+        },
+        {
+          "end_time_ms": 2.6,
+          "step": 520000,
+          "attempt": "attempt_0003",
+          "job": "66121013",
+          "seed": 421461971,
+          "start_step": 155000
+        },
+        {
+          "end_time_ms": 2.8,
+          "step": 560000,
+          "attempt": "attempt_0003",
+          "job": "66121013",
+          "seed": 421461971,
+          "start_step": 155000
+        },
+        {
+          "end_time_ms": 3.0,
+          "step": 600000,
+          "attempt": "attempt_0003",
+          "job": "66121013",
+          "seed": 421461971,
+          "start_step": 155000
+        },
+        {
+          "end_time_ms": 3.2,
+          "step": 640000,
+          "attempt": "attempt_0004",
+          "job": "66473259",
+          "seed": 803391567,
+          "start_step": 600000
+        },
+        {
+          "end_time_ms": 3.4000000000000004,
+          "step": 680000,
+          "attempt": "attempt_0004",
+          "job": "66473259",
+          "seed": 803391567,
+          "start_step": 600000
+        },
+        {
+          "end_time_ms": 3.6,
+          "step": 720000,
+          "attempt": "attempt_0004",
+          "job": "66473259",
+          "seed": 803391567,
+          "start_step": 600000
+        },
+        {
+          "end_time_ms": 3.8,
+          "step": 760000,
+          "attempt": "attempt_0004",
+          "job": "66473259",
+          "seed": 803391567,
+          "start_step": 600000
+        },
+        {
+          "end_time_ms": 4.0,
+          "step": 800000,
+          "attempt": "attempt_0004",
+          "job": "66473259",
+          "seed": 803391567,
+          "start_step": 600000
+        }
+      ],
+      "unique_attempts": 2
+    },
+    {
+      "case": "DT_Ar_L5",
+      "journal_available": true,
+      "blocks": [
+        {
+          "end_time_ms": 2.2,
+          "step": 880000,
+          "attempt": "attempt_0003",
+          "job": "66121024",
+          "seed": 692781,
+          "start_step": 402000
+        },
+        {
+          "end_time_ms": 2.4000000000000004,
+          "step": 960000,
+          "attempt": "attempt_0003",
+          "job": "66121024",
+          "seed": 692781,
+          "start_step": 402000
+        },
+        {
+          "end_time_ms": 2.6,
+          "step": 1040000,
+          "attempt": "attempt_0003",
+          "job": "66121024",
+          "seed": 692781,
+          "start_step": 402000
+        },
+        {
+          "end_time_ms": 2.8,
+          "step": 1120000,
+          "attempt": "attempt_0003",
+          "job": "66121024",
+          "seed": 692781,
+          "start_step": 402000
+        },
+        {
+          "end_time_ms": 3.0,
+          "step": 1200000,
+          "attempt": "attempt_0004",
+          "job": "66473260",
+          "seed": 798451046,
+          "start_step": 1120000
+        },
+        {
+          "end_time_ms": 3.2,
+          "step": 1280000,
+          "attempt": "attempt_0004",
+          "job": "66473260",
+          "seed": 798451046,
+          "start_step": 1120000
+        },
+        {
+          "end_time_ms": 3.4000000000000004,
+          "step": 1360000,
+          "attempt": "attempt_0004",
+          "job": "66473260",
+          "seed": 798451046,
+          "start_step": 1120000
+        },
+        {
+          "end_time_ms": 3.6,
+          "step": 1440000,
+          "attempt": "attempt_0004",
+          "job": "66473260",
+          "seed": 798451046,
+          "start_step": 1120000
+        },
+        {
+          "end_time_ms": 3.8,
+          "step": 1520000,
+          "attempt": "attempt_0004",
+          "job": "66473260",
+          "seed": 798451046,
+          "start_step": 1120000
+        },
+        {
+          "end_time_ms": 4.0,
+          "step": 1600000,
+          "attempt": "attempt_0004",
+          "job": "66473260",
+          "seed": 798451046,
+          "start_step": 1120000
+        }
+      ],
+      "unique_attempts": 2
+    }
+  ]
+}

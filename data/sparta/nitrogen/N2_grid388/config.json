@@ -1,0 +1,14 @@
+{
+  "name": "N2_grid388",
+  "nx": 388,
+  "ny": 200,
+  "ppc": 20,
+  "dt": 2e-08,
+  "ranks": 32,
+  "root": "../N2_grid388",
+  "fnum": 86336340206185.56,
+  "hx": 0.002190721649484536,
+  "hy": 0.002,
+  "pilot_steps": 200,
+  "production_prepared_not_submitted": true
+}

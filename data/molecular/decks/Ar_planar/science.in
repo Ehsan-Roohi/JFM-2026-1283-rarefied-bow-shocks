@@ -1,0 +1,28 @@
+seed 62596457
+read_restart ../../../sparta/supplemental/Ar_planar_long/production/checkpoint.final
+collide vss gas ../../../sparta/supplemental/argon.vss relax constant
+collide_modify nearcp yes 10 rotate smooth vibrate no
+fix inlet emit/face upstream xlo twopass
+fix outlet emit/face downstream xhi twopass
+timestep 2e-08
+stats 500
+stats_style step time np
+fix jvdf vdf/kinetic ../../stations/Ar_planar.manifest samples 200050 50
+run 0
+print "JFM_VDF_ADMITTED 200000" append START_NATIVE.txt screen yes
+run 210000 upto
+run 220000 upto
+run 230000 upto
+write_restart campaign/molecular_vdf_M10_Kn001_20261120/cases/Ar_planar/attempts/job2049895_r0_132617e4cdf5/checkpoints/230000/state
+print "JFM_VDF_CLOSED 230000" append CLOSED.txt screen yes
+run 240000 upto
+run 250000 upto
+run 260000 upto
+write_restart campaign/molecular_vdf_M10_Kn001_20261120/cases/Ar_planar/attempts/job2049895_r0_132617e4cdf5/checkpoints/260000/state
+print "JFM_VDF_CLOSED 260000" append CLOSED.txt screen yes
+run 270000 upto
+run 280000 upto
+run 290000 upto
+run 300000 upto
+write_restart campaign/molecular_vdf_M10_Kn001_20261120/cases/Ar_planar/attempts/job2049895_r0_132617e4cdf5/checkpoints/300000/state
+print "JFM_VDF_CLOSED 300000" append CLOSED.txt screen yes

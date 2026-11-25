@@ -1,0 +1,461 @@
+{
+  "comparison": [
+    {
+      "theta": 170.0,
+      "blocks_per_case": 10,
+      "physical_window_ms": [
+        2,
+        4
+      ],
+      "VHS_standoff_m": 0.059699999999999996,
+      "chemistry_standoff_m": 0.060099999999999994,
+      "standoff_difference_pct": 0.6700167504187564,
+      "rho_L2_pct": 3.3556080169158413,
+      "Ttr_L2_pct": 5.6461019175704035,
+      "u_L2_pct": 1.6037236548408262,
+      "Trot_L2_pct": 12.413908681602576
+    },
+    {
+      "theta": 180.0,
+      "blocks_per_case": 10,
+      "physical_window_ms": [
+        2,
+        4
+      ],
+      "VHS_standoff_m": 0.05859999999999999,
+      "chemistry_standoff_m": 0.0588,
+      "standoff_difference_pct": 0.34129692832765485,
+      "rho_L2_pct": 3.2572243352148047,
+      "Ttr_L2_pct": 5.622402013999999,
+      "u_L2_pct": 1.6149513989678959,
+      "Trot_L2_pct": 12.603317505563702
+    }
+  ],
+  "chemistry_block_summary": [
+    {
+      "case": "N2_M10_chemistry",
+      "gas": "N2",
+      "theta": 170.0,
+      "completed": true,
+      "n_blocks": 10,
+      "time_start_ms": 2.0,
+      "time_end_ms": 4.0,
+      "standoff_m_mean": 0.060039999999999996,
+      "standoff_m_sd": 0.00028751811537130475,
+      "delta_m_mean": 0.01629749527933504,
+      "delta_m_sd": 0.000192613209366597,
+      "half_jump_m_mean": 0.05961917862374879,
+      "half_jump_m_sd": 4.622590724641982e-05,
+      "unrestricted_absolute_marker_m_mean": 0.0023,
+      "unrestricted_absolute_marker_m_sd": 0.0,
+      "rho_up_mean": 1.0898833700149972,
+      "rho_up_sd": 0.0076639592389249585,
+      "rho_down_mean": 5.714165497467543,
+      "rho_down_sd": 0.013078779963951797,
+      "cells_across_delta_mean": 29.757309027679973,
+      "cells_across_delta_sd": 0.35168905992583394,
+      "standoff_firsthalf_lasthalf_change_pct": 0.0,
+      "standoff_lag1": 0.21312807143907578,
+      "note": "Non-overlapping blocks; independence not established. Axis uses even symmetry/first-centre-row approximation."
+    },
+    {
+      "case": "N2_M10_chemistry",
+      "gas": "N2",
+      "theta": 180.0,
+      "completed": true,
+      "n_blocks": 10,
+      "time_start_ms": 2.0,
+      "time_end_ms": 4.0,
+      "standoff_m_mean": 0.05871,
+      "standoff_m_sd": 0.0003034981237357349,
+      "delta_m_mean": 0.016117997897094997,
+      "delta_m_sd": 0.00023428378604197934,
+      "half_jump_m_mean": 0.05849320477318505,
+      "half_jump_m_sd": 4.756068374016769e-05,
+      "unrestricted_absolute_marker_m_mean": 0.0023,
+      "unrestricted_absolute_marker_m_sd": 0.0,
+      "rho_up_mean": 1.0958636629016356,
+      "rho_up_sd": 0.005685429117155204,
+      "rho_down_mean": 5.771887072754727,
+      "rho_down_sd": 0.011413851461458738,
+      "cells_across_delta_mean": 29.42956792504875,
+      "cells_across_delta_sd": 0.42777463051429676,
+      "standoff_firsthalf_lasthalf_change_pct": -0.23846022824049445,
+      "standoff_lag1": -0.21296422075718452,
+      "note": "Non-overlapping blocks; independence not established. Axis uses even symmetry/first-centre-row approximation."
+    }
+  ],
+  "marker_sensitivity": [
+    {
+      "model": "baseline_Zrot5",
+      "theta": 170.0,
+      "sigma_m": 0.001,
+      "threshold": 0.1,
+      "standoff_m": 0.059699999999999996
+    },
+    {
+      "model": "baseline_Zrot5",
+      "theta": 170.0,
+      "sigma_m": 0.001,
+      "threshold": 0.2,
+      "standoff_m": 0.059699999999999996
+    },
+    {
+      "model": "baseline_Zrot5",
+      "theta": 170.0,
+      "sigma_m": 0.001,
+      "threshold": 0.3,
+      "standoff_m": 0.059699999999999996
+    },
+    {
+      "model": "baseline_Zrot5",
+      "theta": 170.0,
+      "sigma_m": 0.0015,
+      "threshold": 0.1,
+      "standoff_m": 0.059699999999999996
+    },
+    {
+      "model": "baseline_Zrot5",
+      "theta": 170.0,
+      "sigma_m": 0.0015,
+      "threshold": 0.2,
+      "standoff_m": 0.059699999999999996
+    },
+    {
+      "model": "baseline_Zrot5",
+      "theta": 170.0,
+      "sigma_m": 0.0015,
+      "threshold": 0.3,
+      "standoff_m": 0.059699999999999996
+    },
+    {
+      "model": "baseline_Zrot5",
+      "theta": 170.0,
+      "sigma_m": 0.002,
+      "threshold": 0.1,
+      "standoff_m": 0.05979999999999999
+    },
+    {
+      "model": "baseline_Zrot5",
+      "theta": 170.0,
+      "sigma_m": 0.002,
+      "threshold": 0.2,
+      "standoff_m": 0.05979999999999999
+    },
+    {
+      "model": "baseline_Zrot5",
+      "theta": 170.0,
+      "sigma_m": 0.002,
+      "threshold": 0.3,
+      "standoff_m": 0.05979999999999999
+    },
+    {
+      "model": "baseline_Zrot5",
+      "theta": 170.0,
+      "sigma_m": 0.003,
+      "threshold": 0.1,
+      "standoff_m": 0.05979999999999999
+    },
+    {
+      "model": "baseline_Zrot5",
+      "theta": 170.0,
+      "sigma_m": 0.003,
+      "threshold": 0.2,
+      "standoff_m": 0.05979999999999999
+    },
+    {
+      "model": "baseline_Zrot5",
+      "theta": 170.0,
+      "sigma_m": 0.003,
+      "threshold": 0.3,
+      "standoff_m": 0.05979999999999999
+    },
+    {
+      "model": "combined_dissociation",
+      "theta": 170.0,
+      "sigma_m": 0.001,
+      "threshold": 0.1,
+      "standoff_m": 0.060099999999999994
+    },
+    {
+      "model": "combined_dissociation",
+      "theta": 170.0,
+      "sigma_m": 0.001,
+      "threshold": 0.2,
+      "standoff_m": 0.060099999999999994
+    },
+    {
+      "model": "combined_dissociation",
+      "theta": 170.0,
+      "sigma_m": 0.001,
+      "threshold": 0.3,
+      "standoff_m": 0.060099999999999994
+    },
+    {
+      "model": "combined_dissociation",
+      "theta": 170.0,
+      "sigma_m": 0.0015,
+      "threshold": 0.1,
+      "standoff_m": 0.060099999999999994
+    },
+    {
+      "model": "combined_dissociation",
+      "theta": 170.0,
+      "sigma_m": 0.0015,
+      "threshold": 0.2,
+      "standoff_m": 0.060099999999999994
+    },
+    {
+      "model": "combined_dissociation",
+      "theta": 170.0,
+      "sigma_m": 0.0015,
+      "threshold": 0.3,
+      "standoff_m": 0.060099999999999994
+    },
+    {
+      "model": "combined_dissociation",
+      "theta": 170.0,
+      "sigma_m": 0.002,
+      "threshold": 0.1,
+      "standoff_m": 0.06
+    },
+    {
+      "model": "combined_dissociation",
+      "theta": 170.0,
+      "sigma_m": 0.002,
+      "threshold": 0.2,
+      "standoff_m": 0.06
+    },
+    {
+      "model": "combined_dissociation",
+      "theta": 170.0,
+      "sigma_m": 0.002,
+      "threshold": 0.3,
+      "standoff_m": 0.06
+    },
+    {
+      "model": "combined_dissociation",
+      "theta": 170.0,
+      "sigma_m": 0.003,
+      "threshold": 0.1,
+      "standoff_m": 0.05979999999999999
+    },
+    {
+      "model": "combined_dissociation",
+      "theta": 170.0,
+      "sigma_m": 0.003,
+      "threshold": 0.2,
+      "standoff_m": 0.05979999999999999
+    },
+    {
+      "model": "combined_dissociation",
+      "theta": 170.0,
+      "sigma_m": 0.003,
+      "threshold": 0.3,
+      "standoff_m": 0.05979999999999999
+    },
+    {
+      "model": "baseline_Zrot5",
+      "theta": 180.0,
+      "sigma_m": 0.001,
+      "threshold": 0.1,
+      "standoff_m": 0.05859999999999999
+    },
+    {
+      "model": "baseline_Zrot5",
+      "theta": 180.0,
+      "sigma_m": 0.001,
+      "threshold": 0.2,
+      "standoff_m": 0.05859999999999999
+    },
+    {
+      "model": "baseline_Zrot5",
+      "theta": 180.0,
+      "sigma_m": 0.001,
+      "threshold": 0.3,
+      "standoff_m": 0.05859999999999999
+    },
+    {
+      "model": "baseline_Zrot5",
+      "theta": 180.0,
+      "sigma_m": 0.0015,
+      "threshold": 0.1,
+      "standoff_m": 0.05859999999999999
+    },
+    {
+      "model": "baseline_Zrot5",
+      "theta": 180.0,
+      "sigma_m": 0.0015,
+      "threshold": 0.2,
+      "standoff_m": 0.05859999999999999
+    },
+    {
+      "model": "baseline_Zrot5",
+      "theta": 180.0,
+      "sigma_m": 0.0015,
+      "threshold": 0.3,
+      "standoff_m": 0.05859999999999999
+    },
+    {
+      "model": "baseline_Zrot5",
+      "theta": 180.0,
+      "sigma_m": 0.002,
+      "threshold": 0.1,
+      "standoff_m": 0.058699999999999995
+    },
+    {
+      "model": "baseline_Zrot5",
+      "theta": 180.0,
+      "sigma_m": 0.002,
+      "threshold": 0.2,
+      "standoff_m": 0.058699999999999995
+    },
+    {
+      "model": "baseline_Zrot5",
+      "theta": 180.0,
+      "sigma_m": 0.002,
+      "threshold": 0.3,
+      "standoff_m": 0.058699999999999995
+    },
+    {
+      "model": "baseline_Zrot5",
+      "theta": 180.0,
+      "sigma_m": 0.003,
+      "threshold": 0.1,
+      "standoff_m": 0.0588
+    },
+    {
+      "model": "baseline_Zrot5",
+      "theta": 180.0,
+      "sigma_m": 0.003,
+      "threshold": 0.2,
+      "standoff_m": 0.0588
+    },
+    {
+      "model": "baseline_Zrot5",
+      "theta": 180.0,
+      "sigma_m": 0.003,
+      "threshold": 0.3,
+      "standoff_m": 0.0588
+    },
+    {
+      "model": "combined_dissociation",
+      "theta": 180.0,
+      "sigma_m": 0.001,
+      "threshold": 0.1,
+      "standoff_m": 0.058499999999999996
+    },
+    {
+      "model": "combined_dissociation",
+      "theta": 180.0,
+      "sigma_m": 0.001,
+      "threshold": 0.2,
+      "standoff_m": 0.058499999999999996
+    },
+    {
+      "model": "combined_dissociation",
+      "theta": 180.0,
+      "sigma_m": 0.001,
+      "threshold": 0.3,
+      "standoff_m": 0.058499999999999996
+    },
+    {
+      "model": "combined_dissociation",
+      "theta": 180.0,
+      "sigma_m": 0.0015,
+      "threshold": 0.1,
+      "standoff_m": 0.0588
+    },
+    {
+      "model": "combined_dissociation",
+      "theta": 180.0,
+      "sigma_m": 0.0015,
+      "threshold": 0.2,
+      "standoff_m": 0.0588
+    },
+    {
+      "model": "combined_dissociation",
+      "theta": 180.0,
+      "sigma_m": 0.0015,
+      "threshold": 0.3,
+      "standoff_m": 0.0588
+    },
+    {
+      "model": "combined_dissociation",
+      "theta": 180.0,
+      "sigma_m": 0.002,
+      "threshold": 0.1,
+      "standoff_m": 0.0588
+    },
+    {
+      "model": "combined_dissociation",
+      "theta": 180.0,
+      "sigma_m": 0.002,
+      "threshold": 0.2,
+      "standoff_m": 0.0588
+    },
+    {
+      "model": "combined_dissociation",
+      "theta": 180.0,
+      "sigma_m": 0.002,
+      "threshold": 0.3,
+      "standoff_m": 0.0588
+    },
+    {
+      "model": "combined_dissociation",
+      "theta": 180.0,
+      "sigma_m": 0.003,
+      "threshold": 0.1,
+      "standoff_m": 0.058699999999999995
+    },
+    {
+      "model": "combined_dissociation",
+      "theta": 180.0,
+      "sigma_m": 0.003,
+      "threshold": 0.2,
+      "standoff_m": 0.058699999999999995
+    },
+    {
+      "model": "combined_dissociation",
+      "theta": 180.0,
+      "sigma_m": 0.003,
+      "threshold": 0.3,
+      "standoff_m": 0.058699999999999995
+    }
+  ],
+  "scientific_convergence": false,
+  "limitations": "Baseline comparison changes rotation, vibration and chemistry together. Additional paired comparison holds Parker and discrete vibration fixed and switches dissociation on/off. QK dissociation-only exploratory model: no recombination, ionization or surface catalysis; not full real-gas validation. Different random seeds, axis approximation and unresolved wall resolution remain.",
+  "reference": "campaign/analysis_snapshot_20261023T052906Z",
+  "dissociation_on_off_same_Parker_and_vibration": [
+    {
+      "theta": 170,
+      "matched_window_ms": [
+        2,
+        4
+      ],
+      "blocks_each": 10,
+      "Parker_vibration_no_dissociation_standoff_m": 0.059899999999999995,
+      "Parker_vibration_with_dissociation_standoff_m": 0.060099999999999994,
+      "standoff_difference_pct": 0.333889816360599,
+      "rho_L2_pct": 0.1689741724042612,
+      "Ttr_L2_pct": 0.2578023073705896,
+      "u_L2_pct": 0.12799857018900224,
+      "Trot_L2_pct": 0.2708553695075766
+    },
+    {
+      "theta": 180,
+      "matched_window_ms": [
+        2,
+        4
+      ],
+      "blocks_each": 10,
+      "Parker_vibration_no_dissociation_standoff_m": 0.058699999999999995,
+      "Parker_vibration_with_dissociation_standoff_m": 0.0588,
+      "standoff_difference_pct": 0.17035775127768804,
+      "rho_L2_pct": 0.26065758429088337,
+      "Ttr_L2_pct": 0.2742695791163366,
+      "u_L2_pct": 0.12349639324394693,
+      "Trot_L2_pct": 0.3423019218702307
+    }
+  ]
+}

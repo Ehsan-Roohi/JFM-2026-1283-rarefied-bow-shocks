@@ -1,0 +1,77 @@
+{
+  "case": "N2_Kn0075_wide",
+  "blocks": 10,
+  "window_ms": [
+    2,
+    4
+  ],
+  "sampling": "Piecewise constant actual cell-ray intersections; solid volume mask; no reshaping/interpolation across cells.",
+  "scientific_convergence": false,
+  "ray_tests_passed": true,
+  "profiles": {
+    "170": {
+      "mean_profile_marker": null,
+      "block_markers_m": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "supported_block_markers": 0,
+      "block_marker_sd_m": null,
+      "lag1": null,
+      "half_drift_percent": null,
+      "max_h_over_lambda": 0.2424099641631369,
+      "max_dt_over_tau": 0.0157693884631154,
+      "smoothing_sensitivity": {
+        "0.00075": null,
+        "0.0015": null,
+        "0.003": null
+      },
+      "particle_count_ray_p5_p50_p95": [
+        39.63,
+        40.533500000000004,
+        260.3021999999998
+      ],
+      "limitations": "Unsupported outer compression markers remain None. Nominal lambda .02286 m specific to Kn .075; whole-ray maxima are not nearwall p95; one mesh/run is not convergence. Downstream window limited by actual positive coverage; no near-wall gradient shortcut."
+    },
+    "180": {
+      "mean_profile_marker": null,
+      "block_markers_m": [
+        null,
+        null,
+        0.11610000000000001,
+        0.11130000000000001,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "supported_block_markers": 2,
+      "block_marker_sd_m": null,
+      "lag1": null,
+      "half_drift_percent": null,
+      "max_h_over_lambda": 0.24925416776049705,
+      "max_dt_over_tau": 0.01623337094064268,
+      "smoothing_sensitivity": {
+        "0.00075": null,
+        "0.0015": null,
+        "0.003": null
+      },
+      "particle_count_ray_p5_p50_p95": [
+        39.559,
+        40.493,
+        260.42679999999933
+      ],
+      "limitations": "Unsupported outer compression markers remain None. Nominal lambda .02286 m specific to Kn .075; whole-ray maxima are not nearwall p95; one mesh/run is not convergence. Downstream window limited by actual positive coverage; no near-wall gradient shortcut."
+    }
+  }
+}

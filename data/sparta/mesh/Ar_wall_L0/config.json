@@ -1,0 +1,18 @@
+{
+  "name": "Ar_wall_L0",
+  "gas": "Ar",
+  "extra_levels": 0,
+  "nrho": 3.856e+20,
+  "U": 2634.1,
+  "upstream_target_ppc": 20,
+  "dt": 5e-09,
+  "weight": "bounding_cell_area",
+  "fnum": 1.928e+19,
+  "scope": "Only numerical admission; 200 steps cannot establish steady state, weighting accuracy or scientific convergence. Refined sector x<.04,y<.105; not whole cylinder.",
+  "root": "../Ar_wall_L0",
+  "solver": "campaign/sparta_bigbig_v1/src/spa_bigbig",
+  "mpirun": "mpirun",
+  "grading_bounds_xy": [],
+  "ppc": 20,
+  "radial_bands_m": []
+}

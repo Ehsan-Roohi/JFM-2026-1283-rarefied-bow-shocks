@@ -1,0 +1,115 @@
+{
+  "source_input": "campaign/wall_mesh_bigbig_v4_ppc40_shockrefined/Ar_wall_L5/in.pilot",
+  "source_input_sha256": "7a6406daddeaaee278149961a832c456e76c346f1fe621355ce481501dfb8f94",
+  "dimension": 2,
+  "box_xy_m": [
+    [
+      -0.2,
+      0.65
+    ],
+    [
+      0,
+      0.4
+    ]
+  ],
+  "base_cells_xy": [
+    776,
+    400
+  ],
+  "base_spacing_xy_m": [
+    0.001095360824742268,
+    0.001
+  ],
+  "split_xy": [
+    2,
+    2
+  ],
+  "grading": [
+    [
+      0.3,
+      0.38
+    ],
+    [
+      0.26,
+      0.35
+    ],
+    [
+      0.1,
+      0.2
+    ],
+    [
+      0.07,
+      0.14
+    ],
+    [
+      0.04,
+      0.105
+    ]
+  ],
+  "bands_m": [
+    0.15,
+    0.12,
+    0.032,
+    0.012,
+    0.004
+  ],
+  "mesh_geometry_admission": [
+    {
+      "case": "Ar_wall_L0",
+      "ppc": 20,
+      "actual_min_h": 0.0010949999999999571,
+      "rows": 310400,
+      "far_upstream_median_ppc": 20.0,
+      "pilot_checkpoint_sha256": "58779147a91e7fc29eccb278dfd2ab5301a6d4c1aa4d84043c5435ffaae64728"
+    },
+    {
+      "case": "Ar_wall_L4",
+      "ppc": 20,
+      "actual_min_h": 6.839999999999624e-05,
+      "rows": 3786167,
+      "far_upstream_median_ppc": 19.95,
+      "pilot_checkpoint_sha256": "5aee9e98948a9fd8d8d62bdf4b23bdbc1f78a6c3f17bfcc8f0ba8679575fbb90"
+    },
+    {
+      "case": "Ar_wall_L5",
+      "ppc": 20,
+      "actual_min_h": 3.419999999999812e-05,
+      "rows": 6094874,
+      "far_upstream_median_ppc": 19.975,
+      "pilot_checkpoint_sha256": "5bb1c3db85b99c3fd73bff47114fed0acb1e88552558423ff548b9f110d453ba"
+    },
+    {
+      "case": "N2_wall_L0_ppc40",
+      "ppc": 40,
+      "actual_min_h": 0.0010949999999999571,
+      "rows": 310400,
+      "far_upstream_median_ppc": 39.99,
+      "pilot_checkpoint_sha256": "c931e33b48aa434afcab26e3335c735e41fcce525b4fe5e8ac744891c8e8284c"
+    },
+    {
+      "case": "N2_wall_L4_ppc40",
+      "ppc": 40,
+      "actual_min_h": 6.839999999999624e-05,
+      "rows": 3786167,
+      "far_upstream_median_ppc": 40.0,
+      "pilot_checkpoint_sha256": "78d13f2c84e85b5552d864a55028238a29f12be7b73615eb22c3f2ffea260724"
+    },
+    {
+      "case": "N2_wall_L5_ppc40",
+      "ppc": 40,
+      "actual_min_h": 3.419999999999812e-05,
+      "rows": 6094874,
+      "far_upstream_median_ppc": 39.974999999999994,
+      "pilot_checkpoint_sha256": "683dacc62d3735afa692e4019370630e1c5eaf1e64964b8cd374e36a90740c9c"
+    },
+    {
+      "case": "N2_wall_L5_ppc80",
+      "ppc": 80,
+      "actual_min_h": 3.419999999999812e-05,
+      "rows": 6094874,
+      "far_upstream_median_ppc": 79.94,
+      "pilot_checkpoint_sha256": "a992867a2ad6602226d73511238e8035922f6bbb71cb7cdb364fedefa2a97b2e"
+    }
+  ],
+  "note": "Pilot admission receipt used only to document geometry/cell construction, not scientific convergence."
+}

@@ -1,0 +1,19 @@
+{
+  "label": "C4_Ar_L5",
+  "cases": [
+    {
+      "key": "C4_Ar_L5",
+      "name": "Ar_wall_L5",
+      "campaign": "campaign/wall_mesh_bigbig_v4_ppc40_shockrefined",
+      "production_job": "66473258",
+      "warmup": 400000,
+      "target": 800000,
+      "block": 40000,
+      "dt": 5e-09,
+      "completed": false,
+      "prior_production": "66121002"
+    }
+  ],
+  "comparisons": [],
+  "reuse_case_results": false
+}

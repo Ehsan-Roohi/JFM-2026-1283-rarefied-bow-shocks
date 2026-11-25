@@ -1,0 +1,31 @@
+seed 665759183
+read_restart ../../../sparta/mesh/Ar_wall_L4/production/attempts/attempt_0005/checkpoint.commit.800000/state.% balance rcb part
+global mem/limit 256
+collide vss gas ../../../sparta/mesh/argon.vss relax constant
+collide_modify nearcp yes 10 rotate smooth vibrate no
+surf_collide wall diffuse 500.0 1.0
+surf_modify all collide wall
+fix inflow emit/face gas xlo xhi yhi twopass
+timestep 5e-9
+fix dynamic_load balance 100 1.15 rcb time
+stats 2000
+stats_style step time np
+fix jvdf vdf/kinetic ../../stations/Ar_cylinder.manifest samples 800200 200
+run 0
+print "JFM_VDF_ADMITTED 800000" append START_NATIVE.txt screen yes
+run 840000 upto
+run 880000 upto
+run 920000 upto
+write_restart campaign/molecular_vdf_M10_Kn001_20261120/cases/Ar_cylinder/attempts/job2050245_r0_e5fa2c475f05/checkpoints/920000/state.%
+print "JFM_VDF_CLOSED 920000" append CLOSED.txt screen yes
+run 960000 upto
+run 1000000 upto
+run 1040000 upto
+write_restart campaign/molecular_vdf_M10_Kn001_20261120/cases/Ar_cylinder/attempts/job2050245_r0_e5fa2c475f05/checkpoints/1040000/state.%
+print "JFM_VDF_CLOSED 1040000" append CLOSED.txt screen yes
+run 1080000 upto
+run 1120000 upto
+run 1160000 upto
+run 1200000 upto
+write_restart campaign/molecular_vdf_M10_Kn001_20261120/cases/Ar_cylinder/attempts/job2050245_r0_e5fa2c475f05/checkpoints/1200000/state.%
+print "JFM_VDF_CLOSED 1200000" append CLOSED.txt screen yes

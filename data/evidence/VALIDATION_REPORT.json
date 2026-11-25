@@ -1,0 +1,58 @@
+{
+  "comparisons": {
+    "N2_M153_base": {
+      "MAE_rho_star": 0.009755431889708855,
+      "RMS_rho_star": 0.011395594448143259,
+      "max_abs_rho_star": 0.02139270745866173,
+      "density_width_over_lambda": 6.122881913201167,
+      "shift_only": "Each curve shifted to its own half-density location; neither amplitude nor width fitted."
+    },
+    "N2_M153_fine": {
+      "MAE_rho_star": 0.010112792248740106,
+      "RMS_rho_star": 0.012229714492663324,
+      "max_abs_rho_star": 0.024006864301655106,
+      "density_width_over_lambda": 6.4846340520600325,
+      "shift_only": "Each curve shifted to its own half-density location; neither amplitude nor width fitted."
+    },
+    "N2_M153_long": {
+      "MAE_rho_star": 0.009048830482883205,
+      "RMS_rho_star": 0.01114511172286363,
+      "max_abs_rho_star": 0.02170890911868928,
+      "density_width_over_lambda": 6.290511931997037,
+      "shift_only": "Each curve shifted to its own half-density location; neither amplitude nor width fitted."
+    }
+  },
+  "reference_provenance": {
+    "original_experiment": "Alsmeyer, JFM74 (1976)497\u2013513, DOI10.1017/S0022112076001912",
+    "reproduced_in": "Xu & Tang, Physics of Fluids16(2004)3824\u20133827, Fig2 upper, DOI10.1063/1.1783372",
+    "retrieved_from": "https://www.math.hkust.edu.hk/~makxu/PAPER/bgk-shock.pdf",
+    "source_pdf_sha256": "734549fbe5e4185a7848f28d840dbb293935db5af1cd6b4ecd7c67a9fa7d91a1",
+    "source_image_sha256": "8fd512a4b29710cb5d728e2600886655ec01742d351a2febc64d03f50a9366e7",
+    "condition": {
+      "gas": "N2",
+      "M": 1.53,
+      "T_upstream_K": 300,
+      "temperature_evidence": "Primary JFM2023 doi10.1017/jfm.2023.400 section3.3 and Boyd1993 doi10.1017/S0022112093000163 describe Alsmeyer shock-tube upstream near300K; original 1976 full text not retrieved."
+    },
+    "normalization": "rho_star=(rho-rho1)/(rho2-rho1); x/lambda1, viscosity convention in Xu&Tang eqfollowingLdefinition. Native collision-frequency mfp is not substituted.",
+    "calibration": {
+      "x_pixel_at_minus8": 88.0,
+      "x_pixel_at_plus8": 1197.0,
+      "y_pixel_at_zero": 372.0,
+      "y_pixel_at_one": 62.0
+    },
+    "extraction": "Manual centers of 28 visible square markers on embedded1208x947 raster; source pixels retained; no line tracing or extrapolation.",
+    "uncertainty": "\u00b12pixels is an explicit reading envelope, not the experimental measurement uncertainty, confidence interval, or a claimed instrument error.",
+    "comparison": "Translate only to each density half-height; preserve viscosity length and density jump. No width, collision or rotational-number fitting.",
+    "limitations": [
+      "Reproduced experimental series, not original numerical data.",
+      "Original1976fullPDF could not be fetched.",
+      "Reference temperature near300K does not assert a verified experimental pressure; nondimensional dilute-gas comparison uses stated n as scale choice."
+    ]
+  },
+  "reference_origin_shift_lambda": -0.08576294960424785,
+  "experimental_validation_pass": null,
+  "scientific_convergence": false,
+  "review_required": "Inspect discrepancy alongside sampling, mesh/time/domain sensitivity and the reproduced-marker reading envelope. No acceptance threshold has been invented.",
+  "scope": "Independent low-enthalpy density-profile comparison of the fixed baseline nitrogen model, not validation of all cylinder temperatures, chemistry, surface interaction or high-Mach physics."
+}

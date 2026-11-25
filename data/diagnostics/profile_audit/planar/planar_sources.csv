@@ -1,0 +1,3 @@
+gas,source_filename,source_sha256,points,raw_blocks,first_block_time_s,last_block_time_s,rho_ref_kg_m3,dx_m,min_x_m,max_x_m
+Ar,dcfce1cde01d_Ar_planar_long.npz,dcfce1cde01d3aa6e63964b107bf5ed2d4b49ee7bf2e9c53992ff5a65ebffd22,1600,10,0.0022,0.004,2.556528e-05,0.00019999999999999998,-0.1599,0.1599
+N2,f6b884ce2b99_N2_planar_long.npz,f6b884ce2b99da3d15e6325321e65949f9486abc6f865fa969fe28590b798dfd,1600,10,0.0022,0.004,1.832565e-05,0.00019999999999999998,-0.1599,0.1599

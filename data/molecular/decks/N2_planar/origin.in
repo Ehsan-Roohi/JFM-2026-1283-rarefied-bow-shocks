@@ -1,0 +1,11 @@
+seed 798932486
+read_restart ../../../sparta/supplemental/N2_planar_long/production/checkpoint.final
+collide vss gas ../../../sparta/supplemental/baseline.vss relax constant
+collide_modify nearcp yes 10 rotate smooth vibrate no
+fix inlet emit/face upstream xlo twopass
+fix outlet emit/face downstream xhi twopass
+timestep 2e-08
+stats 500
+stats_style step time np
+run 0
+print "JFM_VDF_NATIVE_READ_OK"
