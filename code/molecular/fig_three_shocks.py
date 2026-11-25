@@ -3,6 +3,7 @@ and on the wall side, Mach 10, Kn 0.01, argon and nitrogen.
 The planar sampler uses streamwise velocity and the cylinder sampler uses inward radial
 velocity on the 170-degree ray over 4-6 ms. The publication takes the plate histograms
 from the independent steady high-particle stagnation-line run in strip_final.
+The published plate curves use a Gaussian filter with standard deviation 1.5 velocity bins.
 usage: python fig_three_shocks.py <K_dir> <strip_npz_dir> <out_dir>"""
 import json, pathlib, sys
 import numpy as np
@@ -33,7 +34,7 @@ for i, g in enumerate(('Ar', 'N2')):
             hot.append((g, key, lab, H.stats(g, lo, hi, p)['hot_fraction']))
         h = z['H_' + key].astype(float)
         from scipy.ndimage import gaussian_filter1d
-        h = gaussian_filter1d(h, float(__import__('os').environ.get('PLATE_SIGMA', 3.5)), mode='constant')
+        h = gaussian_filter1d(h, float(__import__('os').environ.get('PLATE_SIGMA', 1.5)), mode='constant')
         pdf = h / (h.sum() * w)
         a.plot(xc, pdf, '-.', color='tab:blue', lw=1.2, label='flat plate')
         hot.append((g, key, 'flat plate', h[xc < 0].sum() / h.sum()))
@@ -49,3 +50,20 @@ with open(out / 'vdf_three_shocks_hot.csv', 'w') as fh:
     fh.write('gas,station,geometry,hot_fraction\n')
     for r in hot:
         fh.write(f'{r[0]},{r[1]},{r[2]},{r[3]:.4f}\n'); print(*r)
+
+
+# Write the exact physical coordinates passed to the plot for independent reuse.
+import csv
+import gzip
+import io
+
+with (out / "figure18_plotted_distributions.csv.gz").open("wb") as binary:
+    with gzip.GzipFile(fileobj=binary, filename="", mode="wb", mtime=0) as zipped:
+        with io.TextIOWrapper(zipped, encoding="utf-8", newline="") as text:
+            writer = csv.writer(text, lineterminator="\n")
+            writer.writerow(["gas", "station", "geometry", "velocity_over_Uinf", "probability_density"])
+            for i, gas in enumerate(("Ar", "N2")):
+                for j, (station, _) in enumerate(STN):
+                    for line in ax[i, j].lines[:3]:
+                        for velocity, density in zip(line.get_xdata(), line.get_ydata()):
+                            writer.writerow([gas, station, line.get_label(), format(velocity, ".17g"), format(density, ".17g")])

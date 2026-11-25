@@ -1,5 +1,7 @@
 # Rarefaction-induced inflation and similarity breakdown of hypersonic bow shocks over a circular cylinder
 
+**Release transfer in progress.** Readers can browse the code, the figure and table source index, and the displayed results on this branch. GitHub is receiving the v1.0.0 numerical archives and films.
+
 **Ehsan Roohi and Ahmad Shoja-Sani** · JFM-2026-1283 · manuscript and supplementary material revised 25 November 2026
 
 [Numbered figures](results/paper/figures.csv) · [Tables and values](results/paper/table_cells.csv) · [Movies](results/paper/movies.csv) · [Data and code for every result](coverage.csv) · [Numerical source index](results/result_source_index.csv) · [Versioned data downloads](https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/tag/v1.0.0)
@@ -55,6 +57,8 @@ python code/molecular/fig_three_shocks.py data/molecular data/molecular/strip_fi
 ```
 
 The figure scripts contain the original scalar normalizations, finite-support handling and window-selection rules. Rendering libraries and local fonts can affect the PDF or MP4 byte stream. The files in [results/paper](results/paper) and the direct-download movie ZIP preserve the published renderings.
+
+Figure 18 uses a plate display filter with standard deviation 1.5 velocity bins. The recorded rendering command and a fresh reconstruction agree on every plotted path and all 24 reported hot fractions. [Plotted coordinates](data/molecular/figure18_plotted_distributions.csv.gz) · [Figure 18 verification](data/molecular/figure18_render_verification.json)
 
 ## Reference sources
 

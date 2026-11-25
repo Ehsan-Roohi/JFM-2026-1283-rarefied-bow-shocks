@@ -1,0 +1,39 @@
+{
+  "sigma_candidate_bins": 1.5,
+  "published_pdf_sha256": "cbf6e24c9d7b9eae1e5221e646aa2c6f0cf013741ddab2d7485a0de411b21d2b",
+  "published_page_content_sha256": "3a8c6aaa49928fe4accf37d7a9d60ce91c7d9a7abe655f245e79014cf7383d6c",
+  "recreated_page_content_sha256": "3a8c6aaa49928fe4accf37d7a9d60ce91c7d9a7abe655f245e79014cf7383d6c",
+  "page_stream_identical": true,
+  "blue_curve_vertices": [
+    69,
+    104,
+    74,
+    70,
+    76,
+    93,
+    59,
+    57
+  ],
+  "blue_curve_max_abs_difference_pt": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "all_24_tabulated_fractions_match": true,
+  "raw_decompressed_page_stream_sha256": "de0483a9b5f1167e5e9ae2eb7ab1b1ae59dd9163a0680a0f059ce162b2f5a094",
+  "page_stream_byte_length": 59055,
+  "normalized_pdf_operations_sha256": "3a8c6aaa49928fe4accf37d7a9d60ce91c7d9a7abe655f245e79014cf7383d6c",
+  "archived_render_command_utc": "2026-11-24T13:46:23.492Z",
+  "recorded_environment": {
+    "PLATE_SIGMA": "1.5"
+  },
+  "plate_input": "data/molecular/strip_final",
+  "plotted_bin_rows": 6576,
+  "plotted_curves": 24,
+  "published_script_default_reproduced_full_page": true
+}
