@@ -1,0 +1,22 @@
+\begin{table}
+\centering\small
+\begin{tabular}{llrr}\toprule
+Gas & Mesh & Front maximum & Near-wall maximum\\\midrule
+Ar&L0&0.413&6.927\\
+Ar&L4&0.102&0.496\\
+Ar&L5&0.102&0.255\\
+N$_2$&L0&0.924&8.645\\
+N$_2$&L4&0.230&0.607\\
+N$_2$&L5&0.229&0.309\\
+\bottomrule\end{tabular}
+\par\medskip
+\begin{tabular}{llrrrr}\toprule
+Gas & Comparison & $\rho$ & $T_{\rm tr}$ & $u_x$ & $T_{\rm rot}$\\\midrule
+Ar&L0$\to$L4&0.67--0.72&1.83--1.93&1.06--1.08&--\\
+Ar&L4$\to$L5&0.29--0.31&0.30--0.32&0.21--0.24&--\\
+N$_2$&L0$\to$L4&1.80--1.85&2.43--2.52&1.27--1.29&1.93--1.93\\
+N$_2$&L4$\to$L5&0.28--0.31&0.40--0.45&0.18--0.24&0.26--0.31\\
+Ar&5 to 2.5 ns&0.23--0.29&0.34--0.35&0.25--0.29&--\\
+\bottomrule\end{tabular}
+\caption{SPARTA cylinder controls at Mach~10 and $Kn_\infty=0.01$. Top: maximum ratio of in-plane cell edge to local mean free path in the front and near-wall regions of \S\,\ref{sec:controls}, over the $170^\circ$ and $180^\circ$ rays and ten blocks. Bottom: profile $L_2$ differences (\%) over 15--160~mm without spatial shift; each range covers the two rays, and the reference is the finer mesh or the 2.5~ns run. No order of convergence is fitted.}\label{tab:verification}
+\end{table}

@@ -1,0 +1,25 @@
+\begin{table}
+\centering
+\caption{Simulation and post-processing parameters. The freestream density is
+set by the target \(Kn_\infty=\lambda_\infty/D\); all cases use the same
+cylinder, wall condition, VHS gas model and ray-processing procedure.}
+\label{tab:case_summary}
+\begin{tabular}{ll}
+\toprule
+Quantity & Value or definition \\
+\midrule
+Geometry & Two-dimensional planar circular cylinder, \(D=0.3048~\mathrm{m}\) \\
+Wall condition & Fully diffuse wall, \(T_w=500~\mathrm{K}\) \\
+Freestream temperature & \(T_\infty=200~\mathrm{K}\) \\
+Knudsen sweep & \(M_\infty=10\), \(Kn_\infty\approx0.01\)--1 \\
+Mach sweep & \(Kn_\infty\approx0.01\) (see text), Ar 5--15; N$_2$ 5--14 \\
+Gases & Ar and N\(_2\), VHS collisions \\
+Nitrogen internal energy & Rotational nonequilibrium in DS2V; no vibration/chemistry \\
+Grid and particles & Case dependent (table~\ref{tab:ds2v_cases}); \(194\times100\) and \(1.5\times10^6\) at \(Kn_\infty=0.01\) \\
+Adaptive cells & Approximately 20 simulator particles per collision cell \\
+Ray sector & \(100^\circ\leq\theta\leq180^\circ\), 65 body-normal rays \\
+Ray and attached grids & 1601 ray points; 301 points in \(-1\leq\xi_\rho\leq3\) \\
+Main marker & Outermost detected density-compression peak \\
+\bottomrule
+\end{tabular}
+\end{table}
