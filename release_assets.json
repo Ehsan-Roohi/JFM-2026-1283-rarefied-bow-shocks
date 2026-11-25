@@ -1,0 +1,268 @@
+[
+  {
+    "group": "ds2v",
+    "name": "DS2V_fields_inputs_and_rays.tar.gz",
+    "bytes": 135629985,
+    "sha256": "6b6ea24bac5aab3125aca1761df33abcd84a94cf79a1d6f637dbb14d29bd2935",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/DS2V_fields_inputs_and_rays.tar.gz"
+  },
+  {
+    "group": "particles",
+    "name": "film_Ar_cylinder_Kn0p01_mol.npz.part01.zst",
+    "bytes": 407273980,
+    "sha256": "2e8c379c97ca57603750908f401d5ca87af6ea87ea519b62224d070d764cf567",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/film_Ar_cylinder_Kn0p01_mol.npz.part01.zst"
+  },
+  {
+    "group": "particles",
+    "name": "film_Ar_cylinder_Kn0p01_mol.npz.part02.zst",
+    "bytes": 646617672,
+    "sha256": "164bf0c4be489721731cf7ca36b0e4c128332636e59ced4213bd68fe763b2b09",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/film_Ar_cylinder_Kn0p01_mol.npz.part02.zst"
+  },
+  {
+    "group": "particles",
+    "name": "film_Ar_cylinder_Kn0p01_mol.npz.part03.zst",
+    "bytes": 509262732,
+    "sha256": "5d6be648f4653a59d045552f9515b06139ff1d02682521d5dbd061eed8722a3c",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/film_Ar_cylinder_Kn0p01_mol.npz.part03.zst"
+  },
+  {
+    "group": "particles",
+    "name": "film_Ar_cylinder_Kn0p1_mol.npz.part01.zst",
+    "bytes": 272914906,
+    "sha256": "9cd2b5c4229ca33482c7992242d4304558e63c4f531510b660edd589d933127e",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/film_Ar_cylinder_Kn0p1_mol.npz.part01.zst"
+  },
+  {
+    "group": "particles",
+    "name": "film_Ar_plate_Kn0p01_mol.npz.part01.zst",
+    "bytes": 407315762,
+    "sha256": "5fe9f71583f62c274d0c52b10e09000266da907d4680f1adbbb3ac947d6acba7",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/film_Ar_plate_Kn0p01_mol.npz.part01.zst"
+  },
+  {
+    "group": "particles",
+    "name": "film_Ar_plate_Kn0p01_mol.npz.part02.zst",
+    "bytes": 441936535,
+    "sha256": "861d172bb636ef65015ca920fa7be897f094882f0c868f30a212361289263308",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/film_Ar_plate_Kn0p01_mol.npz.part02.zst"
+  },
+  {
+    "group": "particles",
+    "name": "film_Ar_plate_Kn0p01_mol.npz.part03.zst",
+    "bytes": 693533939,
+    "sha256": "2d955065bb9db7e5a9b52ae83da47f97f7ffef2c57dd6751c6c6cb604b96801a",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/film_Ar_plate_Kn0p01_mol.npz.part03.zst"
+  },
+  {
+    "group": "particles",
+    "name": "film_Ar_plate_Kn0p01_mol.npz.part04.zst",
+    "bytes": 683089432,
+    "sha256": "00b61ff6dc23ca5d7a5eab8e92808547319a92e42b0ff389d1e77d951b86ccd7",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/film_Ar_plate_Kn0p01_mol.npz.part04.zst"
+  },
+  {
+    "group": "particles",
+    "name": "film_Ar_plate_Kn0p01_mol.npz.part05.zst",
+    "bytes": 400879636,
+    "sha256": "c52eb12acbf0433fd81b4e73684b8890c258ea4393bfae224518fce042436778",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/film_Ar_plate_Kn0p01_mol.npz.part05.zst"
+  },
+  {
+    "group": "particles",
+    "name": "film_Ar_plate_Kn0p1_mol.npz.part01.zst",
+    "bytes": 397316559,
+    "sha256": "9a6c40bf8995d2799d977d349ea75d04d151061803b300b939b4d19ac9c143db",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/film_Ar_plate_Kn0p1_mol.npz.part01.zst"
+  },
+  {
+    "group": "particles",
+    "name": "film_Ar_plate_Kn0p1_mol.npz.part02.zst",
+    "bytes": 2457952,
+    "sha256": "cf7077821b00f6a303f2a561ca64ec8c28cd2cd40ae9de3301b65c8f8b2fed97",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/film_Ar_plate_Kn0p1_mol.npz.part02.zst"
+  },
+  {
+    "group": "particles",
+    "name": "film_N2_cylinder_Kn0p01_mol.npz.part01.zst",
+    "bytes": 407258869,
+    "sha256": "e7bed840b024917693d6efa15a19599dec822fe65c8afc5b2df42262ffdf41da",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/film_N2_cylinder_Kn0p01_mol.npz.part01.zst"
+  },
+  {
+    "group": "particles",
+    "name": "film_N2_cylinder_Kn0p01_mol.npz.part02.zst",
+    "bytes": 652047940,
+    "sha256": "b27f089b826ea5562caafd0a7dbd461b25fe8acdab2a9aee9f7479bd8a0e88d5",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/film_N2_cylinder_Kn0p01_mol.npz.part02.zst"
+  },
+  {
+    "group": "particles",
+    "name": "film_N2_cylinder_Kn0p01_mol.npz.part03.zst",
+    "bytes": 530918504,
+    "sha256": "aedeaf09b190cbad01994201751bb83e522f101bd247780c8f26448583e5be73",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/film_N2_cylinder_Kn0p01_mol.npz.part03.zst"
+  },
+  {
+    "group": "particles",
+    "name": "film_N2_cylinder_Kn0p01_mol.npz.part04.zst",
+    "bytes": 135079373,
+    "sha256": "55fb30fd0153736c1c20188d0f93abc4b801440d58cd5005b66d8e50ace61367",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/film_N2_cylinder_Kn0p01_mol.npz.part04.zst"
+  },
+  {
+    "group": "particles",
+    "name": "film_N2_cylinder_Kn0p1_mol.npz.part01.zst",
+    "bytes": 281560605,
+    "sha256": "a9a3d6a59d4a8696bb65c128812467248711e6690691631d4c3bc34225b0aa86",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/film_N2_cylinder_Kn0p1_mol.npz.part01.zst"
+  },
+  {
+    "group": "particles",
+    "name": "film_N2_plate_Kn0p01_mol.npz.part01.zst",
+    "bytes": 407283501,
+    "sha256": "19e6385aa662f0fd9df4bc2c5776ca4154b77c095d2665e931d99157812bbc31",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/film_N2_plate_Kn0p01_mol.npz.part01.zst"
+  },
+  {
+    "group": "particles",
+    "name": "film_N2_plate_Kn0p01_mol.npz.part02.zst",
+    "bytes": 407261177,
+    "sha256": "1ae80abbdcb51b61f1e143d9d7e16548164e483f3e153ada2be9da246c219e38",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/film_N2_plate_Kn0p01_mol.npz.part02.zst"
+  },
+  {
+    "group": "particles",
+    "name": "film_N2_plate_Kn0p01_mol.npz.part03.zst",
+    "bytes": 673683297,
+    "sha256": "dadaed62cf0cedbcd2e37ef78f1f9bf40d999f8f895f02436bed5cf10d547190",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/film_N2_plate_Kn0p01_mol.npz.part03.zst"
+  },
+  {
+    "group": "particles",
+    "name": "film_N2_plate_Kn0p01_mol.npz.part04.zst",
+    "bytes": 715188348,
+    "sha256": "4421ae1b49e224f7c790867b69c94bde9ce8caf3c6c84a4a61a7bc92ad4ad0bd",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/film_N2_plate_Kn0p01_mol.npz.part04.zst"
+  },
+  {
+    "group": "particles",
+    "name": "film_N2_plate_Kn0p01_mol.npz.part05.zst",
+    "bytes": 618519092,
+    "sha256": "da3599bd37fb613435050c94da57dd350ecaf16c75b7168f7178baa9a27c4a46",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/film_N2_plate_Kn0p01_mol.npz.part05.zst"
+  },
+  {
+    "group": "particles",
+    "name": "film_N2_plate_Kn0p01_mol.npz.part06.zst",
+    "bytes": 528072923,
+    "sha256": "c6d8845e8f5c52a63e3d367f966c260f5844fba8df1a0ad5be9ac10c7ed51f8a",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/film_N2_plate_Kn0p01_mol.npz.part06.zst"
+  },
+  {
+    "group": "particles",
+    "name": "film_N2_plate_Kn0p01_mol.npz.part07.zst",
+    "bytes": 76981185,
+    "sha256": "2c8cd0cb0386f0bdb8c44cff36c5ab38d9cf4a29c9642bb0ff63b9e48fde21bf",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/film_N2_plate_Kn0p01_mol.npz.part07.zst"
+  },
+  {
+    "group": "particles",
+    "name": "film_N2_plate_Kn0p1_mol.npz.part01.zst",
+    "bytes": 396391425,
+    "sha256": "b08018bfe8d4980b2bab69dd24b784a24441bc2183ec0317ce0ad66d03b3c5d9",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/film_N2_plate_Kn0p1_mol.npz.part01.zst"
+  },
+  {
+    "group": "particles",
+    "name": "film_N2_plate_Kn0p1_mol.npz.part02.zst",
+    "bytes": 41157343,
+    "sha256": "59acb9d95c31b467bbc56fb6cff980da1c9366f71e75d29701b2331776d83118",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/film_N2_plate_Kn0p1_mol.npz.part02.zst"
+  },
+  {
+    "group": "formation",
+    "name": "formation_fields_high.zip",
+    "bytes": 604196879,
+    "sha256": "73d25434927f1760d6e383c2e242844ede0d6a3b632614007d9e666e4b3a2940",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/formation_fields_high.zip"
+  },
+  {
+    "group": "formation_standard",
+    "name": "formation_fields_standard.zip",
+    "bytes": 630116051,
+    "sha256": "4db532f5957a14672edc7a7d03fe2899d6cb10dbd5376221307774d5eb879287",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/formation_fields_standard.zip"
+  },
+  {
+    "group": "velocity",
+    "name": "formation_velocities.zip",
+    "bytes": 16243542,
+    "sha256": "eed5fa0a71549aca20dafeae258876f381c924e497b2329ca004c7b9a593c643",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/formation_velocities.zip"
+  },
+  {
+    "group": "figure_inputs",
+    "name": "frozen_figure_inputs.zip",
+    "bytes": 43335293,
+    "sha256": "35c92e304b932c8a01f1e64337289e90f598f6f0a8d2a598742949605917281f",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/frozen_figure_inputs.zip"
+  },
+  {
+    "group": "matched",
+    "name": "matched_case_fields.zip",
+    "bytes": 62257647,
+    "sha256": "8ee88a6dfd3504fba5c6c2a4ff480e54f4db642da38d313e604d60f79cd0eead",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/matched_case_fields.zip"
+  },
+  {
+    "group": "distributions",
+    "name": "molecular_distributions.zip",
+    "bytes": 10783975,
+    "sha256": "f9fae7ab979a6982ddd1da9d434098f1ae7bb5cc6d8ebcb248a7874d103ebff7",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/molecular_distributions.zip"
+  },
+  {
+    "group": "molecular_samples_Ar_cylinder",
+    "name": "molecular_samples_Ar_cylinder.tar.gz",
+    "bytes": 88183157,
+    "sha256": "53fb82aa071693ec16ca3590b4061e18a69c4e56649456814e7c350e975afb19",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/molecular_samples_Ar_cylinder.tar.gz"
+  },
+  {
+    "group": "molecular_samples_Ar_planar",
+    "name": "molecular_samples_Ar_planar.tar.gz",
+    "bytes": 66799988,
+    "sha256": "548eacdb3624bf90505e4b79cae43b2c362843b08fb4594257123577b2b43d8d",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/molecular_samples_Ar_planar.tar.gz"
+  },
+  {
+    "group": "molecular_samples_N2_cylinder",
+    "name": "molecular_samples_N2_cylinder.tar.gz",
+    "bytes": 123530791,
+    "sha256": "90a6ad64801085ea4a37ccdc94a73e46fe305c518a2b4d9f5e4af8d9ec52a372",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/molecular_samples_N2_cylinder.tar.gz"
+  },
+  {
+    "group": "molecular_samples_N2_planar",
+    "name": "molecular_samples_N2_planar.tar.gz",
+    "bytes": 85275127,
+    "sha256": "55e23dd91a64772e6e6c6d2744354ba0f4f4d903bd8d170931bc0c1ee8b630c2",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/molecular_samples_N2_planar.tar.gz"
+  },
+  {
+    "group": "pod",
+    "name": "POD_Kn_and_Mach.tar.gz",
+    "bytes": 269107255,
+    "sha256": "a0216e0483ed93d90cbcadaaa91a0e8cca839063c84b61b061b9c3ed7f24bb14",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/POD_Kn_and_Mach.tar.gz"
+  },
+  {
+    "group": "movies",
+    "name": "supplementary_movies_01-12.zip",
+    "bytes": 1266676385,
+    "sha256": "25c932e111562f898adf3d29ff6e2d7af745419cc4b4ee5a6b08125e8cc2aa73",
+    "url": "https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/download/v1.0.0/supplementary_movies_01-12.zip"
+  }
+]
