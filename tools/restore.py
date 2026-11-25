@@ -90,6 +90,16 @@ def unpack(file, destination):
         print(f"Verified {len(checks)} members in {file.name}", flush=True)
 
 
+def restore_asset(asset, cache, destination):
+    encoded = obtain(asset, cache)
+    if "relative_path" in asset:
+        with encoded.open("rb") as source:
+            data_file(source, destination, asset["relative_path"], asset["bytes"], asset["sha256"])
+        print(f"Verified movie {asset['name']}", flush=True)
+    else:
+        unpack(encoded, destination)
+
+
 def decompressor():
     try:
         from compression import zstd
@@ -141,11 +151,15 @@ def main():
     recorded = json.loads((ROOT / "release_assets.json").read_text(encoding="utf-8"))
     particles = json.loads((ROOT / "particle_arrays.json").read_text(encoding="utf-8"))
     assets = {asset["name"]: asset for asset in recorded}
-    groups = {asset["group"]: asset for asset in recorded if asset["group"] != "particles"}
+    groups = {}
+    for asset in recorded:
+        if asset["group"] != "particles":
+            groups.setdefault(asset["group"], []).append(asset)
     particle_groups = {item["file"].removesuffix(".npz"): item for item in particles}
     if params.list or not params.groups:
-        for name, asset in groups.items():
-            print(f"{name:30} {asset['bytes'] / 1e6:9.1f} MB   {asset['name']}")
+        for name, group_assets in groups.items():
+            for asset in group_assets:
+                print(f"{name:30} {asset['bytes'] / 1e6:9.1f} MB   {asset['name']}")
         for key, item in particle_groups.items():
             print(f"{key:30} {sum(p['bytes'] for p in item['parts']) / 1e6:9.1f} MB   {item['frames']} frames")
         return
@@ -153,9 +167,10 @@ def main():
     unknown = set(requested) - set(groups) - set(particle_groups) - {"all", "particles"}
     if unknown:
         parser.error("Unknown dataset group: " + ", ".join(sorted(unknown)))
-    for key, asset in groups.items():
+    for key, group_assets in groups.items():
         if "all" in requested or key in requested:
-            unpack(obtain(asset, params.cache), params.dest)
+            for asset in group_assets:
+                restore_asset(asset, params.cache, params.dest)
     for key, item in particle_groups.items():
         if "all" in requested or "particles" in requested or key in requested:
             restore_particle(item, assets, params.cache, params.dest)

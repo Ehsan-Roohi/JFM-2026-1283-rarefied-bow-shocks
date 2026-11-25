@@ -4,7 +4,7 @@
 
 **Ehsan Roohi and Ahmad Shoja-Sani** · JFM-2026-1283 · manuscript and supplementary material revised 25 November 2026
 
-[Numbered figures](results/paper/figures.csv) · [Tables and values](results/paper/table_cells.csv) · [Movies](results/paper/movies.csv) · [Data and code for every result](coverage.csv) · [Numerical source index](results/result_source_index.csv) · [Versioned data downloads](https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/tag/v1.0.0)
+[Numbered figures](results/paper/figures.csv) · [Tables and values](results/paper/table_cells.csv) · [Movie streaming links](results/paper/movies.csv) · [Movie downloads](results/movie_downloads.csv) · [Data and code for every result](coverage.csv) · [Numerical source index](results/result_source_index.csv) · [Versioned data downloads](https://github.com/Ehsan-Roohi/JFM-2026-1283-rarefied-bow-shocks/releases/tag/v1.0.0)
 
 The study compares rarefied argon and nitrogen bow shocks over a circular cylinder with planar shock profiles and matched flat-plate calculations. The archive contains the 27 main and 11 supplementary figures, all 13 tables, all 12 supplementary films, the numerical fields and distributions used for the comparisons, and analysis and rendering code. Figure numbering follows the 25 November revision. Each figure component has its own filename and checksum.
 
@@ -40,7 +40,7 @@ Each encoded asset and extracted data file is checked against SHA-256. For parti
 | Cylinder/plate comparison | All 20 Mach-10 case input decks, case parameters, physical surfaces, averaged fields, and 220 archived window dumps used by the profile reductions. The dumps in this group have the centreline bands or full coverage retained by the authors' figure preparation. |
 | SPARTA controls | The two rays for each of seven mesh/time-step cases, their block diagnostics, planar configurations, matched statistical windows, and separate transport, internal-energy and chemical-species sensitivity results. The Mach-15 vibrational temperature maps are the no-chemistry calculation. |
 | Molecular station data | Four independent gas/geometry runs, 2,000 native sampler files and ten compact analysis blocks per run, signed velocity distributions and fixed-station metadata. The cylinder uses the inward-radial velocity at 170°. The planar and flat-plate distributions use the streamwise velocity. The plate histograms come from their own steady run. |
-| Movies and field diagnostics | Eight original particle-trajectory files, each with 900 frames. Sixteen standard and sixteen high-particle field arrays, 100 production windows per case, plus sixteen late-time velocity fields. The twelve final MP4 encodes can be downloaded together or streamed from the movie index. |
+| Movies and field diagnostics | Eight original particle-trajectory files, each with 900 frames. Sixteen standard and sixteen high-particle field arrays, 100 production windows per case, plus sixteen late-time velocity fields. The twelve final MP4 encodes have individual release downloads. The movie index links to their public streams. |
 
 Full unbinned cell and particle dump series from every SPARTA timestep and replay checkpoints are outside this deposit. The published arrays preserve the sampling windows, cuts, coordinates and masks used in the reported comparisons. The case input decks specify the initial and physical models. Historical continuation decks need their matching initial state for a solver restart. The unmodified DS2V application and SPARTA runtime must be obtained independently. [SPARTA](https://sparta.github.io/)
 
@@ -56,7 +56,7 @@ python code/molecular/fig_vdf_planar_paper.py data/molecular/analysis_compact/pl
 python code/molecular/fig_three_shocks.py data/molecular data/molecular/strip_final reproduced
 ```
 
-The figure scripts contain the original scalar normalizations, finite-support handling and window-selection rules. Rendering libraries and local fonts can affect the PDF or MP4 byte stream. The files in [results/paper](results/paper) and the direct-download movie ZIP preserve the published renderings.
+The figure scripts contain the original scalar normalizations, finite-support handling and window-selection rules. Rendering libraries and local fonts can affect the PDF or MP4 byte stream. The files in [results/paper](results/paper) and the twelve MP4 downloads preserve the published renderings.
 
 Figure 18 uses a plate display filter with standard deviation 1.5 velocity bins. The recorded rendering command and a fresh reconstruction agree on every plotted path and all 24 reported hot fractions. [Plotted coordinates](data/molecular/figure18_plotted_distributions.csv.gz) · [Figure 18 verification](data/molecular/figure18_render_verification.json)
 
